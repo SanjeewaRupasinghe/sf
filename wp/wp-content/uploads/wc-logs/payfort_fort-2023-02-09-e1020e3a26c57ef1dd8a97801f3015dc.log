@@ -1,0 +1,60 @@
+02-09-2023 @ 12:22:24 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 42000
+    [response_code] => 14000
+    [card_number] => 439654******7575
+    [card_holder_name] => Rowan Beard
+    [payment_link_id] => Quote-03087
+    [signature] => 233ec35a26dc77b3597b3ab85809a9f3c8e34ddb5fb807a3515366f4d7267525
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA- HSFACPRAED
+    [payment_option] => VISA
+    [expiry_date] => 2609
+    [customer_ip] => 94.202.222.31
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990881680524
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03087
+    [authorization_code] => 306374
+    [customer_email] => Row.beard@gmail.com
+    [currency] => AED
+    [customer_name] => Rowan Lang Courtney Beard
+    [status] => 14
+)
+
+02-09-2023 @ 16:40:04 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 74466
+    [response_code] => 14000
+    [card_number] => 471363******0708
+    [card_holder_name] => Nada humaid
+    [payment_link_id] => 169999990882038163
+    [signature] => dfd0d4853f973365d564efa02aa76a0a44db82e87189787be5a2a85a01754217
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2708
+    [customer_ip] => 91.75.24.155
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990882043876
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02020
+    [authorization_code] => 326745
+    [customer_email] => abbas@safetyfirstmed.ae
+    [currency] => AED
+    [customer_name] => Hind Humaid
+    [status] => 14
+)
+

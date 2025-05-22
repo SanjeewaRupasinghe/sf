@@ -1,0 +1,228 @@
+2023-06-06T15:17:07+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 16257e0b4d7f10c2b280b194d1adf73d
+            [Date] => Jun 6, 2023 @ 15:17
+            [URL] => https://safetyfirstmed.ae/zohoint/books/createso.php
+            [Duration] => 3.69403
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/6.4.0 Hookshot (WordPress/5.9.5)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://safetyfirstmed.ae/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => Aixat7tRcUn9ZaHTvWYZt+3U6DBpyNNHUSSJ4ZMk2Xg=
+                            [X-WC-Webhook-ID] => 21
+                            [X-WC-Webhook-Delivery-ID] => 16257e0b4d7f10c2b280b194d1adf73d
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [server] => nginx
+                                    [date] => Tue, 06 Jun 2023 15:17:07 GMT
+                                    [content-type] => text/html; charset=utf-8
+                                    [content-length] => 83
+                                    [content-security-policy] => upgrade-insecure-requests
+                                    [x-xss-protection] => 1; mode=block
+                                    [x-content-type-options] => nosniff
+                                    [referrer-policy] => no-referrer-when-downgrade
+                                    [cache-control] => max-age=0
+                                    [expires] => Tue, 06 Jun 2023 15:17:03 GMT
+                                    [vary] => Accept-Encoding
+                                    [content-encoding] => gzip
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+
+2023-06-06T15:25:13+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 8226230fdaa669ed36bce19b3bfb8c9f
+            [Date] => Jun 6, 2023 @ 15:25
+            [URL] => https://safetyfirstmed.ae/zohoint/books/createso.php
+            [Duration] => 2.61123
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/6.4.0 Hookshot (WordPress/5.9.5)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://safetyfirstmed.ae/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => Aixat7tRcUn9ZaHTvWYZt+3U6DBpyNNHUSSJ4ZMk2Xg=
+                            [X-WC-Webhook-ID] => 21
+                            [X-WC-Webhook-Delivery-ID] => 8226230fdaa669ed36bce19b3bfb8c9f
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [server] => nginx
+                                    [date] => Tue, 06 Jun 2023 15:25:13 GMT
+                                    [content-type] => text/html; charset=utf-8
+                                    [content-length] => 83
+                                    [content-security-policy] => upgrade-insecure-requests
+                                    [x-xss-protection] => 1; mode=block
+                                    [x-content-type-options] => nosniff
+                                    [referrer-policy] => no-referrer-when-downgrade
+                                    [cache-control] => max-age=0
+                                    [expires] => Tue, 06 Jun 2023 15:25:10 GMT
+                                    [vary] => Accept-Encoding
+                                    [content-encoding] => gzip
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+
+2023-06-06T15:25:13+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => c8585006aeab4d88af43af69fa69bcc2
+            [Date] => Jun 6, 2023 @ 15:25
+            [URL] => https://safetyfirstmed.ae/zohoint/books/updateso.php
+            [Duration] => 0.65745
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/6.4.0 Hookshot (WordPress/5.9.5)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://safetyfirstmed.ae/
+                            [X-WC-Webhook-Topic] => order.updated
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => OeeOX8/cNf0XBEHNV7/736xCqXNe0gs6ebhsCYM4XWo=
+                            [X-WC-Webhook-ID] => 23
+                            [X-WC-Webhook-Delivery-ID] => c8585006aeab4d88af43af69fa69bcc2
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [server] => nginx
+                                    [date] => Tue, 06 Jun 2023 15:25:13 GMT
+                                    [content-type] => text/html; charset=utf-8
+                                    [content-length] => 0
+                                    [content-security-policy] => upgrade-insecure-requests
+                                    [x-xss-protection] => 1; mode=block
+                                    [x-content-type-options] => nosniff
+                                    [referrer-policy] => no-referrer-when-downgrade
+                                    [cache-control] => max-age=0
+                                    [expires] => Tue, 06 Jun 2023 15:25:13 GMT
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+
+2023-06-06T16:30:33+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 81b9a4c8264b311258ba8a2e0a183d6d
+            [Date] => Jun 6, 2023 @ 16:30
+            [URL] => https://safetyfirstmed.ae/zohoint/books/updateso.php
+            [Duration] => 2.22819
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/6.4.0 Hookshot (WordPress/5.9.5)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://safetyfirstmed.ae/
+                            [X-WC-Webhook-Topic] => order.updated
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => OeeOX8/cNf0XBEHNV7/736xCqXNe0gs6ebhsCYM4XWo=
+                            [X-WC-Webhook-ID] => 23
+                            [X-WC-Webhook-Delivery-ID] => 81b9a4c8264b311258ba8a2e0a183d6d
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [server] => nginx
+                                    [date] => Tue, 06 Jun 2023 16:30:33 GMT
+                                    [content-type] => text/html; charset=utf-8
+                                    [content-length] => 0
+                                    [content-security-policy] => upgrade-insecure-requests
+                                    [x-xss-protection] => 1; mode=block
+                                    [x-content-type-options] => nosniff
+                                    [referrer-policy] => no-referrer-when-downgrade
+                                    [cache-control] => max-age=0
+                                    [expires] => Tue, 06 Jun 2023 16:30:31 GMT
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+

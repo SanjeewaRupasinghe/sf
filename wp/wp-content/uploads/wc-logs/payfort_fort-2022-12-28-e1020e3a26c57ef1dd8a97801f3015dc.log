@@ -1,0 +1,30 @@
+12-28-2022 @ 10:51:45 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 231000
+    [response_code] => 14000
+    [card_number] => 517554******2237
+    [card_holder_name] => Vanessa Stanton 
+    [payment_link_id] => Quote-02976
+    [signature] => 9eff319000987abad276b9f85607a2caea4e17cdcc7d1a892f93ea0b7ef23a01
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA-PALS ACLS Blended
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2710
+    [customer_ip] => 2.48.169.164
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990813566971
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-02976
+    [authorization_code] => 522982
+    [customer_email] => flannery.vixen@gmail.com
+    [currency] => AED
+    [customer_name] => Vanessa Stanton
+    [status] => 14
+)
+

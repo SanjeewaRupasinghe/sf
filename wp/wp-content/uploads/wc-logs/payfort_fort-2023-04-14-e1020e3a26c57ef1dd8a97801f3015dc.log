@@ -1,0 +1,30 @@
+04-14-2023 @ 12:37:50 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 45100
+    [response_code] => 14000
+    [card_number] => 467744******2189
+    [card_holder_name] => silvia eldawi
+    [payment_link_id] => 169999990980553886
+    [signature] => 14466afe23f7903efd54a5a763e9265163f3b08c78bdc282b9901454a6c656d4
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2702
+    [customer_ip] => 31.219.139.88
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990980555376
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02086
+    [authorization_code] => 381941
+    [customer_email] => Silviaeldawi@hotmail.com
+    [currency] => AED
+    [customer_name] => Silvia Eldawi
+    [status] => 14
+)
+

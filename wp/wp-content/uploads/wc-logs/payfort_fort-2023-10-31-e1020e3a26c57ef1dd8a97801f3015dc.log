@@ -1,0 +1,30 @@
+10-31-2023 @ 15:05:44 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 55008
+    [response_code] => 14000
+    [card_number] => 425893******8250
+    [card_holder_name] => Mohamed abdulrahman
+    [payment_link_id] => 169999991325300667
+    [signature] => 505487cf6cd63e7a7e21c4458df344848da509212471c6163ee582fefcfc1aef
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2608
+    [customer_ip] => 176.204.117.60
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991325337953
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02391
+    [authorization_code] => 226048
+    [customer_email] => mohammedalaliohotography@gmail.com
+    [currency] => AED
+    [customer_name] => Mohammad Al Ali
+    [status] => 14
+)
+

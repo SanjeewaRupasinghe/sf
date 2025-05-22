@@ -1,0 +1,60 @@
+05-16-2023 @ 11:09:12 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 377895
+    [response_code] => 14000
+    [card_number] => 524204******9246
+    [card_holder_name] => Curtis E Emordi
+    [payment_link_id] => 169999991028612949
+    [signature] => 5da33a02402fed1ca8aa8a9011ff46410eea35f2351d2ca47071faef750bc010
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2311
+    [customer_ip] => 92.96.220.117
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991028626632
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03213
+    [authorization_code] => T21280
+    [customer_email] => emordi@doctors.org.uk
+    [currency] => AED
+    [customer_name] => Curtis Emordi
+    [status] => 14
+)
+
+05-16-2023 @ 13:45:02 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 54933
+    [response_code] => 14000
+    [card_number] => 454654******5888
+    [card_holder_name] => khalid kousa
+    [payment_link_id] => 169999991028755371
+    [signature] => 49037bb2114c1a8b43ee65972f066ba003f4ecbe0a5f338f044ca59b62bdce26
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2308
+    [customer_ip] => 217.164.2.21
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991028801461
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02130
+    [authorization_code] => 478808
+    [customer_email] => aya.qamar93@hotmail.com
+    [currency] => AED
+    [customer_name] => Aya Qamar
+    [status] => 14
+)
+

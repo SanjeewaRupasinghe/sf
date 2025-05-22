@@ -1,0 +1,138 @@
+v 1.6.0 - 16 June 2021
+- Added: Search options for all shortcodes
+- Added: Filter options for all shortcodes
+- Added: Expired/Ongoing options for all shortcodes
+- Added: Placeholder for address and search bar for all shortcodes
+- Added: Show occurrence option
+- Added: Dutch translation (Thanks to Petter Berg)
+- Fixed: Some styling issue for carousel view, tile view and grid view, and list view
+- Fixed: Some styling issue for date, labels, border, typography
+- Fixed: Fatal error in special conditions 
+- Fixed: Some php issues
+
+v 1.5.6 - 14 March 2021
+- Improved: Grid view clean style
+- Fixed: Full Calendar view buttons
+- Fixed: List view button
+- Fixed: Countdown styling
+- Fixed: Some minor issues
+
+v 1.5.5 - 28 February 2021
+- Added: Elementor Theme Builder Integration
+- Fixed: Some minor issues
+
+v 1.5.0 - 26 November 2020
+- Added: An option for date Format on Full Calendar
+- Added: Single Event Display Method
+- Fixed: Some minor issues
+
+v 1.4.6 - 6 September 2020
+- Added: Organizer styles for Timetable shortcode
+- Added: Events per day option for Timetable shortcode
+- Added: Number of Days option for Timetable shortcode
+- Added: Week Start option for Timetable shortcode
+- Fixed: Some minor issues
+
+v 1.4.5 - 2 August 2020
+- Added: Ability to set the custom styles for archive pages when using the shortcode
+
+v 1.4.0 - 5 July 2020
+- Added: Advanced map addon side styles
+- Fixed: Shortcode designer styles
+- Fixed: Timetable event per day
+- Fixed: Countdown view
+- Fixed: Agenda view date format
+- Fixed: License issue
+- Fixed: Location style
+- Fixed: Some minor issues
+
+v 1.3.6 - 9 May 2020
+- Added: Grid and Tile view in Full calendar
+- Added: Address field search option
+- Fixed: Filter option box style
+
+v 1.3.5 - 28 April 2020
+- Added: An option to display event time in grid skin
+- Added: Normal Label to all skins
+- Added: Cancellation reason to all skins
+- Added: Normal label and reason for cancellation styles
+- Fixed: Cover view date format
+- Fixed: License notice
+- Fixed: Slipt js error
+- Fixed: License notice
+
+v 1.3.0 - 29 March 2020
+- Added: Elementor shortcode designer add-on to list of the shortcodes
+- Added: Advanced map add-on to list of the shortcodes
+- Added: Local time to all skins
+- Added: Event time for list skin(s)
+
+v 1.2.7 - 19 February 2020
+- Fixed: Fatal Error
+
+v 1.2.6 - 30 January 2020
+- Added: Map view and Geolocation option for List view and Grid view
+
+v 1.2.5 - 2 January 2020
+- Added: Timeline view with full style settings
+- Added: Tile view with full style settings
+- Improved: Default turn On text field for the search form
+- Changed: Name of the "Modal 1" to "Modal Popup"
+
+v 1.2.0 - 29 December 2019
+- Added: Each event items
+- Added: Style sections for all shortcodes
+- Added: Arrow settings for Monthly view, Yearly view, Weekly view, Daily view, Agenda, Timetable
+- Added: Box Settings for all shortcodes
+- Added: Spots style for Available Spots
+- Added: Countdown style for Available Spots
+- Added: Countdown style for Countdown view
+- Added: Footer style for List view and Grid view
+- Added: Tag style for tickets
+- Added: Hover Style for event item
+- Added: Search form styling for all shortcodes
+- Added: Excerpt styles
+- Added: Location name styles
+- Improved: Better management of typography on all shortcodes
+- Improved: Better management of spacing on all shortcodes
+- Improved: Divider Style for all shortcodes
+- Improved: All conditions for all shortcodes
+- Improved: Next and Previous buttons style 
+- Fixed: Icon style for all shortcodes
+- Fixed: Modern styles for all shortcodes
+- Fixed: Weekday styles for all shortcodes
+- Fixed: Show/Hide some elements
+- Fixed: Skin Button Styles
+- Fixed: Date styles for all shortcodes
+- Fixed: Skin Button Styles
+- Fixed: Some CSS selector
+- Fixed: Text Domain
+- Fixed: Some minor issues
+
+v 1.1.0 - 25 November 2019
+- Added: Search fields for the Full Calendar
+- Added: Style sections for all shortcodes
+- Added: Box styles for all shortcode
+- Added: Styles for Load More button
+- Added: Elementor styles for all elements (title, image, date, time, register buttons, socials and ...)
+- Added: Manage image style on the shortcode
+- Added: Add/Remove all elements of the events on all shortcodes
+- Added: Show/Hide all elements
+- Added: Working with Modern Events Calendar Lite version(s)
+- Improved: Better management of typography on all shortcodes
+- Fixed: Search Form in all calendars
+- Fixed: Search fields for all shortcode
+- Fixed: Location, Speaker and tag in all search form
+- Fixed: Displaying search form when the default is off
+- Fixed: Carousel button when Elementor theme is enabled
+- Fixed: Extra space in the search form
+
+v 1.0.2 - 6 August 2019
+- Added: Language files
+- Added: License system
+
+v 1.0.1 - 5 August 2019
+- Fixed: Loading shortcodes
+
+v 1.0.0 - 13 May 2019
+- Initial Release

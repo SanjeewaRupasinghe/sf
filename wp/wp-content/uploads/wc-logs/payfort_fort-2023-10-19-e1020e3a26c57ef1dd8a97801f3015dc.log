@@ -1,0 +1,78 @@
+10-19-2023 @ 17:11:57 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 63000
+    [response_code] => 00003
+    [card_holder_name] => Mayoof Hamza
+    [payment_link_id] => Quote-03436
+    [signature] => 443d6b61524a14db609034ee3d6a20f8e9803605b1c84cd74f8609b5cd678bdc
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => HABC First Aid
+    [payment_option] => AMEX
+    [customer_ip] => 147.161.160.116
+    [language] => en
+    [eci] => ECOMMERCE
+    [command] => PURCHASE
+    [response_message] => Payment option is not available for this merchants account : AMEX
+    [merchant_reference] => Quote-03436
+    [customer_email] => Mehroof.Hamza@cliffordchance.com
+    [currency] => AED
+    [customer_name] => Clifford Chance LLP
+    [status] => 00
+)
+
+10-19-2023 @ 17:13:58 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 63000
+    [response_code] => 00003
+    [card_holder_name] => Mayoof Hamza
+    [payment_link_id] => Quote-03436
+    [signature] => 443d6b61524a14db609034ee3d6a20f8e9803605b1c84cd74f8609b5cd678bdc
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => HABC First Aid
+    [payment_option] => AMEX
+    [customer_ip] => 147.161.160.116
+    [language] => en
+    [eci] => ECOMMERCE
+    [command] => PURCHASE
+    [response_message] => Payment option is not available for this merchants account : AMEX
+    [merchant_reference] => Quote-03436
+    [customer_email] => Mehroof.Hamza@cliffordchance.com
+    [currency] => AED
+    [customer_name] => Clifford Chance LLP
+    [status] => 00
+)
+
+10-19-2023 @ 17:14:52 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 63000
+    [response_code] => 00003
+    [card_holder_name] => Mayoof Hamza
+    [payment_link_id] => Quote-03436
+    [signature] => 443d6b61524a14db609034ee3d6a20f8e9803605b1c84cd74f8609b5cd678bdc
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => HABC First Aid
+    [payment_option] => AMEX
+    [customer_ip] => 147.161.160.116
+    [language] => en
+    [eci] => ECOMMERCE
+    [command] => PURCHASE
+    [response_message] => Payment option is not available for this merchants account : AMEX
+    [merchant_reference] => Quote-03436
+    [customer_email] => Mehroof.Hamza@cliffordchance.com
+    [currency] => AED
+    [customer_name] => Clifford Chance LLP
+    [status] => 00
+)
+

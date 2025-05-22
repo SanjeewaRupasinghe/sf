@@ -1,0 +1,30 @@
+07-27-2023 @ 16:12:47 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 94500
+    [response_code] => 14000
+    [card_number] => 526408******9405
+    [card_holder_name] => Mohamed Youssef Ahmed 
+    [payment_link_id] => Quote-03337
+    [signature] => 53c4840ebfd1a547fbb4cb60220c64c858d58e65387709a35c0711fc8a0447d8
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA PALS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2804
+    [customer_ip] => 217.164.68.82
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991147396754
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03337
+    [authorization_code] => 824937
+    [customer_email] => elkomandaj@gmail.com
+    [currency] => AED
+    [customer_name] => Mohamed Youssef Ahmed El-gammal
+    [status] => 14
+)
+

@@ -1,0 +1,319 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WooCommerce Integration for MEC\n"
+"POT-Creation-Date: 2020-07-20 13:31+0430\n"
+"PO-Revision-Date: 2019-09-03 12:15+0430\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: mec-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/MEC/gateway.php:36 inc/woocommerce/woocommerce.php:1623
+#: inc/woocommerce/woocommerce.php:1625
+msgid "Add to cart"
+msgstr ""
+
+#: inc/MEC/gateway.php:55
+msgid "Add to WooCommerce Cart"
+msgstr ""
+
+#: inc/MEC/gateway.php:68
+msgid "Sync MEC  Booking confimation Status with WooCommerce Order"
+msgstr ""
+
+#: inc/MEC/gateway.php:74
+msgid "Adding MEC Ticket Taxes/Fees to Cart"
+msgstr ""
+
+#: inc/MEC/gateway.php:77
+msgid "MEC Taxes/Fees"
+msgstr ""
+
+#: inc/MEC/gateway.php:79
+msgid "Adding MEC taxes/fees to your WooCommerce cart"
+msgstr ""
+
+#: inc/MEC/gateway.php:79 inc/MEC/gateway.php:94 inc/MEC/gateway.php:115
+msgid "Read More"
+msgstr ""
+
+#: inc/MEC/gateway.php:89
+msgid "Adding WooCommerce Standard Taxes in MEC Booking"
+msgstr ""
+
+#: inc/MEC/gateway.php:92
+msgid "WooCommerce Standard Taxes"
+msgstr ""
+
+#: inc/MEC/gateway.php:94
+msgid ""
+"Adding WooCommerce standard taxes to MEC booking items, not other things "
+"anymore"
+msgstr ""
+
+#: inc/MEC/gateway.php:102
+msgid "Title"
+msgstr ""
+
+#: inc/MEC/gateway.php:108 inc/MEC/gateway.php:113
+msgid "Comment"
+msgstr ""
+
+#: inc/MEC/gateway.php:110
+msgid "Add to Cart Gateway Description"
+msgstr ""
+
+#: inc/MEC/gateway.php:115
+msgid "HTML allowed."
+msgstr ""
+
+#: inc/MEC/gateway.php:160
+msgid "There is no attendee for booking!"
+msgstr ""
+
+#: inc/base.php:190
+msgid ""
+"WooCommerce Integration is not working because you need to activate the "
+"Modern Events Calendar plugin."
+msgstr ""
+
+#: inc/base.php:191 inc/base.php:225
+msgid "Activate Modern Events Calendar Now"
+msgstr ""
+
+#: inc/base.php:197
+msgid ""
+"WooCommerce Integration is not working because you need to install the "
+"Modern Events Calendar plugin"
+msgstr ""
+
+#: inc/base.php:198
+msgid "Install Modern Events Calendar Now"
+msgstr ""
+
+#: inc/base.php:224
+msgid "In order to use the plugin, please Active Modern Events Calendar Pro."
+msgstr ""
+
+#: inc/base.php:231
+msgid "In order to use the plugin, please purchase Modern Events Calendar Pro."
+msgstr ""
+
+#: inc/base.php:232
+msgid "Purchase Modern Events Calendar Now"
+msgstr ""
+
+#: inc/base.php:259
+msgid ""
+"WooCommerce Integration is not working because you need to install latest "
+"version of Modern Events Calendar plugin"
+msgstr ""
+
+#: inc/base.php:260
+msgid "Minimum version required"
+msgstr ""
+
+#: inc/base.php:261
+msgid "Update Modern Events Calendar Now"
+msgstr ""
+
+#: inc/base.php:287
+msgid ""
+"WooCommerce Integration is not working because you need to activate the "
+"WooCommerce plugin."
+msgstr ""
+
+#: inc/base.php:288
+msgid "Activate WooCommerce Now"
+msgstr ""
+
+#: inc/base.php:294
+msgid ""
+"WooCommerce Integration is not working because you need to install the "
+"WooCommerce plugin"
+msgstr ""
+
+#: inc/base.php:295
+msgid "Install WooCommerce Now"
+msgstr ""
+
+#: inc/base.php:322
+msgid ""
+"WooCommerce Integration is not working because you need to install latest "
+"version of Modern Events Calendar plugin (PRO)"
+msgstr ""
+
+#: inc/base.php:323
+msgid "Upgrade to Modern Events Calendar Pro"
+msgstr ""
+
+#: inc/features/woo-activate.php:91
+msgid "WooCommerce Integration"
+msgstr ""
+
+#: inc/features/woo-activate.php:169
+msgid ""
+"Activation faild. Please check your purchase code or license type."
+"<br><b>Note: Your purchase code should match your licesne type.</b>"
+msgstr ""
+
+#: inc/features/woo-activate.php:169
+msgid "Troubleshooting"
+msgstr ""
+
+#: inc/woocommerce/woocommerce.php:304 inc/woocommerce/woocommerce.php:335
+#: inc/woocommerce/woocommerce.php:359 inc/woocommerce/woocommerce.php:382
+msgid "The order status has been changed. Please manage order from this"
+msgstr ""
+
+#: inc/woocommerce/woocommerce.php:304 inc/woocommerce/woocommerce.php:335
+#: inc/woocommerce/woocommerce.php:359 inc/woocommerce/woocommerce.php:382
+msgid "link"
+msgstr ""
+
+#: inc/woocommerce/woocommerce.php:550
+msgid "Woocommerce Order ID"
+msgstr ""
+
+#: inc/woocommerce/woocommerce.php:654
+msgid "Edit Booking"
+msgstr ""
+
+#: inc/woocommerce/woocommerce.php:656
+msgid "Event Name: "
+msgstr ""
+
+#: inc/woocommerce/woocommerce.php:658
+msgid "Event Time: "
+msgstr ""
+
+#: inc/woocommerce/woocommerce.php:666
+msgid "Location: "
+msgstr ""
+
+#: inc/woocommerce/woocommerce.php:703
+msgid "Attachments"
+msgstr ""
+
+#: inc/woocommerce/woocommerce.php:732
+msgid "Email"
+msgstr ""
+
+#: inc/woocommerce/woocommerce.php:736
+msgid "Name"
+msgstr ""
+
+#: inc/woocommerce/woocommerce.php:740
+msgid "Ticket"
+msgstr ""
+
+#: inc/woocommerce/woocommerce.php:741
+msgid "Unknown"
+msgstr ""
+
+#: inc/woocommerce/woocommerce.php:765 inc/woocommerce/woocommerce.php:940
+msgid "Yes"
+msgstr ""
+
+#: inc/woocommerce/woocommerce.php:765 inc/woocommerce/woocommerce.php:940
+msgid "No"
+msgstr ""
+
+#: inc/woocommerce/woocommerce.php:802 inc/woocommerce/woocommerce.php:887
+msgid "Attendees List"
+msgstr ""
+
+#: inc/woocommerce/woocommerce.php:806 inc/woocommerce/woocommerce.php:891
+msgid "Attendees"
+msgstr ""
+
+#: inc/woocommerce/woocommerce.php:807 inc/woocommerce/woocommerce.php:892
+msgid "Information"
+msgstr ""
+
+#: inc/woocommerce/woocommerce.php:824 inc/woocommerce/woocommerce.php:842
+#: inc/woocommerce/woocommerce.php:910 inc/woocommerce/woocommerce.php:955
+msgid "Name: "
+msgstr ""
+
+#: inc/woocommerce/woocommerce.php:928
+msgid "Location"
+msgstr ""
+
+#: inc/woocommerce/woocommerce.php:994
+msgid "Type"
+msgstr ""
+
+#: inc/woocommerce/woocommerce.php:1008
+msgid "MEC Ticket"
+msgstr ""
+
+#: inc/woocommerce/woocommerce.php:1012
+msgid "Shop Order"
+msgstr ""
+
+#: inc/woocommerce/woocommerce.php:1532
+msgctxt "mec-woocommerce"
+msgid "MEC Tickets"
+msgstr ""
+
+#: inc/woocommerce/woocommerce.php:1537
+#, php-format
+msgid "MEC Tickets <span class=\"count\">(%s)</span>"
+msgid_plural "MEC Tickets <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/woocommerce/woocommerce.php:2004
+msgid "Please, provide an attribute name and slug."
+msgstr ""
+
+#: inc/woocommerce/woocommerce.php:2008
+#, php-format
+msgid "Slug \"%s\" is already in use. Change it, please."
+msgstr ""
+
+#: inc/woocommerce/woocommerce.php:2165
+msgid "The Tickets are added to your cart."
+msgstr ""
+
+#: inc/woocommerce/woocommerce.php:2165 inc/woocommerce/woocommerce.php:2167
+msgid "Cart Page"
+msgstr ""
+
+#: inc/woocommerce/woocommerce.php:2167
+msgid "The Ticket is added to your cart."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Integration for MEC"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://webnus.net/modern-events-calendar/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "You can purchase ticket and WooCommerce products at the same time."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Webnus"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://webnus.net"
+msgstr ""

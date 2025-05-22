@@ -1,0 +1,59 @@
+09-05-2023 @ 08:19:54 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 377895
+    [response_code] => 10030
+    [card_number] => 419649******4625
+    [card_holder_name] => hasan Qayyum
+    [payment_link_id] => 169999991216623001
+    [signature] => 794d6175841ca9e1f3f99d9dfc38563af8b5cee19d0f5e0df80b0c6762175c83
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => VISA
+    [expiry_date] => 2801
+    [customer_ip] => 83.110.95.150
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991217985232
+    [command] => PURCHASE
+    [response_message] => Authentication failed
+    [merchant_reference] => Quote-03414
+    [customer_email] => hasqay@googlemail.com
+    [currency] => AED
+    [customer_name] => Hasan Qayyum
+    [status] => 10
+)
+
+09-05-2023 @ 08:21:23 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 377895
+    [response_code] => 14000
+    [card_number] => 419649******4625
+    [card_holder_name] => hasan qayyum
+    [payment_link_id] => 169999991216623001
+    [signature] => 0eda9652a1791495554b3cd4390bf45a1fff60116eba31454fa3c0b285632fd5
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => VISA
+    [expiry_date] => 2801
+    [customer_ip] => 86.98.93.185
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991217985232
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03414
+    [authorization_code] => 007625
+    [customer_email] => hasqay@googlemail.com
+    [currency] => AED
+    [customer_name] => Hasan Qayyum
+    [status] => 14
+)
+

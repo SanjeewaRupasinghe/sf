@@ -1,0 +1,119 @@
+07-31-2023 @ 12:00:42 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 36750
+    [response_code] => 13666
+    [card_number] => 471366******4670
+    [card_holder_name] => dana adel hamadeh
+    [payment_link_id] => Quote-03342
+    [signature] => f56720b89de654119a0047647179261e927557b8c434471b24d33febbe96b0a5
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS Blended
+    [payment_option] => VISA
+    [expiry_date] => 2807
+    [customer_ip] => 217.164.29.8
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991154823705
+    [command] => PURCHASE
+    [response_message] => Transaction declined
+    [merchant_reference] => Quote-03342
+    [customer_email] => danahamadeh99@hotmail.com
+    [currency] => AED
+    [customer_name] => Dana Adel Hamadeh
+    [status] => 13
+)
+
+07-31-2023 @ 12:02:02 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 36750
+    [response_code] => 14000
+    [card_number] => 471366******4670
+    [card_holder_name] => dana Adel Hamadeh
+    [payment_link_id] => Quote-03342
+    [signature] => bc4d0d2ba3b30c4f1dbaefc2f8bdb544cf636db0863f6bf048bf65cb636c4441
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS Blended
+    [payment_option] => VISA
+    [expiry_date] => 2708
+    [customer_ip] => 217.164.29.8
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991154823705
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03342
+    [authorization_code] => 472762
+    [customer_email] => danahamadeh99@hotmail.com
+    [currency] => AED
+    [customer_name] => Dana Adel Hamadeh
+    [status] => 14
+)
+
+07-31-2023 @ 18:29:58 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 47105
+    [response_code] => 14000
+    [card_number] => 419648******6726
+    [card_holder_name] => Miss L Roberts
+    [payment_link_id] => 169999991155187060
+    [signature] => 355ff3553f3821be91ee8aa5ee541aafb9ca90ffbe4c836002b9df11b7f8c170
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2605
+    [customer_ip] => 91.73.87.247
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991155406506
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02229
+    [authorization_code] => 005368
+    [customer_email] => mislouiseroberts@gmail.com
+    [currency] => AED
+    [customer_name] => Louise Roberts
+    [status] => 14
+)
+
+07-31-2023 @ 19:53:00 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 94954
+    [response_code] => 14000
+    [card_number] => 458562******7978
+    [card_holder_name] => Afaf Abdul Qader
+    [payment_link_id] => 169999991155255560
+    [signature] => 71ea941e212f7d7aee744933c610eff35bc29c69fc14c36e8fc0605e1bf0121f
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2612
+    [customer_ip] => 5.30.8.201
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991155543593
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02233
+    [authorization_code] => 750882
+    [customer_email] => afaf.aljahwari@hotmail.com
+    [currency] => AED
+    [customer_name] => Afaf Aljahwari
+    [status] => 14
+)
+

@@ -1,0 +1,30 @@
+11-29-2023 @ 14:58:26 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 26501
+    [response_code] => 14000
+    [card_number] => 426106******0165
+    [card_holder_name] => Abrar
+    [payment_link_id] => 169999991382418279
+    [signature] => f8ee7fb3e5cbbd3e346b3f3fa6053131b349648d2ec96270f717171d2216ecda
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2807
+    [customer_ip] => 176.205.212.196
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991385487340
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02450
+    [authorization_code] => 314610
+    [customer_email] => roohalhmdan-1992@hotmail.com
+    [currency] => AED
+    [customer_name] => Abrar Saif
+    [status] => 14
+)
+

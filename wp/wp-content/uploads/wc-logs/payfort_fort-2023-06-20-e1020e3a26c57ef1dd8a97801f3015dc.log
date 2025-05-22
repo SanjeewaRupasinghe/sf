@@ -1,0 +1,59 @@
+06-20-2023 @ 12:53:06 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 419895
+    [response_code] => 13666
+    [card_number] => 418348******4753
+    [card_holder_name] => Dr Syed Amer Hussain Andrabi 
+    [payment_link_id] => 169999991085883610
+    [signature] => 9bc35ba81aec85b3903fbaad797af6c086049330a10cb379e8a6425921774d62
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => VISA
+    [expiry_date] => 2806
+    [customer_ip] => 5.31.129.28
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991086083567
+    [command] => PURCHASE
+    [response_message] => Transaction declined
+    [merchant_reference] => Quote-03267
+    [customer_email] => Andrabi@gmail.com
+    [currency] => AED
+    [customer_name] => Syed Amer Hussain Andrabi
+    [status] => 13
+)
+
+06-20-2023 @ 13:32:32 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 419895
+    [response_code] => 14000
+    [card_number] => 418348******4753
+    [card_holder_name] => Dr Syed Amer Hussain Andrabi 
+    [payment_link_id] => 169999991085883610
+    [signature] => 508ee0a904c7cf5eebdc36d4da22730b953f9194ec65adaecf5cfc62b030b00f
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => VISA
+    [expiry_date] => 2806
+    [customer_ip] => 5.31.129.28
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991086083567
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03267
+    [authorization_code] => 004958
+    [customer_email] => Andrabi@gmail.com
+    [currency] => AED
+    [customer_name] => Syed Amer Hussain Andrabi
+    [status] => 14
+)
+

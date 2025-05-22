@@ -1,0 +1,8 @@
+#elementor-panel-categories {
+    display: flex;
+    flex-direction: column;
+}
+div#elementor-panel-category-single_builder {
+    order: -2;
+    margin-bottom: 15px;
+}

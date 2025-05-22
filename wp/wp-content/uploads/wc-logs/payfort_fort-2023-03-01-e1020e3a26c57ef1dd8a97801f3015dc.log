@@ -1,0 +1,330 @@
+03-01-2023 @ 17:31:50 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 78078
+    [response_code] => 14000
+    [card_number] => 480666******0329
+    [card_holder_name] => Abir Ahmed
+    [payment_link_id] => 02036
+    [signature] => fc274a2b59434cbb3a0a54e9f4a08f7ab50ef348a97eaa90bff603f4d3e00473
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Bn Healthy Multivitamin
+    [payment_option] => VISA
+    [expiry_date] => 2609
+    [customer_ip] => 92.96.242.238
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990913654439
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 02036
+    [authorization_code] => 959038
+    [customer_email] => abeer.elshorbagy@hotmail.com
+    [currency] => AED
+    [customer_name] => Ms.Abeer Bin Ham
+    [status] => 14
+)
+
+03-01-2023 @ 17:32:01 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 78078
+    [response_code] => 14000
+    [card_number] => 480666******0329
+    [card_holder_name] => Abir Ahmed
+    [payment_link_id] => 02036
+    [signature] => fc274a2b59434cbb3a0a54e9f4a08f7ab50ef348a97eaa90bff603f4d3e00473
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Bn Healthy Multivitamin
+    [payment_option] => VISA
+    [expiry_date] => 2609
+    [customer_ip] => 92.96.242.238
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990913654439
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 02036
+    [authorization_code] => 959038
+    [customer_email] => abeer.elshorbagy@hotmail.com
+    [currency] => AED
+    [customer_name] => Ms.Abeer Bin Ham
+    [status] => 14
+)
+
+03-01-2023 @ 17:32:12 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 78078
+    [response_code] => 14000
+    [card_number] => 480666******0329
+    [card_holder_name] => Abir Ahmed
+    [payment_link_id] => 02036
+    [signature] => fc274a2b59434cbb3a0a54e9f4a08f7ab50ef348a97eaa90bff603f4d3e00473
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Bn Healthy Multivitamin
+    [payment_option] => VISA
+    [expiry_date] => 2609
+    [customer_ip] => 92.96.242.238
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990913654439
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 02036
+    [authorization_code] => 959038
+    [customer_email] => abeer.elshorbagy@hotmail.com
+    [currency] => AED
+    [customer_name] => Ms.Abeer Bin Ham
+    [status] => 14
+)
+
+03-01-2023 @ 17:32:22 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 78078
+    [response_code] => 14000
+    [card_number] => 480666******0329
+    [card_holder_name] => Abir Ahmed
+    [payment_link_id] => 02036
+    [signature] => fc274a2b59434cbb3a0a54e9f4a08f7ab50ef348a97eaa90bff603f4d3e00473
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Bn Healthy Multivitamin
+    [payment_option] => VISA
+    [expiry_date] => 2609
+    [customer_ip] => 92.96.242.238
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990913654439
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 02036
+    [authorization_code] => 959038
+    [customer_email] => abeer.elshorbagy@hotmail.com
+    [currency] => AED
+    [customer_name] => Ms.Abeer Bin Ham
+    [status] => 14
+)
+
+03-01-2023 @ 17:32:33 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 78078
+    [response_code] => 14000
+    [card_number] => 480666******0329
+    [card_holder_name] => Abir Ahmed
+    [payment_link_id] => 02036
+    [signature] => fc274a2b59434cbb3a0a54e9f4a08f7ab50ef348a97eaa90bff603f4d3e00473
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Bn Healthy Multivitamin
+    [payment_option] => VISA
+    [expiry_date] => 2609
+    [customer_ip] => 92.96.242.238
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990913654439
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 02036
+    [authorization_code] => 959038
+    [customer_email] => abeer.elshorbagy@hotmail.com
+    [currency] => AED
+    [customer_name] => Ms.Abeer Bin Ham
+    [status] => 14
+)
+
+03-01-2023 @ 17:32:44 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 78078
+    [response_code] => 14000
+    [card_number] => 480666******0329
+    [card_holder_name] => Abir Ahmed
+    [payment_link_id] => 02036
+    [signature] => fc274a2b59434cbb3a0a54e9f4a08f7ab50ef348a97eaa90bff603f4d3e00473
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Bn Healthy Multivitamin
+    [payment_option] => VISA
+    [expiry_date] => 2609
+    [customer_ip] => 92.96.242.238
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990913654439
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 02036
+    [authorization_code] => 959038
+    [customer_email] => abeer.elshorbagy@hotmail.com
+    [currency] => AED
+    [customer_name] => Ms.Abeer Bin Ham
+    [status] => 14
+)
+
+03-01-2023 @ 17:32:55 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 78078
+    [response_code] => 14000
+    [card_number] => 480666******0329
+    [card_holder_name] => Abir Ahmed
+    [payment_link_id] => 02036
+    [signature] => fc274a2b59434cbb3a0a54e9f4a08f7ab50ef348a97eaa90bff603f4d3e00473
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Bn Healthy Multivitamin
+    [payment_option] => VISA
+    [expiry_date] => 2609
+    [customer_ip] => 92.96.242.238
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990913654439
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 02036
+    [authorization_code] => 959038
+    [customer_email] => abeer.elshorbagy@hotmail.com
+    [currency] => AED
+    [customer_name] => Ms.Abeer Bin Ham
+    [status] => 14
+)
+
+03-01-2023 @ 17:33:06 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 78078
+    [response_code] => 14000
+    [card_number] => 480666******0329
+    [card_holder_name] => Abir Ahmed
+    [payment_link_id] => 02036
+    [signature] => fc274a2b59434cbb3a0a54e9f4a08f7ab50ef348a97eaa90bff603f4d3e00473
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Bn Healthy Multivitamin
+    [payment_option] => VISA
+    [expiry_date] => 2609
+    [customer_ip] => 92.96.242.238
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990913654439
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 02036
+    [authorization_code] => 959038
+    [customer_email] => abeer.elshorbagy@hotmail.com
+    [currency] => AED
+    [customer_name] => Ms.Abeer Bin Ham
+    [status] => 14
+)
+
+03-01-2023 @ 17:33:16 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 78078
+    [response_code] => 14000
+    [card_number] => 480666******0329
+    [card_holder_name] => Abir Ahmed
+    [payment_link_id] => 02036
+    [signature] => fc274a2b59434cbb3a0a54e9f4a08f7ab50ef348a97eaa90bff603f4d3e00473
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Bn Healthy Multivitamin
+    [payment_option] => VISA
+    [expiry_date] => 2609
+    [customer_ip] => 92.96.242.238
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990913654439
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 02036
+    [authorization_code] => 959038
+    [customer_email] => abeer.elshorbagy@hotmail.com
+    [currency] => AED
+    [customer_name] => Ms.Abeer Bin Ham
+    [status] => 14
+)
+
+03-01-2023 @ 17:33:27 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 78078
+    [response_code] => 14000
+    [card_number] => 480666******0329
+    [card_holder_name] => Abir Ahmed
+    [payment_link_id] => 02036
+    [signature] => fc274a2b59434cbb3a0a54e9f4a08f7ab50ef348a97eaa90bff603f4d3e00473
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Bn Healthy Multivitamin
+    [payment_option] => VISA
+    [expiry_date] => 2609
+    [customer_ip] => 92.96.242.238
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990913654439
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 02036
+    [authorization_code] => 959038
+    [customer_email] => abeer.elshorbagy@hotmail.com
+    [currency] => AED
+    [customer_name] => Ms.Abeer Bin Ham
+    [status] => 14
+)
+
+03-01-2023 @ 17:33:38 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 78078
+    [response_code] => 14000
+    [card_number] => 480666******0329
+    [card_holder_name] => Abir Ahmed
+    [payment_link_id] => 02036
+    [signature] => fc274a2b59434cbb3a0a54e9f4a08f7ab50ef348a97eaa90bff603f4d3e00473
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Bn Healthy Multivitamin
+    [payment_option] => VISA
+    [expiry_date] => 2609
+    [customer_ip] => 92.96.242.238
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990913654439
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 02036
+    [authorization_code] => 959038
+    [customer_email] => abeer.elshorbagy@hotmail.com
+    [currency] => AED
+    [customer_name] => Ms.Abeer Bin Ham
+    [status] => 14
+)
+

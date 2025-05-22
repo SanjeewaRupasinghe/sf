@@ -1,0 +1,30 @@
+01-05-2023 @ 15:56:21 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 398895
+    [response_code] => 14000
+    [card_number] => 421500******1113
+    [card_holder_name] => Saad Hussain Shah 
+    [payment_link_id] => 169999990823421950
+    [signature] => 2e01a570d5cc792f0243e9c3bf8ff7cf7b7a6a5a33ce2b29f9c249b2e602a1c5
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => VISA
+    [expiry_date] => 2410
+    [customer_ip] => 182.177.238.23
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990827083792
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-02985A
+    [authorization_code] => 859219
+    [customer_email] => saadhussain898@yahoo.com
+    [currency] => AED
+    [customer_name] => Saad Hussain Shah
+    [status] => 14
+)
+

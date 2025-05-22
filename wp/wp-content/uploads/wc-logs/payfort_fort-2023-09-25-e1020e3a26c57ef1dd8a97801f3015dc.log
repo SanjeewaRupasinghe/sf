@@ -1,0 +1,30 @@
+09-25-2023 @ 18:52:40 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 94500
+    [response_code] => 14000
+    [card_number] => 529192******9855
+    [card_holder_name] => Khalaf Almazrouei
+    [payment_link_id] => Quote-03483
+    [signature] => 3246fd09325767d11c770a7f254097a03fc263bf3cdd42ffd53b64d985e7df78
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA ACLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2608
+    [customer_ip] => 31.219.146.103
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991254126510
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03483
+    [authorization_code] => 989834
+    [customer_email] => mkmkhalaf1971@gmail.com
+    [currency] => AED
+    [customer_name] => Khalaf Mohamed Khalaf Khalfan Almazrouei
+    [status] => 14
+)
+

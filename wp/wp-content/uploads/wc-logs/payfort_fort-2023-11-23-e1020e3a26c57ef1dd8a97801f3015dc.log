@@ -1,0 +1,390 @@
+11-23-2023 @ 12:36:04 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 356895
+    [response_code] => 14000
+    [card_number] => 471386******0560
+    [card_holder_name] => Yahia Zaki Almallah
+    [payment_link_id] => 169999991354278250
+    [signature] => ec6ca59236542ff52b81914ba0b68237f86b0545dfe7a9b44f0d77daa01ab1b5
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => VISA
+    [expiry_date] => 2804
+    [customer_ip] => 94.202.89.158
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991370971141
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03585
+    [authorization_code] => 759749
+    [customer_email] => urozak3@gmail.com
+    [currency] => AED
+    [customer_name] => Yahia Zaki Al Mallah
+    [status] => 14
+)
+
+11-23-2023 @ 12:53:00 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 25003
+    [response_code] => 14000
+    [card_number] => 480668******1862
+    [card_holder_name] => Shipra bhagra 
+    [payment_link_id] => 169999991370972728
+    [signature] => d63b34baaefaebc3443d0a10396f22fefa15ccf3172b5c915c11b3f67f762d35
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2807
+    [customer_ip] => 83.110.112.133
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991370999148
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02442
+    [authorization_code] => 476998
+    [customer_email] => shiprabhagra@gmail.com
+    [currency] => AED
+    [customer_name] => Shipra
+    [status] => 14
+)
+
+11-23-2023 @ 16:28:40 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 26250
+    [response_code] => 14000
+    [card_number] => 470347******1343
+    [card_holder_name] => Amal P
+    [payment_link_id] => 03346
+    [signature] => b374f4c43c9923b626a90cc07d9372f4cdd1389b2e01e0b43c8527d9ad478738
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2504
+    [customer_ip] => 217.165.101.72
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991371404475
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03346
+    [authorization_code] => 463990
+    [customer_email] => zvlamaki@gmail.com
+    [currency] => AED
+    [customer_name] => DR. ZOE VLAMAKI
+    [status] => 14
+)
+
+11-23-2023 @ 16:28:51 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 26250
+    [response_code] => 14000
+    [card_number] => 470347******1343
+    [card_holder_name] => Amal P
+    [payment_link_id] => 03346
+    [signature] => b374f4c43c9923b626a90cc07d9372f4cdd1389b2e01e0b43c8527d9ad478738
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2504
+    [customer_ip] => 217.165.101.72
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991371404475
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03346
+    [authorization_code] => 463990
+    [customer_email] => zvlamaki@gmail.com
+    [currency] => AED
+    [customer_name] => DR. ZOE VLAMAKI
+    [status] => 14
+)
+
+11-23-2023 @ 16:29:02 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 26250
+    [response_code] => 14000
+    [card_number] => 470347******1343
+    [card_holder_name] => Amal P
+    [payment_link_id] => 03346
+    [signature] => b374f4c43c9923b626a90cc07d9372f4cdd1389b2e01e0b43c8527d9ad478738
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2504
+    [customer_ip] => 217.165.101.72
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991371404475
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03346
+    [authorization_code] => 463990
+    [customer_email] => zvlamaki@gmail.com
+    [currency] => AED
+    [customer_name] => DR. ZOE VLAMAKI
+    [status] => 14
+)
+
+11-23-2023 @ 16:29:13 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 26250
+    [response_code] => 14000
+    [card_number] => 470347******1343
+    [card_holder_name] => Amal P
+    [payment_link_id] => 03346
+    [signature] => b374f4c43c9923b626a90cc07d9372f4cdd1389b2e01e0b43c8527d9ad478738
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2504
+    [customer_ip] => 217.165.101.72
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991371404475
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03346
+    [authorization_code] => 463990
+    [customer_email] => zvlamaki@gmail.com
+    [currency] => AED
+    [customer_name] => DR. ZOE VLAMAKI
+    [status] => 14
+)
+
+11-23-2023 @ 16:29:24 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 26250
+    [response_code] => 14000
+    [card_number] => 470347******1343
+    [card_holder_name] => Amal P
+    [payment_link_id] => 03346
+    [signature] => b374f4c43c9923b626a90cc07d9372f4cdd1389b2e01e0b43c8527d9ad478738
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2504
+    [customer_ip] => 217.165.101.72
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991371404475
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03346
+    [authorization_code] => 463990
+    [customer_email] => zvlamaki@gmail.com
+    [currency] => AED
+    [customer_name] => DR. ZOE VLAMAKI
+    [status] => 14
+)
+
+11-23-2023 @ 16:29:35 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 26250
+    [response_code] => 14000
+    [card_number] => 470347******1343
+    [card_holder_name] => Amal P
+    [payment_link_id] => 03346
+    [signature] => b374f4c43c9923b626a90cc07d9372f4cdd1389b2e01e0b43c8527d9ad478738
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2504
+    [customer_ip] => 217.165.101.72
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991371404475
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03346
+    [authorization_code] => 463990
+    [customer_email] => zvlamaki@gmail.com
+    [currency] => AED
+    [customer_name] => DR. ZOE VLAMAKI
+    [status] => 14
+)
+
+11-23-2023 @ 16:29:45 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 26250
+    [response_code] => 14000
+    [card_number] => 470347******1343
+    [card_holder_name] => Amal P
+    [payment_link_id] => 03346
+    [signature] => b374f4c43c9923b626a90cc07d9372f4cdd1389b2e01e0b43c8527d9ad478738
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2504
+    [customer_ip] => 217.165.101.72
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991371404475
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03346
+    [authorization_code] => 463990
+    [customer_email] => zvlamaki@gmail.com
+    [currency] => AED
+    [customer_name] => DR. ZOE VLAMAKI
+    [status] => 14
+)
+
+11-23-2023 @ 16:29:56 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 26250
+    [response_code] => 14000
+    [card_number] => 470347******1343
+    [card_holder_name] => Amal P
+    [payment_link_id] => 03346
+    [signature] => b374f4c43c9923b626a90cc07d9372f4cdd1389b2e01e0b43c8527d9ad478738
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2504
+    [customer_ip] => 217.165.101.72
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991371404475
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03346
+    [authorization_code] => 463990
+    [customer_email] => zvlamaki@gmail.com
+    [currency] => AED
+    [customer_name] => DR. ZOE VLAMAKI
+    [status] => 14
+)
+
+11-23-2023 @ 16:30:07 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 26250
+    [response_code] => 14000
+    [card_number] => 470347******1343
+    [card_holder_name] => Amal P
+    [payment_link_id] => 03346
+    [signature] => b374f4c43c9923b626a90cc07d9372f4cdd1389b2e01e0b43c8527d9ad478738
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2504
+    [customer_ip] => 217.165.101.72
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991371404475
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03346
+    [authorization_code] => 463990
+    [customer_email] => zvlamaki@gmail.com
+    [currency] => AED
+    [customer_name] => DR. ZOE VLAMAKI
+    [status] => 14
+)
+
+11-23-2023 @ 16:30:18 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 26250
+    [response_code] => 14000
+    [card_number] => 470347******1343
+    [card_holder_name] => Amal P
+    [payment_link_id] => 03346
+    [signature] => b374f4c43c9923b626a90cc07d9372f4cdd1389b2e01e0b43c8527d9ad478738
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2504
+    [customer_ip] => 217.165.101.72
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991371404475
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03346
+    [authorization_code] => 463990
+    [customer_email] => zvlamaki@gmail.com
+    [currency] => AED
+    [customer_name] => DR. ZOE VLAMAKI
+    [status] => 14
+)
+
+11-23-2023 @ 16:30:29 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 26250
+    [response_code] => 14000
+    [card_number] => 470347******1343
+    [card_holder_name] => Amal P
+    [payment_link_id] => 03346
+    [signature] => b374f4c43c9923b626a90cc07d9372f4cdd1389b2e01e0b43c8527d9ad478738
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2504
+    [customer_ip] => 217.165.101.72
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991371404475
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03346
+    [authorization_code] => 463990
+    [customer_email] => zvlamaki@gmail.com
+    [currency] => AED
+    [customer_name] => DR. ZOE VLAMAKI
+    [status] => 14
+)
+

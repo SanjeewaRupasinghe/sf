@@ -1,0 +1,135 @@
+01-09-2023 @ 17:00:15 - Payfort Request Params for payment method (payfort) 
+
+Array
+(
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [merchant_reference] => 22694
+    [language] => en
+    [service_command] => TOKENIZATION
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [signature] => e27141ead99db35f2ff8febeda85f973e2fcd143a0a13b7efaee5d1bdcaf9d2f
+)
+
+01-09-2023 @ 17:00:16 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_merchantPageResponse
+    [response_code] => 18000
+    [card_number] => ****************
+    [card_holder_name] => ***********
+    [signature] => cc8332987a403dfa1f36e9b07c55ebb32b8e7d6deb68c4d9de373553f86e4485
+    [merchant_identifier] => xyKdBdwl
+    [expiry_date] => ****
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [language] => en
+    [response_message] => Success
+    [service_command] => TOKENIZATION
+    [merchant_reference] => 22694
+    [token_name] => 57b57fd0d10944c38c195f4dd01bd329
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [status] => 18
+    [card_bin] => 517554
+)
+
+01-09-2023 @ 17:00:16 - Merchant Page Notify Api Request Params : Array
+(
+    [merchant_reference] => 22694
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [command] => PURCHASE
+    [merchant_identifier] => xyKdBdwl
+    [customer_ip] => 91.74.96.86
+    [amount] => 472395
+    [currency] => AED
+    [customer_email] => m3sab3@gmail.com
+    [token_name] => 57b57fd0d10944c38c195f4dd01bd329
+    [language] => en
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_responseOnline
+    [customer_name] => Mazen Sabah
+    [signature] => c14480443510587248a8fbca4e619f20e02f1e913b65d0303c2487d47914b3a6
+)
+
+01-09-2023 @ 17:00:19 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [amount] => 472395
+    [response_code] => 20064
+    [card_number] => ****************
+    [card_holder_name] => ***********
+    [signature] => 6e6b7d3ebe49e75416c895738c04c39e17316c008a9695c168f0562e2fd54d5d
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => MASTERCARD
+    [expiry_date] => ****
+    [customer_ip] => ***********
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990833159302
+    [command] => PURCHASE
+    [3ds_url] => https://checkout.payfort.com/FortAPI/redirectionResponse/threeDs2RedirectURL?token=156179KJHb2MAuEUlFpWdPNrOv5ikK
+    [response_message] => 3-D Secure check requested
+    [merchant_reference] => 22694
+    [customer_email] => ****************
+    [currency] => AED
+    [customer_name] => ***********
+    [status] => 20
+)
+
+01-09-2023 @ 17:02:45 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_responseOnline
+    [amount] => 472395
+    [response_code] => 14000
+    [card_number] => ****************
+    [card_holder_name] => ***********
+    [signature] => c7c3fed05488493de4f59f0ddcf1c8c8cf02f8fa84a61b1e079054b0bbc918da
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => MASTERCARD
+    [expiry_date] => ****
+    [customer_ip] => ***********
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990833159302
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 22694
+    [authorization_code] => 543636
+    [customer_email] => ****************
+    [currency] => AED
+    [customer_name] => ***********
+    [status] => 14
+)
+
+01-09-2023 @ 17:02:47 - Fort response parameters (offline) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 472395
+    [response_code] => 14000
+    [card_number] => 517554******6777
+    [card_holder_name] => Mazen Sabah
+    [signature] => 9e19518a3a5cd97cadc0d13b6f5715129e0f6570cedfeea31d880efee21796b5
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2711
+    [customer_ip] => 91.74.96.86
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990833159302
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 22694
+    [authorization_code] => 543636
+    [customer_email] => m3sab3@gmail.com
+    [currency] => AED
+    [customer_name] => Mazen Sabah
+    [status] => 14
+)
+

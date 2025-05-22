@@ -1,0 +1,833 @@
+2023-04-09T10:03:07+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01)(,().)\'\&quot;() at position 10 ()): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01)(,()...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/class-es in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:03:11+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\'uMPxCD) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\'uMP...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/class-esb-date.p in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:03:17+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01) AND 5727=2021 AND (7307=7307) at position 10 ()): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01) AND...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/wid in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:03:21+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01) AND 1827=1827 AND (6379=6379) at position 10 ()): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01) AND...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/wid in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:03:24+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01)) AND 3688=1886 AND ((8126=8126) at position 10 ()): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01)) AN...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/w in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:03:28+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01)) AND 1827=1827 AND ((8032=8032) at position 10 ()): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01)) AN...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/w in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:03:30+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01 AND 7150=8062) at position 11 (A): The timezone could not be found in the database in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01 AND ...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/in in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:03:32+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01 AND 1827=1827) at position 11 (A): The timezone could not be found in the database in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01 AND ...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/in in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:03:34+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\') AND 4848=7091 AND (\'ePAM\'=\'ePAM) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\') A...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/ in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:03:36+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\') AND 1827=1827 AND (\'qvBS\'=\'qvBS) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\') A...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/ in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:03:37+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\')) AND 9542=9476 AND ((\'ZNIh\'=\'ZNIh) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\')) ...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/in in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:03:40+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\')) AND 1827=1827 AND ((\'gxNO\'=\'gxNO) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\')) ...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/in in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:03:41+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\' AND 8811=4923 AND \'vamI\'=\'vamI) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\' AN...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/ad in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:03:43+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\' AND 1827=1827 AND \'SedP\'=\'SedP) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\' AN...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/ad in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:03:45+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\') AND 2820=1598 AND (\'uWAs\' LIKE \'uWAs) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\') A...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:03:47+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\') AND 1827=1827 AND (\'jYqV\' LIKE \'jYqV) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\') A...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:03:49+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01%\' AND 3472=3896 AND \'wItU%\'=\'wItU) at position 10 (%): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01%\\' A...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/ in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:03:51+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01%\' AND 1827=1827 AND \'AHqP%\'=\'AHqP) at position 10 (%): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01%\\' A...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/ in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:03:53+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\' AND 6646=5139 AND \'dzvj\' LIKE \'dzvj) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\' AN...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/i in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:03:55+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\' AND 1827=1827 AND \'EgUX\' LIKE \'EgUX) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\' AN...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/i in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:03:57+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\&quot;) AND 8055=5493 AND (\&quot;CDaS\&quot;=\&quot;CDaS) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\") A...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:03:59+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\&quot;) AND 1827=1827 AND (\&quot;KaiY\&quot;=\&quot;KaiY) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\") A...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:04:01+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\&quot; AND 3164=4987 AND \&quot;olxy\&quot;=\&quot;olxy) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\" AN...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-s in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:04:03+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\&quot; AND 1827=1827 AND \&quot;ZobG\&quot;=\&quot;ZobG) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\" AN...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-s in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:04:05+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01 AND 7704=3113-- fWAf) at position 11 (A): The timezone could not be found in the database in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01 AND ...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-bui in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:04:07+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01 AND 1827=1827-- ruKi) at position 11 (A): The timezone could not be found in the database in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01 AND ...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-bui in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:04:09+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01) AND 4077=(SELECT (CASE WHEN (4077=8612) THEN 4077 ELSE (SELECT 8612 UNION SELECT 5188) END))-- dRrX) at position 10 ()): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01) AND...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnj in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:04:11+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01) AND 7879=(SELECT (CASE WHEN (7879=7879) THEN 7879 ELSE (SELECT 9802 UNION SELECT 5090) END))-- vsBS) at position 10 ()): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01) AND...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnj in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:04:13+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01)) AND 8673=(SELECT (CASE WHEN (8673=9902) THEN 8673 ELSE (SELECT 9902 UNION SELECT 7401) END))-- ANjA) at position 10 ()): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01)) AN...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qn in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:04:16+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01)) AND 7879=(SELECT (CASE WHEN (7879=7879) THEN 7879 ELSE (SELECT 9802 UNION SELECT 5090) END))-- FaCA) at position 10 ()): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01)) AN...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qn in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:04:18+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01 AND 9190=(SELECT (CASE WHEN (9190=2060) THEN 9190 ELSE (SELECT 2060 UNION SELECT 5125) END))-- BxDU) at position 11 (A): The timezone could not be found in the database in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01 AND ...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/89 in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:04:20+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01 AND 7879=(SELECT (CASE WHEN (7879=7879) THEN 7879 ELSE (SELECT 9802 UNION SELECT 5090) END))-- rUkw) at position 11 (A): The timezone could not be found in the database in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01 AND ...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/89 in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:04:22+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\') AND 4459=(SELECT (CASE WHEN (4459=8207) THEN 4459 ELSE (SELECT 8207 UNION SELECT 3865) END))-- RPXi) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\') A...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/ in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:04:25+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\') AND 7879=(SELECT (CASE WHEN (7879=7879) THEN 7879 ELSE (SELECT 9802 UNION SELECT 5090) END))-- kbpT) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\') A...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/ in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:04:26+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\')) AND 8236=(SELECT (CASE WHEN (8236=5038) THEN 8236 ELSE (SELECT 5038 UNION SELECT 5785) END))-- WMmy) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\')) ...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:04:29+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\')) AND 7879=(SELECT (CASE WHEN (7879=7879) THEN 7879 ELSE (SELECT 9802 UNION SELECT 5090) END))-- piRB) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\')) ...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:04:31+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\' AND 8423=(SELECT (CASE WHEN (8423=1474) THEN 8423 ELSE (SELECT 1474 UNION SELECT 6578) END))-- sIdG) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\' AN...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/q in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:04:33+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\' AND 7879=(SELECT (CASE WHEN (7879=7879) THEN 7879 ELSE (SELECT 9802 UNION SELECT 5090) END))-- okEs) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\' AN...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/q in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:04:35+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01%\' AND 5441=(SELECT (CASE WHEN (5441=9943) THEN 5441 ELSE (SELECT 9943 UNION SELECT 5703) END))-- AxoR) at position 10 (%): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01%\\' A...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/ in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:04:38+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01%\' AND 7879=(SELECT (CASE WHEN (7879=7879) THEN 7879 ELSE (SELECT 9802 UNION SELECT 5090) END))-- spaX) at position 10 (%): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01%\\' A...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/ in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:04:40+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\&quot;) AND 4549=(SELECT (CASE WHEN (4549=6246) THEN 4549 ELSE (SELECT 6246 UNION SELECT 8780) END))-- sIIk) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\") A...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:04:43+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\&quot;) AND 7879=(SELECT (CASE WHEN (7879=7879) THEN 7879 ELSE (SELECT 9802 UNION SELECT 5090) END))-- qwmS) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\") A...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:04:45+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\&quot; AND 8850=(SELECT (CASE WHEN (8850=2152) THEN 8850 ELSE (SELECT 2152 UNION SELECT 3627) END))-- XLEO) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\" AN...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps. in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:04:48+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\&quot; AND 7879=(SELECT (CASE WHEN (7879=7879) THEN 7879 ELSE (SELECT 9802 UNION SELECT 5090) END))-- QYxL) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\" AN...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps. in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:04:50+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01) AND 9399=7049-- WUUn) at position 10 ()): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01) AND...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/cla in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:04:53+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01) AND 2413=2413-- anJi) at position 10 ()): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01) AND...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/cla in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:04:55+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01)) AND 5058=2193-- bstw) at position 10 ()): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01)) AN...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/cl in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:04:57+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01)) AND 2413=2413-- lvef) at position 10 ()): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01)) AN...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/cl in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:04:59+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\') AND 4082=3192-- OEMd) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\') A...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/ in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:05:02+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\') AND 2413=2413-- ALYX) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\') A...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/ in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:05:04+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\')) AND 5870=7607-- pCnb) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\')) ...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:05:07+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\')) AND 2413=2413-- FwNo) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\')) ...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:05:09+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\' AND 5789=3164-- SQkh) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\' AN...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/c in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:05:12+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\' AND 2413=2413-- HCwx) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\' AN...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/c in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:05:14+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01%\' AND 5585=8953-- UUNK) at position 10 (%): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01%\\' A...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/ in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:05:16+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01%\' AND 2413=2413-- Jiag) at position 10 (%): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01%\\' A...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/ in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:05:18+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\&quot;) AND 4902=5922-- IblF) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\") A...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/wid in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:05:21+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\&quot;) AND 2413=2413-- xdEv) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\") A...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/wid in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:05:23+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\&quot; AND 6905=5639-- WUZc) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\" AN...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widg in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:05:26+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\&quot; AND 2413=2413-- xhLj) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\" AN...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widg in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:05:28+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01) RLIKE (SELECT (CASE WHEN (5136=7393) THEN 0x323032332d30342d3031 ELSE 0x28 END)) AND (4650=4650) at position 10 ()): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01) RLI...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbn in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:05:30+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01) RLIKE (SELECT (CASE WHEN (4927=4927) THEN 0x323032332d30342d3031 ELSE 0x28 END)) AND (8689=8689) at position 10 ()): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01) RLI...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbn in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:05:32+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01)) RLIKE (SELECT (CASE WHEN (2882=7736) THEN 0x323032332d30342d3031 ELSE 0x28 END)) AND ((8378=8378) at position 10 ()): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01)) RL...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpv in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:05:35+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01)) RLIKE (SELECT (CASE WHEN (4927=4927) THEN 0x323032332d30342d3031 ELSE 0x28 END)) AND ((6840=6840) at position 10 ()): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01)) RL...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpv in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:05:37+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01 RLIKE (SELECT (CASE WHEN (3630=1432) THEN 0x323032332d30342d3031 ELSE 0x28 END))) at position 11 (R): The timezone could not be found in the database in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01 RLIK...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps. in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:05:39+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01 RLIKE (SELECT (CASE WHEN (4927=4927) THEN 0x323032332d30342d3031 ELSE 0x28 END))) at position 11 (R): The timezone could not be found in the database in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01 RLIK...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps. in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:05:41+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\') RLIKE (SELECT (CASE WHEN (1953=4550) THEN 0x323032332d30342d3031 ELSE 0x28 END)) AND (\'Rfov\'=\'Rfov) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\') R...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.co in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:05:44+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\') RLIKE (SELECT (CASE WHEN (4927=4927) THEN 0x323032332d30342d3031 ELSE 0x28 END)) AND (\'CulU\'=\'CulU) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\') R...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.co in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:05:46+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\')) RLIKE (SELECT (CASE WHEN (6772=6478) THEN 0x323032332d30342d3031 ELSE 0x28 END)) AND ((\'ZXQj\'=\'ZXQj) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\')) ...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps. in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:05:49+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\')) RLIKE (SELECT (CASE WHEN (4927=4927) THEN 0x323032332d30342d3031 ELSE 0x28 END)) AND ((\'lWRJ\'=\'lWRJ) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\')) ...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps. in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:05:51+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\' RLIKE (SELECT (CASE WHEN (5383=4072) THEN 0x323032332d30342d3031 ELSE 0x28 END)) AND \'KLop\'=\'KLop) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\' RL...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/ in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:05:53+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\' RLIKE (SELECT (CASE WHEN (4927=4927) THEN 0x323032332d30342d3031 ELSE 0x28 END)) AND \'sSNL\'=\'sSNL) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\' RL...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/ in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:05:55+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\') RLIKE (SELECT (CASE WHEN (4176=7839) THEN 0x323032332d30342d3031 ELSE 0x28 END)) AND (\'hDDX\' LIKE \'hDDX) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\') R...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysap in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:05:58+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\') RLIKE (SELECT (CASE WHEN (4927=4927) THEN 0x323032332d30342d3031 ELSE 0x28 END)) AND (\'sMLh\' LIKE \'sMLh) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\') R...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysap in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:06:00+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01%\' RLIKE (SELECT (CASE WHEN (9514=2595) THEN 0x323032332d30342d3031 ELSE 0x28 END)) AND \'Rasy%\'=\'Rasy) at position 10 (%): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01%\\' R...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.co in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:06:02+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01%\' RLIKE (SELECT (CASE WHEN (4927=4927) THEN 0x323032332d30342d3031 ELSE 0x28 END)) AND \'BGWe%\'=\'BGWe) at position 10 (%): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01%\\' R...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.co in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:06:04+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\' RLIKE (SELECT (CASE WHEN (5756=7074) THEN 0x323032332d30342d3031 ELSE 0x28 END)) AND \'ZXws\' LIKE \'ZXws) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\' RL...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:06:07+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\' RLIKE (SELECT (CASE WHEN (4927=4927) THEN 0x323032332d30342d3031 ELSE 0x28 END)) AND \'Foze\' LIKE \'Foze) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\' RL...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:06:09+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\&quot;) RLIKE (SELECT (CASE WHEN (3191=4979) THEN 0x323032332d30342d3031 ELSE 0x28 END)) AND (\&quot;XlsG\&quot;=\&quot;XlsG) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\") R...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897 in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:06:12+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\&quot;) RLIKE (SELECT (CASE WHEN (4927=4927) THEN 0x323032332d30342d3031 ELSE 0x28 END)) AND (\&quot;cIia\&quot;=\&quot;cIia) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\") R...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897 in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:06:14+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\&quot; RLIKE (SELECT (CASE WHEN (7883=9978) THEN 0x323032332d30342d3031 ELSE 0x28 END)) AND \&quot;Cxpb\&quot;=\&quot;Cxpb) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\" RL...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/89709 in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:06:17+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\&quot; RLIKE (SELECT (CASE WHEN (4927=4927) THEN 0x323032332d30342d3031 ELSE 0x28 END)) AND \&quot;uCtY\&quot;=\&quot;uCtY) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\" RL...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/89709 in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:06:19+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01 RLIKE (SELECT (CASE WHEN (4497=2973) THEN 0x323032332d30342d3031 ELSE 0x28 END))-- SFck) at position 11 (R): The timezone could not be found in the database in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01 RLIK...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwa in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:06:21+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01 RLIKE (SELECT (CASE WHEN (4927=4927) THEN 0x323032332d30342d3031 ELSE 0x28 END))-- hPSp) at position 11 (R): The timezone could not be found in the database in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01 RLIK...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwa in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:06:24+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01) AND (SELECT (CASE WHEN (6081=9368) THEN NULL ELSE CAST((CHR(66)||CHR(80)||CHR(65)||CHR(112)) AS NUMERIC) END)) IS NULL AND (5663=5663) at position 10 ()): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01) AND...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3  in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:06:26+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01) AND (SELECT (CASE WHEN (2703=2703) THEN NULL ELSE CAST((CHR(66)||CHR(79)||CHR(84)||CHR(82)) AS NUMERIC) END)) IS NULL AND (1259=1259) at position 10 ()): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01) AND...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 / in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:06:28+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01)) AND (SELECT (CASE WHEN (1491=7485) THEN NULL ELSE CAST((CHR(105)||CHR(101)||CHR(85)||CHR(120)) AS NUMERIC) END)) IS NULL AND ((1664=1664) at position 10 ()): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01)) AN...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array) in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:06:31+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01)) AND (SELECT (CASE WHEN (2703=2703) THEN NULL ELSE CAST((CHR(66)||CHR(79)||CHR(84)||CHR(82)) AS NUMERIC) END)) IS NULL AND ((6103=6103) at position 10 ()): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01)) AN...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:06:33+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01 AND (SELECT (CASE WHEN (7607=3184) THEN NULL ELSE CAST((CHR(85)||CHR(113)||CHR(111)||CHR(110)) AS NUMERIC) END)) IS NULL) at position 11 (A): The timezone could not be found in the database in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01 AND ...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(862 in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:06:36+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01 AND (SELECT (CASE WHEN (2703=2703) THEN NULL ELSE CAST((CHR(66)||CHR(79)||CHR(84)||CHR(82)) AS NUMERIC) END)) IS NULL) at position 11 (A): The timezone could not be found in the database in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01 AND ...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629,  in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:06:38+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\') AND (SELECT (CASE WHEN (5811=4513) THEN NULL ELSE CAST((CHR(100)||CHR(104)||CHR(69)||CHR(68)) AS NUMERIC) END)) IS NULL AND (\'rreZ\'=\'rreZ) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\') A...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629,  in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:06:41+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\') AND (SELECT (CASE WHEN (2703=2703) THEN NULL ELSE CAST((CHR(66)||CHR(79)||CHR(84)||CHR(82)) AS NUMERIC) END)) IS NULL AND (\'lZGQ\'=\'lZGQ) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\') A...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Ar in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:06:43+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\')) AND (SELECT (CASE WHEN (1425=5585) THEN NULL ELSE CAST((CHR(111)||CHR(88)||CHR(74)||CHR(104)) AS NUMERIC) END)) IS NULL AND ((\'xsoT\'=\'xsoT) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\')) ...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629 in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:06:45+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\')) AND (SELECT (CASE WHEN (2703=2703) THEN NULL ELSE CAST((CHR(66)||CHR(79)||CHR(84)||CHR(82)) AS NUMERIC) END)) IS NULL AND ((\'QvcR\'=\'QvcR) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\')) ...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629,  in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:06:47+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\' AND (SELECT (CASE WHEN (7833=3546) THEN NULL ELSE CAST((CHR(113)||CHR(75)||CHR(68)||CHR(75)) AS NUMERIC) END)) IS NULL AND \'XVPN\'=\'XVPN) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\' AN...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Arr in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:06:50+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\' AND (SELECT (CASE WHEN (2703=2703) THEN NULL ELSE CAST((CHR(66)||CHR(79)||CHR(84)||CHR(82)) AS NUMERIC) END)) IS NULL AND \'eeBp\'=\'eeBp) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\' AN...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Arra in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:06:51+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\') AND (SELECT (CASE WHEN (2050=7417) THEN NULL ELSE CAST((CHR(76)||CHR(99)||CHR(103)||CHR(119)) AS NUMERIC) END)) IS NULL AND (\'qCKR\' LIKE \'qCKR) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\') A...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8 in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:06:54+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\') AND (SELECT (CASE WHEN (2703=2703) THEN NULL ELSE CAST((CHR(66)||CHR(79)||CHR(84)||CHR(82)) AS NUMERIC) END)) IS NULL AND (\'jwEx\' LIKE \'jwEx) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\') A...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(862 in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:06:56+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01%\' AND (SELECT (CASE WHEN (1148=6676) THEN NULL ELSE CAST((CHR(86)||CHR(73)||CHR(82)||CHR(110)) AS NUMERIC) END)) IS NULL AND \'FJEM%\'=\'FJEM) at position 10 (%): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01%\\' A...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, A in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:06:58+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01%\' AND (SELECT (CASE WHEN (2703=2703) THEN NULL ELSE CAST((CHR(66)||CHR(79)||CHR(84)||CHR(82)) AS NUMERIC) END)) IS NULL AND \'YjZd%\'=\'YjZd) at position 10 (%): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01%\\' A...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Ar in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:07:00+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\' AND (SELECT (CASE WHEN (4186=9451) THEN NULL ELSE CAST((CHR(85)||CHR(68)||CHR(107)||CHR(85)) AS NUMERIC) END)) IS NULL AND \'FTVm\' LIKE \'FTVm) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\' AN...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629 in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:07:03+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\' AND (SELECT (CASE WHEN (2703=2703) THEN NULL ELSE CAST((CHR(66)||CHR(79)||CHR(84)||CHR(82)) AS NUMERIC) END)) IS NULL AND \'tkvY\' LIKE \'tkvY) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\' AN...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:07:05+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\&quot;) AND (SELECT (CASE WHEN (3022=4203) THEN NULL ELSE CAST((CHR(114)||CHR(78)||CHR(89)||CHR(119)) AS NUMERIC) END)) IS NULL AND (\&quot;lvji\&quot;=\&quot;lvji) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\") A...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\Even in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:07:07+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\&quot;) AND (SELECT (CASE WHEN (2703=2703) THEN NULL ELSE CAST((CHR(66)||CHR(79)||CHR(84)||CHR(82)) AS NUMERIC) END)) IS NULL AND (\&quot;AyTt\&quot;=\&quot;AyTt) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\") A...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventD in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:07:09+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\&quot; AND (SELECT (CASE WHEN (8861=5131) THEN NULL ELSE CAST((CHR(75)||CHR(104)||CHR(113)||CHR(72)) AS NUMERIC) END)) IS NULL AND \&quot;ajni\&quot;=\&quot;ajni) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\" AN...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventD in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:07:12+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\&quot; AND (SELECT (CASE WHEN (2703=2703) THEN NULL ELSE CAST((CHR(66)||CHR(79)||CHR(84)||CHR(82)) AS NUMERIC) END)) IS NULL AND \&quot;LaVV\&quot;=\&quot;LaVV) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\" AN...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDat in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:07:14+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01 AND (SELECT (CASE WHEN (8613=4197) THEN NULL ELSE CAST((CHR(67)||CHR(107)||CHR(67)||CHR(118)) AS NUMERIC) END)) IS NULL-- hxKv) at position 11 (A): The timezone could not be found in the database in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01 AND ...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->outp in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:07:16+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01 AND (SELECT (CASE WHEN (2703=2703) THEN NULL ELSE CAST((CHR(66)||CHR(79)||CHR(84)||CHR(82)) AS NUMERIC) END)) IS NULL-- wvvg) at position 11 (A): The timezone could not be found in the database in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01 AND ...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:07:18+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01) AND (SELECT (CASE WHEN (3800=9080) THEN NULL ELSE CTXSYS.DRITHSX.SN(1,3800) END) FROM DUAL) IS NULL AND (2070=2070) at position 10 ()): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01) AND...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudw in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:07:21+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01) AND (SELECT (CASE WHEN (2088=2088) THEN NULL ELSE CTXSYS.DRITHSX.SN(1,2088) END) FROM DUAL) IS NULL AND (7415=7415) at position 10 ()): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01) AND...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudw in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:07:23+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01)) AND (SELECT (CASE WHEN (8201=6978) THEN NULL ELSE CTXSYS.DRITHSX.SN(1,8201) END) FROM DUAL) IS NULL AND ((1460=1460) at position 10 ()): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01)) AN...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.clou in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:07:25+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01)) AND (SELECT (CASE WHEN (2088=2088) THEN NULL ELSE CTXSYS.DRITHSX.SN(1,2088) END) FROM DUAL) IS NULL AND ((2267=2267) at position 10 ()): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01)) AN...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.clou in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:07:27+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01 AND (SELECT (CASE WHEN (9465=8143) THEN NULL ELSE CTXSYS.DRITHSX.SN(1,9465) END) FROM DUAL) IS NULL) at position 11 (A): The timezone could not be found in the database in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01 AND ...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/89 in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:07:29+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01 AND (SELECT (CASE WHEN (2088=2088) THEN NULL ELSE CTXSYS.DRITHSX.SN(1,2088) END) FROM DUAL) IS NULL) at position 11 (A): The timezone could not be found in the database in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01 AND ...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/89 in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:07:31+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\') AND (SELECT (CASE WHEN (1580=8299) THEN NULL ELSE CTXSYS.DRITHSX.SN(1,1580) END) FROM DUAL) IS NULL AND (\'IHuM\'=\'IHuM) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\') A...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/8970 in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:07:34+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\') AND (SELECT (CASE WHEN (2088=2088) THEN NULL ELSE CTXSYS.DRITHSX.SN(1,2088) END) FROM DUAL) IS NULL AND (\'nhid\'=\'nhid) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\') A...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/8970 in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:07:36+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\')) AND (SELECT (CASE WHEN (3422=4185) THEN NULL ELSE CTXSYS.DRITHSX.SN(1,3422) END) FROM DUAL) IS NULL AND ((\'PcNY\'=\'PcNY) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\')) ...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/89 in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:07:38+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\')) AND (SELECT (CASE WHEN (2088=2088) THEN NULL ELSE CTXSYS.DRITHSX.SN(1,2088) END) FROM DUAL) IS NULL AND ((\'aaEP\'=\'aaEP) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\')) ...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/89 in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:07:40+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\' AND (SELECT (CASE WHEN (4478=7774) THEN NULL ELSE CTXSYS.DRITHSX.SN(1,4478) END) FROM DUAL) IS NULL AND \'abHW\'=\'abHW) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\' AN...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092 in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:07:42+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\' AND (SELECT (CASE WHEN (2088=2088) THEN NULL ELSE CTXSYS.DRITHSX.SN(1,2088) END) FROM DUAL) IS NULL AND \'KiyW\'=\'KiyW) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\' AN...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092 in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:07:44+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\') AND (SELECT (CASE WHEN (6907=6512) THEN NULL ELSE CTXSYS.DRITHSX.SN(1,6907) END) FROM DUAL) IS NULL AND (\'LOlS\' LIKE \'LOlS) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\') A...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-04-09T10:07:46+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-04-01\') AND (SELECT (CASE WHEN (2088=2088) THEN NULL ELSE CTXSYS.DRITHSX.SN(1,2088) END) FROM DUAL) IS NULL AND (\'ZicR\' LIKE \'ZicR) at position 10 (\): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-04-01\\') A...', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+

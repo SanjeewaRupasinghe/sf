@@ -1,0 +1,30 @@
+11-18-2022 @ 09:02:57 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 557652******8452
+    [card_holder_name] => reem alqawasmeh
+    [payment_link_id] => Quote-02905
+    [signature] => 07cec37a407eba61e414dd368717ba1eb418ccf3600196ba4ba4766c0cb28fdf
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Basic Life Support Provider Course
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2709
+    [customer_ip] => 86.98.89.97
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990750090030
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-02905
+    [authorization_code] => 357758
+    [customer_email] => Alqawasmehreem@yahoo.com
+    [currency] => AED
+    [customer_name] => Reem Alqawasmeh
+    [status] => 14
+)
+

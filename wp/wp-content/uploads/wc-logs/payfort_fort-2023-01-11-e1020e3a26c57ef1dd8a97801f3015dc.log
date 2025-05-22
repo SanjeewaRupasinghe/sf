@@ -1,0 +1,30 @@
+01-11-2023 @ 11:47:38 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 398895
+    [response_code] => 14000
+    [card_number] => 467745******1529
+    [card_holder_name] => Ali Ibrahim
+    [payment_link_id] => 169999990835714145
+    [signature] => b46256d489e36938e7680667cd03f17770ae12a9fd07809ef14fe4763516a40d
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => VISA
+    [expiry_date] => 2408
+    [customer_ip] => 91.75.24.197
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990835845450
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03005
+    [authorization_code] => 106782
+    [customer_email] => alirasmi@hotmail.com
+    [currency] => AED
+    [customer_name] => Ali Rasmi Ibrahim
+    [status] => 14
+)
+

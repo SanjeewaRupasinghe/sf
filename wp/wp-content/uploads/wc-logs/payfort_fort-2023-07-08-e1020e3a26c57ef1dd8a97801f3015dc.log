@@ -1,0 +1,133 @@
+07-08-2023 @ 21:43:01 - Payfort Request Params for payment method (payfort) 
+
+Array
+(
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [merchant_reference] => 23631
+    [language] => en
+    [service_command] => TOKENIZATION
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [signature] => e264829c1db5e604f4d2784da2518d9e770d3fcbef68baf82cc7162795ffc0eb
+)
+
+07-08-2023 @ 21:43:02 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_merchantPageResponse
+    [response_code] => 18000
+    [card_number] => ****************
+    [card_holder_name] => ************
+    [signature] => ce1b4b8a8cbdf160d550cef83221db6a3520740489d8730faebbe9ff86367f36
+    [merchant_identifier] => xyKdBdwl
+    [expiry_date] => ****
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [language] => en
+    [response_message] => Success
+    [service_command] => TOKENIZATION
+    [merchant_reference] => 23631
+    [token_name] => cd8a999be8ea4555a7ab21c2662607bb
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [status] => 18
+    [card_bin] => 521729
+)
+
+07-08-2023 @ 21:43:02 - Merchant Page Notify Api Request Params : Array
+(
+    [merchant_reference] => 23631
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [command] => PURCHASE
+    [merchant_identifier] => xyKdBdwl
+    [customer_ip] => 152.32.104.46
+    [amount] => 10920
+    [currency] => AED
+    [customer_email] => peppersmith9932@gmail.com
+    [token_name] => cd8a999be8ea4555a7ab21c2662607bb
+    [language] => en
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_responseOnline
+    [customer_name] => Pepper Smith
+    [signature] => c6c3c87024d80c9ddaf3ed446bff719fc5243060e1d3f028d005e937bd5b933b
+)
+
+07-08-2023 @ 21:43:06 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [amount] => 10920
+    [response_code] => 20064
+    [card_number] => ****************
+    [card_holder_name] => ************
+    [signature] => a51e0095ac218be240f15d87e96157b2dcf0ccef83e1104f40d44138996fe99b
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => MASTERCARD
+    [expiry_date] => ****
+    [customer_ip] => *************
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991116149333
+    [command] => PURCHASE
+    [3ds_url] => https://checkout.payfort.com/FortAPI/redirectionResponse/threeDs2RedirectURL?token=173192GuWcHNDsbqGeDaDfURozt0yF
+    [response_message] => 3-D Secure check requested
+    [merchant_reference] => 23631
+    [customer_email] => *************************
+    [currency] => AED
+    [customer_name] => ************
+    [status] => 20
+)
+
+07-08-2023 @ 21:43:18 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_responseOnline
+    [amount] => 10920
+    [response_code] => 10030
+    [card_number] => ****************
+    [card_holder_name] => ************
+    [signature] => dc553c2511cac6aa3b95f9097aea7440ab7e6eb653173c5efebf5860e8431932
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => MASTERCARD
+    [expiry_date] => ****
+    [customer_ip] => *************
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991116149333
+    [command] => PURCHASE
+    [response_message] => Authentication failed
+    [merchant_reference] => 23631
+    [customer_email] => *************************
+    [currency] => AED
+    [customer_name] => ************
+    [status] => 10
+)
+
+07-08-2023 @ 21:43:18 - Fort response parameters (offline) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 10920
+    [response_code] => 10030
+    [card_number] => 521729******8228
+    [card_holder_name] => Pepper Smith
+    [signature] => 61eb5d5d724eab1b7685c99af63c2849a4a49b06da27cd31fa7bf5f89dc82f86
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2402
+    [customer_ip] => 152.32.104.46
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991116149333
+    [command] => PURCHASE
+    [response_message] => Authentication failed
+    [merchant_reference] => 23631
+    [customer_email] => peppersmith9932@gmail.com
+    [currency] => AED
+    [customer_name] => Pepper Smith
+    [status] => 10
+)
+

@@ -1,0 +1,330 @@
+09-14-2023 @ 13:33:14 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 536295******2225
+    [card_holder_name] => humera Naz Saleem
+    [payment_link_id] => 03439
+    [signature] => ac31a1b54f5ceb9a5f9ba00ae1af2c911b79d23604d7720d90d84987d8fad953
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Basic Life Support Provider Course
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2706
+    [customer_ip] => 83.110.21.122
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991233469685
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03439
+    [authorization_code] => 171564
+    [customer_email] => hnaz11@hotmail.com
+    [currency] => AED
+    [customer_name] => Humera Naz Saleem
+    [status] => 14
+)
+
+09-14-2023 @ 13:33:25 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 536295******2225
+    [card_holder_name] => humera Naz Saleem
+    [payment_link_id] => 03439
+    [signature] => ac31a1b54f5ceb9a5f9ba00ae1af2c911b79d23604d7720d90d84987d8fad953
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Basic Life Support Provider Course
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2706
+    [customer_ip] => 83.110.21.122
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991233469685
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03439
+    [authorization_code] => 171564
+    [customer_email] => hnaz11@hotmail.com
+    [currency] => AED
+    [customer_name] => Humera Naz Saleem
+    [status] => 14
+)
+
+09-14-2023 @ 13:33:36 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 536295******2225
+    [card_holder_name] => humera Naz Saleem
+    [payment_link_id] => 03439
+    [signature] => ac31a1b54f5ceb9a5f9ba00ae1af2c911b79d23604d7720d90d84987d8fad953
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Basic Life Support Provider Course
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2706
+    [customer_ip] => 83.110.21.122
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991233469685
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03439
+    [authorization_code] => 171564
+    [customer_email] => hnaz11@hotmail.com
+    [currency] => AED
+    [customer_name] => Humera Naz Saleem
+    [status] => 14
+)
+
+09-14-2023 @ 13:33:47 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 536295******2225
+    [card_holder_name] => humera Naz Saleem
+    [payment_link_id] => 03439
+    [signature] => ac31a1b54f5ceb9a5f9ba00ae1af2c911b79d23604d7720d90d84987d8fad953
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Basic Life Support Provider Course
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2706
+    [customer_ip] => 83.110.21.122
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991233469685
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03439
+    [authorization_code] => 171564
+    [customer_email] => hnaz11@hotmail.com
+    [currency] => AED
+    [customer_name] => Humera Naz Saleem
+    [status] => 14
+)
+
+09-14-2023 @ 13:33:58 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 536295******2225
+    [card_holder_name] => humera Naz Saleem
+    [payment_link_id] => 03439
+    [signature] => ac31a1b54f5ceb9a5f9ba00ae1af2c911b79d23604d7720d90d84987d8fad953
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Basic Life Support Provider Course
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2706
+    [customer_ip] => 83.110.21.122
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991233469685
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03439
+    [authorization_code] => 171564
+    [customer_email] => hnaz11@hotmail.com
+    [currency] => AED
+    [customer_name] => Humera Naz Saleem
+    [status] => 14
+)
+
+09-14-2023 @ 13:34:08 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 536295******2225
+    [card_holder_name] => humera Naz Saleem
+    [payment_link_id] => 03439
+    [signature] => ac31a1b54f5ceb9a5f9ba00ae1af2c911b79d23604d7720d90d84987d8fad953
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Basic Life Support Provider Course
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2706
+    [customer_ip] => 83.110.21.122
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991233469685
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03439
+    [authorization_code] => 171564
+    [customer_email] => hnaz11@hotmail.com
+    [currency] => AED
+    [customer_name] => Humera Naz Saleem
+    [status] => 14
+)
+
+09-14-2023 @ 13:34:19 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 536295******2225
+    [card_holder_name] => humera Naz Saleem
+    [payment_link_id] => 03439
+    [signature] => ac31a1b54f5ceb9a5f9ba00ae1af2c911b79d23604d7720d90d84987d8fad953
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Basic Life Support Provider Course
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2706
+    [customer_ip] => 83.110.21.122
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991233469685
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03439
+    [authorization_code] => 171564
+    [customer_email] => hnaz11@hotmail.com
+    [currency] => AED
+    [customer_name] => Humera Naz Saleem
+    [status] => 14
+)
+
+09-14-2023 @ 13:34:30 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 536295******2225
+    [card_holder_name] => humera Naz Saleem
+    [payment_link_id] => 03439
+    [signature] => ac31a1b54f5ceb9a5f9ba00ae1af2c911b79d23604d7720d90d84987d8fad953
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Basic Life Support Provider Course
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2706
+    [customer_ip] => 83.110.21.122
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991233469685
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03439
+    [authorization_code] => 171564
+    [customer_email] => hnaz11@hotmail.com
+    [currency] => AED
+    [customer_name] => Humera Naz Saleem
+    [status] => 14
+)
+
+09-14-2023 @ 13:34:41 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 536295******2225
+    [card_holder_name] => humera Naz Saleem
+    [payment_link_id] => 03439
+    [signature] => ac31a1b54f5ceb9a5f9ba00ae1af2c911b79d23604d7720d90d84987d8fad953
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Basic Life Support Provider Course
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2706
+    [customer_ip] => 83.110.21.122
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991233469685
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03439
+    [authorization_code] => 171564
+    [customer_email] => hnaz11@hotmail.com
+    [currency] => AED
+    [customer_name] => Humera Naz Saleem
+    [status] => 14
+)
+
+09-14-2023 @ 13:34:52 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 536295******2225
+    [card_holder_name] => humera Naz Saleem
+    [payment_link_id] => 03439
+    [signature] => ac31a1b54f5ceb9a5f9ba00ae1af2c911b79d23604d7720d90d84987d8fad953
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Basic Life Support Provider Course
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2706
+    [customer_ip] => 83.110.21.122
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991233469685
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03439
+    [authorization_code] => 171564
+    [customer_email] => hnaz11@hotmail.com
+    [currency] => AED
+    [customer_name] => Humera Naz Saleem
+    [status] => 14
+)
+
+09-14-2023 @ 13:35:02 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 536295******2225
+    [card_holder_name] => humera Naz Saleem
+    [payment_link_id] => 03439
+    [signature] => ac31a1b54f5ceb9a5f9ba00ae1af2c911b79d23604d7720d90d84987d8fad953
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Basic Life Support Provider Course
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2706
+    [customer_ip] => 83.110.21.122
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991233469685
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03439
+    [authorization_code] => 171564
+    [customer_email] => hnaz11@hotmail.com
+    [currency] => AED
+    [customer_name] => Humera Naz Saleem
+    [status] => 14
+)
+

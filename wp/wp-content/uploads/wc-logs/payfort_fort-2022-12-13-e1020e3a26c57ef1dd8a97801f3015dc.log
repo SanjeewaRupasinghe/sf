@@ -1,0 +1,60 @@
+12-13-2022 @ 11:32:27 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 84000
+    [response_code] => 14000
+    [card_number] => 526408******3403
+    [card_holder_name] => melissa Oliver
+    [payment_link_id] => Quote-02946
+    [signature] => b60422f0567789589ed1f72989d749b0a218118ad0b409c1bbdac90b87203d16
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Heartsaver Pediatric First Aid CPR AED
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2707
+    [customer_ip] => 176.205.16.94
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990791228764
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-02946
+    [authorization_code] => 360254
+    [customer_email] => moliver0624@yahoo.com
+    [currency] => AED
+    [customer_name] => Bill To Missy Oliver
+    [status] => 14
+)
+
+12-13-2022 @ 14:00:18 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 457268******1876
+    [card_holder_name] => sham vidyadharan
+    [payment_link_id] => Quote-02952
+    [signature] => 3f7025fbed7649d502fb1211cc48945cffb21356f87e85df56674209435c12b9
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA-BLS
+    [payment_option] => VISA
+    [expiry_date] => 2503
+    [customer_ip] => 5.194.169.184
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990791400775
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-02952
+    [authorization_code] => 212635
+    [customer_email] => rajisham@ymail.com
+    [currency] => AED
+    [customer_name] => RAJI KARTHIKA RAJAN
+    [status] => 14
+)
+

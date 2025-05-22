@@ -1,0 +1,118 @@
+10-04-2023 @ 10:32:49 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 430395
+    [response_code] => 14000
+    [card_number] => 407075******6372
+    [card_holder_name] => robert janas
+    [payment_link_id] => 169999991269282901
+    [signature] => 17170835b5ec28ee35914c0d85726483f7f9e17086534d25b8143780d95f7af6
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Revalidation
+    [payment_option] => VISA
+    [expiry_date] => 2709
+    [customer_ip] => 92.96.71.44
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991273360190
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03491
+    [authorization_code] => 001131
+    [customer_email] => rojanas@ssmc.ae
+    [currency] => AED
+    [customer_name] => Robert Janas
+    [status] => 14
+)
+
+10-04-2023 @ 10:49:36 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 409395
+    [response_code] => 14000
+    [card_number] => 409319******2376
+    [card_holder_name] => Laith Alrubaiy 
+    [payment_link_id] => 169999991231573530
+    [signature] => 11dedbe9e8df8514b79fc7c4071027031edb67bbcfeedeaba1b8a9e3ece9716c
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Revalidation
+    [payment_option] => VISA
+    [expiry_date] => 2807
+    [customer_ip] => 5.38.32.94
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991273382563
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03440
+    [authorization_code] => 595692
+    [customer_email] => laithalrubaiy@gmail.com
+    [currency] => AED
+    [customer_name] => Laith  Al Rubaiy
+    [status] => 14
+)
+
+10-04-2023 @ 14:28:10 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 430395
+    [response_code] => 10030
+    [card_number] => 525303******7334
+    [card_holder_name] => Dr Muhammad Ali Zia
+    [payment_link_id] => 169999991253172072
+    [signature] => ac04d79387a0e18645ed46636b0781ee64c0da6e285ef283ba85339f34e9c5ce
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Revalidation
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2606
+    [customer_ip] => 178.239.198.65
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991273727635
+    [command] => PURCHASE
+    [response_message] => Authentication failed
+    [merchant_reference] => Quote-03479
+    [customer_email] => malizia100@yahoo.com
+    [currency] => AED
+    [customer_name] => Muhammad Ali Zia
+    [status] => 10
+)
+
+10-04-2023 @ 14:30:35 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 430395
+    [response_code] => 10030
+    [card_number] => 525303******7334
+    [card_holder_name] => Dr muhamad Ali Zia
+    [payment_link_id] => 169999991253172072
+    [signature] => 96151bfa7e4a3381b7a337d54807d37ba9d78f2f482b00adc50edb0c05f3ad24
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Revalidation
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2609
+    [customer_ip] => 178.239.198.41
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991273727635
+    [command] => PURCHASE
+    [response_message] => Authentication failed
+    [merchant_reference] => Quote-03479
+    [customer_email] => malizia100@yahoo.com
+    [currency] => AED
+    [customer_name] => Muhammad Ali Zia
+    [status] => 10
+)
+

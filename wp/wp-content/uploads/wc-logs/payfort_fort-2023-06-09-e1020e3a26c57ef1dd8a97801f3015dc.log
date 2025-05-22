@@ -1,0 +1,58 @@
+06-09-2023 @ 15:37:43 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 9041
+    [response_code] => 14000
+    [card_number] => 456835******8609
+    [card_holder_name] => aya qamar
+    [payment_link_id] => 169999991068507476
+    [signature] => 18e91009b69b39ae0c7ec8cf57dc3083b20995ef5d173bd6d7e4fad6b6be43cd
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2312
+    [customer_ip] => 5.193.42.249
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991068517504
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02158A
+    [authorization_code] => 114645
+    [customer_email] => aya.qamar93@hotmail.com
+    [currency] => AED
+    [customer_name] => Aya Qamar
+    [status] => 14
+)
+
+06-09-2023 @ 17:16:07 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 9041
+    [response_code] => 10119
+    [card_number] => 454654******5888
+    [card_holder_name] => khalid kousa
+    [signature] => 16f067e5ae8846afccca943934a10d03684d566b8a6f9cc567fe7f25547b2bd1
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2308
+    [customer_ip] => 5.193.42.249
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991068488128
+    [command] => PURCHASE
+    [response_message] => Request dropped
+    [merchant_reference] => SO-02158
+    [customer_email] => aya.qamar93@hotmail.com
+    [currency] => AED
+    [customer_name] => Aya Qamar
+    [status] => 10
+)
+

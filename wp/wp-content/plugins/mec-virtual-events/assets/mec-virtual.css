@@ -1,0 +1,99 @@
+.mec-single-virtual-badge {
+    background: #f7f7f7;
+    padding: 20px 15px;
+    margin-bottom: 12px;
+    vertical-align: baseline;
+    position: relative;
+}
+
+.mec-single-virtual-badge i {
+    vertical-align: middle;
+}
+.mec-single-modern .mec-single-virtual-badge {
+    margin-top: -50px;
+    margin-bottom: 30px;
+    padding: 20px 34px;
+    border: none;
+    background: #f7f7f7;
+    box-shadow: none;
+}
+@media only screen and (min-width: 960px){
+    .mec-single-modern .mec-single-virtual-badge {
+        margin-left: 20px;
+    }
+}
+.mec-single-modern .mec-single-virtual-badge h3 {
+    display: inline-block;
+        text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 5px;
+    display: inline;
+    color: #000;
+    padding-left: 10px;
+}
+.mec-single-modern .mec-single-virtual-badge i:before {
+    font-size: 20px;
+    vertical-align: middle;
+    color: #40d9f1;
+}
+
+span.mec-shortcode-virtual-badge {
+    background: #3aad14;
+    position: relative;
+    top: -3px;
+    font-size: 11px;
+    font-weight: 300;
+    margin-left: 1px;
+    line-height: 1.9;
+    letter-spacing: 1px;
+    color: #fff;
+    padding: 2px 7px;
+    border-radius: 2px;
+    white-space: nowrap;
+}
+span.mec-shortcode-virtual-badge i:before {
+    margin-right: 5px;
+}
+
+.mec-event-virtual-embed iframe {
+    width: 100%;
+}
+
+.mec-event-virtual-embed, .mec-event-virtual-link,.mec-virtual-password {
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #e3e3e3;
+    padding-bottom: 7px;
+    display: block;
+}
+
+.mec-event-virtual-embed:last-child,
+.mec-event-virtual-link:last-child,
+.mec-virtual-password:last-child {
+    border: unset;
+}
+
+.mec-calendar .mec-event-article .mec-event-title a {
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.mec-wrap .mec-event-container-simple .mec-shortcode-virtual-badge {
+    top: -12px;
+    white-space: inherit;
+    margin-left: 0;
+}
+
+.mec-events-toggle span.mec-shortcode-virtual-badge {
+    top: 7px;
+}
+
+.mec-events-toggle .mec-shortcode-virtual-badge i {
+    top: unset;
+    right: unset;
+    position: relative;
+    margin: 0;
+    font-size: 11px;
+    float: unset;
+    display: inline;
+}

@@ -1,0 +1,2958 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MEC Shortcode Builder\n"
+"POT-Creation-Date: 2021-06-16 12:48+0430\n"
+"PO-Revision-Date: 2021-06-16 12:49+0430\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: mec-shortcode-builder.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/base.php:245
+msgid ""
+"Elementor Shortcode Builder is not working because you need to activate the "
+"Modern Events Calendar plugin."
+msgstr ""
+
+#: inc/base.php:246
+msgid "Activate Modern Events Calendar Now"
+msgstr ""
+
+#: inc/base.php:252
+msgid ""
+"Elementor Shortcode Builder is not working because you need to install the "
+"Modern Events Calendar plugin"
+msgstr ""
+
+#: inc/base.php:253
+msgid "Install Modern Events Calendar Now"
+msgstr ""
+
+#: inc/base.php:276
+msgid ""
+"Elementor Shortcode Builder is not working because you need to activate the "
+"Modern Events Calendar Lite plugin."
+msgstr ""
+
+#: inc/base.php:277
+msgid "Activate Modern Events Calendar Lite Now"
+msgstr ""
+
+#: inc/base.php:283
+msgid ""
+"Elementor Shortcode Builder is not working because you need to install the "
+"Modern Events Calendar Lite plugin"
+msgstr ""
+
+#: inc/base.php:284
+msgid "Install Modern Events Calendar Lite Now"
+msgstr ""
+
+#: inc/base.php:314 inc/base.php:320
+msgid ""
+"Elementor Shortcode Builder is not working because you need to install "
+"latest version of Modern Events Calendar plugin"
+msgstr ""
+
+#: inc/base.php:315 inc/base.php:321
+msgid "Minimum version required"
+msgstr ""
+
+#: inc/base.php:316 inc/base.php:322
+msgid "Update Modern Events Calendar Now"
+msgstr ""
+
+#: inc/base.php:358
+msgid ""
+"Elementor Shortcode Builder is not working because you need to activate the "
+"Elementor plugin."
+msgstr ""
+
+#: inc/base.php:359
+msgid "Activate Elementor Now"
+msgstr ""
+
+#: inc/base.php:365
+msgid ""
+"Elementor Shortcode Builder is not working because you need to install the "
+"Elemenor plugin"
+msgstr ""
+
+#: inc/base.php:366
+msgid "Install Elementor Now"
+msgstr ""
+
+#: inc/bootstrap.php:116
+msgid "Modern Events Calendar"
+msgstr ""
+
+#: inc/elementor/controls/display-options/agenda-view.php:26
+#: inc/elementor/controls/display-options/availablespot-view.php:119
+#: inc/elementor/controls/display-options/carousel-view.php:25
+#: inc/elementor/controls/display-options/countdown-view.php:26
+#: inc/elementor/controls/display-options/cover-view.php:25
+#: inc/elementor/controls/display-options/cover-view.php:220
+#: inc/elementor/controls/display-options/grid-view.php:27
+#: inc/elementor/controls/display-options/list-view.php:27
+#: inc/elementor/controls/display-options/monthly-view.php:26
+#: inc/elementor/controls/display-options/slider-view.php:25
+#: inc/elementor/controls/display-options/timetable-view.php:25
+#: inc/elementor/controls/display-options/yearly-view.php:26
+msgid "Style"
+msgstr ""
+
+#: inc/elementor/controls/display-options/agenda-view.php:30
+#: inc/elementor/controls/display-options/cover-view.php:30
+#: inc/elementor/controls/display-options/full-calendar-view.php:94
+#: inc/elementor/controls/display-options/grid-view.php:32
+#: inc/elementor/controls/display-options/monthly-view.php:31
+#: inc/elementor/controls/display-options/timetable-view.php:30
+msgid "Clean"
+msgstr ""
+
+#: inc/elementor/controls/display-options/agenda-view.php:44
+#: inc/elementor/controls/display-options/carousel-view.php:46
+#: inc/elementor/controls/display-options/custom-view.php:38
+#: inc/elementor/controls/display-options/custom-view.php:54
+#: inc/elementor/controls/display-options/daily-view.php:25
+#: inc/elementor/controls/display-options/full-calendar-view.php:26
+#: inc/elementor/controls/display-options/grid-view.php:51
+#: inc/elementor/controls/display-options/list-view.php:49
+#: inc/elementor/controls/display-options/map-view.php:26
+#: inc/elementor/controls/display-options/masonry-view.php:25
+#: inc/elementor/controls/display-options/monthly-view.php:48
+#: inc/elementor/controls/display-options/slider-view.php:47
+#: inc/elementor/controls/display-options/tile-view.php:25
+#: inc/elementor/controls/display-options/timeline-view.php:27
+#: inc/elementor/controls/display-options/timetable-view.php:44
+#: inc/elementor/controls/display-options/weekly-view.php:25
+#: inc/elementor/controls/display-options/yearly-view.php:44
+msgid "Start Date"
+msgstr ""
+
+#: inc/elementor/controls/display-options/agenda-view.php:48
+#: inc/elementor/controls/display-options/carousel-view.php:50
+#: inc/elementor/controls/display-options/custom-view.php:58
+#: inc/elementor/controls/display-options/daily-view.php:29
+#: inc/elementor/controls/display-options/grid-view.php:55
+#: inc/elementor/controls/display-options/list-view.php:53
+#: inc/elementor/controls/display-options/map-view.php:30
+#: inc/elementor/controls/display-options/masonry-view.php:29
+#: inc/elementor/controls/display-options/slider-view.php:51
+#: inc/elementor/controls/display-options/timeline-view.php:31
+msgid "Today"
+msgstr ""
+
+#: inc/elementor/controls/display-options/agenda-view.php:49
+#: inc/elementor/controls/display-options/carousel-view.php:51
+#: inc/elementor/controls/display-options/custom-view.php:59
+#: inc/elementor/controls/display-options/daily-view.php:30
+#: inc/elementor/controls/display-options/grid-view.php:56
+#: inc/elementor/controls/display-options/list-view.php:54
+#: inc/elementor/controls/display-options/map-view.php:31
+#: inc/elementor/controls/display-options/masonry-view.php:30
+#: inc/elementor/controls/display-options/slider-view.php:52
+#: inc/elementor/controls/display-options/timeline-view.php:32
+msgid "Tomorrow"
+msgstr ""
+
+#: inc/elementor/controls/display-options/agenda-view.php:50
+#: inc/elementor/controls/display-options/carousel-view.php:52
+#: inc/elementor/controls/display-options/custom-view.php:60
+#: inc/elementor/controls/display-options/daily-view.php:31
+#: inc/elementor/controls/display-options/full-calendar-view.php:30
+#: inc/elementor/controls/display-options/grid-view.php:57
+#: inc/elementor/controls/display-options/list-view.php:55
+#: inc/elementor/controls/display-options/map-view.php:32
+#: inc/elementor/controls/display-options/masonry-view.php:31
+#: inc/elementor/controls/display-options/monthly-view.php:52
+#: inc/elementor/controls/display-options/slider-view.php:53
+#: inc/elementor/controls/display-options/tile-view.php:29
+#: inc/elementor/controls/display-options/timeline-view.php:33
+#: inc/elementor/controls/display-options/timetable-view.php:50
+#: inc/elementor/controls/display-options/weekly-view.php:31
+msgid "Start of Current Month"
+msgstr ""
+
+#: inc/elementor/controls/display-options/agenda-view.php:51
+#: inc/elementor/controls/display-options/carousel-view.php:53
+#: inc/elementor/controls/display-options/custom-view.php:61
+#: inc/elementor/controls/display-options/daily-view.php:32
+#: inc/elementor/controls/display-options/full-calendar-view.php:31
+#: inc/elementor/controls/display-options/grid-view.php:58
+#: inc/elementor/controls/display-options/list-view.php:56
+#: inc/elementor/controls/display-options/map-view.php:33
+#: inc/elementor/controls/display-options/masonry-view.php:32
+#: inc/elementor/controls/display-options/monthly-view.php:53
+#: inc/elementor/controls/display-options/slider-view.php:54
+#: inc/elementor/controls/display-options/tile-view.php:30
+#: inc/elementor/controls/display-options/timeline-view.php:34
+#: inc/elementor/controls/display-options/timetable-view.php:51
+#: inc/elementor/controls/display-options/weekly-view.php:32
+msgid "Start of Next Month"
+msgstr ""
+
+#: inc/elementor/controls/display-options/agenda-view.php:52
+#: inc/elementor/controls/display-options/agenda-view.php:104
+#: inc/elementor/controls/display-options/carousel-view.php:54
+#: inc/elementor/controls/display-options/carousel-view.php:161
+#: inc/elementor/controls/display-options/custom-view.php:62
+#: inc/elementor/controls/display-options/daily-view.php:33
+#: inc/elementor/controls/display-options/daily-view.php:46
+#: inc/elementor/controls/display-options/full-calendar-view.php:32
+#: inc/elementor/controls/display-options/full-calendar-view.php:45
+#: inc/elementor/controls/display-options/grid-view.php:59
+#: inc/elementor/controls/display-options/grid-view.php:313
+#: inc/elementor/controls/display-options/list-view.php:57
+#: inc/elementor/controls/display-options/list-view.php:71
+#: inc/elementor/controls/display-options/map-view.php:34
+#: inc/elementor/controls/display-options/map-view.php:47
+#: inc/elementor/controls/display-options/masonry-view.php:33
+#: inc/elementor/controls/display-options/masonry-view.php:46
+#: inc/elementor/controls/display-options/monthly-view.php:54
+#: inc/elementor/controls/display-options/monthly-view.php:67
+#: inc/elementor/controls/display-options/slider-view.php:55
+#: inc/elementor/controls/display-options/slider-view.php:116
+#: inc/elementor/controls/display-options/tile-view.php:31
+#: inc/elementor/controls/display-options/tile-view.php:44
+#: inc/elementor/controls/display-options/timeline-view.php:35
+#: inc/elementor/controls/display-options/timeline-view.php:48
+#: inc/elementor/controls/display-options/timetable-view.php:52
+#: inc/elementor/controls/display-options/timetable-view.php:65
+#: inc/elementor/controls/display-options/weekly-view.php:33
+#: inc/elementor/controls/display-options/weekly-view.php:46
+#: inc/elementor/controls/display-options/yearly-view.php:50
+#: inc/elementor/controls/display-options/yearly-view.php:63
+msgid "On a certain date"
+msgstr ""
+
+#: inc/elementor/controls/display-options/agenda-view.php:67
+#: inc/elementor/controls/display-options/availablespot-view.php:26
+#: inc/elementor/controls/display-options/countdown-view.php:97
+#: inc/elementor/controls/display-options/countdown-view.php:116
+#: inc/elementor/controls/display-options/countdown-view.php:135
+#: inc/elementor/controls/display-options/cover-view.php:96
+#: inc/elementor/controls/display-options/cover-view.php:134
+#: inc/elementor/controls/display-options/full-calendar-view.php:195
+#: inc/elementor/controls/display-options/grid-view.php:93
+#: inc/elementor/controls/display-options/grid-view.php:130
+#: inc/elementor/controls/display-options/grid-view.php:167
+#: inc/elementor/controls/display-options/grid-view.php:241
+#: inc/elementor/controls/display-options/grid-view.php:296
+#: inc/elementor/controls/display-options/list-view.php:113
+#: inc/elementor/controls/display-options/list-view.php:168
+#: inc/elementor/controls/display-options/list-view.php:242
+#: inc/elementor/controls/display-options/masonry-view.php:67
+#: inc/elementor/controls/display-options/tile-view.php:65
+#: inc/elementor/controls/display-options/yearly-view.php:84
+msgid "Date Format 1"
+msgstr ""
+
+#: inc/elementor/controls/display-options/agenda-view.php:70
+#: inc/elementor/controls/display-options/cover-view.php:117
+#: inc/elementor/controls/display-options/full-calendar-view.php:198
+#: inc/elementor/controls/display-options/grid-view.php:206
+#: inc/elementor/controls/display-options/grid-view.php:280
+#: inc/elementor/controls/display-options/list-view.php:152
+#: inc/elementor/controls/display-options/list-view.php:207
+#: inc/elementor/controls/display-options/slider-view.php:103
+#: inc/elementor/controls/display-options/yearly-view.php:87
+msgid ""
+"Default value is \"l\". <a href=\"https://codex.wordpress.org/"
+"Formatting_Date_and_Time\" target=\"_blank\">Date format list</a>"
+msgstr ""
+
+#: inc/elementor/controls/display-options/agenda-view.php:85
+#: inc/elementor/controls/display-options/availablespot-view.php:42
+#: inc/elementor/controls/display-options/countdown-view.php:153
+#: inc/elementor/controls/display-options/cover-view.php:114
+#: inc/elementor/controls/display-options/cover-view.php:152
+#: inc/elementor/controls/display-options/full-calendar-view.php:213
+#: inc/elementor/controls/display-options/grid-view.php:111
+#: inc/elementor/controls/display-options/grid-view.php:148
+#: inc/elementor/controls/display-options/grid-view.php:185
+#: inc/elementor/controls/display-options/grid-view.php:259
+#: inc/elementor/controls/display-options/list-view.php:131
+#: inc/elementor/controls/display-options/list-view.php:186
+#: inc/elementor/controls/display-options/list-view.php:260
+#: inc/elementor/controls/display-options/masonry-view.php:82
+#: inc/elementor/controls/display-options/tile-view.php:80
+#: inc/elementor/controls/display-options/yearly-view.php:99
+msgid "Date Format 2"
+msgstr ""
+
+#: inc/elementor/controls/display-options/agenda-view.php:88
+#: inc/elementor/controls/display-options/full-calendar-view.php:216
+#: inc/elementor/controls/display-options/yearly-view.php:102
+msgid ""
+"Default value is \"F j\". <a href=\"https://codex.wordpress.org/"
+"Formatting_Date_and_Time\" target=\"_blank\">Date format list</a>"
+msgstr ""
+
+#: inc/elementor/controls/display-options/agenda-view.php:124
+#: inc/elementor/controls/display-options/carousel-view.php:203
+#: inc/elementor/controls/display-options/custom-view.php:98
+#: inc/elementor/controls/display-options/grid-view.php:352
+#: inc/elementor/controls/display-options/list-view.php:279
+#: inc/elementor/controls/display-options/masonry-view.php:97
+#: inc/elementor/controls/display-options/slider-view.php:136
+#: inc/elementor/controls/display-options/timeline-view.php:84
+msgid "Limit"
+msgstr ""
+
+#: inc/elementor/controls/display-options/agenda-view.php:126
+#: inc/elementor/controls/display-options/carousel-view.php:205
+#: inc/elementor/controls/display-options/custom-view.php:100
+#: inc/elementor/controls/display-options/daily-view.php:68
+#: inc/elementor/controls/display-options/grid-view.php:354
+#: inc/elementor/controls/display-options/list-view.php:281
+#: inc/elementor/controls/display-options/monthly-view.php:89
+#: inc/elementor/controls/display-options/slider-view.php:138
+#: inc/elementor/controls/display-options/timeline-view.php:86
+#: inc/elementor/controls/display-options/timetable-view.php:87
+#: inc/elementor/controls/display-options/weekly-view.php:68
+#: inc/elementor/controls/display-options/yearly-view.php:116
+msgid "eg. 6"
+msgstr ""
+
+#: inc/elementor/controls/display-options/agenda-view.php:142
+#: inc/elementor/controls/display-options/custom-view.php:116
+#: inc/elementor/controls/display-options/grid-view.php:370
+#: inc/elementor/controls/display-options/list-view.php:297
+#: inc/elementor/controls/display-options/timeline-view.php:102
+#: inc/elementor/shortcode-builder.php:5634
+msgid "Load More Button"
+msgstr ""
+
+#: inc/elementor/controls/display-options/agenda-view.php:144
+#: inc/elementor/controls/display-options/agenda-view.php:161
+#: inc/elementor/controls/display-options/agenda-view.php:178
+#: inc/elementor/controls/display-options/agenda-view.php:195
+#: inc/elementor/controls/display-options/agenda-view.php:212
+#: inc/elementor/controls/display-options/availablespot-view.php:59
+#: inc/elementor/controls/display-options/availablespot-view.php:76
+#: inc/elementor/controls/display-options/availablespot-view.php:93
+#: inc/elementor/controls/display-options/carousel-view.php:241
+#: inc/elementor/controls/display-options/carousel-view.php:258
+#: inc/elementor/controls/display-options/carousel-view.php:275
+#: inc/elementor/controls/display-options/countdown-view.php:47
+#: inc/elementor/controls/display-options/countdown-view.php:64
+#: inc/elementor/controls/display-options/countdown-view.php:81
+#: inc/elementor/controls/display-options/cover-view.php:46
+#: inc/elementor/controls/display-options/cover-view.php:63
+#: inc/elementor/controls/display-options/cover-view.php:80
+#: inc/elementor/controls/display-options/custom-view.php:118
+#: inc/elementor/controls/display-options/custom-view.php:136
+#: inc/elementor/controls/display-options/custom-view.php:171
+#: inc/elementor/controls/display-options/daily-view.php:86
+#: inc/elementor/controls/display-options/daily-view.php:103
+#: inc/elementor/controls/display-options/daily-view.php:120
+#: inc/elementor/controls/display-options/daily-view.php:137
+#: inc/elementor/controls/display-options/full-calendar-view.php:111
+#: inc/elementor/controls/display-options/full-calendar-view.php:146
+#: inc/elementor/controls/display-options/full-calendar-view.php:162
+#: inc/elementor/controls/display-options/full-calendar-view.php:179
+#: inc/elementor/controls/display-options/full-calendar-view.php:233
+#: inc/elementor/controls/display-options/full-calendar-view.php:250
+#: inc/elementor/controls/display-options/full-calendar-view.php:267
+#: inc/elementor/controls/display-options/full-calendar-view.php:284
+#: inc/elementor/controls/display-options/full-calendar-view.php:304
+#: inc/elementor/controls/display-options/full-calendar-view.php:321
+#: inc/elementor/controls/display-options/grid-view.php:372
+#: inc/elementor/controls/display-options/grid-view.php:389
+#: inc/elementor/controls/display-options/grid-view.php:406
+#: inc/elementor/controls/display-options/grid-view.php:423
+#: inc/elementor/controls/display-options/grid-view.php:440
+#: inc/elementor/controls/display-options/grid-view.php:457
+#: inc/elementor/controls/display-options/list-view.php:299
+#: inc/elementor/controls/display-options/list-view.php:316
+#: inc/elementor/controls/display-options/list-view.php:333
+#: inc/elementor/controls/display-options/list-view.php:350
+#: inc/elementor/controls/display-options/list-view.php:367
+#: inc/elementor/controls/display-options/list-view.php:384
+#: inc/elementor/controls/display-options/list-view.php:422
+#: inc/elementor/controls/display-options/list-view.php:439
+#: inc/elementor/controls/display-options/map-view.php:88
+#: inc/elementor/controls/display-options/masonry-view.php:139
+#: inc/elementor/controls/display-options/masonry-view.php:156
+#: inc/elementor/controls/display-options/masonry-view.php:173
+#: inc/elementor/controls/display-options/masonry-view.php:190
+#: inc/elementor/controls/display-options/monthly-view.php:107
+#: inc/elementor/controls/display-options/monthly-view.php:124
+#: inc/elementor/controls/display-options/monthly-view.php:141
+#: inc/elementor/controls/display-options/monthly-view.php:158
+#: inc/elementor/controls/display-options/slider-view.php:174
+#: inc/elementor/controls/display-options/slider-view.php:191
+#: inc/elementor/controls/display-options/slider-view.php:208
+#: inc/elementor/controls/display-options/tile-view.php:117
+#: inc/elementor/controls/display-options/tile-view.php:134
+#: inc/elementor/controls/display-options/tile-view.php:151
+#: inc/elementor/controls/display-options/timeline-view.php:104
+#: inc/elementor/controls/display-options/timeline-view.php:121
+#: inc/elementor/controls/display-options/timeline-view.php:138
+#: inc/elementor/controls/display-options/timeline-view.php:155
+#: inc/elementor/controls/display-options/timeline-view.php:172
+#: inc/elementor/controls/display-options/timetable-view.php:152
+#: inc/elementor/controls/display-options/timetable-view.php:169
+#: inc/elementor/controls/display-options/timetable-view.php:186
+#: inc/elementor/controls/display-options/timetable-view.php:203
+#: inc/elementor/controls/display-options/weekly-view.php:86
+#: inc/elementor/controls/display-options/weekly-view.php:103
+#: inc/elementor/controls/display-options/weekly-view.php:120
+#: inc/elementor/controls/display-options/weekly-view.php:137
+#: inc/elementor/controls/display-options/yearly-view.php:134
+#: inc/elementor/controls/display-options/yearly-view.php:151
+#: inc/elementor/controls/display-options/yearly-view.php:168
+#: inc/elementor/controls/display-options/yearly-view.php:185
+#: inc/elementor/controls/search-form/agenda-view.php:27
+#: inc/elementor/controls/search-form/agenda-view.php:45
+#: inc/elementor/controls/search-form/custom-view.php:27
+#: inc/elementor/controls/search-form/custom-view.php:45
+#: inc/elementor/controls/search-form/daily-view.php:27
+#: inc/elementor/controls/search-form/daily-view.php:45
+#: inc/elementor/controls/search-form/full-calendar-view.php:27
+#: inc/elementor/controls/search-form/full-calendar-view.php:45
+#: inc/elementor/controls/search-form/grid-view.php:27
+#: inc/elementor/controls/search-form/grid-view.php:45
+#: inc/elementor/controls/search-form/list-view.php:27
+#: inc/elementor/controls/search-form/list-view.php:45
+#: inc/elementor/controls/search-form/map-view.php:27
+#: inc/elementor/controls/search-form/map-view.php:45
+#: inc/elementor/controls/search-form/monthly-view.php:27
+#: inc/elementor/controls/search-form/monthly-view.php:45
+#: inc/elementor/controls/search-form/tile-view.php:27
+#: inc/elementor/controls/search-form/tile-view.php:45
+#: inc/elementor/controls/search-form/timetable-view.php:27
+#: inc/elementor/controls/search-form/timetable-view.php:45
+#: inc/elementor/controls/search-form/weekly-view.php:27
+#: inc/elementor/controls/search-form/weekly-view.php:45
+#: inc/elementor/controls/search-form/yearly-view.php:27
+#: inc/elementor/controls/search-form/yearly-view.php:45
+#: inc/elementor/shortcode-builder.php:432
+#: inc/elementor/shortcode-builder.php:1341
+#: inc/elementor/shortcode-builder.php:1729
+#: inc/elementor/shortcode-builder.php:1914
+#: inc/elementor/shortcode-builder.php:2007
+#: inc/elementor/shortcode-builder.php:2288
+#: inc/elementor/shortcode-builder.php:2332
+#: inc/elementor/shortcode-builder.php:3006
+#: inc/elementor/shortcode-builder.php:3128
+#: inc/elementor/shortcode-builder.php:3250
+#: inc/elementor/shortcode-builder.php:3373
+#: inc/elementor/shortcode-builder.php:3549
+#: inc/elementor/shortcode-builder.php:3683
+#: inc/elementor/shortcode-builder.php:3879
+#: inc/elementor/shortcode-builder.php:4004
+#: inc/elementor/shortcode-builder.php:4320
+#: inc/elementor/shortcode-builder.php:4407
+#: inc/elementor/shortcode-builder.php:4707
+#: inc/elementor/shortcode-builder.php:4750
+#: inc/elementor/shortcode-builder.php:5156
+msgid "Show"
+msgstr ""
+
+#: inc/elementor/controls/display-options/agenda-view.php:145
+#: inc/elementor/controls/display-options/agenda-view.php:162
+#: inc/elementor/controls/display-options/agenda-view.php:179
+#: inc/elementor/controls/display-options/agenda-view.php:196
+#: inc/elementor/controls/display-options/agenda-view.php:213
+#: inc/elementor/controls/display-options/availablespot-view.php:60
+#: inc/elementor/controls/display-options/availablespot-view.php:77
+#: inc/elementor/controls/display-options/availablespot-view.php:94
+#: inc/elementor/controls/display-options/carousel-view.php:242
+#: inc/elementor/controls/display-options/carousel-view.php:259
+#: inc/elementor/controls/display-options/carousel-view.php:276
+#: inc/elementor/controls/display-options/countdown-view.php:48
+#: inc/elementor/controls/display-options/countdown-view.php:65
+#: inc/elementor/controls/display-options/countdown-view.php:82
+#: inc/elementor/controls/display-options/cover-view.php:47
+#: inc/elementor/controls/display-options/cover-view.php:64
+#: inc/elementor/controls/display-options/cover-view.php:81
+#: inc/elementor/controls/display-options/custom-view.php:119
+#: inc/elementor/controls/display-options/custom-view.php:137
+#: inc/elementor/controls/display-options/custom-view.php:172
+#: inc/elementor/controls/display-options/daily-view.php:87
+#: inc/elementor/controls/display-options/daily-view.php:104
+#: inc/elementor/controls/display-options/daily-view.php:121
+#: inc/elementor/controls/display-options/daily-view.php:138
+#: inc/elementor/controls/display-options/full-calendar-view.php:112
+#: inc/elementor/controls/display-options/full-calendar-view.php:147
+#: inc/elementor/controls/display-options/full-calendar-view.php:163
+#: inc/elementor/controls/display-options/full-calendar-view.php:180
+#: inc/elementor/controls/display-options/full-calendar-view.php:234
+#: inc/elementor/controls/display-options/full-calendar-view.php:251
+#: inc/elementor/controls/display-options/full-calendar-view.php:268
+#: inc/elementor/controls/display-options/full-calendar-view.php:285
+#: inc/elementor/controls/display-options/full-calendar-view.php:305
+#: inc/elementor/controls/display-options/full-calendar-view.php:322
+#: inc/elementor/controls/display-options/grid-view.php:373
+#: inc/elementor/controls/display-options/grid-view.php:390
+#: inc/elementor/controls/display-options/grid-view.php:407
+#: inc/elementor/controls/display-options/grid-view.php:424
+#: inc/elementor/controls/display-options/grid-view.php:441
+#: inc/elementor/controls/display-options/grid-view.php:458
+#: inc/elementor/controls/display-options/list-view.php:300
+#: inc/elementor/controls/display-options/list-view.php:317
+#: inc/elementor/controls/display-options/list-view.php:334
+#: inc/elementor/controls/display-options/list-view.php:351
+#: inc/elementor/controls/display-options/list-view.php:368
+#: inc/elementor/controls/display-options/list-view.php:385
+#: inc/elementor/controls/display-options/list-view.php:423
+#: inc/elementor/controls/display-options/list-view.php:440
+#: inc/elementor/controls/display-options/map-view.php:89
+#: inc/elementor/controls/display-options/masonry-view.php:140
+#: inc/elementor/controls/display-options/masonry-view.php:157
+#: inc/elementor/controls/display-options/masonry-view.php:174
+#: inc/elementor/controls/display-options/masonry-view.php:191
+#: inc/elementor/controls/display-options/monthly-view.php:108
+#: inc/elementor/controls/display-options/monthly-view.php:125
+#: inc/elementor/controls/display-options/monthly-view.php:142
+#: inc/elementor/controls/display-options/monthly-view.php:159
+#: inc/elementor/controls/display-options/slider-view.php:175
+#: inc/elementor/controls/display-options/slider-view.php:192
+#: inc/elementor/controls/display-options/slider-view.php:209
+#: inc/elementor/controls/display-options/tile-view.php:118
+#: inc/elementor/controls/display-options/tile-view.php:135
+#: inc/elementor/controls/display-options/tile-view.php:152
+#: inc/elementor/controls/display-options/timeline-view.php:105
+#: inc/elementor/controls/display-options/timeline-view.php:122
+#: inc/elementor/controls/display-options/timeline-view.php:139
+#: inc/elementor/controls/display-options/timeline-view.php:156
+#: inc/elementor/controls/display-options/timeline-view.php:173
+#: inc/elementor/controls/display-options/timetable-view.php:153
+#: inc/elementor/controls/display-options/timetable-view.php:170
+#: inc/elementor/controls/display-options/timetable-view.php:187
+#: inc/elementor/controls/display-options/timetable-view.php:204
+#: inc/elementor/controls/display-options/weekly-view.php:87
+#: inc/elementor/controls/display-options/weekly-view.php:104
+#: inc/elementor/controls/display-options/weekly-view.php:121
+#: inc/elementor/controls/display-options/weekly-view.php:138
+#: inc/elementor/controls/display-options/yearly-view.php:135
+#: inc/elementor/controls/display-options/yearly-view.php:152
+#: inc/elementor/controls/display-options/yearly-view.php:169
+#: inc/elementor/controls/display-options/yearly-view.php:186
+#: inc/elementor/controls/search-form/agenda-view.php:28
+#: inc/elementor/controls/search-form/agenda-view.php:46
+#: inc/elementor/controls/search-form/custom-view.php:28
+#: inc/elementor/controls/search-form/custom-view.php:46
+#: inc/elementor/controls/search-form/daily-view.php:28
+#: inc/elementor/controls/search-form/daily-view.php:46
+#: inc/elementor/controls/search-form/full-calendar-view.php:28
+#: inc/elementor/controls/search-form/full-calendar-view.php:46
+#: inc/elementor/controls/search-form/grid-view.php:28
+#: inc/elementor/controls/search-form/grid-view.php:46
+#: inc/elementor/controls/search-form/list-view.php:28
+#: inc/elementor/controls/search-form/list-view.php:46
+#: inc/elementor/controls/search-form/map-view.php:28
+#: inc/elementor/controls/search-form/map-view.php:46
+#: inc/elementor/controls/search-form/monthly-view.php:28
+#: inc/elementor/controls/search-form/monthly-view.php:46
+#: inc/elementor/controls/search-form/tile-view.php:28
+#: inc/elementor/controls/search-form/tile-view.php:46
+#: inc/elementor/controls/search-form/timetable-view.php:28
+#: inc/elementor/controls/search-form/timetable-view.php:46
+#: inc/elementor/controls/search-form/weekly-view.php:28
+#: inc/elementor/controls/search-form/weekly-view.php:46
+#: inc/elementor/controls/search-form/yearly-view.php:28
+#: inc/elementor/controls/search-form/yearly-view.php:46
+#: inc/elementor/shortcode-builder.php:431
+#: inc/elementor/shortcode-builder.php:1340
+#: inc/elementor/shortcode-builder.php:1728
+#: inc/elementor/shortcode-builder.php:1913
+#: inc/elementor/shortcode-builder.php:2006
+#: inc/elementor/shortcode-builder.php:2287
+#: inc/elementor/shortcode-builder.php:2331
+#: inc/elementor/shortcode-builder.php:3005
+#: inc/elementor/shortcode-builder.php:3127
+#: inc/elementor/shortcode-builder.php:3249
+#: inc/elementor/shortcode-builder.php:3372
+#: inc/elementor/shortcode-builder.php:3548
+#: inc/elementor/shortcode-builder.php:3682
+#: inc/elementor/shortcode-builder.php:3878
+#: inc/elementor/shortcode-builder.php:4003
+#: inc/elementor/shortcode-builder.php:4319
+#: inc/elementor/shortcode-builder.php:4406
+#: inc/elementor/shortcode-builder.php:4706
+#: inc/elementor/shortcode-builder.php:4749
+#: inc/elementor/shortcode-builder.php:5155
+msgid "Hide"
+msgstr ""
+
+#: inc/elementor/controls/display-options/agenda-view.php:159
+#: inc/elementor/controls/display-options/availablespot-view.php:57
+#: inc/elementor/controls/display-options/carousel-view.php:239
+#: inc/elementor/controls/display-options/countdown-view.php:45
+#: inc/elementor/controls/display-options/cover-view.php:44
+#: inc/elementor/controls/display-options/daily-view.php:101
+#: inc/elementor/controls/display-options/grid-view.php:387
+#: inc/elementor/controls/display-options/list-view.php:314
+#: inc/elementor/controls/display-options/masonry-view.php:154
+#: inc/elementor/controls/display-options/monthly-view.php:122
+#: inc/elementor/controls/display-options/slider-view.php:172
+#: inc/elementor/controls/display-options/timeline-view.php:153
+#: inc/elementor/controls/display-options/timetable-view.php:167
+#: inc/elementor/controls/display-options/weekly-view.php:101
+#: inc/elementor/controls/display-options/yearly-view.php:149
+msgid "Include Local Time"
+msgstr ""
+
+#: inc/elementor/controls/display-options/agenda-view.php:176
+#: inc/elementor/controls/display-options/availablespot-view.php:74
+#: inc/elementor/controls/display-options/carousel-view.php:256
+#: inc/elementor/controls/display-options/countdown-view.php:62
+#: inc/elementor/controls/display-options/cover-view.php:61
+#: inc/elementor/controls/display-options/daily-view.php:118
+#: inc/elementor/controls/display-options/full-calendar-view.php:302
+#: inc/elementor/controls/display-options/grid-view.php:421
+#: inc/elementor/controls/display-options/list-view.php:348
+#: inc/elementor/controls/display-options/masonry-view.php:171
+#: inc/elementor/controls/display-options/monthly-view.php:139
+#: inc/elementor/controls/display-options/slider-view.php:189
+#: inc/elementor/controls/display-options/tile-view.php:132
+#: inc/elementor/controls/display-options/timeline-view.php:119
+#: inc/elementor/controls/display-options/timetable-view.php:184
+#: inc/elementor/controls/display-options/weekly-view.php:118
+#: inc/elementor/controls/display-options/yearly-view.php:166
+msgid "Display Normal Labels"
+msgstr ""
+
+#: inc/elementor/controls/display-options/agenda-view.php:193
+#: inc/elementor/controls/display-options/availablespot-view.php:91
+#: inc/elementor/controls/display-options/carousel-view.php:273
+#: inc/elementor/controls/display-options/countdown-view.php:79
+#: inc/elementor/controls/display-options/cover-view.php:78
+#: inc/elementor/controls/display-options/daily-view.php:135
+#: inc/elementor/controls/display-options/full-calendar-view.php:319
+#: inc/elementor/controls/display-options/grid-view.php:438
+#: inc/elementor/controls/display-options/list-view.php:365
+#: inc/elementor/controls/display-options/masonry-view.php:188
+#: inc/elementor/controls/display-options/monthly-view.php:156
+#: inc/elementor/controls/display-options/slider-view.php:206
+#: inc/elementor/controls/display-options/tile-view.php:149
+#: inc/elementor/controls/display-options/timeline-view.php:136
+#: inc/elementor/controls/display-options/timetable-view.php:201
+#: inc/elementor/controls/display-options/weekly-view.php:135
+#: inc/elementor/controls/display-options/yearly-view.php:183
+msgid "Display Reason for Cancellation"
+msgstr ""
+
+#: inc/elementor/controls/display-options/agenda-view.php:210
+#: inc/elementor/controls/display-options/custom-view.php:169
+#: inc/elementor/controls/display-options/list-view.php:420
+#: inc/elementor/controls/display-options/timeline-view.php:170
+msgid "Show Month Divider"
+msgstr ""
+
+#: inc/elementor/controls/display-options/agenda-view.php:227
+#: inc/elementor/controls/display-options/custom-view.php:186
+#: inc/elementor/controls/display-options/daily-view.php:152
+#: inc/elementor/controls/display-options/full-calendar-view.php:336
+#: inc/elementor/controls/display-options/grid-view.php:491
+#: inc/elementor/controls/display-options/list-view.php:457
+#: inc/elementor/controls/display-options/masonry-view.php:205
+#: inc/elementor/controls/display-options/monthly-view.php:173
+#: inc/elementor/controls/display-options/tile-view.php:166
+#: inc/elementor/controls/display-options/timeline-view.php:188
+#: inc/elementor/controls/display-options/timetable-view.php:218
+#: inc/elementor/controls/display-options/weekly-view.php:152
+#: inc/elementor/controls/display-options/yearly-view.php:200
+msgid "Single Event Display Method"
+msgstr ""
+
+#: inc/elementor/controls/display-options/agenda-view.php:232
+#: inc/elementor/controls/display-options/custom-view.php:191
+#: inc/elementor/controls/display-options/daily-view.php:157
+#: inc/elementor/controls/display-options/full-calendar-view.php:341
+#: inc/elementor/controls/display-options/grid-view.php:496
+#: inc/elementor/controls/display-options/list-view.php:462
+#: inc/elementor/controls/display-options/masonry-view.php:210
+#: inc/elementor/controls/display-options/monthly-view.php:178
+#: inc/elementor/controls/display-options/tile-view.php:171
+#: inc/elementor/controls/display-options/timeline-view.php:193
+#: inc/elementor/controls/display-options/timetable-view.php:223
+#: inc/elementor/controls/display-options/weekly-view.php:157
+#: inc/elementor/controls/display-options/yearly-view.php:205
+msgid "Current Window"
+msgstr ""
+
+#: inc/elementor/controls/display-options/agenda-view.php:233
+#: inc/elementor/controls/display-options/custom-view.php:192
+#: inc/elementor/controls/display-options/daily-view.php:158
+#: inc/elementor/controls/display-options/full-calendar-view.php:342
+#: inc/elementor/controls/display-options/grid-view.php:497
+#: inc/elementor/controls/display-options/list-view.php:463
+#: inc/elementor/controls/display-options/masonry-view.php:211
+#: inc/elementor/controls/display-options/monthly-view.php:179
+#: inc/elementor/controls/display-options/tile-view.php:172
+#: inc/elementor/controls/display-options/timeline-view.php:194
+#: inc/elementor/controls/display-options/timetable-view.php:224
+#: inc/elementor/controls/display-options/weekly-view.php:158
+#: inc/elementor/controls/display-options/yearly-view.php:206
+msgid "New Window"
+msgstr ""
+
+#: inc/elementor/controls/display-options/agenda-view.php:234
+#: inc/elementor/controls/display-options/custom-view.php:193
+#: inc/elementor/controls/display-options/daily-view.php:159
+#: inc/elementor/controls/display-options/full-calendar-view.php:343
+#: inc/elementor/controls/display-options/grid-view.php:498
+#: inc/elementor/controls/display-options/list-view.php:464
+#: inc/elementor/controls/display-options/masonry-view.php:212
+#: inc/elementor/controls/display-options/monthly-view.php:180
+#: inc/elementor/controls/display-options/tile-view.php:173
+#: inc/elementor/controls/display-options/timeline-view.php:195
+#: inc/elementor/controls/display-options/timetable-view.php:225
+#: inc/elementor/controls/display-options/weekly-view.php:159
+#: inc/elementor/controls/display-options/yearly-view.php:207
+msgid "Modal Popup"
+msgstr ""
+
+#: inc/elementor/controls/display-options/agenda-view.php:235
+#: inc/elementor/controls/display-options/custom-view.php:194
+#: inc/elementor/controls/display-options/daily-view.php:160
+#: inc/elementor/controls/display-options/full-calendar-view.php:344
+#: inc/elementor/controls/display-options/grid-view.php:499
+#: inc/elementor/controls/display-options/list-view.php:465
+#: inc/elementor/controls/display-options/masonry-view.php:213
+#: inc/elementor/controls/display-options/monthly-view.php:181
+#: inc/elementor/controls/display-options/tile-view.php:174
+#: inc/elementor/controls/display-options/timeline-view.php:196
+#: inc/elementor/controls/display-options/timetable-view.php:226
+#: inc/elementor/controls/display-options/weekly-view.php:160
+#: inc/elementor/controls/display-options/yearly-view.php:208
+msgid "Disable Link"
+msgstr ""
+
+#: inc/elementor/controls/display-options/availablespot-view.php:29
+#: inc/elementor/controls/display-options/countdown-view.php:138
+#: inc/elementor/controls/display-options/masonry-view.php:70
+#: inc/elementor/controls/display-options/tile-view.php:68
+msgid ""
+"Default value is \"j\". <a href=\"https://codex.wordpress.org/"
+"Formatting_Date_and_Time\" target=\"_blank\">Date format list</a>"
+msgstr ""
+
+#: inc/elementor/controls/display-options/availablespot-view.php:45
+#: inc/elementor/controls/display-options/carousel-view.php:90
+#: inc/elementor/controls/display-options/countdown-view.php:156
+#: inc/elementor/controls/display-options/grid-view.php:114
+#: inc/elementor/controls/display-options/grid-view.php:188
+#: inc/elementor/controls/display-options/grid-view.php:262
+#: inc/elementor/controls/display-options/list-view.php:189
+#: inc/elementor/controls/display-options/list-view.php:263
+#: inc/elementor/controls/display-options/masonry-view.php:85
+#: inc/elementor/controls/display-options/slider-view.php:88
+msgid ""
+"Default value is \"F\". <a href=\"https://codex.wordpress.org/"
+"Formatting_Date_and_Time\" target=\"_blank\">Date format list</a>"
+msgstr ""
+
+#: inc/elementor/controls/display-options/availablespot-view.php:108
+#: inc/elementor/controls/display-options/countdown-view.php:190
+msgid "-- Next Upcoming Event --"
+msgstr ""
+
+#: inc/elementor/controls/display-options/availablespot-view.php:113
+#: inc/elementor/controls/display-options/countdown-view.php:195
+#: inc/elementor/controls/display-options/cover-view.php:214
+msgid "No event found"
+msgstr ""
+
+#: inc/elementor/controls/display-options/carousel-view.php:29
+#: inc/elementor/controls/display-options/slider-view.php:29
+msgid "Type 1"
+msgstr ""
+
+#: inc/elementor/controls/display-options/carousel-view.php:30
+#: inc/elementor/controls/display-options/slider-view.php:30
+msgid "Type 2"
+msgstr ""
+
+#: inc/elementor/controls/display-options/carousel-view.php:31
+#: inc/elementor/controls/display-options/slider-view.php:31
+msgid "Type 3"
+msgstr ""
+
+#: inc/elementor/controls/display-options/carousel-view.php:69
+#: inc/elementor/controls/display-options/carousel-view.php:87
+#: inc/elementor/controls/display-options/carousel-view.php:105
+#: inc/elementor/controls/display-options/carousel-view.php:124
+#: inc/elementor/controls/display-options/carousel-view.php:143
+#: inc/elementor/controls/display-options/cover-view.php:190
+#: inc/elementor/controls/display-options/grid-view.php:74
+#: inc/elementor/controls/display-options/grid-view.php:222
+#: inc/elementor/controls/display-options/list-view.php:93
+#: inc/elementor/controls/display-options/list-view.php:223
+#: inc/elementor/controls/display-options/slider-view.php:70
+#: inc/elementor/controls/display-options/slider-view.php:85
+#: inc/elementor/controls/display-options/slider-view.php:100
+#: inc/elementor/controls/display-options/timeline-view.php:69
+msgid "Date Format"
+msgstr ""
+
+#: inc/elementor/controls/display-options/carousel-view.php:72
+#: inc/elementor/controls/display-options/cover-view.php:137
+#: inc/elementor/controls/display-options/grid-view.php:96
+#: inc/elementor/controls/display-options/grid-view.php:133
+#: inc/elementor/controls/display-options/grid-view.php:170
+#: inc/elementor/controls/display-options/grid-view.php:244
+#: inc/elementor/controls/display-options/list-view.php:116
+#: inc/elementor/controls/display-options/list-view.php:171
+#: inc/elementor/controls/display-options/list-view.php:245
+#: inc/elementor/controls/display-options/slider-view.php:73
+msgid ""
+"Default value is \"d\". <a href=\"https://codex.wordpress.org/"
+"Formatting_Date_and_Time\" target=\"_blank\">Date format list</a>"
+msgstr ""
+
+#: inc/elementor/controls/display-options/carousel-view.php:108
+#: inc/elementor/controls/display-options/countdown-view.php:174
+#: inc/elementor/controls/display-options/cover-view.php:173
+msgid ""
+"Default value is \"Y\". <a href=\"https://codex.wordpress.org/"
+"Formatting_Date_and_Time\" target=\"_blank\">Date format list</a>"
+msgstr ""
+
+#: inc/elementor/controls/display-options/carousel-view.php:127
+#: inc/elementor/controls/display-options/carousel-view.php:146
+msgid ""
+"Default value is \"M d, Y\". <a href=\"https://codex.wordpress.org/"
+"Formatting_Date_and_Time\" target=\"_blank\">Date format list</a>"
+msgstr ""
+
+#: inc/elementor/controls/display-options/carousel-view.php:182
+#: inc/elementor/controls/display-options/custom-view.php:76
+#: inc/elementor/controls/display-options/grid-view.php:330
+#: inc/elementor/controls/display-options/tile-view.php:96
+msgid "Count in row"
+msgstr ""
+
+#: inc/elementor/controls/display-options/carousel-view.php:186
+#: inc/elementor/controls/display-options/custom-view.php:81
+#: inc/elementor/controls/display-options/grid-view.php:335
+#: inc/elementor/controls/display-options/tile-view.php:102
+msgid "2"
+msgstr ""
+
+#: inc/elementor/controls/display-options/carousel-view.php:187
+#: inc/elementor/controls/display-options/custom-view.php:82
+#: inc/elementor/controls/display-options/grid-view.php:336
+#: inc/elementor/controls/display-options/tile-view.php:101
+msgid "3"
+msgstr ""
+
+#: inc/elementor/controls/display-options/carousel-view.php:188
+#: inc/elementor/controls/display-options/carousel-view.php:189
+#: inc/elementor/controls/display-options/custom-view.php:83
+#: inc/elementor/controls/display-options/grid-view.php:337
+#: inc/elementor/controls/display-options/tile-view.php:100
+msgid "4"
+msgstr ""
+
+#: inc/elementor/controls/display-options/carousel-view.php:190
+#: inc/elementor/controls/display-options/custom-view.php:84
+#: inc/elementor/controls/display-options/grid-view.php:338
+#: inc/elementor/controls/display-options/timetable-view.php:109
+msgid "6"
+msgstr ""
+
+#: inc/elementor/controls/display-options/carousel-view.php:221
+#: inc/elementor/controls/display-options/slider-view.php:154
+msgid "Auto Play Time"
+msgstr ""
+
+#: inc/elementor/controls/display-options/carousel-view.php:223
+#: inc/elementor/controls/display-options/slider-view.php:156
+msgid "eg. 4000 default is 4 second"
+msgstr ""
+
+#: inc/elementor/controls/display-options/countdown-view.php:30
+msgid "Style 1"
+msgstr ""
+
+#: inc/elementor/controls/display-options/countdown-view.php:31
+msgid "Style 2"
+msgstr ""
+
+#: inc/elementor/controls/display-options/countdown-view.php:32
+msgid "Style 3"
+msgstr ""
+
+#: inc/elementor/controls/display-options/countdown-view.php:100
+#: inc/elementor/controls/display-options/countdown-view.php:119
+msgid ""
+"Default value is \"j F Y\". <a href=\"https://codex.wordpress.org/"
+"Formatting_Date_and_Time\" target=\"_blank\">Date format list</a>"
+msgstr ""
+
+#: inc/elementor/controls/display-options/countdown-view.php:171
+#: inc/elementor/controls/display-options/cover-view.php:170
+#: inc/elementor/controls/display-options/grid-view.php:203
+#: inc/elementor/controls/display-options/grid-view.php:277
+#: inc/elementor/controls/display-options/list-view.php:149
+#: inc/elementor/controls/display-options/list-view.php:204
+msgid "Date Format 3"
+msgstr ""
+
+#: inc/elementor/controls/display-options/countdown-view.php:201
+msgid "Event"
+msgstr ""
+
+#: inc/elementor/controls/display-options/cover-view.php:29
+#: inc/elementor/controls/display-options/grid-view.php:31
+#: inc/elementor/controls/display-options/list-view.php:31
+#: inc/elementor/controls/display-options/monthly-view.php:30
+msgid "Classic"
+msgstr ""
+
+#: inc/elementor/controls/display-options/cover-view.php:31
+#: inc/elementor/controls/display-options/grid-view.php:34
+#: inc/elementor/controls/display-options/list-view.php:33
+#: inc/elementor/controls/display-options/monthly-view.php:32
+#: inc/elementor/controls/display-options/timetable-view.php:29
+#: inc/elementor/controls/display-options/yearly-view.php:30
+msgid "Modern"
+msgstr ""
+
+#: inc/elementor/controls/display-options/cover-view.php:99
+msgid ""
+"Default value is \"F d\". <a href=\"https://codex.wordpress.org/"
+"Formatting_Date_and_Time\" target=\"_blank\">Date format list</a>"
+msgstr ""
+
+#: inc/elementor/controls/display-options/cover-view.php:155
+#: inc/elementor/controls/display-options/grid-view.php:151
+#: inc/elementor/controls/display-options/list-view.php:134
+#: inc/elementor/controls/display-options/tile-view.php:83
+msgid ""
+"Default value is \"M\". <a href=\"https://codex.wordpress.org/"
+"Formatting_Date_and_Time\" target=\"_blank\">Date format list</a>"
+msgstr ""
+
+#: inc/elementor/controls/display-options/cover-view.php:193
+msgid "Default value is \"l, F d Y\""
+msgstr ""
+
+#: inc/elementor/controls/display-options/cover-view.php:209
+msgid "Choose Event"
+msgstr ""
+
+#: inc/elementor/controls/display-options/custom-view.php:80
+#: inc/elementor/controls/display-options/grid-view.php:334
+msgid "1"
+msgstr ""
+
+#: inc/elementor/controls/display-options/custom-view.php:85
+#: inc/elementor/controls/display-options/grid-view.php:339
+msgid "12"
+msgstr ""
+
+#: inc/elementor/controls/display-options/custom-view.php:134
+#: inc/elementor/controls/display-options/grid-view.php:455
+#: inc/elementor/controls/display-options/list-view.php:382
+msgid "Show Map on top"
+msgstr ""
+
+#: inc/elementor/controls/display-options/custom-view.php:151
+#: inc/elementor/controls/display-options/grid-view.php:471
+#: inc/elementor/controls/display-options/list-view.php:399
+#: inc/elementor/controls/display-options/map-view.php:85
+msgid "Geolocation"
+msgstr ""
+
+#: inc/elementor/controls/display-options/custom-view.php:153
+#: inc/elementor/controls/display-options/grid-view.php:473
+#: inc/elementor/controls/display-options/list-view.php:401
+msgid "ON"
+msgstr ""
+
+#: inc/elementor/controls/display-options/custom-view.php:154
+#: inc/elementor/controls/display-options/grid-view.php:474
+#: inc/elementor/controls/display-options/list-view.php:402
+msgid "OFF"
+msgstr ""
+
+#: inc/elementor/controls/display-options/daily-view.php:66
+#: inc/elementor/controls/display-options/monthly-view.php:87
+#: inc/elementor/controls/display-options/timetable-view.php:85
+#: inc/elementor/controls/display-options/weekly-view.php:66
+#: inc/elementor/controls/display-options/yearly-view.php:114
+msgid "Events per day"
+msgstr ""
+
+#: inc/elementor/controls/display-options/daily-view.php:84
+#: inc/elementor/controls/display-options/monthly-view.php:105
+#: inc/elementor/controls/display-options/tile-view.php:115
+#: inc/elementor/controls/display-options/timetable-view.php:150
+#: inc/elementor/controls/display-options/weekly-view.php:84
+#: inc/elementor/controls/display-options/yearly-view.php:132
+msgid "Next/Previous Buttons"
+msgstr ""
+
+#: inc/elementor/controls/display-options/full-calendar-view.php:66
+msgid "Default View"
+msgstr ""
+
+#: inc/elementor/controls/display-options/full-calendar-view.php:70
+#: inc/elementor/controls/display-options/full-calendar-view.php:109
+#: inc/elementor/shortcode-builder.php:106
+#: inc/elementor/shortcode-builder.php:136
+msgid "List View"
+msgstr ""
+
+#: inc/elementor/controls/display-options/full-calendar-view.php:71
+#: inc/elementor/controls/display-options/full-calendar-view.php:144
+#: inc/elementor/shortcode-builder.php:107
+#: inc/elementor/shortcode-builder.php:137
+msgid "Grid View"
+msgstr ""
+
+#: inc/elementor/controls/display-options/full-calendar-view.php:72
+#: inc/elementor/controls/display-options/full-calendar-view.php:160
+#: inc/elementor/shortcode-builder.php:123
+#: inc/elementor/shortcode-builder.php:153
+msgid "Tile View"
+msgstr ""
+
+#: inc/elementor/controls/display-options/full-calendar-view.php:73
+#: inc/elementor/controls/display-options/full-calendar-view.php:177
+#: inc/elementor/shortcode-builder.php:110
+#: inc/elementor/shortcode-builder.php:140
+msgid "Yearly View"
+msgstr ""
+
+#: inc/elementor/controls/display-options/full-calendar-view.php:74
+#: inc/elementor/controls/display-options/full-calendar-view.php:231
+msgid "Monthly/Calendar View"
+msgstr ""
+
+#: inc/elementor/controls/display-options/full-calendar-view.php:75
+#: inc/elementor/controls/display-options/full-calendar-view.php:248
+#: inc/elementor/shortcode-builder.php:113
+#: inc/elementor/shortcode-builder.php:143
+msgid "Weekly View"
+msgstr ""
+
+#: inc/elementor/controls/display-options/full-calendar-view.php:76
+#: inc/elementor/controls/display-options/full-calendar-view.php:265
+#: inc/elementor/shortcode-builder.php:112
+#: inc/elementor/shortcode-builder.php:142
+msgid "Daily View"
+msgstr ""
+
+#: inc/elementor/controls/display-options/full-calendar-view.php:90
+msgid "Monthly Style"
+msgstr ""
+
+#: inc/elementor/controls/display-options/full-calendar-view.php:95
+#: inc/elementor/controls/display-options/grid-view.php:37
+#: inc/elementor/controls/display-options/monthly-view.php:33
+msgid "Novel"
+msgstr ""
+
+#: inc/elementor/controls/display-options/full-calendar-view.php:96
+#: inc/elementor/controls/display-options/grid-view.php:35
+#: inc/elementor/controls/display-options/monthly-view.php:34
+msgid "Simple"
+msgstr ""
+
+#: inc/elementor/controls/display-options/full-calendar-view.php:127
+msgid "List View Date Formats"
+msgstr ""
+
+#: inc/elementor/controls/display-options/full-calendar-view.php:130
+#: inc/elementor/controls/display-options/list-view.php:226
+msgid ""
+"Default value is \"d M\". <a href=\"https://codex.wordpress.org/"
+"Formatting_Date_and_Time\" target=\"_blank\">Date format list</a>"
+msgstr ""
+
+#: inc/elementor/controls/display-options/full-calendar-view.php:282
+msgid "Display Event Price"
+msgstr ""
+
+#: inc/elementor/controls/display-options/grid-view.php:33
+#: inc/elementor/controls/display-options/list-view.php:32
+msgid "Minimal"
+msgstr ""
+
+#: inc/elementor/controls/display-options/grid-view.php:36
+msgid "Colorful"
+msgstr ""
+
+#: inc/elementor/controls/display-options/grid-view.php:77
+#: inc/elementor/controls/display-options/grid-view.php:225
+#: inc/elementor/controls/display-options/list-view.php:96
+msgid ""
+"Default value is \"M d Y\". <a href=\"https://codex.wordpress.org/"
+"Formatting_Date_and_Time\" target=\"_blank\">Date format list</a>"
+msgstr ""
+
+#: inc/elementor/controls/display-options/grid-view.php:299
+#: inc/elementor/controls/display-options/timeline-view.php:72
+msgid ""
+"Default value is \"d F Y\". <a href=\"https://codex.wordpress.org/"
+"Formatting_Date_and_Time\" target=\"_blank\">Date format list</a>"
+msgstr ""
+
+#: inc/elementor/controls/display-options/grid-view.php:404
+#: inc/elementor/controls/display-options/list-view.php:331
+msgid "Include Events Times"
+msgstr ""
+
+#: inc/elementor/controls/display-options/list-view.php:34
+msgid "Standard"
+msgstr ""
+
+#: inc/elementor/controls/display-options/list-view.php:35
+msgid "Accordion"
+msgstr ""
+
+#: inc/elementor/controls/display-options/list-view.php:437
+msgid "Toggle for Month Divider"
+msgstr ""
+
+#: inc/elementor/controls/display-options/map-view.php:67
+msgid "Maximum events"
+msgstr ""
+
+#: inc/elementor/controls/display-options/map-view.php:69
+msgid "eg. 200"
+msgstr ""
+
+#: inc/elementor/controls/display-options/map-view.php:86
+msgid "The geolocation feature works only in secure (https) websites."
+msgstr ""
+
+#: inc/elementor/controls/display-options/map-view.php:103
+msgid "Zoom"
+msgstr ""
+
+#: inc/elementor/controls/display-options/map-view.php:140
+msgid "View Mode"
+msgstr ""
+
+#: inc/elementor/controls/display-options/map-view.php:144
+#: inc/elementor/shortcode-builder.php:470
+#: inc/elementor/shortcode-builder.php:1488
+#: inc/elementor/shortcode-builder.php:1798
+#: inc/elementor/shortcode-builder.php:4454
+#: inc/elementor/shortcode-builder.php:4843
+#: inc/elementor/shortcode-builder.php:5666
+msgid "Normal"
+msgstr ""
+
+#: inc/elementor/controls/display-options/map-view.php:145
+msgid "Side"
+msgstr ""
+
+#: inc/elementor/controls/display-options/map-view.php:157
+#: inc/elementor/controls/display-options/map-view.php:159
+msgid "Center Lat"
+msgstr ""
+
+#: inc/elementor/controls/display-options/map-view.php:171
+#: inc/elementor/controls/display-options/map-view.php:173
+msgid "Center Long"
+msgstr ""
+
+#: inc/elementor/controls/display-options/masonry-view.php:99
+msgid "eg. 24"
+msgstr ""
+
+#: inc/elementor/controls/display-options/masonry-view.php:116
+msgid "Filter By"
+msgstr ""
+
+#: inc/elementor/controls/display-options/masonry-view.php:120
+msgid "----"
+msgstr ""
+
+#: inc/elementor/controls/display-options/masonry-view.php:121
+#: inc/elementor/controls/search-form/agenda-view.php:64
+#: inc/elementor/controls/search-form/custom-view.php:64
+#: inc/elementor/controls/search-form/daily-view.php:64
+#: inc/elementor/controls/search-form/full-calendar-view.php:64
+#: inc/elementor/controls/search-form/grid-view.php:64
+#: inc/elementor/controls/search-form/list-view.php:64
+#: inc/elementor/controls/search-form/map-view.php:64
+#: inc/elementor/controls/search-form/monthly-view.php:64
+#: inc/elementor/controls/search-form/tile-view.php:64
+#: inc/elementor/controls/search-form/timetable-view.php:64
+#: inc/elementor/controls/search-form/weekly-view.php:64
+#: inc/elementor/controls/search-form/yearly-view.php:64
+msgid "Category"
+msgstr ""
+
+#: inc/elementor/controls/display-options/masonry-view.php:122
+#: inc/elementor/controls/search-form/agenda-view.php:174
+#: inc/elementor/controls/search-form/custom-view.php:174
+#: inc/elementor/controls/search-form/daily-view.php:174
+#: inc/elementor/controls/search-form/full-calendar-view.php:174
+#: inc/elementor/controls/search-form/grid-view.php:174
+#: inc/elementor/controls/search-form/list-view.php:175
+#: inc/elementor/controls/search-form/map-view.php:174
+#: inc/elementor/controls/search-form/monthly-view.php:174
+#: inc/elementor/controls/search-form/tile-view.php:174
+#: inc/elementor/controls/search-form/timetable-view.php:174
+#: inc/elementor/controls/search-form/weekly-view.php:174
+#: inc/elementor/controls/search-form/yearly-view.php:174
+msgid "Label"
+msgstr ""
+
+#: inc/elementor/controls/display-options/masonry-view.php:123
+#: inc/elementor/controls/search-form/agenda-view.php:86
+#: inc/elementor/controls/search-form/custom-view.php:86
+#: inc/elementor/controls/search-form/daily-view.php:86
+#: inc/elementor/controls/search-form/full-calendar-view.php:86
+#: inc/elementor/controls/search-form/grid-view.php:86
+#: inc/elementor/controls/search-form/list-view.php:87
+#: inc/elementor/controls/search-form/map-view.php:86
+#: inc/elementor/controls/search-form/monthly-view.php:86
+#: inc/elementor/controls/search-form/tile-view.php:86
+#: inc/elementor/controls/search-form/timetable-view.php:86
+#: inc/elementor/controls/search-form/weekly-view.php:86
+#: inc/elementor/controls/search-form/yearly-view.php:86
+msgid "Location"
+msgstr ""
+
+#: inc/elementor/controls/display-options/masonry-view.php:124
+#: inc/elementor/controls/search-form/agenda-view.php:108
+#: inc/elementor/controls/search-form/custom-view.php:108
+#: inc/elementor/controls/search-form/daily-view.php:108
+#: inc/elementor/controls/search-form/full-calendar-view.php:108
+#: inc/elementor/controls/search-form/grid-view.php:108
+#: inc/elementor/controls/search-form/list-view.php:109
+#: inc/elementor/controls/search-form/map-view.php:108
+#: inc/elementor/controls/search-form/monthly-view.php:108
+#: inc/elementor/controls/search-form/tile-view.php:108
+#: inc/elementor/controls/search-form/timetable-view.php:108
+#: inc/elementor/controls/search-form/weekly-view.php:108
+#: inc/elementor/controls/search-form/yearly-view.php:108
+msgid "Organizer"
+msgstr ""
+
+#: inc/elementor/controls/display-options/masonry-view.php:137
+msgid "Convert Masonry to Grid"
+msgstr ""
+
+#: inc/elementor/controls/display-options/slider-view.php:32
+msgid "Type 4"
+msgstr ""
+
+#: inc/elementor/controls/display-options/slider-view.php:33
+msgid "Type 5"
+msgstr ""
+
+#: inc/elementor/controls/display-options/timetable-view.php:48
+#: inc/elementor/controls/display-options/weekly-view.php:29
+msgid "Current Week"
+msgstr ""
+
+#: inc/elementor/controls/display-options/timetable-view.php:49
+#: inc/elementor/controls/display-options/weekly-view.php:30
+msgid "Next Week"
+msgstr ""
+
+#: inc/elementor/controls/display-options/timetable-view.php:104
+msgid "Number of Days"
+msgstr ""
+
+#: inc/elementor/controls/display-options/timetable-view.php:108
+msgid "5"
+msgstr ""
+
+#: inc/elementor/controls/display-options/timetable-view.php:110
+msgid "7"
+msgstr ""
+
+#: inc/elementor/controls/display-options/timetable-view.php:124
+msgid "Week Start"
+msgstr ""
+
+#: inc/elementor/controls/display-options/timetable-view.php:128
+msgid "Inherite from WordPress options"
+msgstr ""
+
+#: inc/elementor/controls/display-options/timetable-view.php:129
+msgid "Sunday"
+msgstr ""
+
+#: inc/elementor/controls/display-options/timetable-view.php:130
+msgid "Monday"
+msgstr ""
+
+#: inc/elementor/controls/display-options/timetable-view.php:131
+msgid "Tuesday"
+msgstr ""
+
+#: inc/elementor/controls/display-options/timetable-view.php:132
+msgid "Wednesday"
+msgstr ""
+
+#: inc/elementor/controls/display-options/timetable-view.php:133
+msgid "Thursday"
+msgstr ""
+
+#: inc/elementor/controls/display-options/timetable-view.php:134
+msgid "Friday"
+msgstr ""
+
+#: inc/elementor/controls/display-options/timetable-view.php:135
+msgid "Saturday"
+msgstr ""
+
+#: inc/elementor/controls/display-options/yearly-view.php:48
+msgid "Start of Current Year"
+msgstr ""
+
+#: inc/elementor/controls/display-options/yearly-view.php:49
+msgid "Start of Next Year"
+msgstr ""
+
+#: inc/elementor/controls/filter-options.php:32
+msgid "Categories"
+msgstr ""
+
+#: inc/elementor/controls/filter-options.php:50
+msgid "Locations"
+msgstr ""
+
+#: inc/elementor/controls/filter-options.php:68
+msgid "Organizers"
+msgstr ""
+
+#: inc/elementor/controls/filter-options.php:86
+msgid "Labels"
+msgstr ""
+
+#: inc/elementor/controls/filter-options.php:104
+msgid "Tags"
+msgstr ""
+
+#: inc/elementor/controls/filter-options.php:128
+msgid "Authors"
+msgstr ""
+
+#: inc/elementor/controls/filter-options.php:138
+msgid "Occurrences"
+msgstr ""
+
+#: inc/elementor/controls/filter-options.php:142
+msgid "Disable"
+msgstr ""
+
+#: inc/elementor/controls/filter-options.php:143
+msgid "Show only one occurrence of events"
+msgstr ""
+
+#: inc/elementor/controls/filter-options.php:151
+msgid "Expired / Ongoing"
+msgstr ""
+
+#: inc/elementor/controls/filter-options.php:155
+msgid "Include Expired Events"
+msgstr ""
+
+#: inc/elementor/controls/filter-options.php:156
+msgid "Show Only Expired Events"
+msgstr ""
+
+#: inc/elementor/controls/filter-options.php:157
+msgid "Include Ongoing Events"
+msgstr ""
+
+#: inc/elementor/controls/filter-options.php:158
+msgid "Show Only Ongoing Events"
+msgstr ""
+
+#: inc/elementor/controls/filter-options.php:160
+msgid ""
+"<strong style=\"color: #000;\">Expired Events:</strong><br /><br /><strong>— "
+"Include Expired Events:</strong><br />You can include past/expired events if "
+"you like so it will show upcoming and expired events based on start date "
+"that you selected.<br /><br /><strong>— Show Only Expired Events:</"
+"strong><br />It shows only expired/past events. It will use the selected "
+"start date as first day and then go to older dates.<br /><br /><strong style="
+"\"color: #000;\">Ongoing Events:</strong><br /><br /><strong>— Include "
+"Ongoing Events:</strong><br />It includes ongoing events on List, Grid, "
+"Agenda and Timeline skins.<br /><br /><strong>— Show Only Ongoing Events:</"
+"strong><br />It shows only ongoing events on List, Grid, Agenda and Timeline "
+"skins.<br /><br /><a href=\"https://webnus.net/dox/modern-events-calendar/"
+"setup-date-option-on-shortcodes/\" target=\"_blank\">More Information</a>"
+msgstr ""
+
+#: inc/elementor/controls/search-form/agenda-view.php:25
+#: inc/elementor/controls/search-form/custom-view.php:25
+#: inc/elementor/controls/search-form/daily-view.php:25
+#: inc/elementor/controls/search-form/full-calendar-view.php:25
+#: inc/elementor/controls/search-form/grid-view.php:25
+#: inc/elementor/controls/search-form/list-view.php:25
+#: inc/elementor/controls/search-form/map-view.php:25
+#: inc/elementor/controls/search-form/monthly-view.php:25
+#: inc/elementor/controls/search-form/tile-view.php:25
+#: inc/elementor/controls/search-form/timetable-view.php:25
+#: inc/elementor/controls/search-form/weekly-view.php:25
+#: inc/elementor/controls/search-form/yearly-view.php:25
+msgid "Search Box"
+msgstr ""
+
+#: inc/elementor/controls/search-form/agenda-view.php:43
+#: inc/elementor/controls/search-form/custom-view.php:43
+#: inc/elementor/controls/search-form/daily-view.php:43
+#: inc/elementor/controls/search-form/full-calendar-view.php:43
+#: inc/elementor/controls/search-form/grid-view.php:43
+#: inc/elementor/controls/search-form/list-view.php:43
+#: inc/elementor/controls/search-form/map-view.php:43
+#: inc/elementor/controls/search-form/monthly-view.php:43
+#: inc/elementor/controls/search-form/tile-view.php:43
+#: inc/elementor/controls/search-form/timetable-view.php:43
+#: inc/elementor/controls/search-form/weekly-view.php:43
+#: inc/elementor/controls/search-form/yearly-view.php:43
+msgid "Show Labels"
+msgstr ""
+
+#: inc/elementor/controls/search-form/agenda-view.php:68
+#: inc/elementor/controls/search-form/agenda-view.php:90
+#: inc/elementor/controls/search-form/agenda-view.php:112
+#: inc/elementor/controls/search-form/agenda-view.php:134
+#: inc/elementor/controls/search-form/agenda-view.php:156
+#: inc/elementor/controls/search-form/agenda-view.php:178
+#: inc/elementor/controls/search-form/agenda-view.php:200
+#: inc/elementor/controls/search-form/agenda-view.php:242
+#: inc/elementor/controls/search-form/agenda-view.php:264
+#: inc/elementor/controls/search-form/agenda-view.php:287
+#: inc/elementor/controls/search-form/agenda-view.php:309
+#: inc/elementor/controls/search-form/custom-view.php:68
+#: inc/elementor/controls/search-form/custom-view.php:90
+#: inc/elementor/controls/search-form/custom-view.php:112
+#: inc/elementor/controls/search-form/custom-view.php:134
+#: inc/elementor/controls/search-form/custom-view.php:156
+#: inc/elementor/controls/search-form/custom-view.php:178
+#: inc/elementor/controls/search-form/custom-view.php:200
+#: inc/elementor/controls/search-form/custom-view.php:242
+#: inc/elementor/controls/search-form/custom-view.php:264
+#: inc/elementor/controls/search-form/custom-view.php:287
+#: inc/elementor/controls/search-form/custom-view.php:309
+#: inc/elementor/controls/search-form/daily-view.php:68
+#: inc/elementor/controls/search-form/daily-view.php:90
+#: inc/elementor/controls/search-form/daily-view.php:112
+#: inc/elementor/controls/search-form/daily-view.php:134
+#: inc/elementor/controls/search-form/daily-view.php:156
+#: inc/elementor/controls/search-form/daily-view.php:178
+#: inc/elementor/controls/search-form/daily-view.php:200
+#: inc/elementor/controls/search-form/daily-view.php:242
+#: inc/elementor/controls/search-form/daily-view.php:264
+#: inc/elementor/controls/search-form/daily-view.php:287
+#: inc/elementor/controls/search-form/daily-view.php:309
+#: inc/elementor/controls/search-form/full-calendar-view.php:68
+#: inc/elementor/controls/search-form/full-calendar-view.php:90
+#: inc/elementor/controls/search-form/full-calendar-view.php:112
+#: inc/elementor/controls/search-form/full-calendar-view.php:134
+#: inc/elementor/controls/search-form/full-calendar-view.php:156
+#: inc/elementor/controls/search-form/full-calendar-view.php:178
+#: inc/elementor/controls/search-form/full-calendar-view.php:200
+#: inc/elementor/controls/search-form/full-calendar-view.php:242
+#: inc/elementor/controls/search-form/full-calendar-view.php:264
+#: inc/elementor/controls/search-form/full-calendar-view.php:287
+#: inc/elementor/controls/search-form/full-calendar-view.php:309
+#: inc/elementor/controls/search-form/grid-view.php:68
+#: inc/elementor/controls/search-form/grid-view.php:90
+#: inc/elementor/controls/search-form/grid-view.php:112
+#: inc/elementor/controls/search-form/grid-view.php:134
+#: inc/elementor/controls/search-form/grid-view.php:156
+#: inc/elementor/controls/search-form/grid-view.php:178
+#: inc/elementor/controls/search-form/grid-view.php:200
+#: inc/elementor/controls/search-form/grid-view.php:242
+#: inc/elementor/controls/search-form/grid-view.php:264
+#: inc/elementor/controls/search-form/grid-view.php:287
+#: inc/elementor/controls/search-form/grid-view.php:309
+#: inc/elementor/controls/search-form/list-view.php:68
+#: inc/elementor/controls/search-form/list-view.php:91
+#: inc/elementor/controls/search-form/list-view.php:113
+#: inc/elementor/controls/search-form/list-view.php:135
+#: inc/elementor/controls/search-form/list-view.php:157
+#: inc/elementor/controls/search-form/list-view.php:179
+#: inc/elementor/controls/search-form/list-view.php:201
+#: inc/elementor/controls/search-form/list-view.php:243
+#: inc/elementor/controls/search-form/list-view.php:265
+#: inc/elementor/controls/search-form/list-view.php:288
+#: inc/elementor/controls/search-form/list-view.php:310
+#: inc/elementor/controls/search-form/map-view.php:68
+#: inc/elementor/controls/search-form/map-view.php:90
+#: inc/elementor/controls/search-form/map-view.php:112
+#: inc/elementor/controls/search-form/map-view.php:134
+#: inc/elementor/controls/search-form/map-view.php:156
+#: inc/elementor/controls/search-form/map-view.php:178
+#: inc/elementor/controls/search-form/map-view.php:200
+#: inc/elementor/controls/search-form/map-view.php:242
+#: inc/elementor/controls/search-form/map-view.php:264
+#: inc/elementor/controls/search-form/map-view.php:287
+#: inc/elementor/controls/search-form/map-view.php:309
+#: inc/elementor/controls/search-form/monthly-view.php:68
+#: inc/elementor/controls/search-form/monthly-view.php:90
+#: inc/elementor/controls/search-form/monthly-view.php:112
+#: inc/elementor/controls/search-form/monthly-view.php:134
+#: inc/elementor/controls/search-form/monthly-view.php:156
+#: inc/elementor/controls/search-form/monthly-view.php:178
+#: inc/elementor/controls/search-form/monthly-view.php:200
+#: inc/elementor/controls/search-form/monthly-view.php:242
+#: inc/elementor/controls/search-form/monthly-view.php:264
+#: inc/elementor/controls/search-form/monthly-view.php:287
+#: inc/elementor/controls/search-form/monthly-view.php:309
+#: inc/elementor/controls/search-form/tile-view.php:68
+#: inc/elementor/controls/search-form/tile-view.php:90
+#: inc/elementor/controls/search-form/tile-view.php:112
+#: inc/elementor/controls/search-form/tile-view.php:134
+#: inc/elementor/controls/search-form/tile-view.php:156
+#: inc/elementor/controls/search-form/tile-view.php:178
+#: inc/elementor/controls/search-form/tile-view.php:200
+#: inc/elementor/controls/search-form/tile-view.php:242
+#: inc/elementor/controls/search-form/tile-view.php:264
+#: inc/elementor/controls/search-form/tile-view.php:287
+#: inc/elementor/controls/search-form/tile-view.php:309
+#: inc/elementor/controls/search-form/timetable-view.php:68
+#: inc/elementor/controls/search-form/timetable-view.php:90
+#: inc/elementor/controls/search-form/timetable-view.php:112
+#: inc/elementor/controls/search-form/timetable-view.php:134
+#: inc/elementor/controls/search-form/timetable-view.php:156
+#: inc/elementor/controls/search-form/timetable-view.php:178
+#: inc/elementor/controls/search-form/timetable-view.php:200
+#: inc/elementor/controls/search-form/timetable-view.php:242
+#: inc/elementor/controls/search-form/timetable-view.php:264
+#: inc/elementor/controls/search-form/timetable-view.php:287
+#: inc/elementor/controls/search-form/timetable-view.php:309
+#: inc/elementor/controls/search-form/weekly-view.php:68
+#: inc/elementor/controls/search-form/weekly-view.php:90
+#: inc/elementor/controls/search-form/weekly-view.php:112
+#: inc/elementor/controls/search-form/weekly-view.php:134
+#: inc/elementor/controls/search-form/weekly-view.php:156
+#: inc/elementor/controls/search-form/weekly-view.php:178
+#: inc/elementor/controls/search-form/weekly-view.php:200
+#: inc/elementor/controls/search-form/weekly-view.php:242
+#: inc/elementor/controls/search-form/weekly-view.php:264
+#: inc/elementor/controls/search-form/weekly-view.php:287
+#: inc/elementor/controls/search-form/weekly-view.php:309
+#: inc/elementor/controls/search-form/yearly-view.php:68
+#: inc/elementor/controls/search-form/yearly-view.php:90
+#: inc/elementor/controls/search-form/yearly-view.php:112
+#: inc/elementor/controls/search-form/yearly-view.php:134
+#: inc/elementor/controls/search-form/yearly-view.php:156
+#: inc/elementor/controls/search-form/yearly-view.php:178
+#: inc/elementor/controls/search-form/yearly-view.php:200
+#: inc/elementor/controls/search-form/yearly-view.php:242
+#: inc/elementor/controls/search-form/yearly-view.php:264
+#: inc/elementor/controls/search-form/yearly-view.php:287
+#: inc/elementor/controls/search-form/yearly-view.php:309
+msgid "Disabled"
+msgstr ""
+
+#: inc/elementor/controls/search-form/agenda-view.php:69
+#: inc/elementor/controls/search-form/agenda-view.php:91
+#: inc/elementor/controls/search-form/agenda-view.php:113
+#: inc/elementor/controls/search-form/agenda-view.php:135
+#: inc/elementor/controls/search-form/agenda-view.php:157
+#: inc/elementor/controls/search-form/agenda-view.php:179
+#: inc/elementor/controls/search-form/agenda-view.php:265
+#: inc/elementor/controls/search-form/custom-view.php:69
+#: inc/elementor/controls/search-form/custom-view.php:91
+#: inc/elementor/controls/search-form/custom-view.php:113
+#: inc/elementor/controls/search-form/custom-view.php:135
+#: inc/elementor/controls/search-form/custom-view.php:157
+#: inc/elementor/controls/search-form/custom-view.php:179
+#: inc/elementor/controls/search-form/custom-view.php:265
+#: inc/elementor/controls/search-form/daily-view.php:69
+#: inc/elementor/controls/search-form/daily-view.php:91
+#: inc/elementor/controls/search-form/daily-view.php:113
+#: inc/elementor/controls/search-form/daily-view.php:135
+#: inc/elementor/controls/search-form/daily-view.php:157
+#: inc/elementor/controls/search-form/daily-view.php:179
+#: inc/elementor/controls/search-form/daily-view.php:265
+#: inc/elementor/controls/search-form/full-calendar-view.php:69
+#: inc/elementor/controls/search-form/full-calendar-view.php:91
+#: inc/elementor/controls/search-form/full-calendar-view.php:113
+#: inc/elementor/controls/search-form/full-calendar-view.php:135
+#: inc/elementor/controls/search-form/full-calendar-view.php:157
+#: inc/elementor/controls/search-form/full-calendar-view.php:179
+#: inc/elementor/controls/search-form/full-calendar-view.php:265
+#: inc/elementor/controls/search-form/grid-view.php:69
+#: inc/elementor/controls/search-form/grid-view.php:91
+#: inc/elementor/controls/search-form/grid-view.php:113
+#: inc/elementor/controls/search-form/grid-view.php:135
+#: inc/elementor/controls/search-form/grid-view.php:157
+#: inc/elementor/controls/search-form/grid-view.php:179
+#: inc/elementor/controls/search-form/grid-view.php:265
+#: inc/elementor/controls/search-form/list-view.php:69
+#: inc/elementor/controls/search-form/list-view.php:92
+#: inc/elementor/controls/search-form/list-view.php:114
+#: inc/elementor/controls/search-form/list-view.php:136
+#: inc/elementor/controls/search-form/list-view.php:158
+#: inc/elementor/controls/search-form/list-view.php:180
+#: inc/elementor/controls/search-form/list-view.php:266
+#: inc/elementor/controls/search-form/map-view.php:69
+#: inc/elementor/controls/search-form/map-view.php:91
+#: inc/elementor/controls/search-form/map-view.php:113
+#: inc/elementor/controls/search-form/map-view.php:135
+#: inc/elementor/controls/search-form/map-view.php:157
+#: inc/elementor/controls/search-form/map-view.php:179
+#: inc/elementor/controls/search-form/map-view.php:265
+#: inc/elementor/controls/search-form/monthly-view.php:69
+#: inc/elementor/controls/search-form/monthly-view.php:91
+#: inc/elementor/controls/search-form/monthly-view.php:113
+#: inc/elementor/controls/search-form/monthly-view.php:135
+#: inc/elementor/controls/search-form/monthly-view.php:157
+#: inc/elementor/controls/search-form/monthly-view.php:179
+#: inc/elementor/controls/search-form/monthly-view.php:265
+#: inc/elementor/controls/search-form/tile-view.php:69
+#: inc/elementor/controls/search-form/tile-view.php:91
+#: inc/elementor/controls/search-form/tile-view.php:113
+#: inc/elementor/controls/search-form/tile-view.php:135
+#: inc/elementor/controls/search-form/tile-view.php:157
+#: inc/elementor/controls/search-form/tile-view.php:179
+#: inc/elementor/controls/search-form/tile-view.php:265
+#: inc/elementor/controls/search-form/timetable-view.php:69
+#: inc/elementor/controls/search-form/timetable-view.php:91
+#: inc/elementor/controls/search-form/timetable-view.php:113
+#: inc/elementor/controls/search-form/timetable-view.php:135
+#: inc/elementor/controls/search-form/timetable-view.php:157
+#: inc/elementor/controls/search-form/timetable-view.php:179
+#: inc/elementor/controls/search-form/timetable-view.php:265
+#: inc/elementor/controls/search-form/weekly-view.php:69
+#: inc/elementor/controls/search-form/weekly-view.php:91
+#: inc/elementor/controls/search-form/weekly-view.php:113
+#: inc/elementor/controls/search-form/weekly-view.php:135
+#: inc/elementor/controls/search-form/weekly-view.php:157
+#: inc/elementor/controls/search-form/weekly-view.php:179
+#: inc/elementor/controls/search-form/weekly-view.php:265
+#: inc/elementor/controls/search-form/yearly-view.php:69
+#: inc/elementor/controls/search-form/yearly-view.php:91
+#: inc/elementor/controls/search-form/yearly-view.php:113
+#: inc/elementor/controls/search-form/yearly-view.php:135
+#: inc/elementor/controls/search-form/yearly-view.php:157
+#: inc/elementor/controls/search-form/yearly-view.php:179
+#: inc/elementor/controls/search-form/yearly-view.php:265
+msgid "Dropdown"
+msgstr ""
+
+#: inc/elementor/controls/search-form/agenda-view.php:130
+#: inc/elementor/controls/search-form/custom-view.php:130
+#: inc/elementor/controls/search-form/daily-view.php:130
+#: inc/elementor/controls/search-form/full-calendar-view.php:130
+#: inc/elementor/controls/search-form/grid-view.php:130
+#: inc/elementor/controls/search-form/list-view.php:131
+#: inc/elementor/controls/search-form/map-view.php:130
+#: inc/elementor/controls/search-form/monthly-view.php:130
+#: inc/elementor/controls/search-form/tile-view.php:130
+#: inc/elementor/controls/search-form/timetable-view.php:130
+#: inc/elementor/controls/search-form/weekly-view.php:130
+#: inc/elementor/controls/search-form/yearly-view.php:130
+msgid "Speaker"
+msgstr ""
+
+#: inc/elementor/controls/search-form/agenda-view.php:152
+#: inc/elementor/controls/search-form/custom-view.php:152
+#: inc/elementor/controls/search-form/daily-view.php:152
+#: inc/elementor/controls/search-form/full-calendar-view.php:152
+#: inc/elementor/controls/search-form/grid-view.php:152
+#: inc/elementor/controls/search-form/list-view.php:153
+#: inc/elementor/controls/search-form/map-view.php:152
+#: inc/elementor/controls/search-form/monthly-view.php:152
+#: inc/elementor/controls/search-form/tile-view.php:152
+#: inc/elementor/controls/search-form/timetable-view.php:152
+#: inc/elementor/controls/search-form/weekly-view.php:152
+#: inc/elementor/controls/search-form/yearly-view.php:152
+msgid "Tag"
+msgstr ""
+
+#: inc/elementor/controls/search-form/agenda-view.php:196
+#: inc/elementor/controls/search-form/custom-view.php:196
+#: inc/elementor/controls/search-form/daily-view.php:196
+#: inc/elementor/controls/search-form/full-calendar-view.php:196
+#: inc/elementor/controls/search-form/grid-view.php:196
+#: inc/elementor/controls/search-form/list-view.php:197
+#: inc/elementor/controls/search-form/map-view.php:196
+#: inc/elementor/controls/search-form/monthly-view.php:196
+#: inc/elementor/controls/search-form/tile-view.php:196
+#: inc/elementor/controls/search-form/timetable-view.php:196
+#: inc/elementor/controls/search-form/weekly-view.php:196
+#: inc/elementor/controls/search-form/yearly-view.php:196
+msgid "Address"
+msgstr ""
+
+#: inc/elementor/controls/search-form/agenda-view.php:201
+#: inc/elementor/controls/search-form/custom-view.php:201
+#: inc/elementor/controls/search-form/daily-view.php:201
+#: inc/elementor/controls/search-form/full-calendar-view.php:201
+#: inc/elementor/controls/search-form/grid-view.php:201
+#: inc/elementor/controls/search-form/list-view.php:202
+#: inc/elementor/controls/search-form/map-view.php:201
+#: inc/elementor/controls/search-form/monthly-view.php:201
+#: inc/elementor/controls/search-form/tile-view.php:201
+#: inc/elementor/controls/search-form/timetable-view.php:201
+#: inc/elementor/controls/search-form/weekly-view.php:201
+#: inc/elementor/controls/search-form/yearly-view.php:201
+msgid "Address Input"
+msgstr ""
+
+#: inc/elementor/controls/search-form/agenda-view.php:218
+#: inc/elementor/controls/search-form/custom-view.php:218
+#: inc/elementor/controls/search-form/daily-view.php:218
+#: inc/elementor/controls/search-form/full-calendar-view.php:218
+#: inc/elementor/controls/search-form/grid-view.php:218
+#: inc/elementor/controls/search-form/list-view.php:219
+#: inc/elementor/controls/search-form/map-view.php:218
+#: inc/elementor/controls/search-form/monthly-view.php:218
+#: inc/elementor/controls/search-form/tile-view.php:218
+#: inc/elementor/controls/search-form/timetable-view.php:218
+#: inc/elementor/controls/search-form/weekly-view.php:218
+#: inc/elementor/controls/search-form/yearly-view.php:218
+msgid "Address Placeholder"
+msgstr ""
+
+#: inc/elementor/controls/search-form/agenda-view.php:238
+#: inc/elementor/controls/search-form/custom-view.php:238
+#: inc/elementor/controls/search-form/daily-view.php:238
+#: inc/elementor/controls/search-form/full-calendar-view.php:238
+#: inc/elementor/controls/search-form/grid-view.php:238
+#: inc/elementor/controls/search-form/list-view.php:239
+#: inc/elementor/controls/search-form/map-view.php:238
+#: inc/elementor/controls/search-form/monthly-view.php:238
+#: inc/elementor/controls/search-form/tile-view.php:238
+#: inc/elementor/controls/search-form/timetable-view.php:238
+#: inc/elementor/controls/search-form/weekly-view.php:238
+#: inc/elementor/controls/search-form/yearly-view.php:238
+msgid "Event Cost Filter"
+msgstr ""
+
+#: inc/elementor/controls/search-form/agenda-view.php:243
+#: inc/elementor/controls/search-form/custom-view.php:243
+#: inc/elementor/controls/search-form/daily-view.php:243
+#: inc/elementor/controls/search-form/full-calendar-view.php:243
+#: inc/elementor/controls/search-form/grid-view.php:243
+#: inc/elementor/controls/search-form/list-view.php:244
+#: inc/elementor/controls/search-form/map-view.php:243
+#: inc/elementor/controls/search-form/monthly-view.php:243
+#: inc/elementor/controls/search-form/tile-view.php:243
+#: inc/elementor/controls/search-form/timetable-view.php:243
+#: inc/elementor/controls/search-form/weekly-view.php:243
+#: inc/elementor/controls/search-form/yearly-view.php:243
+msgid "Min / Max Inputs"
+msgstr ""
+
+#: inc/elementor/controls/search-form/agenda-view.php:260
+#: inc/elementor/controls/search-form/custom-view.php:260
+#: inc/elementor/controls/search-form/daily-view.php:260
+#: inc/elementor/controls/search-form/full-calendar-view.php:260
+#: inc/elementor/controls/search-form/grid-view.php:260
+#: inc/elementor/controls/search-form/map-view.php:260
+#: inc/elementor/controls/search-form/monthly-view.php:260
+#: inc/elementor/controls/search-form/tile-view.php:260
+#: inc/elementor/controls/search-form/timetable-view.php:260
+#: inc/elementor/controls/search-form/weekly-view.php:260
+#: inc/elementor/controls/search-form/yearly-view.php:260
+msgid "Month Filter"
+msgstr ""
+
+#: inc/elementor/controls/search-form/agenda-view.php:266
+#: inc/elementor/controls/search-form/custom-view.php:266
+#: inc/elementor/controls/search-form/daily-view.php:266
+#: inc/elementor/controls/search-form/full-calendar-view.php:266
+#: inc/elementor/controls/search-form/grid-view.php:266
+#: inc/elementor/controls/search-form/list-view.php:267
+#: inc/elementor/controls/search-form/map-view.php:266
+#: inc/elementor/controls/search-form/monthly-view.php:266
+#: inc/elementor/controls/search-form/tile-view.php:266
+#: inc/elementor/controls/search-form/timetable-view.php:266
+#: inc/elementor/controls/search-form/weekly-view.php:266
+#: inc/elementor/controls/search-form/yearly-view.php:266
+msgid "Date Picker"
+msgstr ""
+
+#: inc/elementor/controls/search-form/agenda-view.php:283
+#: inc/elementor/controls/search-form/custom-view.php:283
+#: inc/elementor/controls/search-form/daily-view.php:283
+#: inc/elementor/controls/search-form/full-calendar-view.php:283
+#: inc/elementor/controls/search-form/grid-view.php:283
+#: inc/elementor/controls/search-form/list-view.php:284
+#: inc/elementor/controls/search-form/map-view.php:283
+#: inc/elementor/controls/search-form/monthly-view.php:283
+#: inc/elementor/controls/search-form/tile-view.php:283
+#: inc/elementor/controls/search-form/timetable-view.php:283
+#: inc/elementor/controls/search-form/weekly-view.php:283
+#: inc/elementor/controls/search-form/yearly-view.php:283
+msgid "Time Filter"
+msgstr ""
+
+#: inc/elementor/controls/search-form/agenda-view.php:288
+#: inc/elementor/controls/search-form/custom-view.php:288
+#: inc/elementor/controls/search-form/daily-view.php:288
+#: inc/elementor/controls/search-form/full-calendar-view.php:288
+#: inc/elementor/controls/search-form/grid-view.php:288
+#: inc/elementor/controls/search-form/list-view.php:289
+#: inc/elementor/controls/search-form/map-view.php:288
+#: inc/elementor/controls/search-form/monthly-view.php:288
+#: inc/elementor/controls/search-form/tile-view.php:288
+#: inc/elementor/controls/search-form/timetable-view.php:288
+#: inc/elementor/controls/search-form/weekly-view.php:288
+#: inc/elementor/controls/search-form/yearly-view.php:288
+msgid "Local Time Picker"
+msgstr ""
+
+#: inc/elementor/controls/search-form/agenda-view.php:305
+#: inc/elementor/controls/search-form/custom-view.php:305
+#: inc/elementor/controls/search-form/daily-view.php:305
+#: inc/elementor/controls/search-form/full-calendar-view.php:305
+#: inc/elementor/controls/search-form/grid-view.php:305
+#: inc/elementor/controls/search-form/list-view.php:306
+#: inc/elementor/controls/search-form/map-view.php:305
+#: inc/elementor/controls/search-form/monthly-view.php:305
+#: inc/elementor/controls/search-form/tile-view.php:305
+#: inc/elementor/controls/search-form/timetable-view.php:305
+#: inc/elementor/controls/search-form/weekly-view.php:305
+#: inc/elementor/controls/search-form/yearly-view.php:305
+msgid "Text Search"
+msgstr ""
+
+#: inc/elementor/controls/search-form/agenda-view.php:310
+#: inc/elementor/controls/search-form/custom-view.php:310
+#: inc/elementor/controls/search-form/daily-view.php:310
+#: inc/elementor/controls/search-form/full-calendar-view.php:310
+#: inc/elementor/controls/search-form/grid-view.php:310
+#: inc/elementor/controls/search-form/list-view.php:311
+#: inc/elementor/controls/search-form/map-view.php:310
+#: inc/elementor/controls/search-form/monthly-view.php:310
+#: inc/elementor/controls/search-form/tile-view.php:310
+#: inc/elementor/controls/search-form/timetable-view.php:310
+#: inc/elementor/controls/search-form/weekly-view.php:310
+#: inc/elementor/controls/search-form/yearly-view.php:310
+msgid "Text Input"
+msgstr ""
+
+#: inc/elementor/controls/search-form/agenda-view.php:327
+#: inc/elementor/controls/search-form/custom-view.php:327
+#: inc/elementor/controls/search-form/daily-view.php:327
+#: inc/elementor/controls/search-form/full-calendar-view.php:327
+#: inc/elementor/controls/search-form/grid-view.php:327
+#: inc/elementor/controls/search-form/list-view.php:328
+#: inc/elementor/controls/search-form/map-view.php:327
+#: inc/elementor/controls/search-form/monthly-view.php:327
+#: inc/elementor/controls/search-form/tile-view.php:327
+#: inc/elementor/controls/search-form/timetable-view.php:327
+#: inc/elementor/controls/search-form/weekly-view.php:327
+#: inc/elementor/controls/search-form/yearly-view.php:327
+msgid "Text Search Placeholder"
+msgstr ""
+
+#: inc/elementor/controls/search-form/list-view.php:70
+msgid "Checkboxes"
+msgstr ""
+
+#: inc/elementor/controls/search-form/list-view.php:261
+msgid "Date Filter"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:36
+msgid "MEC Shortcode Builder"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:94
+msgid "Display Options"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:103
+#: inc/elementor/shortcode-builder.php:133
+msgid "Skin"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:108
+#: inc/elementor/shortcode-builder.php:138
+msgid "Agenda View"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:109
+#: inc/elementor/shortcode-builder.php:139
+msgid "Full Calendar"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:111
+#: inc/elementor/shortcode-builder.php:141
+msgid "Calendar / Monthly View"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:114
+#: inc/elementor/shortcode-builder.php:144
+msgid "Timetable View"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:115
+#: inc/elementor/shortcode-builder.php:145
+msgid "Masonry View"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:116
+#: inc/elementor/shortcode-builder.php:146
+msgid "Map View"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:117
+#: inc/elementor/shortcode-builder.php:147
+msgid "Cover View"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:118
+#: inc/elementor/shortcode-builder.php:148
+msgid "Countdown View"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:119
+#: inc/elementor/shortcode-builder.php:149
+msgid "Available Spot"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:120
+#: inc/elementor/shortcode-builder.php:150
+msgid "Carousel View"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:121
+#: inc/elementor/shortcode-builder.php:151
+msgid "Slider View"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:122
+#: inc/elementor/shortcode-builder.php:152
+msgid "Timeline View"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:124
+msgid "Shortcode Designer"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:184
+msgid "Search Form"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:217
+msgid "Filter Options"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:232
+msgid "Search Filter Settings"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:251
+#: inc/elementor/shortcode-builder.php:754
+#: inc/elementor/shortcode-builder.php:2864
+#: inc/elementor/shortcode-builder.php:4027
+#: inc/elementor/shortcode-builder.php:4813
+msgid "Icon Size"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:278
+#: inc/elementor/shortcode-builder.php:4361
+#: inc/elementor/shortcode-builder.php:6507
+msgid "Icon Color"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:289
+msgid "Icon Background Color"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:301
+#: inc/elementor/shortcode-builder.php:614
+msgid "Divider Title Typography"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:312
+msgid "Pleaceholder Color"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:326
+msgid "Placeholder Background"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:340
+msgid "Icon and Placeholder Border"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:352
+#: inc/elementor/shortcode-builder.php:529
+#: inc/elementor/shortcode-builder.php:577
+#: inc/elementor/shortcode-builder.php:2148
+#: inc/elementor/shortcode-builder.php:2184
+#: inc/elementor/shortcode-builder.php:2220
+#: inc/elementor/shortcode-builder.php:2258
+#: inc/elementor/shortcode-builder.php:2781
+#: inc/elementor/shortcode-builder.php:3067
+#: inc/elementor/shortcode-builder.php:3189
+#: inc/elementor/shortcode-builder.php:4683
+#: inc/elementor/shortcode-builder.php:4975
+#: inc/elementor/shortcode-builder.php:5085
+#: inc/elementor/shortcode-builder.php:5619
+#: inc/elementor/shortcode-builder.php:5780
+#: inc/elementor/shortcode-builder.php:6363
+msgid "Padding"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:363
+#: inc/elementor/shortcode-builder.php:2822
+#: inc/elementor/shortcode-builder.php:3078
+#: inc/elementor/shortcode-builder.php:3200
+#: inc/elementor/shortcode-builder.php:4662
+#: inc/elementor/shortcode-builder.php:4992
+#: inc/elementor/shortcode-builder.php:5098
+#: inc/elementor/shortcode-builder.php:5607
+#: inc/elementor/shortcode-builder.php:5768
+#: inc/elementor/shortcode-builder.php:6403
+#: inc/elementor/shortcode-builder.php:6557
+msgid "Margin"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:375
+#: inc/elementor/shortcode-builder.php:507
+#: inc/elementor/shortcode-builder.php:2700
+#: inc/elementor/shortcode-builder.php:3090
+#: inc/elementor/shortcode-builder.php:3212
+#: inc/elementor/shortcode-builder.php:3509
+#: inc/elementor/shortcode-builder.php:4506
+#: inc/elementor/shortcode-builder.php:4932
+#: inc/elementor/shortcode-builder.php:5112
+#: inc/elementor/shortcode-builder.php:6428
+#: inc/elementor/shortcode-builder.php:6574
+msgid "Border"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:383
+#: inc/elementor/shortcode-builder.php:517
+#: inc/elementor/shortcode-builder.php:1083
+#: inc/elementor/shortcode-builder.php:2739
+#: inc/elementor/shortcode-builder.php:3097
+#: inc/elementor/shortcode-builder.php:3219
+#: inc/elementor/shortcode-builder.php:3516
+#: inc/elementor/shortcode-builder.php:4523
+#: inc/elementor/shortcode-builder.php:5122
+#: inc/elementor/shortcode-builder.php:5589
+#: inc/elementor/shortcode-builder.php:6449
+#: inc/elementor/shortcode-builder.php:6587
+msgid "Border Radius"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:394
+#: inc/elementor/shortcode-builder.php:6603
+msgid "Box Background"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:406
+msgid "Box Shadow"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:428
+msgid "Buttons Display"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:452
+msgid "Buttons Typography"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:483
+#: inc/elementor/shortcode-builder.php:555
+#: inc/elementor/shortcode-builder.php:1494
+#: inc/elementor/shortcode-builder.php:1809
+#: inc/elementor/shortcode-builder.php:3610
+#: inc/elementor/shortcode-builder.php:3779
+#: inc/elementor/shortcode-builder.php:3936
+#: inc/elementor/shortcode-builder.php:4225
+#: inc/elementor/shortcode-builder.php:4337
+#: inc/elementor/shortcode-builder.php:4460
+#: inc/elementor/shortcode-builder.php:4552
+#: inc/elementor/shortcode-builder.php:4849
+#: inc/elementor/shortcode-builder.php:4890
+#: inc/elementor/shortcode-builder.php:5558
+#: inc/elementor/shortcode-builder.php:5672
+#: inc/elementor/shortcode-builder.php:5701
+msgid "Text Color"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:495
+msgid "Background"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:542
+#: inc/elementor/shortcode-builder.php:1587
+#: inc/elementor/shortcode-builder.php:1843
+#: inc/elementor/shortcode-builder.php:4546
+#: inc/elementor/shortcode-builder.php:4884
+#: inc/elementor/shortcode-builder.php:5695
+msgid "Hover"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:566
+msgid "Background Hover"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:595
+msgid "Divider Style"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:625
+msgid "Divider Title Color"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:638
+msgid "Divider Title Border"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:649
+msgid "Divider Shape Color"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:660
+msgid "Divider Shape Border"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:667
+#: inc/elementor/shortcode-builder.php:977
+#: inc/elementor/shortcode-builder.php:2620
+#: inc/elementor/shortcode-builder.php:3599
+#: inc/elementor/shortcode-builder.php:3761
+#: inc/elementor/shortcode-builder.php:3926
+#: inc/elementor/shortcode-builder.php:4484
+#: inc/elementor/shortcode-builder.php:4574
+#: inc/elementor/shortcode-builder.php:4865
+#: inc/elementor/shortcode-builder.php:4909
+#: inc/elementor/shortcode-builder.php:5569
+#: inc/elementor/shortcode-builder.php:5683
+#: inc/elementor/shortcode-builder.php:5711
+#: inc/elementor/shortcode-builder.php:6034
+#: inc/elementor/shortcode-builder.php:6212
+msgid "Background Color"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:679
+#: inc/elementor/shortcode-builder.php:914
+#: inc/elementor/shortcode-builder.php:1429
+#: inc/elementor/shortcode-builder.php:1764
+#: inc/elementor/shortcode-builder.php:2638
+#: inc/elementor/shortcode-builder.php:3407
+#: inc/elementor/shortcode-builder.php:3572
+#: inc/elementor/shortcode-builder.php:3726
+#: inc/elementor/shortcode-builder.php:3900
+#: inc/elementor/shortcode-builder.php:4171
+#: inc/elementor/shortcode-builder.php:5269
+msgid "Alignment"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:683
+#: inc/elementor/shortcode-builder.php:918
+#: inc/elementor/shortcode-builder.php:1433
+#: inc/elementor/shortcode-builder.php:1768
+#: inc/elementor/shortcode-builder.php:2642
+#: inc/elementor/shortcode-builder.php:3411
+#: inc/elementor/shortcode-builder.php:3576
+#: inc/elementor/shortcode-builder.php:3730
+#: inc/elementor/shortcode-builder.php:3904
+#: inc/elementor/shortcode-builder.php:4175
+#: inc/elementor/shortcode-builder.php:5273
+msgid "Left"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:687
+#: inc/elementor/shortcode-builder.php:922
+#: inc/elementor/shortcode-builder.php:1437
+#: inc/elementor/shortcode-builder.php:1772
+#: inc/elementor/shortcode-builder.php:2646
+#: inc/elementor/shortcode-builder.php:3415
+#: inc/elementor/shortcode-builder.php:3580
+#: inc/elementor/shortcode-builder.php:3734
+#: inc/elementor/shortcode-builder.php:3908
+#: inc/elementor/shortcode-builder.php:4179
+#: inc/elementor/shortcode-builder.php:5277
+msgid "Center"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:691
+#: inc/elementor/shortcode-builder.php:926
+#: inc/elementor/shortcode-builder.php:1441
+#: inc/elementor/shortcode-builder.php:1776
+#: inc/elementor/shortcode-builder.php:2650
+#: inc/elementor/shortcode-builder.php:3419
+#: inc/elementor/shortcode-builder.php:3584
+#: inc/elementor/shortcode-builder.php:3738
+#: inc/elementor/shortcode-builder.php:3912
+#: inc/elementor/shortcode-builder.php:4183
+#: inc/elementor/shortcode-builder.php:5281
+msgid "Right"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:704
+#: inc/elementor/shortcode-builder.php:879
+#: inc/elementor/shortcode-builder.php:1026
+#: inc/elementor/shortcode-builder.php:1638
+#: inc/elementor/shortcode-builder.php:3282
+#: inc/elementor/shortcode-builder.php:3433
+#: inc/elementor/shortcode-builder.php:3631
+#: inc/elementor/shortcode-builder.php:3816
+#: inc/elementor/shortcode-builder.php:3955
+#: inc/elementor/shortcode-builder.php:4264
+msgid "padding"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:717
+#: inc/elementor/shortcode-builder.php:1039
+#: inc/elementor/shortcode-builder.php:1681
+#: inc/elementor/shortcode-builder.php:3293
+#: inc/elementor/shortcode-builder.php:3445
+#: inc/elementor/shortcode-builder.php:3643
+#: inc/elementor/shortcode-builder.php:3837
+#: inc/elementor/shortcode-builder.php:3966
+#: inc/elementor/shortcode-builder.php:4285
+msgid "margin"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:731
+#: inc/elementor/shortcode-builder.php:1053
+#: inc/elementor/shortcode-builder.php:1066
+msgid "Divider Border"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:741
+msgid "Divider Border Radius"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:785
+msgid "Arrow Width"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:815
+msgid "Arrow Height"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:845
+msgid "Next Button Margin"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:862
+msgid "Previous Button Margin"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:902
+msgid "Event Item Style"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:945
+msgid "Timetable Clean Item Height"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:1001
+msgid "Background Hover Color"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:1067
+msgid "Border for after the content"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:1103
+msgid "Normal Box Shadow"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:1114
+msgid "Hover Box Shadow"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:1124
+msgid "Footer Background Color (Standard)"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:1141
+msgid "Footer Background Hover Color (Standard)"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:1157
+msgid "Footer Padding (Standard)"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:1174
+msgid "Footer Margin (Standard)"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:1192
+msgid "Footer Border (Standard)"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:1205
+msgid "Footer Border Radius (Standard)"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:1222
+msgid "Footer Background Color"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:1241
+msgid "Footer Background Hover Color"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:1258
+msgid "Footer Padding"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:1276
+msgid "Footer Margin"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:1295
+msgid "Footer Border"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:1309
+msgid "Footer Border Radius"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:1331
+msgid "Title Style"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:1338
+msgid "Title Display"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:1384
+#: inc/elementor/shortcode-builder.php:3018
+#: inc/elementor/shortcode-builder.php:3263
+#: inc/elementor/shortcode-builder.php:3386
+#: inc/elementor/shortcode-builder.php:3562
+#: inc/elementor/shortcode-builder.php:3709
+#: inc/elementor/shortcode-builder.php:3891
+#: inc/elementor/shortcode-builder.php:4148
+#: inc/elementor/shortcode-builder.php:6163
+msgid "Title Typography"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:1593
+#: inc/elementor/shortcode-builder.php:1854
+msgid "Text Hover Color"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:1725
+msgid "Subtitle Display"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:1748
+msgid "Subtitle Typography"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:1873
+msgid "Subtitle padding"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:1891
+msgid "Subtitle margin"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:1910
+msgid "Title Bullet Display"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:1933
+msgid "Bullet Border Radius"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:1953
+msgid "Bullet width"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:1978
+msgid "Bullet height"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:2003
+msgid "Soldout Tag Display"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:2019
+msgid "Soldout Border"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:2026
+msgid "Soldout Tag Border Radius"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:2038
+msgid "Soldout Tag Typography"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:2046
+msgid "Soldout Tag Padding"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:2057
+msgid "Soldout Tag Color"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:2068
+msgid "Soldout Tag Background Color"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:2080
+msgid "Location Typography"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:2100
+msgid "Location Color"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:2125
+msgid "Excerpt Style List View (Standard)"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:2139
+#: inc/elementor/shortcode-builder.php:2175
+#: inc/elementor/shortcode-builder.php:2211
+#: inc/elementor/shortcode-builder.php:2249
+msgid "Typography"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:2161
+msgid "Excerpt Style Full Calendar View (Standard)"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:2197
+msgid "Excerpt Style Slider View (Type 5)"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:2235
+msgid "Excerpt Style Timeline  View"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:2272
+msgid "Date Style"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:2285
+#: inc/elementor/shortcode-builder.php:3247
+#: inc/elementor/shortcode-builder.php:3370
+msgid "Date Display"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:2329
+msgid "Date Number Display"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:2364
+msgid "Date Number Typography"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:2393
+msgid "Date Number Color"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:2425
+msgid "Date Number Background"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:2457
+msgid "Date Typography"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:2515
+msgid "Date Color"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:2572
+msgid "Date Background"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:2901
+#: inc/elementor/shortcode-builder.php:4066
+msgid "Icon color (leave blank for default color)"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:2926
+msgid "Icon Background"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:2944
+msgid "Icon padding"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:2965
+msgid "Icon margin"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:2990
+msgid "Spot Style For Available Spot"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:3003
+#: inc/elementor/shortcode-builder.php:3125
+msgid "Spots Display"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:3028
+msgid "Spot Typography"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:3037
+msgid "Title color"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:3047
+msgid "Spot Color"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:3057
+msgid "Spot Background Color"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:3112
+#: inc/elementor/shortcode-builder.php:5012
+msgid "Countdown Style"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:3140
+#: inc/elementor/shortcode-builder.php:4128
+#: inc/elementor/shortcode-builder.php:5026
+msgid "Number Typography"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:3150
+#: inc/elementor/shortcode-builder.php:5038
+msgid "Label Typography"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:3159
+#: inc/elementor/shortcode-builder.php:5049
+msgid "Number color"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:3169
+#: inc/elementor/shortcode-builder.php:5061
+msgid "Label Color"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:3179
+#: inc/elementor/shortcode-builder.php:5073
+msgid "Countdown Background Color"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:3234
+msgid "List Modern Date Style"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:3272
+#: inc/elementor/shortcode-builder.php:3396
+msgid "Date color (leave blank for default color)"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:3304
+#: inc/elementor/shortcode-builder.php:3457
+msgid "Date Number Size"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:3327
+#: inc/elementor/shortcode-builder.php:3481
+msgid "Date Number color (leave blank for default color)"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:3337
+#: inc/elementor/shortcode-builder.php:3492
+msgid "Date Number Spacing"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:3357
+msgid "Monthly Modern Date Style"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:3531
+#: inc/elementor/shortcode-builder.php:3658
+#: inc/elementor/shortcode-builder.php:3861
+msgid "Weekdays Style"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:3545
+#: inc/elementor/shortcode-builder.php:3679
+#: inc/elementor/shortcode-builder.php:3875
+msgid "Weekday Display"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:3546
+#: inc/elementor/shortcode-builder.php:3680
+#: inc/elementor/shortcode-builder.php:3876
+msgid ""
+"List style > Minimal and Modern - Yearly Style > Modern - TimeTable Style > "
+"Modern and Clean - Grid Style > Clean and Colorful"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:3980
+msgid "Time Style"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:4000
+#: inc/elementor/shortcode-builder.php:4316
+msgid "Time Display"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:4001
+#: inc/elementor/shortcode-builder.php:4317
+msgid ""
+"List style > Standard and Accordion - Agenda Style > Clean - TimeTable Style "
+"> Modern and Clean - Grid Style > Novel - Countdown"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:4092
+msgid "Icon Spacing"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:4206
+msgid "Number Color"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:4309
+msgid "Location Style"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:4384
+msgid "Skin Button Style"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:4403
+msgid "Button Display"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:4404
+msgid ""
+"List style > minimal and Standard and modern - Agenda Style > Clean - "
+"TimeTable Style > Clean - Grid Style > Classic and Clean and Modern and "
+"Novel and Colorful - Countdown > Style1"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:4599
+#: inc/elementor/shortcode-builder.php:5722
+msgid "Border Color"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:4704
+msgid "Line Display"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:4732
+msgid "Social Button Style"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:4746
+msgid "Social Button Display"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:4747
+msgid ""
+"List style > Standard and modern - Agenda Style > Clean - TimeTable Style > "
+"Clean - Grid Style > Classic and Clean and Modern and Novel and Colorful"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:4767
+msgid "Button width"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:4790
+msgid "Button height"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:4947
+msgid "Social Border Radius"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:5139
+msgid "Feature Image Style"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:5153
+msgid "Feature Image Display"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:5197
+msgid "Image width"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:5233
+msgid "Image height"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:5315
+msgid "Background image"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:5401
+msgid "Image Border"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:5430
+msgid "Image Border Radius"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:5461
+msgid "Image padding"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:5491
+msgid "Image margin"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:5524
+msgid "Local Time Style"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:5732
+msgid "Hover Animation"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:5750
+msgid "Button Border Radius"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:5795
+msgid "Label Style"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:5808
+msgid "Label Typography (inherit)"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:5817
+msgid "Label Border (inherit)"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:5824
+msgid "Label Border Radius (inherit)"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:5835
+msgid "Label Margin (inherit)"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:5846
+msgid "Label Padding (inherit)"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:5865
+msgid "Background Color For Ongoing Label"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:5875
+msgid "Ongoing Label Text Color"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:5885
+msgid "Background Color For Expired Label"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:5895
+msgid "Expired Label Text Color"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:5906
+msgid "Background Color For Cancellation Label"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:5917
+msgid "Cancellation Label Text Color"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:5936
+msgid "Reason for Cancellation Typography"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:5946
+msgid "Reason for Cancellation Border"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:5953
+msgid "Reason for Cancellation Border Radius"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:5964
+msgid "Reason for Cancellation Margin"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:5975
+msgid "Reason for Cancellation Padding"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:5990
+msgid "Organizer Styles"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:6005
+msgid "Organizer Typography"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:6014
+msgid "Organaizer Color"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:6024
+msgid "Hover Organaizer Color"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:6044
+#: inc/elementor/shortcode-builder.php:6237
+msgid "Hover Background Color"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:6054
+msgid "Organaizer Padding"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:6065
+msgid "Organaizer Margin"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:6077
+msgid "Organaizer Border"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:6085
+msgid "Organaizer Border Radius"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:6096
+msgid "Organaizer Icon Size"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:6118
+msgid "Organaizer Icon Color"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:6128
+msgid "Hover Organaizer Icon Color"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:6142
+msgid "Next and Previous Styles"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:6178
+msgid "Title Color"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:6195
+msgid "Hover Title Color"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:6264
+msgid "Second Title Typography"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:6283
+msgid "Second Title Color"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:6303
+msgid "Second Hover Title Color"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:6323
+msgid "Second Background Color"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:6343
+msgid "Second Hover Background Color"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:6387
+msgid "Second Title Padding"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:6473
+msgid "Arrow Size"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:6524
+msgid "Hover Icon Color"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:6541
+msgid "Box Padding"
+msgstr ""
+
+#: inc/elementor/shortcode-builder.php:6618
+msgid "Box Arrow Color"
+msgstr ""
+
+#: inc/features/shb-activate.php:92
+msgid "Elementor Shortcode Builder"
+msgstr ""
+
+#: inc/features/shb-activate.php:171
+msgid ""
+"Activation faild. Please check your purchase code or license type."
+"<br><b>Note: Your purchase code should match your licesne type.</b>"
+msgstr ""
+
+#: inc/features/shb-activate.php:171
+msgid "Troubleshooting"
+msgstr ""
+
+#: mec-shortcode-builder.php:134
+msgid "day"
+msgstr ""
+
+#: mec-shortcode-builder.php:135
+msgid "days"
+msgstr ""
+
+#: mec-shortcode-builder.php:136
+msgid "hour"
+msgstr ""
+
+#: mec-shortcode-builder.php:137
+msgid "hours"
+msgstr ""
+
+#: mec-shortcode-builder.php:138
+msgid "minute"
+msgstr ""
+
+#: mec-shortcode-builder.php:139
+msgid "minutes"
+msgstr ""
+
+#: mec-shortcode-builder.php:140
+msgid "second"
+msgstr ""
+
+#: mec-shortcode-builder.php:141
+msgid "seconds"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Elementor Shortcode Builder for MEC"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://webnus.net/modern-events-calendar/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin makes it possible to visually create MEC shortcodes in Elementor."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Webnus"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://webnus.net"
+msgstr ""

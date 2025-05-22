@@ -1,0 +1,59 @@
+05-31-2023 @ 12:47:16 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 13666
+    [card_number] => 440997******4251
+    [card_holder_name] => Salma hamie
+    [payment_link_id] => Quote-03240
+    [signature] => 18458ba8c69c5a75089216b0fff8325c90bc4abb0719ebbb725f8fd0b65af321
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Basic Life Support Provider Course
+    [payment_option] => VISA
+    [expiry_date] => 2709
+    [customer_ip] => 217.165.56.129
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991053270164
+    [command] => PURCHASE
+    [response_message] => Transaction declined
+    [merchant_reference] => Quote-03240
+    [customer_email] => Dr.salma.hamie@hotmail.com
+    [currency] => AED
+    [customer_name] => Dr. Salma Hamie
+    [status] => 13
+)
+
+05-31-2023 @ 14:32:31 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 440997******4251
+    [card_holder_name] => Salma hamie
+    [payment_link_id] => Quote-03240
+    [signature] => dac32fad0f3af6d0bddf8acbcd1d4a8a74c8a1e452839e1b12ff1ab5cf9b9c8c
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Basic Life Support Provider Course
+    [payment_option] => VISA
+    [expiry_date] => 2709
+    [customer_ip] => 217.165.56.129
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991053270164
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03240
+    [authorization_code] => 588412
+    [customer_email] => Dr.salma.hamie@hotmail.com
+    [currency] => AED
+    [customer_name] => Dr. Salma Hamie
+    [status] => 14
+)
+

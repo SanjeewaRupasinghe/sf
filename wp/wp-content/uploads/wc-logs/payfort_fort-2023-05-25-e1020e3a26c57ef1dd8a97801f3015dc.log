@@ -1,0 +1,30 @@
+05-25-2023 @ 11:24:19 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 88562
+    [response_code] => 14000
+    [card_number] => 442109******2180
+    [card_holder_name] => Taher Juma
+    [payment_link_id] => 169999991042240172
+    [signature] => 85178e226e4214548b506483d8be36ebeb50ed80f5e21fef7570adb18b8a53d0
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2801
+    [customer_ip] => 92.97.124.242
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991042241737
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02140
+    [authorization_code] => 229439
+    [customer_email] => tahirjuma@gmail.com
+    [currency] => AED
+    [customer_name] => Tahir Juma
+    [status] => 14
+)
+

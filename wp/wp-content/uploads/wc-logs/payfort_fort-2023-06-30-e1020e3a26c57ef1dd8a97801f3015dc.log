@@ -1,0 +1,30 @@
+06-30-2023 @ 10:08:01 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 377895
+    [response_code] => 14000
+    [card_number] => 419649******7435
+    [card_holder_name] => AMER ELBABA
+    [payment_link_id] => 169999991102163485
+    [signature] => 804e411d524d3e0614526c28255662e138cf1ea4c29c53222852d1d4f99babd0
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => VISA
+    [expiry_date] => 2802
+    [customer_ip] => 217.164.131.70
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991102172347
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03275
+    [authorization_code] => 001985
+    [customer_email] => drbaba@doctors.net.uk
+    [currency] => AED
+    [customer_name] => Amer Elbaba
+    [status] => 14
+)
+

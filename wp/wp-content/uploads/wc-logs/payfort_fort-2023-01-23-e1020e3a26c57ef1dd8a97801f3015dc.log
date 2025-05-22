@@ -1,0 +1,165 @@
+01-23-2023 @ 16:08:14 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 525000
+    [response_code] => 14000
+    [card_number] => 409770******7180
+    [card_holder_name] => fahes
+    [payment_link_id] => Quote-03029
+    [signature] => 407154b447f123cf30c5ef6da5b35daaff80fe06b53f15b8e932fbb19d47eb18
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Basic Life Support Provider Course
+    [payment_option] => VISA
+    [expiry_date] => 2611
+    [customer_ip] => 31.218.190.85
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990853404500
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03029
+    [authorization_code] => 346423
+    [customer_email] => youseff@leaderhealthcaregroup.com
+    [currency] => AED
+    [customer_name] => Leader Healthcare Group
+    [status] => 14
+)
+
+01-23-2023 @ 20:26:12 - Payfort Request Params for payment method (payfort) 
+
+Array
+(
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [merchant_reference] => 22703
+    [language] => en
+    [service_command] => TOKENIZATION
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [signature] => f11a765b9a9cdbe84ff270c7b18a3aa4bc8e19bc10ac1bfaf4a6be31eebc3684
+)
+
+01-23-2023 @ 20:26:14 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_merchantPageResponse
+    [response_code] => 18000
+    [card_number] => ****************
+    [card_holder_name] => **************
+    [signature] => a36ef994c44e9341cddbd6387d204c301d8802c954eb7ae4596361d2c43c2d05
+    [merchant_identifier] => xyKdBdwl
+    [expiry_date] => ****
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [language] => en
+    [response_message] => Success
+    [service_command] => TOKENIZATION
+    [merchant_reference] => 22703
+    [token_name] => 9157916dac9440d8b62b5124c1f73aca
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [status] => 18
+    [card_bin] => 467745
+)
+
+01-23-2023 @ 20:26:14 - Merchant Page Notify Api Request Params : Array
+(
+    [merchant_reference] => 22703
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [command] => PURCHASE
+    [merchant_identifier] => xyKdBdwl
+    [customer_ip] => 92.97.73.0
+    [amount] => 472395
+    [currency] => AED
+    [customer_email] => aalzouebi@doctors.org.uk
+    [token_name] => 9157916dac9440d8b62b5124c1f73aca
+    [language] => en
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_responseOnline
+    [customer_name] => aisha alzouebi
+    [signature] => 5f113b7b18016095e15e4a07e179c301895e281c9c3d37a542d9170996b04376
+)
+
+01-23-2023 @ 20:26:18 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [amount] => 472395
+    [response_code] => 20064
+    [card_number] => ****************
+    [card_holder_name] => **************
+    [signature] => e86cb36265e657db1fdad413d68aa3d5d64dd4a6e8cbc47d2772c5bb90022c5d
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => ****
+    [customer_ip] => **********
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990853750090
+    [command] => PURCHASE
+    [3ds_url] => https://checkout.payfort.com/FortAPI/redirectionResponse/threeDs2RedirectURL?token=139192aRl1ebuhh0Coc1imNcZbMJZS
+    [response_message] => 3-D Secure check requested
+    [merchant_reference] => 22703
+    [customer_email] => ************************
+    [currency] => AED
+    [customer_name] => **************
+    [status] => 20
+)
+
+01-23-2023 @ 20:26:53 - Fort response parameters (offline) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 472395
+    [response_code] => 14000
+    [card_number] => 467745******8958
+    [card_holder_name] => aisha alzouebi
+    [signature] => e6349deddf96f2e1ad5264a6c2f307d3f1535173ea5a65024cba8810becfc4eb
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => 2311
+    [customer_ip] => 92.97.73.0
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990853750090
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 22703
+    [authorization_code] => 546088
+    [customer_email] => aalzouebi@doctors.org.uk
+    [currency] => AED
+    [customer_name] => aisha alzouebi
+    [status] => 14
+)
+
+01-23-2023 @ 20:26:53 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_responseOnline
+    [amount] => 472395
+    [response_code] => 14000
+    [card_number] => ****************
+    [card_holder_name] => **************
+    [signature] => 7a497d6f664db3592f74204466b2b0a9021965928dc7ab629f991288d02d6788
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => ****
+    [customer_ip] => **********
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990853750090
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 22703
+    [authorization_code] => 546088
+    [customer_email] => ************************
+    [currency] => AED
+    [customer_name] => **************
+    [status] => 14
+)
+

@@ -1,0 +1,330 @@
+10-30-2023 @ 09:22:36 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 52500
+    [response_code] => 14000
+    [card_number] => 456524******7934
+    [card_holder_name] => mARK ANTHONY ROBINA
+    [payment_link_id] => 535
+    [signature] => 1680621936ab165df0f9faef1019a3ee979af29c5f4447c6ecddda103b2bd2ff
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => First Aider and Fire Safety
+    [payment_option] => VISA
+    [expiry_date] => 2501
+    [customer_ip] => 2.50.159.140
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991322739777
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 535
+    [authorization_code] => 133061
+    [customer_email] => mark.robina@toshiba-td.ae
+    [currency] => AED
+    [customer_name] => Mark Robina
+    [status] => 14
+)
+
+10-30-2023 @ 09:22:47 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 52500
+    [response_code] => 14000
+    [card_number] => 456524******7934
+    [card_holder_name] => mARK ANTHONY ROBINA
+    [payment_link_id] => 535
+    [signature] => 1680621936ab165df0f9faef1019a3ee979af29c5f4447c6ecddda103b2bd2ff
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => First Aider and Fire Safety
+    [payment_option] => VISA
+    [expiry_date] => 2501
+    [customer_ip] => 2.50.159.140
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991322739777
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 535
+    [authorization_code] => 133061
+    [customer_email] => mark.robina@toshiba-td.ae
+    [currency] => AED
+    [customer_name] => Mark Robina
+    [status] => 14
+)
+
+10-30-2023 @ 09:22:58 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 52500
+    [response_code] => 14000
+    [card_number] => 456524******7934
+    [card_holder_name] => mARK ANTHONY ROBINA
+    [payment_link_id] => 535
+    [signature] => 1680621936ab165df0f9faef1019a3ee979af29c5f4447c6ecddda103b2bd2ff
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => First Aider and Fire Safety
+    [payment_option] => VISA
+    [expiry_date] => 2501
+    [customer_ip] => 2.50.159.140
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991322739777
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 535
+    [authorization_code] => 133061
+    [customer_email] => mark.robina@toshiba-td.ae
+    [currency] => AED
+    [customer_name] => Mark Robina
+    [status] => 14
+)
+
+10-30-2023 @ 09:23:09 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 52500
+    [response_code] => 14000
+    [card_number] => 456524******7934
+    [card_holder_name] => mARK ANTHONY ROBINA
+    [payment_link_id] => 535
+    [signature] => 1680621936ab165df0f9faef1019a3ee979af29c5f4447c6ecddda103b2bd2ff
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => First Aider and Fire Safety
+    [payment_option] => VISA
+    [expiry_date] => 2501
+    [customer_ip] => 2.50.159.140
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991322739777
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 535
+    [authorization_code] => 133061
+    [customer_email] => mark.robina@toshiba-td.ae
+    [currency] => AED
+    [customer_name] => Mark Robina
+    [status] => 14
+)
+
+10-30-2023 @ 09:23:20 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 52500
+    [response_code] => 14000
+    [card_number] => 456524******7934
+    [card_holder_name] => mARK ANTHONY ROBINA
+    [payment_link_id] => 535
+    [signature] => 1680621936ab165df0f9faef1019a3ee979af29c5f4447c6ecddda103b2bd2ff
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => First Aider and Fire Safety
+    [payment_option] => VISA
+    [expiry_date] => 2501
+    [customer_ip] => 2.50.159.140
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991322739777
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 535
+    [authorization_code] => 133061
+    [customer_email] => mark.robina@toshiba-td.ae
+    [currency] => AED
+    [customer_name] => Mark Robina
+    [status] => 14
+)
+
+10-30-2023 @ 09:23:30 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 52500
+    [response_code] => 14000
+    [card_number] => 456524******7934
+    [card_holder_name] => mARK ANTHONY ROBINA
+    [payment_link_id] => 535
+    [signature] => 1680621936ab165df0f9faef1019a3ee979af29c5f4447c6ecddda103b2bd2ff
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => First Aider and Fire Safety
+    [payment_option] => VISA
+    [expiry_date] => 2501
+    [customer_ip] => 2.50.159.140
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991322739777
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 535
+    [authorization_code] => 133061
+    [customer_email] => mark.robina@toshiba-td.ae
+    [currency] => AED
+    [customer_name] => Mark Robina
+    [status] => 14
+)
+
+10-30-2023 @ 09:23:41 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 52500
+    [response_code] => 14000
+    [card_number] => 456524******7934
+    [card_holder_name] => mARK ANTHONY ROBINA
+    [payment_link_id] => 535
+    [signature] => 1680621936ab165df0f9faef1019a3ee979af29c5f4447c6ecddda103b2bd2ff
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => First Aider and Fire Safety
+    [payment_option] => VISA
+    [expiry_date] => 2501
+    [customer_ip] => 2.50.159.140
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991322739777
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 535
+    [authorization_code] => 133061
+    [customer_email] => mark.robina@toshiba-td.ae
+    [currency] => AED
+    [customer_name] => Mark Robina
+    [status] => 14
+)
+
+10-30-2023 @ 09:23:52 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 52500
+    [response_code] => 14000
+    [card_number] => 456524******7934
+    [card_holder_name] => mARK ANTHONY ROBINA
+    [payment_link_id] => 535
+    [signature] => 1680621936ab165df0f9faef1019a3ee979af29c5f4447c6ecddda103b2bd2ff
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => First Aider and Fire Safety
+    [payment_option] => VISA
+    [expiry_date] => 2501
+    [customer_ip] => 2.50.159.140
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991322739777
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 535
+    [authorization_code] => 133061
+    [customer_email] => mark.robina@toshiba-td.ae
+    [currency] => AED
+    [customer_name] => Mark Robina
+    [status] => 14
+)
+
+10-30-2023 @ 09:24:03 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 52500
+    [response_code] => 14000
+    [card_number] => 456524******7934
+    [card_holder_name] => mARK ANTHONY ROBINA
+    [payment_link_id] => 535
+    [signature] => 1680621936ab165df0f9faef1019a3ee979af29c5f4447c6ecddda103b2bd2ff
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => First Aider and Fire Safety
+    [payment_option] => VISA
+    [expiry_date] => 2501
+    [customer_ip] => 2.50.159.140
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991322739777
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 535
+    [authorization_code] => 133061
+    [customer_email] => mark.robina@toshiba-td.ae
+    [currency] => AED
+    [customer_name] => Mark Robina
+    [status] => 14
+)
+
+10-30-2023 @ 09:24:14 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 52500
+    [response_code] => 14000
+    [card_number] => 456524******7934
+    [card_holder_name] => mARK ANTHONY ROBINA
+    [payment_link_id] => 535
+    [signature] => 1680621936ab165df0f9faef1019a3ee979af29c5f4447c6ecddda103b2bd2ff
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => First Aider and Fire Safety
+    [payment_option] => VISA
+    [expiry_date] => 2501
+    [customer_ip] => 2.50.159.140
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991322739777
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 535
+    [authorization_code] => 133061
+    [customer_email] => mark.robina@toshiba-td.ae
+    [currency] => AED
+    [customer_name] => Mark Robina
+    [status] => 14
+)
+
+10-30-2023 @ 09:24:25 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 52500
+    [response_code] => 14000
+    [card_number] => 456524******7934
+    [card_holder_name] => mARK ANTHONY ROBINA
+    [payment_link_id] => 535
+    [signature] => 1680621936ab165df0f9faef1019a3ee979af29c5f4447c6ecddda103b2bd2ff
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => First Aider and Fire Safety
+    [payment_option] => VISA
+    [expiry_date] => 2501
+    [customer_ip] => 2.50.159.140
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991322739777
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 535
+    [authorization_code] => 133061
+    [customer_email] => mark.robina@toshiba-td.ae
+    [currency] => AED
+    [customer_name] => Mark Robina
+    [status] => 14
+)
+

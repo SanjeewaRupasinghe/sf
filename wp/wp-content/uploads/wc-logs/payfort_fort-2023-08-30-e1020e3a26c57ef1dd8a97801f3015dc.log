@@ -1,0 +1,90 @@
+08-30-2023 @ 10:29:15 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 424160******0891
+    [card_holder_name] => Saurabh Suri
+    [payment_link_id] => Quote-03403
+    [signature] => fb2a1b067dc5ae7b84e51f5f91a607741dd4320e5ed0af1860696be76a058a63
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2503
+    [customer_ip] => 5.194.185.6
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991207031235
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03403
+    [authorization_code] => 778097
+    [customer_email] => sonammahana@gmail.com
+    [currency] => AED
+    [customer_name] => Dr Sonam Mahana
+    [status] => 14
+)
+
+08-30-2023 @ 10:37:11 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 456835******3324
+    [card_holder_name] => jumanahrashed
+    [payment_link_id] => Quote-03405
+    [signature] => 5aec78739a78ceb5da8e6cf7cf21e61f4dfb3819cea66930e9074c4fc68216a4
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2602
+    [customer_ip] => 83.110.16.120
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991207041388
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03405
+    [authorization_code] => 224401
+    [customer_email] => Alzeyoudijawaher@hotmail.com
+    [currency] => AED
+    [customer_name] => Dr. Jawaher Rashed Sulaiman
+    [status] => 14
+)
+
+08-30-2023 @ 12:16:14 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 443913******8420
+    [card_holder_name] => Abelardo Jr 
+    [payment_link_id] => Quote-03406
+    [signature] => 4288273d023717040310881ad57f11f7d64ee9052f55f46f8b5a8bca1928bea5
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2611
+    [customer_ip] => 92.99.21.167
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991207176821
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03406
+    [authorization_code] => 744510
+    [customer_email] => abelardomendiola@gmail.com
+    [currency] => AED
+    [customer_name] => Abelardo Jr. Mendiola
+    [status] => 14
+)
+

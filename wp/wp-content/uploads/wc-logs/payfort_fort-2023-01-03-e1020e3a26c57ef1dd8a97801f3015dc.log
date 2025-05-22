@@ -1,0 +1,59 @@
+01-03-2023 @ 17:49:43 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 54500
+    [response_code] => 13029
+    [card_number] => 443913******6663
+    [card_holder_name] => eman abdulla
+    [payment_link_id] => Quote-02945
+    [signature] => ebb7961ebf53f13d8742e434c72a03e5b41ade114777b6dbbdd76dbe2c5606ca
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA-ACLS
+    [payment_option] => VISA
+    [expiry_date] => 2608
+    [customer_ip] => 91.75.14.56
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990824040561
+    [command] => PURCHASE
+    [response_message] => Insufficient funds
+    [merchant_reference] => Quote-02945
+    [customer_email] => amo0o0on5958@gmail.com
+    [currency] => AED
+    [customer_name] => Eman Abdalla Al Suwaidi
+    [status] => 13
+)
+
+01-03-2023 @ 17:52:47 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 54500
+    [response_code] => 14000
+    [card_number] => 480668******9752
+    [card_holder_name] => eman al suwaidi
+    [payment_link_id] => Quote-02945
+    [signature] => 98e46c8dba55d3a034c7606ec1e1b30ec9d6280a8a75ce52b0fde6f2dbdf4b8d
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA-ACLS
+    [payment_option] => VISA
+    [expiry_date] => 2410
+    [customer_ip] => 91.75.14.56
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990824040561
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-02945
+    [authorization_code] => 632408
+    [customer_email] => amo0o0on5958@gmail.com
+    [currency] => AED
+    [customer_name] => Eman Abdalla Al Suwaidi
+    [status] => 14
+)
+

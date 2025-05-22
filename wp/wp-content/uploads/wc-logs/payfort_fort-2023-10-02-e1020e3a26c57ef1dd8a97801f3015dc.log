@@ -1,0 +1,30 @@
+10-02-2023 @ 20:10:37 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 356895
+    [response_code] => 14000
+    [card_number] => 532660******0751
+    [card_holder_name] => Luma Abboud 
+    [payment_link_id] => 169999991269235455
+    [signature] => fb01fd7571ecb358add3a387b46f8deab57249283120959186520c93a8573188
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal Renewal
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2709
+    [customer_ip] => 176.205.0.83
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991270325771
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03487A
+    [authorization_code] => 609096
+    [customer_email] => shimasadel@googlemail.com
+    [currency] => AED
+    [customer_name] => Shimas Adeel Salih
+    [status] => 14
+)
+

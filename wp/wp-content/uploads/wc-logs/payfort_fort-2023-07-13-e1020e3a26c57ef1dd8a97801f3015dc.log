@@ -1,0 +1,30 @@
+07-13-2023 @ 18:57:51 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 377895
+    [response_code] => 14000
+    [card_number] => 552102******6515
+    [card_holder_name] => Veronica Grassi
+    [payment_link_id] => 169999991071487618
+    [signature] => aa3b687c4db6c2d3751604f05b5aff46d9cccfec532444325ad53342c55ed08b
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2806
+    [customer_ip] => 91.75.86.68
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991124589181
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03259
+    [authorization_code] => T05408
+    [customer_email] => grassivero@googlemail.com
+    [currency] => AED
+    [customer_name] => Veronica Grassi
+    [status] => 14
+)
+

@@ -1,0 +1,30 @@
+07-16-2023 @ 14:55:38 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 42046
+    [response_code] => 14000
+    [card_number] => 462210******8012
+    [card_holder_name] => ALEJANDRO FISCHER
+    [payment_link_id] => 169999991128944313
+    [signature] => 437bb024596ce47843ba6b83780f1bf4554ad3ceb3fa7b50ba47f501df257fc7
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2509
+    [customer_ip] => 94.207.103.224
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991129022797
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02199
+    [authorization_code] => 433504
+    [customer_email] => bochafischer@gmail.com
+    [currency] => AED
+    [customer_name] => Alejandro Fischer
+    [status] => 14
+)
+

@@ -1,0 +1,60 @@
+09-22-2023 @ 12:09:46 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 35204
+    [response_code] => 14000
+    [card_number] => 403337******0921
+    [card_holder_name] => Reem juma
+    [payment_link_id] => 169999991247483064
+    [signature] => 941f63bbe5f106e81c7457870f40ef3fcb533fdf020d997882e6ea33de15253d
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2704
+    [customer_ip] => 86.96.95.115
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991247637550
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02303
+    [authorization_code] => 841642
+    [customer_email] => reemy30@hotmail.com
+    [currency] => AED
+    [customer_name] => Reem Abdullah
+    [status] => 14
+)
+
+09-22-2023 @ 12:36:18 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 56505
+    [response_code] => 14000
+    [card_number] => 442169******0201
+    [card_holder_name] => Abdulla Essa
+    [payment_link_id] => 169999991247639935
+    [signature] => 95287688b0f04a009ce3c2180aec41fa956ee002e7f65b4f7a69a803f5ca1ed5
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2805
+    [customer_ip] => 94.57.118.243
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991247676739
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02306
+    [authorization_code] => 351494
+    [customer_email] => abdulla1400@outlook.com
+    [currency] => AED
+    [customer_name] => Abdullah Essa
+    [status] => 14
+)
+

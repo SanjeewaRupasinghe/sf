@@ -1,0 +1,30 @@
+08-21-2023 @ 13:17:31 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 377895
+    [response_code] => 14000
+    [card_number] => 452339******9436
+    [card_holder_name] => Zahid Rafique
+    [payment_link_id] => 169999991190487824
+    [signature] => a81097bb005dcf498322595494b80fe5b893bb8f444498e98eabe4a18e0552dc
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => VISA
+    [expiry_date] => 2710
+    [customer_ip] => 212.70.96.138
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991190670763
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03388
+    [authorization_code] => 017346
+    [customer_email] => zahidrafique175@hotmail.com
+    [currency] => AED
+    [customer_name] => Zahid Rafique
+    [status] => 14
+)
+

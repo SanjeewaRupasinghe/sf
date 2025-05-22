@@ -1,0 +1,58 @@
+03-21-2023 @ 11:22:42 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 36750
+    [response_code] => 14000
+    [card_number] => 552191******3590
+    [card_holder_name] => Ahmed Amin
+    [payment_link_id] => Quote-03162
+    [signature] => 1530fb2eecd86c9b2b96f7dff2aaf553efc780fc7c50b2da250fbc8082b22318
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Basic Life Support Provider Course
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2402
+    [customer_ip] => 94.59.47.170
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990945361917
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03162
+    [authorization_code] => 275352
+    [customer_email] => ahmed.badawy@danatalemarat.ae
+    [currency] => AED
+    [customer_name] => Ahmed Mohamed Amin Mohamed Mashhoud Bada
+    [status] => 14
+)
+
+03-21-2023 @ 14:24:38 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 62000
+    [response_code] => 10119
+    [card_number] => 532655******2853
+    [card_holder_name] => Alison Campbell
+    [signature] => 8b82fbd4ff58cf8f859bd9e9b0a0b7943deb51b71d8ab3444f3aae488de2e4ed
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2403
+    [customer_ip] => 83.110.196.113
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990945487864
+    [command] => PURCHASE
+    [response_message] => Request dropped
+    [merchant_reference] => SO-02058
+    [customer_email] => Alisonleecampbell@gmail.com
+    [currency] => AED
+    [customer_name] => Alison Campbell
+    [status] => 10
+)
+

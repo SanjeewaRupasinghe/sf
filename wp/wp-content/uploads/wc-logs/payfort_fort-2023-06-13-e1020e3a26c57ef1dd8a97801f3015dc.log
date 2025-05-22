@@ -1,0 +1,60 @@
+06-13-2023 @ 13:27:29 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 54933
+    [response_code] => 14000
+    [card_number] => 467745******1680
+    [card_holder_name] => Nida S
+    [payment_link_id] => 169999991074897877
+    [signature] => 7968b5a033c8de33af9aa95f7a0cda9a6cef7ceaf572071bc9a696dec111bc5d
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2801
+    [customer_ip] => 2.49.105.182
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991075004270
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02162
+    [authorization_code] => 922280
+    [customer_email] => safenada@gmail.com
+    [currency] => AED
+    [customer_name] => Nida Abdul Hameed
+    [status] => 14
+)
+
+06-13-2023 @ 13:50:52 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 62871
+    [response_code] => 14000
+    [card_number] => 522873******2286
+    [card_holder_name] => Alia Alfalasi 
+    [payment_link_id] => 169999991075027608
+    [signature] => 9086034d383050a9ca14fa87191efb5eda8e31c7b6a49db4d83d267309bc0682
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2504
+    [customer_ip] => 86.99.144.53
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991075035702
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02163
+    [authorization_code] => 587331
+    [customer_email] => aliaalfalasi@yahoo.com
+    [currency] => AED
+    [customer_name] => Alia Alfalasi
+    [status] => 14
+)
+

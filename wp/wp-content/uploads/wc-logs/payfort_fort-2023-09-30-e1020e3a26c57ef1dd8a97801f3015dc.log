@@ -1,0 +1,30 @@
+09-30-2023 @ 04:02:49 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 35007
+    [response_code] => 14000
+    [card_number] => 471365******8352
+    [card_holder_name] => RASHED
+    [payment_link_id] => 169999991261382807
+    [signature] => 62052390a174d51d117a65c54b3ec1727f1c20ecc5e648317f61476acd96ab4b
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2705
+    [customer_ip] => 92.96.96.151
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991264692320
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02311
+    [authorization_code] => 333487
+    [customer_email] => rs.aldhanhani@gmail.com
+    [currency] => AED
+    [customer_name] => Rashid Aldhanhani
+    [status] => 14
+)
+

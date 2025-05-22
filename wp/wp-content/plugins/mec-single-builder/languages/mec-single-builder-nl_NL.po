@@ -1,0 +1,3292 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Elementor Single Builder for MEC\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-10 16:18+0330\n"
+"PO-Revision-Date: 2022-01-10 16:18+0330\n"
+"Last-Translator: \n"
+"Language-Team: Nederlands\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: mec-single-builder.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Loco-Version: 2.4.2; wp-5.4.2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/admin/class-admin.php:118 inc/admin/class-admin.php:135
+msgid "Please Create New Design for Single Event Page"
+msgstr ""
+
+#: inc/admin/class-admin.php:119 inc/admin/class-admin.php:136
+msgid "Create new"
+msgstr ""
+
+#: inc/admin/class-admin.php:122
+msgid "Default Builder for Single Event"
+msgstr ""
+
+#: inc/admin/class-admin.php:139
+msgid "Default Builder for Modal View"
+msgstr ""
+
+#: inc/admin/class-admin.php:150 inc/admin/class-admin.php:169
+msgid "Custom Event For Set Settings"
+msgstr ""
+
+#: inc/admin/class-admin.php:170
+msgid "Choose your event for single builder addon."
+msgstr ""
+
+#: inc/admin/class-admin.php:170
+msgid "Read More"
+msgstr "Lees verder"
+
+#: inc/admin/class-admin.php:306
+#, fuzzy
+msgid "Select Single Event Style"
+msgstr "Widgettitel weergeven"
+
+#: inc/admin/class-admin.php:308
+#, fuzzy
+#| msgid "Single Builder"
+msgid "Builder"
+msgstr "Single Builder"
+
+#: inc/admin/class-admin.php:310
+msgid "Apply"
+msgstr ""
+
+#: inc/admin/class-admin.php:322
+msgid "Success"
+msgstr ""
+
+#: inc/admin/class-admin.php:359
+#, fuzzy
+#| msgid "Parent Single Builder"
+msgctxt "Post Type General Name"
+msgid "Events Single Builder"
+msgstr "Parent Single Builder"
+
+#: inc/admin/class-admin.php:360
+#, fuzzy
+msgctxt "Post Type Singular Name"
+msgid "Events Single Page"
+msgstr "Event Sprekers"
+
+#: inc/admin/class-admin.php:361 inc/admin/class-admin.php:363
+#, fuzzy
+#| msgid "Parent Single Builder"
+msgid "Events Single Builder"
+msgstr "Parent Single Builder"
+
+#: inc/admin/class-admin.php:362
+msgid "Parent Single Builder"
+msgstr "Parent Single Builder"
+
+#: inc/admin/class-admin.php:364
+msgid "View Single Builder"
+msgstr "Bekijk Single Builder"
+
+#: inc/admin/class-admin.php:365
+msgid "Design new event single page"
+msgstr ""
+
+#: inc/admin/class-admin.php:366
+msgid "Add New"
+msgstr "Nieuw toevoegen"
+
+#: inc/admin/class-admin.php:367
+msgid "Edit Single Builder"
+msgstr "Bewerk Single Builder"
+
+#: inc/admin/class-admin.php:368
+msgid "Update Single Builder"
+msgstr "Update Single Builder"
+
+#: inc/admin/class-admin.php:369
+msgid "Search Single Builder"
+msgstr "Zoek Single Builder"
+
+#: inc/admin/class-admin.php:370
+msgid "Not Found"
+msgstr "Niet gevonden"
+
+#: inc/admin/class-admin.php:371
+msgid "Not found in Trash"
+msgstr "Niet gevonden in prullenbak"
+
+#: inc/admin/class-admin.php:375
+#, fuzzy
+#| msgid "Parent Single Builder"
+msgid "Events Single Page Builder"
+msgstr "Parent Single Builder"
+
+#: inc/admin/class-admin.php:376
+msgid "Single Builder news and reviews"
+msgstr "Single Builder nieuws en recensies"
+
+#: inc/admin/class-admin.php:483
+msgid "Please select default builder from MEC single page settings."
+msgstr ""
+
+#: inc/admin/class-admin.php:540
+msgid "Please select default builder for modal from MEC single page settings."
+msgstr ""
+
+#: inc/admin/class-admin.php:569 inc/admin/class-admin.php:570
+msgid "Single Builder"
+msgstr "Single Builder"
+
+#: inc/admin/class-admin.php:618
+#, fuzzy
+msgid " Style"
+msgstr "Overlay-stijl"
+
+#: inc/admin/class-admin.php:620
+#, fuzzy
+msgid "Event single view."
+msgstr "Titel van het evenement"
+
+#: inc/admin/class-admin.php:623 inc/admin/class-admin.php:636
+msgid "Select"
+msgstr ""
+
+#: inc/admin/class-admin.php:633
+#, fuzzy
+msgid "Event modal view."
+msgstr "Lokale tijd van het evenement"
+
+#: inc/admin/class-admin.php:648
+msgid "Settings"
+msgstr ""
+
+#: inc/admin/class-admin.php:650
+msgid "Build new Single Design"
+msgstr ""
+
+#: inc/admin/class-elementor-esb.php:183
+msgid "MEC Single Builder"
+msgstr "MEC Single Builder"
+
+#: inc/admin/widgets/class-esb-attendees.php:36
+#, fuzzy
+#| msgid "Event Attendees Module"
+msgid "Single Event Attendees Module"
+msgstr "Event Bezoekers Module"
+
+#: inc/admin/widgets/class-esb-attendees.php:80
+#: inc/admin/widgets/class-esb-booking.php:86
+#: inc/admin/widgets/class-esb-hourly-schedule.php:80
+#: inc/admin/widgets/class-esb-next-pervious.php:81
+#: inc/admin/widgets/class-esb-related-events.php:81
+#: inc/admin/widgets/class-esb-rsvp.php:103
+#: inc/admin/widgets/class-esb-social.php:83
+#: inc/admin/widgets/class-esb-speaker.php:81
+#: inc/admin/widgets/class-esb-weather.php:80
+#, fuzzy
+msgid "Widget Title Settings"
+msgstr "Widgettitel-instellingen"
+
+#: inc/admin/widgets/class-esb-attendees.php:88
+#: inc/admin/widgets/class-esb-booking.php:94
+#: inc/admin/widgets/class-esb-hourly-schedule.php:88
+#: inc/admin/widgets/class-esb-next-pervious.php:89
+#: inc/admin/widgets/class-esb-related-events.php:89
+#: inc/admin/widgets/class-esb-rsvp.php:111
+#: inc/admin/widgets/class-esb-social.php:91
+#: inc/admin/widgets/class-esb-speaker.php:89
+#: inc/admin/widgets/class-esb-weather.php:88
+#, fuzzy
+msgid "Display Widget Title"
+msgstr "Widgettitel weergeven"
+
+#: inc/admin/widgets/class-esb-attendees.php:92
+#: inc/admin/widgets/class-esb-booking.php:98
+#: inc/admin/widgets/class-esb-export.php:278
+#: inc/admin/widgets/class-esb-hourly-schedule.php:92
+#: inc/admin/widgets/class-esb-next-pervious.php:93
+#: inc/admin/widgets/class-esb-nxt-prv.php:277
+#: inc/admin/widgets/class-esb-related-events.php:93
+#: inc/admin/widgets/class-esb-rsvp.php:115
+#: inc/admin/widgets/class-esb-social.php:95
+#: inc/admin/widgets/class-esb-speaker.php:93
+#: inc/admin/widgets/class-esb-weather.php:92
+msgid "block"
+msgstr "blok"
+
+#: inc/admin/widgets/class-esb-attendees.php:93
+#: inc/admin/widgets/class-esb-booking.php:99
+#: inc/admin/widgets/class-esb-hourly-schedule.php:93
+#: inc/admin/widgets/class-esb-next-pervious.php:94
+#: inc/admin/widgets/class-esb-related-events.php:94
+#: inc/admin/widgets/class-esb-rsvp.php:116
+#: inc/admin/widgets/class-esb-social.php:96
+#: inc/admin/widgets/class-esb-speaker.php:94
+#: inc/admin/widgets/class-esb-weather.php:93
+#, fuzzy
+msgid "none"
+msgstr "geen"
+
+#: inc/admin/widgets/class-esb-attendees.php:94
+#: inc/admin/widgets/class-esb-booking.php:100
+#: inc/admin/widgets/class-esb-hourly-schedule.php:94
+#: inc/admin/widgets/class-esb-next-pervious.php:95
+#: inc/admin/widgets/class-esb-related-events.php:95
+#: inc/admin/widgets/class-esb-rsvp.php:117
+#: inc/admin/widgets/class-esb-social.php:97
+#: inc/admin/widgets/class-esb-speaker.php:95
+#: inc/admin/widgets/class-esb-weather.php:94
+#, fuzzy
+msgid "inline"
+msgstr "in lijn"
+
+#: inc/admin/widgets/class-esb-attendees.php:95
+#: inc/admin/widgets/class-esb-booking.php:101
+#: inc/admin/widgets/class-esb-export.php:279
+#: inc/admin/widgets/class-esb-hourly-schedule.php:95
+#: inc/admin/widgets/class-esb-next-pervious.php:96
+#: inc/admin/widgets/class-esb-nxt-prv.php:278
+#: inc/admin/widgets/class-esb-related-events.php:96
+#: inc/admin/widgets/class-esb-rsvp.php:118
+#: inc/admin/widgets/class-esb-social.php:98
+#: inc/admin/widgets/class-esb-speaker.php:96
+#: inc/admin/widgets/class-esb-weather.php:95
+#, fuzzy
+msgid "inline-block"
+msgstr "inline-blok"
+
+#: inc/admin/widgets/class-esb-attendees.php:106
+#: inc/admin/widgets/class-esb-attendees.php:200
+#: inc/admin/widgets/class-esb-booking.php:113
+#: inc/admin/widgets/class-esb-booking.php:212
+#: inc/admin/widgets/class-esb-cancellation.php:100
+#: inc/admin/widgets/class-esb-export.php:302
+#: inc/admin/widgets/class-esb-hourly-schedule.php:106
+#: inc/admin/widgets/class-esb-hourly-schedule.php:200
+#: inc/admin/widgets/class-esb-next-pervious.php:107
+#: inc/admin/widgets/class-esb-next-pervious.php:201
+#: inc/admin/widgets/class-esb-nxt-prv.php:301
+#: inc/admin/widgets/class-esb-related-events.php:107
+#: inc/admin/widgets/class-esb-related-events.php:201
+#: inc/admin/widgets/class-esb-rsvp.php:129
+#: inc/admin/widgets/class-esb-rsvp.php:223
+#: inc/admin/widgets/class-esb-social.php:109
+#: inc/admin/widgets/class-esb-social.php:203
+#: inc/admin/widgets/class-esb-speaker.php:108
+#: inc/admin/widgets/class-esb-speaker.php:202
+#: inc/admin/widgets/class-esb-title.php:120
+#: inc/admin/widgets/class-esb-weather.php:106
+#: inc/admin/widgets/class-esb-weather.php:200
+msgid "Alignment"
+msgstr "Uitlijning"
+
+#: inc/admin/widgets/class-esb-attendees.php:110
+#: inc/admin/widgets/class-esb-attendees.php:204
+#: inc/admin/widgets/class-esb-booking.php:117
+#: inc/admin/widgets/class-esb-booking.php:216
+#: inc/admin/widgets/class-esb-cancellation.php:104
+#: inc/admin/widgets/class-esb-category.php:109
+#: inc/admin/widgets/class-esb-cost.php:108
+#: inc/admin/widgets/class-esb-date.php:108
+#: inc/admin/widgets/class-esb-export.php:306
+#: inc/admin/widgets/class-esb-hourly-schedule.php:110
+#: inc/admin/widgets/class-esb-hourly-schedule.php:204
+#: inc/admin/widgets/class-esb-label.php:108
+#: inc/admin/widgets/class-esb-local-time.php:104
+#: inc/admin/widgets/class-esb-location.php:417
+#: inc/admin/widgets/class-esb-location.php:842
+#: inc/admin/widgets/class-esb-more-info.php:108
+#: inc/admin/widgets/class-esb-next-pervious.php:111
+#: inc/admin/widgets/class-esb-next-pervious.php:205
+#: inc/admin/widgets/class-esb-nxt-prv.php:305
+#: inc/admin/widgets/class-esb-organizer.php:404
+#: inc/admin/widgets/class-esb-organizer.php:774
+#: inc/admin/widgets/class-esb-related-events.php:111
+#: inc/admin/widgets/class-esb-related-events.php:205
+#: inc/admin/widgets/class-esb-rsvp.php:133
+#: inc/admin/widgets/class-esb-rsvp.php:227
+#: inc/admin/widgets/class-esb-social.php:113
+#: inc/admin/widgets/class-esb-social.php:207
+#: inc/admin/widgets/class-esb-speaker.php:112
+#: inc/admin/widgets/class-esb-speaker.php:206
+#: inc/admin/widgets/class-esb-time.php:108
+#: inc/admin/widgets/class-esb-title.php:124
+#: inc/admin/widgets/class-esb-weather.php:110
+#: inc/admin/widgets/class-esb-weather.php:204
+#, fuzzy
+msgid "Left"
+msgstr "Links"
+
+#: inc/admin/widgets/class-esb-attendees.php:114
+#: inc/admin/widgets/class-esb-attendees.php:208
+#: inc/admin/widgets/class-esb-booking.php:121
+#: inc/admin/widgets/class-esb-booking.php:220
+#: inc/admin/widgets/class-esb-cancellation.php:108
+#: inc/admin/widgets/class-esb-category.php:113
+#: inc/admin/widgets/class-esb-cost.php:112
+#: inc/admin/widgets/class-esb-date.php:112
+#: inc/admin/widgets/class-esb-export.php:310
+#: inc/admin/widgets/class-esb-hourly-schedule.php:114
+#: inc/admin/widgets/class-esb-hourly-schedule.php:208
+#: inc/admin/widgets/class-esb-label.php:112
+#: inc/admin/widgets/class-esb-local-time.php:108
+#: inc/admin/widgets/class-esb-location.php:421
+#: inc/admin/widgets/class-esb-location.php:846
+#: inc/admin/widgets/class-esb-more-info.php:112
+#: inc/admin/widgets/class-esb-next-pervious.php:115
+#: inc/admin/widgets/class-esb-next-pervious.php:209
+#: inc/admin/widgets/class-esb-nxt-prv.php:309
+#: inc/admin/widgets/class-esb-organizer.php:408
+#: inc/admin/widgets/class-esb-organizer.php:778
+#: inc/admin/widgets/class-esb-related-events.php:115
+#: inc/admin/widgets/class-esb-related-events.php:209
+#: inc/admin/widgets/class-esb-rsvp.php:137
+#: inc/admin/widgets/class-esb-rsvp.php:231
+#: inc/admin/widgets/class-esb-social.php:117
+#: inc/admin/widgets/class-esb-social.php:211
+#: inc/admin/widgets/class-esb-speaker.php:116
+#: inc/admin/widgets/class-esb-speaker.php:210
+#: inc/admin/widgets/class-esb-time.php:112
+#: inc/admin/widgets/class-esb-title.php:128
+#: inc/admin/widgets/class-esb-weather.php:114
+#: inc/admin/widgets/class-esb-weather.php:208
+#, fuzzy
+msgid "Center"
+msgstr "Centrum"
+
+#: inc/admin/widgets/class-esb-attendees.php:118
+#: inc/admin/widgets/class-esb-attendees.php:212
+#: inc/admin/widgets/class-esb-booking.php:125
+#: inc/admin/widgets/class-esb-booking.php:224
+#: inc/admin/widgets/class-esb-cancellation.php:112
+#: inc/admin/widgets/class-esb-category.php:117
+#: inc/admin/widgets/class-esb-cost.php:116
+#: inc/admin/widgets/class-esb-date.php:116
+#: inc/admin/widgets/class-esb-export.php:314
+#: inc/admin/widgets/class-esb-hourly-schedule.php:118
+#: inc/admin/widgets/class-esb-hourly-schedule.php:212
+#: inc/admin/widgets/class-esb-label.php:116
+#: inc/admin/widgets/class-esb-local-time.php:112
+#: inc/admin/widgets/class-esb-location.php:425
+#: inc/admin/widgets/class-esb-location.php:850
+#: inc/admin/widgets/class-esb-more-info.php:116
+#: inc/admin/widgets/class-esb-next-pervious.php:119
+#: inc/admin/widgets/class-esb-next-pervious.php:213
+#: inc/admin/widgets/class-esb-nxt-prv.php:313
+#: inc/admin/widgets/class-esb-organizer.php:412
+#: inc/admin/widgets/class-esb-organizer.php:782
+#: inc/admin/widgets/class-esb-related-events.php:119
+#: inc/admin/widgets/class-esb-related-events.php:213
+#: inc/admin/widgets/class-esb-rsvp.php:141
+#: inc/admin/widgets/class-esb-rsvp.php:235
+#: inc/admin/widgets/class-esb-social.php:121
+#: inc/admin/widgets/class-esb-social.php:215
+#: inc/admin/widgets/class-esb-speaker.php:120
+#: inc/admin/widgets/class-esb-speaker.php:214
+#: inc/admin/widgets/class-esb-time.php:116
+#: inc/admin/widgets/class-esb-title.php:132
+#: inc/admin/widgets/class-esb-weather.php:118
+#: inc/admin/widgets/class-esb-weather.php:212
+#, fuzzy
+msgid "Right"
+msgstr "Rechtsaf"
+
+#: inc/admin/widgets/class-esb-attendees.php:133
+#: inc/admin/widgets/class-esb-booking.php:141
+#: inc/admin/widgets/class-esb-category.php:196
+#: inc/admin/widgets/class-esb-cost.php:195
+#: inc/admin/widgets/class-esb-date.php:195
+#: inc/admin/widgets/class-esb-hourly-schedule.php:133
+#: inc/admin/widgets/class-esb-label.php:195
+#: inc/admin/widgets/class-esb-local-time.php:191
+#: inc/admin/widgets/class-esb-location.php:92
+#: inc/admin/widgets/class-esb-location.php:517
+#: inc/admin/widgets/class-esb-more-info.php:195
+#: inc/admin/widgets/class-esb-next-pervious.php:134
+#: inc/admin/widgets/class-esb-organizer.php:90
+#: inc/admin/widgets/class-esb-organizer.php:874
+#: inc/admin/widgets/class-esb-related-events.php:134
+#: inc/admin/widgets/class-esb-related-events.php:367
+#: inc/admin/widgets/class-esb-rsvp.php:156
+#: inc/admin/widgets/class-esb-social.php:136
+#: inc/admin/widgets/class-esb-speaker.php:135
+#: inc/admin/widgets/class-esb-tags.php:175
+#: inc/admin/widgets/class-esb-time.php:195
+#: inc/admin/widgets/class-esb-title.php:81
+#: inc/admin/widgets/class-esb-weather.php:133
+#, fuzzy
+msgid "Title Typography"
+msgstr "Titel typografie"
+
+#: inc/admin/widgets/class-esb-attendees.php:148
+#: inc/admin/widgets/class-esb-attendees.php:383
+#: inc/admin/widgets/class-esb-booking.php:157
+#: inc/admin/widgets/class-esb-category.php:204
+#: inc/admin/widgets/class-esb-content.php:99
+#: inc/admin/widgets/class-esb-cost.php:203
+#: inc/admin/widgets/class-esb-date.php:203
+#: inc/admin/widgets/class-esb-hourly-schedule.php:148
+#: inc/admin/widgets/class-esb-hourly-schedule.php:383
+#: inc/admin/widgets/class-esb-hourly-schedule.php:426
+#: inc/admin/widgets/class-esb-label.php:203
+#: inc/admin/widgets/class-esb-local-time.php:199
+#: inc/admin/widgets/class-esb-location.php:100
+#: inc/admin/widgets/class-esb-location.php:525
+#: inc/admin/widgets/class-esb-more-info.php:203
+#: inc/admin/widgets/class-esb-next-pervious.php:149
+#: inc/admin/widgets/class-esb-organizer.php:98
+#: inc/admin/widgets/class-esb-organizer.php:882
+#: inc/admin/widgets/class-esb-related-events.php:149
+#: inc/admin/widgets/class-esb-related-events.php:375
+#: inc/admin/widgets/class-esb-rsvp.php:171
+#: inc/admin/widgets/class-esb-social.php:151
+#: inc/admin/widgets/class-esb-speaker.php:150
+#: inc/admin/widgets/class-esb-tags.php:163
+#: inc/admin/widgets/class-esb-time.php:203
+#: inc/admin/widgets/class-esb-title.php:98
+#: inc/admin/widgets/class-esb-weather.php:148
+#, fuzzy
+msgid "Title Color"
+msgstr "Titel kleur"
+
+#: inc/admin/widgets/class-esb-attendees.php:167
+#: inc/admin/widgets/class-esb-attendees.php:335
+#: inc/admin/widgets/class-esb-attendees.php:543
+#: inc/admin/widgets/class-esb-booking.php:177
+#: inc/admin/widgets/class-esb-booking.php:367
+#: inc/admin/widgets/class-esb-booking.php:685
+#: inc/admin/widgets/class-esb-booking.php:877
+#: inc/admin/widgets/class-esb-booking.php:1018
+#: inc/admin/widgets/class-esb-booking.php:1225
+#: inc/admin/widgets/class-esb-breadcrumbs.php:125
+#: inc/admin/widgets/class-esb-cancellation.php:151
+#: inc/admin/widgets/class-esb-category.php:156
+#: inc/admin/widgets/class-esb-content.php:135
+#: inc/admin/widgets/class-esb-cost.php:155
+#: inc/admin/widgets/class-esb-countdown.php:121
+#: inc/admin/widgets/class-esb-custom-data.php:129
+#: inc/admin/widgets/class-esb-custom-data.php:378
+#: inc/admin/widgets/class-esb-date.php:155
+#: inc/admin/widgets/class-esb-export.php:124
+#: inc/admin/widgets/class-esb-export.php:241
+#: inc/admin/widgets/class-esb-featured-image.php:186
+#: inc/admin/widgets/class-esb-googlemap.php:124
+#: inc/admin/widgets/class-esb-googlemap.php:324
+#: inc/admin/widgets/class-esb-hourly-schedule.php:167
+#: inc/admin/widgets/class-esb-hourly-schedule.php:335
+#: inc/admin/widgets/class-esb-label.php:155
+#: inc/admin/widgets/class-esb-local-time.php:151
+#: inc/admin/widgets/class-esb-location.php:312
+#: inc/admin/widgets/class-esb-location.php:464
+#: inc/admin/widgets/class-esb-location.php:736
+#: inc/admin/widgets/class-esb-location.php:889
+#: inc/admin/widgets/class-esb-location.php:977
+#: inc/admin/widgets/class-esb-more-info.php:155
+#: inc/admin/widgets/class-esb-next-pervious.php:168
+#: inc/admin/widgets/class-esb-next-pervious.php:337
+#: inc/admin/widgets/class-esb-next-pervious.php:455
+#: inc/admin/widgets/class-esb-nxt-prv.php:125
+#: inc/admin/widgets/class-esb-nxt-prv.php:242
+#: inc/admin/widgets/class-esb-organizer.php:350
+#: inc/admin/widgets/class-esb-organizer.php:451
+#: inc/admin/widgets/class-esb-organizer.php:720
+#: inc/admin/widgets/class-esb-organizer.php:821
+#: inc/admin/widgets/class-esb-qr.php:123
+#: inc/admin/widgets/class-esb-register-button.php:129
+#: inc/admin/widgets/class-esb-register-button.php:300
+#: inc/admin/widgets/class-esb-related-events.php:168
+#: inc/admin/widgets/class-esb-related-events.php:527
+#: inc/admin/widgets/class-esb-rsvp.php:190
+#: inc/admin/widgets/class-esb-rsvp.php:376
+#: inc/admin/widgets/class-esb-rsvp.php:598
+#: inc/admin/widgets/class-esb-rsvp.php:751
+#: inc/admin/widgets/class-esb-rsvp.php:892
+#: inc/admin/widgets/class-esb-rsvp.php:1014
+#: inc/admin/widgets/class-esb-rsvp.php:1194
+#: inc/admin/widgets/class-esb-social.php:170
+#: inc/admin/widgets/class-esb-social.php:338
+#: inc/admin/widgets/class-esb-speaker.php:169
+#: inc/admin/widgets/class-esb-speaker.php:337
+#: inc/admin/widgets/class-esb-speaker.php:412
+#: inc/admin/widgets/class-esb-speaker.php:648
+#: inc/admin/widgets/class-esb-speaker.php:754
+#: inc/admin/widgets/class-esb-speaker.php:1001
+#: inc/admin/widgets/class-esb-speaker.php:1114
+#: inc/admin/widgets/class-esb-tags.php:124
+#: inc/admin/widgets/class-esb-time.php:155
+#: inc/admin/widgets/class-esb-title.php:171
+#: inc/admin/widgets/class-esb-virtual-event.php:148
+#: inc/admin/widgets/class-esb-virtual-event.php:237
+#: inc/admin/widgets/class-esb-virtual-event.php:300
+#: inc/admin/widgets/class-esb-weather.php:167
+#: inc/admin/widgets/class-esb-weather.php:335
+#: inc/admin/widgets/class-esb-weather.php:490
+#: inc/admin/widgets/class-esb-zoom-event.php:148
+#: inc/admin/widgets/class-esb-zoom-event.php:237
+#: inc/admin/widgets/class-esb-zoom-event.php:300
+#, fuzzy
+msgid "Border"
+msgstr "Grens"
+
+#: inc/admin/widgets/class-esb-attendees.php:182
+#: inc/admin/widgets/class-esb-booking.php:193
+#: inc/admin/widgets/class-esb-hourly-schedule.php:182
+#: inc/admin/widgets/class-esb-next-pervious.php:183
+#: inc/admin/widgets/class-esb-related-events.php:183
+#: inc/admin/widgets/class-esb-rsvp.php:205
+#: inc/admin/widgets/class-esb-social.php:185
+#: inc/admin/widgets/class-esb-speaker.php:184
+#: inc/admin/widgets/class-esb-weather.php:182
+#, fuzzy
+msgid "Title Shape Color"
+msgstr "Titel vorm kleur"
+
+#: inc/admin/widgets/class-esb-attendees.php:233
+#: inc/admin/widgets/class-esb-attendees.php:310
+#: inc/admin/widgets/class-esb-attendees.php:518
+#: inc/admin/widgets/class-esb-booking.php:246
+#: inc/admin/widgets/class-esb-booking.php:340
+#: inc/admin/widgets/class-esb-breadcrumbs.php:100
+#: inc/admin/widgets/class-esb-cancellation.php:126
+#: inc/admin/widgets/class-esb-category.php:131
+#: inc/admin/widgets/class-esb-content.php:110
+#: inc/admin/widgets/class-esb-cost.php:130
+#: inc/admin/widgets/class-esb-countdown.php:96
+#: inc/admin/widgets/class-esb-custom-data.php:104
+#: inc/admin/widgets/class-esb-custom-data.php:352
+#: inc/admin/widgets/class-esb-date.php:130
+#: inc/admin/widgets/class-esb-export.php:99
+#: inc/admin/widgets/class-esb-export.php:194
+#: inc/admin/widgets/class-esb-export.php:290
+#: inc/admin/widgets/class-esb-featured-image.php:161
+#: inc/admin/widgets/class-esb-googlemap.php:99
+#: inc/admin/widgets/class-esb-hourly-schedule.php:233
+#: inc/admin/widgets/class-esb-hourly-schedule.php:310
+#: inc/admin/widgets/class-esb-hourly-schedule.php:394
+#: inc/admin/widgets/class-esb-hourly-schedule.php:437
+#: inc/admin/widgets/class-esb-label.php:130
+#: inc/admin/widgets/class-esb-local-time.php:126
+#: inc/admin/widgets/class-esb-location.php:439
+#: inc/admin/widgets/class-esb-location.php:864
+#: inc/admin/widgets/class-esb-location.php:952
+#: inc/admin/widgets/class-esb-more-info.php:130
+#: inc/admin/widgets/class-esb-next-pervious.php:234
+#: inc/admin/widgets/class-esb-next-pervious.php:312
+#: inc/admin/widgets/class-esb-next-pervious.php:408
+#: inc/admin/widgets/class-esb-nxt-prv.php:100
+#: inc/admin/widgets/class-esb-nxt-prv.php:195
+#: inc/admin/widgets/class-esb-nxt-prv.php:289
+#: inc/admin/widgets/class-esb-organizer.php:325
+#: inc/admin/widgets/class-esb-organizer.php:426
+#: inc/admin/widgets/class-esb-organizer.php:695
+#: inc/admin/widgets/class-esb-organizer.php:796
+#: inc/admin/widgets/class-esb-qr.php:98
+#: inc/admin/widgets/class-esb-register-button.php:104
+#: inc/admin/widgets/class-esb-related-events.php:234
+#: inc/admin/widgets/class-esb-related-events.php:502
+#: inc/admin/widgets/class-esb-rsvp.php:256
+#: inc/admin/widgets/class-esb-rsvp.php:351
+#: inc/admin/widgets/class-esb-rsvp.php:1043
+#: inc/admin/widgets/class-esb-rsvp.php:1265
+#: inc/admin/widgets/class-esb-social.php:236
+#: inc/admin/widgets/class-esb-social.php:313
+#: inc/admin/widgets/class-esb-speaker.php:235
+#: inc/admin/widgets/class-esb-speaker.php:312
+#: inc/admin/widgets/class-esb-speaker.php:387
+#: inc/admin/widgets/class-esb-speaker.php:479
+#: inc/admin/widgets/class-esb-speaker.php:534
+#: inc/admin/widgets/class-esb-speaker.php:623
+#: inc/admin/widgets/class-esb-speaker.php:729
+#: inc/admin/widgets/class-esb-speaker.php:1089
+#: inc/admin/widgets/class-esb-tags.php:99
+#: inc/admin/widgets/class-esb-time.php:130
+#: inc/admin/widgets/class-esb-title.php:146
+#: inc/admin/widgets/class-esb-virtual-event.php:123
+#: inc/admin/widgets/class-esb-weather.php:233
+#: inc/admin/widgets/class-esb-weather.php:310
+#: inc/admin/widgets/class-esb-zoom-event.php:123
+#, fuzzy
+msgid "Padding"
+msgstr "Opvulling"
+
+#: inc/admin/widgets/class-esb-attendees.php:252
+#: inc/admin/widgets/class-esb-attendees.php:343
+#: inc/admin/widgets/class-esb-attendees.php:551
+#: inc/admin/widgets/class-esb-booking.php:266
+#: inc/admin/widgets/class-esb-booking.php:376
+#: inc/admin/widgets/class-esb-booking.php:709
+#: inc/admin/widgets/class-esb-booking.php:885
+#: inc/admin/widgets/class-esb-booking.php:1026
+#: inc/admin/widgets/class-esb-booking.php:1236
+#: inc/admin/widgets/class-esb-breadcrumbs.php:133
+#: inc/admin/widgets/class-esb-cancellation.php:159
+#: inc/admin/widgets/class-esb-category.php:164
+#: inc/admin/widgets/class-esb-content.php:143
+#: inc/admin/widgets/class-esb-cost.php:163
+#: inc/admin/widgets/class-esb-countdown.php:129
+#: inc/admin/widgets/class-esb-custom-data.php:137
+#: inc/admin/widgets/class-esb-custom-data.php:386
+#: inc/admin/widgets/class-esb-date.php:163
+#: inc/admin/widgets/class-esb-export.php:132
+#: inc/admin/widgets/class-esb-export.php:249
+#: inc/admin/widgets/class-esb-featured-image.php:194
+#: inc/admin/widgets/class-esb-googlemap.php:132
+#: inc/admin/widgets/class-esb-googlemap.php:332
+#: inc/admin/widgets/class-esb-hourly-schedule.php:252
+#: inc/admin/widgets/class-esb-hourly-schedule.php:343
+#: inc/admin/widgets/class-esb-label.php:163
+#: inc/admin/widgets/class-esb-local-time.php:159
+#: inc/admin/widgets/class-esb-location.php:320
+#: inc/admin/widgets/class-esb-location.php:472
+#: inc/admin/widgets/class-esb-location.php:744
+#: inc/admin/widgets/class-esb-location.php:897
+#: inc/admin/widgets/class-esb-location.php:985
+#: inc/admin/widgets/class-esb-more-info.php:163
+#: inc/admin/widgets/class-esb-next-pervious.php:253
+#: inc/admin/widgets/class-esb-next-pervious.php:345
+#: inc/admin/widgets/class-esb-nxt-prv.php:133
+#: inc/admin/widgets/class-esb-nxt-prv.php:250
+#: inc/admin/widgets/class-esb-organizer.php:358
+#: inc/admin/widgets/class-esb-organizer.php:459
+#: inc/admin/widgets/class-esb-organizer.php:728
+#: inc/admin/widgets/class-esb-organizer.php:829
+#: inc/admin/widgets/class-esb-qr.php:131
+#: inc/admin/widgets/class-esb-register-button.php:137
+#: inc/admin/widgets/class-esb-register-button.php:308
+#: inc/admin/widgets/class-esb-related-events.php:253
+#: inc/admin/widgets/class-esb-related-events.php:535
+#: inc/admin/widgets/class-esb-rsvp.php:275
+#: inc/admin/widgets/class-esb-rsvp.php:384
+#: inc/admin/widgets/class-esb-rsvp.php:606
+#: inc/admin/widgets/class-esb-rsvp.php:759
+#: inc/admin/widgets/class-esb-rsvp.php:900
+#: inc/admin/widgets/class-esb-rsvp.php:1022
+#: inc/admin/widgets/class-esb-rsvp.php:1244
+#: inc/admin/widgets/class-esb-social.php:255
+#: inc/admin/widgets/class-esb-social.php:346
+#: inc/admin/widgets/class-esb-social.php:449
+#: inc/admin/widgets/class-esb-speaker.php:254
+#: inc/admin/widgets/class-esb-speaker.php:345
+#: inc/admin/widgets/class-esb-speaker.php:420
+#: inc/admin/widgets/class-esb-speaker.php:656
+#: inc/admin/widgets/class-esb-speaker.php:762
+#: inc/admin/widgets/class-esb-speaker.php:1009
+#: inc/admin/widgets/class-esb-speaker.php:1122
+#: inc/admin/widgets/class-esb-tags.php:132
+#: inc/admin/widgets/class-esb-time.php:163
+#: inc/admin/widgets/class-esb-title.php:179
+#: inc/admin/widgets/class-esb-virtual-event.php:156
+#: inc/admin/widgets/class-esb-virtual-event.php:245
+#: inc/admin/widgets/class-esb-virtual-event.php:308
+#: inc/admin/widgets/class-esb-weather.php:252
+#: inc/admin/widgets/class-esb-weather.php:343
+#: inc/admin/widgets/class-esb-weather.php:498
+#: inc/admin/widgets/class-esb-zoom-event.php:156
+#: inc/admin/widgets/class-esb-zoom-event.php:245
+#: inc/admin/widgets/class-esb-zoom-event.php:308
+#, fuzzy
+msgid "Border Radius"
+msgstr "Grensradius"
+
+#: inc/admin/widgets/class-esb-attendees.php:271
+#: inc/admin/widgets/class-esb-attendees.php:299
+#: inc/admin/widgets/class-esb-attendees.php:507
+#: inc/admin/widgets/class-esb-booking.php:299
+#: inc/admin/widgets/class-esb-booking.php:328
+#: inc/admin/widgets/class-esb-breadcrumbs.php:89
+#: inc/admin/widgets/class-esb-cancellation.php:89
+#: inc/admin/widgets/class-esb-category.php:94
+#: inc/admin/widgets/class-esb-cost.php:93
+#: inc/admin/widgets/class-esb-countdown.php:85
+#: inc/admin/widgets/class-esb-custom-data.php:93
+#: inc/admin/widgets/class-esb-custom-data.php:341
+#: inc/admin/widgets/class-esb-date.php:93
+#: inc/admin/widgets/class-esb-export.php:88
+#: inc/admin/widgets/class-esb-featured-image.php:150
+#: inc/admin/widgets/class-esb-googlemap.php:88
+#: inc/admin/widgets/class-esb-hourly-schedule.php:271
+#: inc/admin/widgets/class-esb-hourly-schedule.php:299
+#: inc/admin/widgets/class-esb-label.php:93
+#: inc/admin/widgets/class-esb-local-time.php:89
+#: inc/admin/widgets/class-esb-location.php:276
+#: inc/admin/widgets/class-esb-location.php:402
+#: inc/admin/widgets/class-esb-location.php:700
+#: inc/admin/widgets/class-esb-location.php:827
+#: inc/admin/widgets/class-esb-location.php:941
+#: inc/admin/widgets/class-esb-more-info.php:93
+#: inc/admin/widgets/class-esb-next-pervious.php:272
+#: inc/admin/widgets/class-esb-next-pervious.php:301
+#: inc/admin/widgets/class-esb-nxt-prv.php:89
+#: inc/admin/widgets/class-esb-organizer.php:314
+#: inc/admin/widgets/class-esb-organizer.php:389
+#: inc/admin/widgets/class-esb-organizer.php:684
+#: inc/admin/widgets/class-esb-organizer.php:759
+#: inc/admin/widgets/class-esb-qr.php:87
+#: inc/admin/widgets/class-esb-register-button.php:93
+#: inc/admin/widgets/class-esb-related-events.php:272
+#: inc/admin/widgets/class-esb-related-events.php:491
+#: inc/admin/widgets/class-esb-rsvp.php:306
+#: inc/admin/widgets/class-esb-rsvp.php:340
+#: inc/admin/widgets/class-esb-rsvp.php:1182
+#: inc/admin/widgets/class-esb-social.php:274
+#: inc/admin/widgets/class-esb-social.php:302
+#: inc/admin/widgets/class-esb-speaker.php:273
+#: inc/admin/widgets/class-esb-speaker.php:301
+#: inc/admin/widgets/class-esb-speaker.php:376
+#: inc/admin/widgets/class-esb-speaker.php:612
+#: inc/admin/widgets/class-esb-speaker.php:718
+#: inc/admin/widgets/class-esb-speaker.php:1078
+#: inc/admin/widgets/class-esb-tags.php:88
+#: inc/admin/widgets/class-esb-time.php:93
+#: inc/admin/widgets/class-esb-virtual-event.php:112
+#: inc/admin/widgets/class-esb-weather.php:271
+#: inc/admin/widgets/class-esb-weather.php:299
+#: inc/admin/widgets/class-esb-zoom-event.php:112
+msgid "Background Color"
+msgstr "Achtergrondkleur"
+
+#: inc/admin/widgets/class-esb-attendees.php:291
+msgid "Attendess Box"
+msgstr "Deelnemers Box"
+
+#: inc/admin/widgets/class-esb-attendees.php:322
+#: inc/admin/widgets/class-esb-attendees.php:530
+#: inc/admin/widgets/class-esb-booking.php:286
+#: inc/admin/widgets/class-esb-booking.php:353
+#: inc/admin/widgets/class-esb-breadcrumbs.php:112
+#: inc/admin/widgets/class-esb-breadcrumbs.php:195
+#: inc/admin/widgets/class-esb-breadcrumbs.php:237
+#: inc/admin/widgets/class-esb-cancellation.php:138
+#: inc/admin/widgets/class-esb-category.php:143
+#: inc/admin/widgets/class-esb-content.php:122
+#: inc/admin/widgets/class-esb-cost.php:142
+#: inc/admin/widgets/class-esb-countdown.php:108
+#: inc/admin/widgets/class-esb-custom-data.php:116
+#: inc/admin/widgets/class-esb-custom-data.php:364
+#: inc/admin/widgets/class-esb-date.php:142
+#: inc/admin/widgets/class-esb-export.php:111
+#: inc/admin/widgets/class-esb-export.php:206
+#: inc/admin/widgets/class-esb-featured-image.php:173
+#: inc/admin/widgets/class-esb-googlemap.php:111
+#: inc/admin/widgets/class-esb-hourly-schedule.php:322
+#: inc/admin/widgets/class-esb-label.php:142
+#: inc/admin/widgets/class-esb-local-time.php:138
+#: inc/admin/widgets/class-esb-location.php:451
+#: inc/admin/widgets/class-esb-location.php:876
+#: inc/admin/widgets/class-esb-location.php:964
+#: inc/admin/widgets/class-esb-more-info.php:142
+#: inc/admin/widgets/class-esb-next-pervious.php:324
+#: inc/admin/widgets/class-esb-next-pervious.php:420
+#: inc/admin/widgets/class-esb-nxt-prv.php:112
+#: inc/admin/widgets/class-esb-nxt-prv.php:207
+#: inc/admin/widgets/class-esb-organizer.php:337
+#: inc/admin/widgets/class-esb-organizer.php:438
+#: inc/admin/widgets/class-esb-organizer.php:707
+#: inc/admin/widgets/class-esb-organizer.php:808
+#: inc/admin/widgets/class-esb-qr.php:110
+#: inc/admin/widgets/class-esb-register-button.php:116
+#: inc/admin/widgets/class-esb-related-events.php:514
+#: inc/admin/widgets/class-esb-rsvp.php:294
+#: inc/admin/widgets/class-esb-rsvp.php:363
+#: inc/admin/widgets/class-esb-rsvp.php:1055
+#: inc/admin/widgets/class-esb-rsvp.php:1277
+#: inc/admin/widgets/class-esb-social.php:325
+#: inc/admin/widgets/class-esb-speaker.php:324
+#: inc/admin/widgets/class-esb-speaker.php:399
+#: inc/admin/widgets/class-esb-speaker.php:491
+#: inc/admin/widgets/class-esb-speaker.php:546
+#: inc/admin/widgets/class-esb-speaker.php:635
+#: inc/admin/widgets/class-esb-speaker.php:741
+#: inc/admin/widgets/class-esb-speaker.php:1101
+#: inc/admin/widgets/class-esb-tags.php:111
+#: inc/admin/widgets/class-esb-time.php:142
+#: inc/admin/widgets/class-esb-title.php:158
+#: inc/admin/widgets/class-esb-virtual-event.php:135
+#: inc/admin/widgets/class-esb-virtual-event.php:212
+#: inc/admin/widgets/class-esb-virtual-event.php:275
+#: inc/admin/widgets/class-esb-weather.php:322
+#: inc/admin/widgets/class-esb-zoom-event.php:135
+#: inc/admin/widgets/class-esb-zoom-event.php:212
+#: inc/admin/widgets/class-esb-zoom-event.php:275
+#, fuzzy
+msgid "Margin"
+msgstr "Marge"
+
+#: inc/admin/widgets/class-esb-attendees.php:356
+#: inc/admin/widgets/class-esb-attendees.php:564
+#: inc/admin/widgets/class-esb-booking.php:390
+#: inc/admin/widgets/class-esb-booking.php:737
+#: inc/admin/widgets/class-esb-booking.php:898
+#: inc/admin/widgets/class-esb-booking.php:1039
+#: inc/admin/widgets/class-esb-booking.php:1251
+#: inc/admin/widgets/class-esb-breadcrumbs.php:146
+#: inc/admin/widgets/class-esb-cancellation.php:172
+#: inc/admin/widgets/class-esb-category.php:177
+#: inc/admin/widgets/class-esb-content.php:156
+#: inc/admin/widgets/class-esb-cost.php:176
+#: inc/admin/widgets/class-esb-countdown.php:142
+#: inc/admin/widgets/class-esb-custom-data.php:150
+#: inc/admin/widgets/class-esb-custom-data.php:399
+#: inc/admin/widgets/class-esb-date.php:176
+#: inc/admin/widgets/class-esb-export.php:145
+#: inc/admin/widgets/class-esb-featured-image.php:207
+#: inc/admin/widgets/class-esb-googlemap.php:145
+#: inc/admin/widgets/class-esb-googlemap.php:345
+#: inc/admin/widgets/class-esb-hourly-schedule.php:356
+#: inc/admin/widgets/class-esb-label.php:176
+#: inc/admin/widgets/class-esb-local-time.php:172
+#: inc/admin/widgets/class-esb-location.php:333
+#: inc/admin/widgets/class-esb-location.php:485
+#: inc/admin/widgets/class-esb-location.php:757
+#: inc/admin/widgets/class-esb-location.php:910
+#: inc/admin/widgets/class-esb-location.php:998
+#: inc/admin/widgets/class-esb-more-info.php:176
+#: inc/admin/widgets/class-esb-next-pervious.php:358
+#: inc/admin/widgets/class-esb-nxt-prv.php:146
+#: inc/admin/widgets/class-esb-organizer.php:371
+#: inc/admin/widgets/class-esb-organizer.php:472
+#: inc/admin/widgets/class-esb-organizer.php:741
+#: inc/admin/widgets/class-esb-organizer.php:842
+#: inc/admin/widgets/class-esb-qr.php:144
+#: inc/admin/widgets/class-esb-register-button.php:150
+#: inc/admin/widgets/class-esb-register-button.php:321
+#: inc/admin/widgets/class-esb-related-events.php:548
+#: inc/admin/widgets/class-esb-rsvp.php:397
+#: inc/admin/widgets/class-esb-rsvp.php:619
+#: inc/admin/widgets/class-esb-rsvp.php:772
+#: inc/admin/widgets/class-esb-rsvp.php:913
+#: inc/admin/widgets/class-esb-rsvp.php:1035
+#: inc/admin/widgets/class-esb-rsvp.php:1257
+#: inc/admin/widgets/class-esb-social.php:359
+#: inc/admin/widgets/class-esb-speaker.php:358
+#: inc/admin/widgets/class-esb-speaker.php:433
+#: inc/admin/widgets/class-esb-speaker.php:669
+#: inc/admin/widgets/class-esb-speaker.php:775
+#: inc/admin/widgets/class-esb-speaker.php:1135
+#: inc/admin/widgets/class-esb-tags.php:145
+#: inc/admin/widgets/class-esb-time.php:176
+#: inc/admin/widgets/class-esb-title.php:192
+#: inc/admin/widgets/class-esb-virtual-event.php:169
+#: inc/admin/widgets/class-esb-weather.php:356
+#: inc/admin/widgets/class-esb-weather.php:511
+#: inc/admin/widgets/class-esb-zoom-event.php:169
+#, fuzzy
+msgid "Box Shadow"
+msgstr "Box Shadow"
+
+#: inc/admin/widgets/class-esb-attendees.php:366
+#: inc/admin/widgets/class-esb-rsvp.php:1307
+msgid "Attendees Typography"
+msgstr "Deelnemers Typografie"
+
+#: inc/admin/widgets/class-esb-attendees.php:375
+#: inc/admin/widgets/class-esb-custom-data.php:169
+#: inc/admin/widgets/class-esb-speaker.php:449
+#: inc/admin/widgets/class-esb-speaker.php:791
+#, fuzzy
+msgid "Name Typography"
+msgstr "Naam typografie"
+
+#: inc/admin/widgets/class-esb-attendees.php:394
+#, fuzzy
+msgid "Title Color Hover"
+msgstr "Titel kleur zweven"
+
+#: inc/admin/widgets/class-esb-attendees.php:405
+#: inc/admin/widgets/class-esb-category.php:215
+#: inc/admin/widgets/class-esb-cost.php:214
+#: inc/admin/widgets/class-esb-date.php:214
+#: inc/admin/widgets/class-esb-label.php:214
+#: inc/admin/widgets/class-esb-local-time.php:210
+#: inc/admin/widgets/class-esb-location.php:111
+#: inc/admin/widgets/class-esb-location.php:536
+#: inc/admin/widgets/class-esb-more-info.php:214
+#: inc/admin/widgets/class-esb-organizer.php:109
+#: inc/admin/widgets/class-esb-organizer.php:893
+#: inc/admin/widgets/class-esb-time.php:214
+#, fuzzy
+msgid "Title Padding"
+msgstr "Titel opvulling"
+
+#: inc/admin/widgets/class-esb-attendees.php:418
+#, fuzzy
+msgid "Span Typography"
+msgstr "Span Typografie"
+
+#: inc/admin/widgets/class-esb-attendees.php:426
+#, fuzzy
+msgid "Span Color"
+msgstr "Span kleur"
+
+#: inc/admin/widgets/class-esb-attendees.php:437
+#, fuzzy
+msgid "Span Padding"
+msgstr "Spanvulling"
+
+#: inc/admin/widgets/class-esb-attendees.php:449
+#, fuzzy
+msgid "Span Margin"
+msgstr "Spanmarge"
+
+#: inc/admin/widgets/class-esb-attendees.php:461
+#: inc/admin/widgets/class-esb-featured-image.php:102
+#: inc/admin/widgets/class-esb-location.php:226
+#: inc/admin/widgets/class-esb-location.php:650
+#: inc/admin/widgets/class-esb-organizer.php:264
+#: inc/admin/widgets/class-esb-organizer.php:634
+#: inc/admin/widgets/class-esb-speaker.php:558
+#: inc/admin/widgets/class-esb-speaker.php:1028
+#, fuzzy
+msgid "Image Width"
+msgstr "Afbeeldingsbreedte"
+
+#: inc/admin/widgets/class-esb-attendees.php:484
+#: inc/admin/widgets/class-esb-featured-image.php:125
+#: inc/admin/widgets/class-esb-location.php:253
+#: inc/admin/widgets/class-esb-location.php:677
+#: inc/admin/widgets/class-esb-organizer.php:291
+#: inc/admin/widgets/class-esb-organizer.php:661
+#: inc/admin/widgets/class-esb-speaker.php:585
+#: inc/admin/widgets/class-esb-speaker.php:1055
+#, fuzzy
+msgid "Image Height"
+msgstr "Afbeelding hoogte"
+
+#: inc/admin/widgets/class-esb-booking.php:42
+#, fuzzy
+msgid "Single Event Booking Module"
+msgstr "Module voor het boeken van evenementen"
+
+#: inc/admin/widgets/class-esb-booking.php:320
+#, fuzzy
+msgid "Booking Box"
+msgstr "Boekingsbox"
+
+#: inc/admin/widgets/class-esb-booking.php:401
+#: inc/admin/widgets/class-esb-rsvp.php:445
+#, fuzzy
+msgid "Form Typography"
+msgstr "Vorm typografie"
+
+#: inc/admin/widgets/class-esb-booking.php:409
+#: inc/admin/widgets/class-esb-rsvp.php:453
+#, fuzzy
+msgid "Width"
+msgstr "Breedte"
+
+#: inc/admin/widgets/class-esb-booking.php:449
+#: inc/admin/widgets/class-esb-cost.php:265
+#: inc/admin/widgets/class-esb-date.php:265
+#: inc/admin/widgets/class-esb-label.php:265
+#: inc/admin/widgets/class-esb-local-time.php:261
+#: inc/admin/widgets/class-esb-location.php:162
+#: inc/admin/widgets/class-esb-location.php:195
+#: inc/admin/widgets/class-esb-location.php:587
+#: inc/admin/widgets/class-esb-location.php:619
+#: inc/admin/widgets/class-esb-organizer.php:184
+#: inc/admin/widgets/class-esb-organizer.php:554
+#: inc/admin/widgets/class-esb-rsvp.php:478
+#: inc/admin/widgets/class-esb-time.php:265
+#, fuzzy
+msgid "Label Typography"
+msgstr "Label typografie"
+
+#: inc/admin/widgets/class-esb-booking.php:464
+#: inc/admin/widgets/class-esb-cost.php:273
+#: inc/admin/widgets/class-esb-date.php:273
+#: inc/admin/widgets/class-esb-local-time.php:269
+#: inc/admin/widgets/class-esb-location.php:170
+#: inc/admin/widgets/class-esb-location.php:203
+#: inc/admin/widgets/class-esb-location.php:595
+#: inc/admin/widgets/class-esb-location.php:627
+#: inc/admin/widgets/class-esb-organizer.php:192
+#: inc/admin/widgets/class-esb-organizer.php:562
+#: inc/admin/widgets/class-esb-rsvp.php:486
+#: inc/admin/widgets/class-esb-time.php:273
+#, fuzzy
+msgid "Label Color"
+msgstr "Label kleur"
+
+#: inc/admin/widgets/class-esb-booking.php:483
+#, fuzzy
+msgid "Ticket Name Typography"
+msgstr "Ticketnaam typografie"
+
+#: inc/admin/widgets/class-esb-booking.php:492
+#, fuzzy
+msgid "Tickat Name Color"
+msgstr "Tickat Naam Kleur"
+
+#: inc/admin/widgets/class-esb-booking.php:505
+#, fuzzy
+msgid "Price Typography"
+msgstr "Prijs typografie"
+
+#: inc/admin/widgets/class-esb-booking.php:514
+#, fuzzy
+msgid "Price Color"
+msgstr "Prijs Kleur"
+
+#: inc/admin/widgets/class-esb-booking.php:535
+msgid "Available Tickets Typography"
+msgstr "Beschikbare Tickets Typografie"
+
+#: inc/admin/widgets/class-esb-booking.php:544
+#: inc/admin/widgets/class-esb-rsvp.php:513
+msgid "Available Tickets Color"
+msgstr "Beschikbare Tickets Kleur"
+
+#: inc/admin/widgets/class-esb-booking.php:557
+msgid "Available Tickets Number Typography"
+msgstr "Beschikbare Tickets Kleur Typografie"
+
+#: inc/admin/widgets/class-esb-booking.php:566
+msgid "Available Tickets Number Color"
+msgstr "Beschikbare Tickets Nummer Kleur"
+
+#: inc/admin/widgets/class-esb-booking.php:587
+#: inc/admin/widgets/class-esb-rsvp.php:532
+#, fuzzy
+msgid "Message Typography"
+msgstr "Bericht typografie"
+
+#: inc/admin/widgets/class-esb-booking.php:596
+#: inc/admin/widgets/class-esb-rsvp.php:540
+#, fuzzy
+msgid "Message Color"
+msgstr "Berichtkleur"
+
+#: inc/admin/widgets/class-esb-booking.php:608
+#: inc/admin/widgets/class-esb-rsvp.php:551
+#, fuzzy
+msgid "Message Background Color"
+msgstr "Achtergrondkleur bericht"
+
+#: inc/admin/widgets/class-esb-booking.php:621
+#: inc/admin/widgets/class-esb-rsvp.php:564
+msgid "Fields Spacing"
+msgstr ""
+
+#: inc/admin/widgets/class-esb-booking.php:630
+#: inc/admin/widgets/class-esb-booking.php:807
+#: inc/admin/widgets/class-esb-booking.php:948
+#: inc/admin/widgets/class-esb-booking.php:1261
+#: inc/admin/widgets/class-esb-googlemap.php:227
+#: inc/admin/widgets/class-esb-register-button.php:199
+#: inc/admin/widgets/class-esb-rsvp.php:573
+#: inc/admin/widgets/class-esb-rsvp.php:681
+#: inc/admin/widgets/class-esb-rsvp.php:822
+#, fuzzy
+msgid "Button Padding"
+msgstr "Opvulling met knopen"
+
+#: inc/admin/widgets/class-esb-booking.php:657
+#: inc/admin/widgets/class-esb-booking.php:819
+#: inc/admin/widgets/class-esb-booking.php:960
+#: inc/admin/widgets/class-esb-booking.php:1275
+#: inc/admin/widgets/class-esb-googlemap.php:239
+#: inc/admin/widgets/class-esb-register-button.php:211
+#: inc/admin/widgets/class-esb-rsvp.php:585
+#: inc/admin/widgets/class-esb-rsvp.php:693
+#: inc/admin/widgets/class-esb-rsvp.php:834
+#, fuzzy
+msgid "Button Margin"
+msgstr "Knopmarge"
+
+#: inc/admin/widgets/class-esb-booking.php:768
+msgid "Booking Button"
+msgstr "Boekingsknop"
+
+#: inc/admin/widgets/class-esb-booking.php:777
+#: inc/admin/widgets/class-esb-booking.php:918
+#: inc/admin/widgets/class-esb-googlemap.php:197
+#: inc/admin/widgets/class-esb-register-button.php:169
+#: inc/admin/widgets/class-esb-rsvp.php:651
+#: inc/admin/widgets/class-esb-rsvp.php:792
+#, fuzzy
+msgid "Button Typography"
+msgstr "Knoptypografie"
+
+#: inc/admin/widgets/class-esb-booking.php:785
+#: inc/admin/widgets/class-esb-booking.php:926
+#: inc/admin/widgets/class-esb-cancellation.php:199
+#: inc/admin/widgets/class-esb-googlemap.php:205
+#: inc/admin/widgets/class-esb-register-button.php:177
+#: inc/admin/widgets/class-esb-rsvp.php:659
+#: inc/admin/widgets/class-esb-rsvp.php:800
+#: inc/admin/widgets/class-esb-rsvp.php:1171
+#, fuzzy
+msgid "Text Color"
+msgstr "Tekst kleur"
+
+#: inc/admin/widgets/class-esb-booking.php:796
+#: inc/admin/widgets/class-esb-booking.php:937
+#: inc/admin/widgets/class-esb-googlemap.php:216
+#: inc/admin/widgets/class-esb-register-button.php:188
+#: inc/admin/widgets/class-esb-rsvp.php:670
+#: inc/admin/widgets/class-esb-rsvp.php:811
+#, fuzzy
+msgid "Text Hover Color"
+msgstr "Tekst Hover-kleur"
+
+#: inc/admin/widgets/class-esb-booking.php:831
+#: inc/admin/widgets/class-esb-booking.php:972
+#: inc/admin/widgets/class-esb-googlemap.php:251
+#: inc/admin/widgets/class-esb-register-button.php:223
+#: inc/admin/widgets/class-esb-rsvp.php:705
+#: inc/admin/widgets/class-esb-rsvp.php:846
+#, fuzzy
+msgid "Button Width"
+msgstr "Knopbreedte"
+
+#: inc/admin/widgets/class-esb-booking.php:854
+#: inc/admin/widgets/class-esb-booking.php:995
+#: inc/admin/widgets/class-esb-googlemap.php:301
+#: inc/admin/widgets/class-esb-register-button.php:277
+#: inc/admin/widgets/class-esb-rsvp.php:728
+#: inc/admin/widgets/class-esb-rsvp.php:869
+#, fuzzy
+msgid "Button Background Color"
+msgstr "Knop achtergrondkleur"
+
+#: inc/admin/widgets/class-esb-booking.php:865
+#: inc/admin/widgets/class-esb-booking.php:1006
+#: inc/admin/widgets/class-esb-googlemap.php:312
+#: inc/admin/widgets/class-esb-register-button.php:288
+#: inc/admin/widgets/class-esb-rsvp.php:739
+#: inc/admin/widgets/class-esb-rsvp.php:880
+#, fuzzy
+msgid "Button Hover Background Color"
+msgstr "Knop Hover Achtergrondkleur"
+
+#: inc/admin/widgets/class-esb-booking.php:909
+#: inc/admin/widgets/class-esb-rsvp.php:783
+#, fuzzy
+#| msgid "Booking Button"
+msgid "Back Button"
+msgstr "Boekingsknop"
+
+#: inc/admin/widgets/class-esb-booking.php:1049
+msgid "Checkout Styling"
+msgstr ""
+
+#: inc/admin/widgets/class-esb-booking.php:1058
+#, fuzzy
+msgid "Price Description Typography"
+msgstr "Beschrijving Typografie"
+
+#: inc/admin/widgets/class-esb-booking.php:1066
+#, fuzzy
+msgid "Price Description Color"
+msgstr "Beschrijving Kleur"
+
+#: inc/admin/widgets/class-esb-booking.php:1078
+#, fuzzy
+msgid "Amount Typography"
+msgstr "Tegen typografie"
+
+#: inc/admin/widgets/class-esb-booking.php:1086
+#, fuzzy
+msgid "Amount Color"
+msgstr "Tegenkleur"
+
+#: inc/admin/widgets/class-esb-booking.php:1098
+#, fuzzy
+msgid "Total Price Typography"
+msgstr "Prijs typografie"
+
+#: inc/admin/widgets/class-esb-booking.php:1106
+#, fuzzy
+msgid "Total Price Color"
+msgstr "Prijs Kleur"
+
+#: inc/admin/widgets/class-esb-booking.php:1118
+#, fuzzy
+msgid "Gateway Label Typography"
+msgstr "Label typografie"
+
+#: inc/admin/widgets/class-esb-booking.php:1126
+#, fuzzy
+msgid "Gateway Label Color"
+msgstr "Label kleur"
+
+#: inc/admin/widgets/class-esb-booking.php:1139
+#: inc/admin/widgets/class-esb-rsvp.php:930
+#, fuzzy
+msgid "Messages Styling"
+msgstr "Berichtkleur"
+
+#: inc/admin/widgets/class-esb-booking.php:1148
+#: inc/admin/widgets/class-esb-breadcrumbs.php:165
+#: inc/admin/widgets/class-esb-cancellation.php:191
+#: inc/admin/widgets/class-esb-content.php:91
+#: inc/admin/widgets/class-esb-export.php:164
+#: inc/admin/widgets/class-esb-hourly-schedule.php:375
+#: inc/admin/widgets/class-esb-hourly-schedule.php:418
+#: inc/admin/widgets/class-esb-nxt-prv.php:165
+#: inc/admin/widgets/class-esb-rsvp.php:939
+#: inc/admin/widgets/class-esb-rsvp.php:1163
+#: inc/admin/widgets/class-esb-title.php:90
+#: inc/admin/widgets/class-esb-virtual-event.php:193
+#: inc/admin/widgets/class-esb-zoom-event.php:193
+#, fuzzy
+msgid "Typography"
+msgstr "Typografie"
+
+#: inc/admin/widgets/class-esb-booking.php:1158
+#: inc/admin/widgets/class-esb-rsvp.php:947
+#, fuzzy
+msgid "Error Text Color"
+msgstr "Tekst kleur"
+
+#: inc/admin/widgets/class-esb-booking.php:1169
+#: inc/admin/widgets/class-esb-rsvp.php:958
+#, fuzzy
+#| msgid "Background Color"
+msgid "Error Background Color"
+msgstr "Achtergrondkleur"
+
+#: inc/admin/widgets/class-esb-booking.php:1180
+#: inc/admin/widgets/class-esb-rsvp.php:969
+#, fuzzy
+msgid "Success Text Color"
+msgstr "Tekst kleur"
+
+#: inc/admin/widgets/class-esb-booking.php:1191
+#: inc/admin/widgets/class-esb-rsvp.php:980
+#, fuzzy
+msgid "Success Background Color"
+msgstr "Achtergrondkleur bericht"
+
+#: inc/admin/widgets/class-esb-booking.php:1202
+#: inc/admin/widgets/class-esb-rsvp.php:991
+#, fuzzy
+msgid "Info Text Color"
+msgstr "Tekst kleur"
+
+#: inc/admin/widgets/class-esb-booking.php:1213
+#: inc/admin/widgets/class-esb-rsvp.php:1002
+#, fuzzy
+msgid "Info Background Color"
+msgstr "Pictogram achtergrondkleur"
+
+#: inc/admin/widgets/class-esb-breadcrumbs.php:37
+#, fuzzy
+msgid "Single Event Breadcrumbs"
+msgstr "Broodkruimels voor evenementen"
+
+#: inc/admin/widgets/class-esb-breadcrumbs.php:81
+#, fuzzy
+msgid "Breadcrumbs Box"
+msgstr "Paneermeel Doos"
+
+#: inc/admin/widgets/class-esb-breadcrumbs.php:156
+#, fuzzy
+msgid "Breadcrumbs Typography"
+msgstr "Broodkruimels Typografie"
+
+#: inc/admin/widgets/class-esb-breadcrumbs.php:173
+#: inc/admin/widgets/class-esb-location.php:350
+#: inc/admin/widgets/class-esb-location.php:775
+#: inc/admin/widgets/class-esb-more-info.php:273
+#: inc/admin/widgets/class-esb-organizer.php:212
+#: inc/admin/widgets/class-esb-organizer.php:582
+#: inc/admin/widgets/class-esb-tags.php:183
+#: inc/admin/widgets/class-esb-virtual-event.php:201
+#: inc/admin/widgets/class-esb-virtual-event.php:435
+#: inc/admin/widgets/class-esb-zoom-event.php:201
+#: inc/admin/widgets/class-esb-zoom-event.php:435
+#, fuzzy
+msgid "Link Color"
+msgstr "Link kleur"
+
+#: inc/admin/widgets/class-esb-breadcrumbs.php:184
+#: inc/admin/widgets/class-esb-tags.php:194
+#, fuzzy
+msgid "Hover Link Color"
+msgstr "Hover Link-kleur"
+
+#: inc/admin/widgets/class-esb-breadcrumbs.php:207
+#: inc/admin/widgets/class-esb-breadcrumbs.php:249
+#: inc/admin/widgets/class-esb-virtual-event.php:224
+#: inc/admin/widgets/class-esb-virtual-event.php:287
+#: inc/admin/widgets/class-esb-zoom-event.php:224
+#: inc/admin/widgets/class-esb-zoom-event.php:287
+#, fuzzy
+msgid "padding"
+msgstr "opvulling"
+
+#: inc/admin/widgets/class-esb-breadcrumbs.php:226
+#, fuzzy
+msgid "Current Color"
+msgstr "Huidige kleur"
+
+#: inc/admin/widgets/class-esb-breadcrumbs.php:268
+msgid "Arrow Size"
+msgstr "Pijlgrootte"
+
+#: inc/admin/widgets/class-esb-cancellation.php:37
+#, fuzzy
+msgid "Single Event Cancellation"
+msgstr "Annulering van evenement"
+
+#: inc/admin/widgets/class-esb-cancellation.php:81
+#, fuzzy
+msgid "Cancellation Box"
+msgstr "Annuleringsvak"
+
+#: inc/admin/widgets/class-esb-cancellation.php:182
+#, fuzzy
+msgid "Cancellation Typography"
+msgstr "Annulering typografie"
+
+#: inc/admin/widgets/class-esb-category.php:41
+#, fuzzy
+msgid "Single Event Category"
+msgstr "Evenement categorie"
+
+#: inc/admin/widgets/class-esb-category.php:86
+#, fuzzy
+msgid "Category Box"
+msgstr "Categorie Doos"
+
+#: inc/admin/widgets/class-esb-category.php:105
+#: inc/admin/widgets/class-esb-cost.php:104
+#: inc/admin/widgets/class-esb-date.php:104
+#: inc/admin/widgets/class-esb-label.php:104
+#: inc/admin/widgets/class-esb-local-time.php:100
+#: inc/admin/widgets/class-esb-location.php:413
+#: inc/admin/widgets/class-esb-location.php:838
+#: inc/admin/widgets/class-esb-more-info.php:104
+#: inc/admin/widgets/class-esb-organizer.php:400
+#: inc/admin/widgets/class-esb-organizer.php:770
+#: inc/admin/widgets/class-esb-time.php:104
+#, fuzzy
+#| msgid "Alignment"
+msgid "Widget Alignment"
+msgstr "Uitlijning"
+
+#: inc/admin/widgets/class-esb-category.php:187
+#, fuzzy
+msgid "Category Typography"
+msgstr "Categorie typografie"
+
+#: inc/admin/widgets/class-esb-category.php:227
+#: inc/admin/widgets/class-esb-category.php:308
+#: inc/admin/widgets/class-esb-cost.php:226
+#: inc/admin/widgets/class-esb-date.php:226
+#: inc/admin/widgets/class-esb-label.php:226
+#: inc/admin/widgets/class-esb-local-time.php:222
+#: inc/admin/widgets/class-esb-location.php:123
+#: inc/admin/widgets/class-esb-location.php:548
+#: inc/admin/widgets/class-esb-more-info.php:226
+#: inc/admin/widgets/class-esb-social.php:399
+#: inc/admin/widgets/class-esb-speaker.php:929
+#: inc/admin/widgets/class-esb-time.php:226
+#: inc/admin/widgets/class-esb-virtual-event.php:327
+#: inc/admin/widgets/class-esb-zoom-event.php:327
+#, fuzzy
+msgid "Icon Size"
+msgstr "Pictogramgrootte"
+
+#: inc/admin/widgets/class-esb-category.php:254
+#: inc/admin/widgets/class-esb-category.php:335
+#: inc/admin/widgets/class-esb-cost.php:253
+#: inc/admin/widgets/class-esb-date.php:253
+#: inc/admin/widgets/class-esb-label.php:253
+#: inc/admin/widgets/class-esb-local-time.php:249
+#: inc/admin/widgets/class-esb-location.php:150
+#: inc/admin/widgets/class-esb-location.php:575
+#: inc/admin/widgets/class-esb-more-info.php:253
+#: inc/admin/widgets/class-esb-organizer.php:160
+#: inc/admin/widgets/class-esb-organizer.php:530
+#: inc/admin/widgets/class-esb-rsvp.php:1202
+#: inc/admin/widgets/class-esb-social.php:377
+#: inc/admin/widgets/class-esb-speaker.php:956
+#: inc/admin/widgets/class-esb-time.php:253
+#: inc/admin/widgets/class-esb-virtual-event.php:264
+#: inc/admin/widgets/class-esb-zoom-event.php:264
+#, fuzzy
+msgid "Icon Color"
+msgstr "Icoon Kleur"
+
+#: inc/admin/widgets/class-esb-category.php:266
+#, fuzzy
+msgid "Category Link Typography"
+msgstr "Categorie Link Typografie"
+
+#: inc/admin/widgets/class-esb-category.php:274
+#, fuzzy
+msgid "Category Link Color"
+msgstr "Categorie Link Kleur"
+
+#: inc/admin/widgets/class-esb-category.php:285
+#, fuzzy
+msgid "Category Link Hover Color"
+msgstr "Categorie Link Hover-kleur"
+
+#: inc/admin/widgets/class-esb-category.php:296
+#, fuzzy
+msgid "Category Padding"
+msgstr "Categorie opvulling"
+
+#: inc/admin/widgets/class-esb-category.php:346
+#: inc/admin/widgets/class-esb-social.php:388
+#: inc/admin/widgets/class-esb-speaker.php:967
+#, fuzzy
+msgid "Icon Hover Color"
+msgstr "Pictogram Hover-kleur"
+
+#: inc/admin/widgets/class-esb-category.php:357
+#: inc/admin/widgets/class-esb-label.php:285
+#: inc/admin/widgets/class-esb-location.php:493
+#: inc/admin/widgets/class-esb-location.php:918
+#: inc/admin/widgets/class-esb-organizer.php:480
+#: inc/admin/widgets/class-esb-organizer.php:850
+#, fuzzy
+msgid "Labels Wrapper Spacing"
+msgstr "Wrapper opvulling"
+
+#: inc/admin/widgets/class-esb-content.php:38
+#, fuzzy
+msgid "Single Event Content"
+msgstr "Evenement inhoud"
+
+#: inc/admin/widgets/class-esb-content.php:82
+#: inc/admin/widgets/class-esb-hourly-schedule.php:451
+#, fuzzy
+msgid "Content Typography"
+msgstr "Inhoudstypografie"
+
+#: inc/admin/widgets/class-esb-cost.php:41
+#, fuzzy
+msgid "Single Event Cost"
+msgstr "Event kosten"
+
+#: inc/admin/widgets/class-esb-cost.php:85
+#, fuzzy
+msgid "Cost Box"
+msgstr "Kosten doos"
+
+#: inc/admin/widgets/class-esb-cost.php:186
+#, fuzzy
+msgid "Cost Typography"
+msgstr "Kostentypografie"
+
+#: inc/admin/widgets/class-esb-cost.php:284
+#: inc/admin/widgets/class-esb-date.php:284
+#: inc/admin/widgets/class-esb-local-time.php:280
+#: inc/admin/widgets/class-esb-location.php:182
+#: inc/admin/widgets/class-esb-location.php:214
+#: inc/admin/widgets/class-esb-location.php:606
+#: inc/admin/widgets/class-esb-location.php:638
+#: inc/admin/widgets/class-esb-more-info.php:295
+#: inc/admin/widgets/class-esb-time.php:284
+#, fuzzy
+msgid "Label Padding"
+msgstr "Label opvulling"
+
+#: inc/admin/widgets/class-esb-cost.php:296
+#: inc/admin/widgets/class-esb-date.php:296
+#: inc/admin/widgets/class-esb-local-time.php:292
+#: inc/admin/widgets/class-esb-more-info.php:307
+#: inc/admin/widgets/class-esb-time.php:296
+#, fuzzy
+msgid "Label Wrapper Spacing"
+msgstr "Wrapper opvulling"
+
+#: inc/admin/widgets/class-esb-countdown.php:35
+#, fuzzy
+msgid "Single Event Countdown"
+msgstr "Aftellen van evenementen"
+
+#: inc/admin/widgets/class-esb-countdown.php:77
+#, fuzzy
+msgid "Countdown Box"
+msgstr "Aftelbox"
+
+#: inc/admin/widgets/class-esb-countdown.php:152
+#, fuzzy
+msgid "Countdown Typography"
+msgstr "Aftellen typografie"
+
+#: inc/admin/widgets/class-esb-countdown.php:161
+#, fuzzy
+msgid "Counter Typography"
+msgstr "Tegen typografie"
+
+#: inc/admin/widgets/class-esb-countdown.php:169
+#, fuzzy
+msgid "Counter Color"
+msgstr "Tegenkleur"
+
+#: inc/admin/widgets/class-esb-countdown.php:180
+#, fuzzy
+msgid "Counter Background"
+msgstr "Inhoud Achtergrond"
+
+#: inc/admin/widgets/class-esb-countdown.php:185
+msgid ""
+"If you use the \"Flip Style\" countdown style you can set background color "
+"for flipper"
+msgstr ""
+
+#: inc/admin/widgets/class-esb-countdown.php:192
+#, fuzzy
+msgid "Counter Padding"
+msgstr "Tegenvulling"
+
+#: inc/admin/widgets/class-esb-countdown.php:205
+#, fuzzy
+msgid "Counter label Typography"
+msgstr "Tegenlabel typografie"
+
+#: inc/admin/widgets/class-esb-countdown.php:213
+#, fuzzy
+msgid "Counter label Color"
+msgstr "Tellerlabel Kleur"
+
+#: inc/admin/widgets/class-esb-countdown.php:224
+#, fuzzy
+msgid "Counter label Margin"
+msgstr "Tellerlabel Marge"
+
+#: inc/admin/widgets/class-esb-custom-data.php:41
+#, fuzzy
+msgid "Single Event Data"
+msgstr "Gebeurtenisgegevens"
+
+#: inc/admin/widgets/class-esb-custom-data.php:85
+#, fuzzy
+msgid "Event Data Box"
+msgstr "Gebeurtenisgegevensvak"
+
+#: inc/admin/widgets/class-esb-custom-data.php:160
+#, fuzzy
+msgid "Event Data Typography"
+msgstr "Typografie van gebeurtenisgegevens"
+
+#: inc/admin/widgets/class-esb-custom-data.php:177
+#: inc/admin/widgets/class-esb-speaker.php:457
+#: inc/admin/widgets/class-esb-speaker.php:799
+#, fuzzy
+msgid "Name Color"
+msgstr "Naam Kleur"
+
+#: inc/admin/widgets/class-esb-custom-data.php:188
+#: inc/admin/widgets/class-esb-speaker.php:810
+#, fuzzy
+msgid "Name Padding"
+msgstr "Naam opvulling"
+
+#: inc/admin/widgets/class-esb-custom-data.php:200
+#: inc/admin/widgets/class-esb-speaker.php:822
+#, fuzzy
+msgid "Name Margin"
+msgstr "Naammarge"
+
+#: inc/admin/widgets/class-esb-custom-data.php:220
+#, fuzzy
+msgid "Value Typography"
+msgstr "Waarde typografie"
+
+#: inc/admin/widgets/class-esb-custom-data.php:228
+#, fuzzy
+msgid "Value Color"
+msgstr "Waarde Kleur"
+
+#: inc/admin/widgets/class-esb-custom-data.php:239
+#, fuzzy
+msgid "Value Padding"
+msgstr "Waarde opvulling"
+
+#: inc/admin/widgets/class-esb-custom-data.php:251
+#, fuzzy
+msgid "Value Margin"
+msgstr "Waardemarge"
+
+#: inc/admin/widgets/class-esb-custom-data.php:271
+#, fuzzy
+msgid "Link Typography (value)"
+msgstr "Link Typography (waarde)"
+
+#: inc/admin/widgets/class-esb-custom-data.php:279
+#, fuzzy
+msgid "Link Color (value)"
+msgstr "Link Color (waarde)"
+
+#: inc/admin/widgets/class-esb-custom-data.php:290
+#, fuzzy
+msgid "Hover Link Color (value)"
+msgstr "Kleur van zweeflink (waarde)"
+
+#: inc/admin/widgets/class-esb-custom-data.php:305
+#, fuzzy
+msgid "Event Data Items"
+msgstr "Gebeurtenisgegevensitems"
+
+#: inc/admin/widgets/class-esb-custom-data.php:313
+#, fuzzy
+msgid "Item Width"
+msgstr "Artikelbreedte"
+
+#: inc/admin/widgets/class-esb-date.php:41
+#, fuzzy
+msgid "Single Event Date Module"
+msgstr "Evenement Datum Module"
+
+#: inc/admin/widgets/class-esb-date.php:85
+#, fuzzy
+msgid "Date Box"
+msgstr "Datumvak"
+
+#: inc/admin/widgets/class-esb-date.php:186
+#: inc/admin/widgets/class-esb-related-events.php:347
+#, fuzzy
+msgid "Date Typography"
+msgstr "Datum typografie"
+
+#: inc/admin/widgets/class-esb-export.php:36
+#, fuzzy
+msgid "Single Event Export Module"
+msgstr "Module voor het exporteren van evenementen"
+
+#: inc/admin/widgets/class-esb-export.php:80
+#, fuzzy
+msgid "Export Module Box"
+msgstr "Export Module Box"
+
+#: inc/admin/widgets/class-esb-export.php:155
+#, fuzzy
+msgid "Export Typography"
+msgstr "Typografie exporteren"
+
+#: inc/admin/widgets/class-esb-export.php:172
+#: inc/admin/widgets/class-esb-nxt-prv.php:173
+#, fuzzy
+msgid "Button Color"
+msgstr "Knop kleur"
+
+#: inc/admin/widgets/class-esb-export.php:183
+#: inc/admin/widgets/class-esb-nxt-prv.php:184
+#, fuzzy
+msgid "Hover Button Color"
+msgstr "Kleur van zweefknop"
+
+#: inc/admin/widgets/class-esb-export.php:218
+#: inc/admin/widgets/class-esb-nxt-prv.php:219
+#, fuzzy
+msgid "Button Background"
+msgstr "Knop Achtergrond"
+
+#: inc/admin/widgets/class-esb-export.php:229
+#: inc/admin/widgets/class-esb-nxt-prv.php:230
+#, fuzzy
+msgid "Button Hover Background"
+msgstr "Knop Hover Achtergrond"
+
+#: inc/admin/widgets/class-esb-export.php:263
+#, fuzzy
+msgid "Export Elements"
+msgstr "Exporteer elementen"
+
+#: inc/admin/widgets/class-esb-export.php:273
+#: inc/admin/widgets/class-esb-nxt-prv.php:272
+msgid "Display"
+msgstr "Weergave"
+
+#: inc/admin/widgets/class-esb-export.php:277
+#: inc/admin/widgets/class-esb-nxt-prv.php:276
+#, fuzzy
+msgid "table-cell"
+msgstr "tafelcel"
+
+#: inc/admin/widgets/class-esb-featured-image.php:37
+#, fuzzy
+msgid "Single Event Featured Image"
+msgstr "Uitgelichte afbeelding van het evenement"
+
+#: inc/admin/widgets/class-esb-featured-image.php:81
+#, fuzzy
+msgid "Featured Image Box"
+msgstr "Featured Image Box"
+
+#: inc/admin/widgets/class-esb-featured-image.php:89
+msgid "Image Dimension"
+msgstr ""
+
+#: inc/admin/widgets/class-esb-featured-image.php:91
+msgid ""
+"Crop the original image size to any custom size. Set custom width or height "
+"to keep the original size ratio."
+msgstr ""
+
+#: inc/admin/widgets/class-esb-featured-image.php:216
+#, fuzzy
+msgid "Overlay Style"
+msgstr "Overlay-stijl"
+
+#: inc/admin/widgets/class-esb-featured-image.php:224
+#: inc/admin/widgets/class-esb-googlemap.php:161
+msgid "Transition"
+msgstr "Overgang"
+
+#: inc/admin/widgets/class-esb-featured-image.php:242
+#, fuzzy
+msgid "Hover Overlay Style"
+msgstr "Hover Overlay-stijl"
+
+#: inc/admin/widgets/class-esb-googlemap.php:38
+#, fuzzy
+msgid "Single Event Map"
+msgstr "Evenement kaart"
+
+#: inc/admin/widgets/class-esb-googlemap.php:80
+#, fuzzy
+msgid "Google Map Box"
+msgstr "Google Map Box"
+
+#: inc/admin/widgets/class-esb-googlemap.php:188
+#, fuzzy
+msgid "Direction Button"
+msgstr "Richting knop"
+
+#: inc/admin/widgets/class-esb-googlemap.php:278
+#: inc/admin/widgets/class-esb-register-button.php:250
+#, fuzzy
+msgid "Button Height"
+msgstr "Knop hoogte"
+
+#: inc/admin/widgets/class-esb-hourly-schedule.php:36
+#, fuzzy
+msgid "Single Event Hourly Schedule"
+msgstr "Uurschema voor evenementen"
+
+#: inc/admin/widgets/class-esb-hourly-schedule.php:291
+#, fuzzy
+msgid "Hourly Schedule Box"
+msgstr "Hourly Schedule Box"
+
+#: inc/admin/widgets/class-esb-hourly-schedule.php:366
+#, fuzzy
+msgid "Day Title Typography"
+msgstr "Dag titel typografie"
+
+#: inc/admin/widgets/class-esb-hourly-schedule.php:409
+#, fuzzy
+msgid "Start & End Time Typography"
+msgstr "Typografie van begin- en eindtijd"
+
+#: inc/admin/widgets/class-esb-hourly-schedule.php:460
+#, fuzzy
+msgid "Details Typography"
+msgstr "Details typografie"
+
+#: inc/admin/widgets/class-esb-hourly-schedule.php:468
+#, fuzzy
+msgid "Details Color"
+msgstr "Details Kleur"
+
+#: inc/admin/widgets/class-esb-hourly-schedule.php:479
+#, fuzzy
+msgid "Details Padding"
+msgstr "Details opvulling"
+
+#: inc/admin/widgets/class-esb-hourly-schedule.php:492
+#: inc/admin/widgets/class-esb-location.php:373
+#: inc/admin/widgets/class-esb-location.php:798
+#: inc/admin/widgets/class-esb-organizer.php:235
+#: inc/admin/widgets/class-esb-organizer.php:605
+#: inc/admin/widgets/class-esb-speaker.php:879
+#, fuzzy
+msgid "Description Typography"
+msgstr "Beschrijving Typografie"
+
+#: inc/admin/widgets/class-esb-hourly-schedule.php:500
+#: inc/admin/widgets/class-esb-location.php:381
+#: inc/admin/widgets/class-esb-location.php:806
+#: inc/admin/widgets/class-esb-organizer.php:243
+#: inc/admin/widgets/class-esb-organizer.php:613
+#: inc/admin/widgets/class-esb-speaker.php:887
+#, fuzzy
+msgid "Description Color"
+msgstr "Beschrijving Kleur"
+
+#: inc/admin/widgets/class-esb-hourly-schedule.php:511
+#: inc/admin/widgets/class-esb-speaker.php:898
+#, fuzzy
+msgid "Description Padding"
+msgstr "Beschrijving Padding"
+
+#: inc/admin/widgets/class-esb-hourly-schedule.php:523
+#, fuzzy
+msgid "Detail & Description Map Color"
+msgstr "Detail & Beschrijving Kaartkleur"
+
+#: inc/admin/widgets/class-esb-label.php:41
+#, fuzzy
+msgid "Single Event Labels"
+msgstr "Evenementlabels"
+
+#: inc/admin/widgets/class-esb-label.php:85
+#, fuzzy
+msgid "Labels Box"
+msgstr "Etiketten doos"
+
+#: inc/admin/widgets/class-esb-label.php:186
+#, fuzzy
+msgid "Labels Typography"
+msgstr "Etiketten typografie"
+
+#: inc/admin/widgets/class-esb-label.php:273
+#, fuzzy
+msgid "Label Margin"
+msgstr "Labelmarge"
+
+#: inc/admin/widgets/class-esb-local-time.php:37
+#, fuzzy
+msgid "Single Event Local Time"
+msgstr "Lokale tijd van het evenement"
+
+#: inc/admin/widgets/class-esb-local-time.php:81
+#, fuzzy
+msgid "Local Time Box"
+msgstr "Lokale tijdvak"
+
+#: inc/admin/widgets/class-esb-local-time.php:182
+#, fuzzy
+msgid "Local Time Typography"
+msgstr "Lokale tijd typografie"
+
+#: inc/admin/widgets/class-esb-location.php:39
+#, fuzzy
+msgid "Single Event Locations"
+msgstr "Event locaties"
+
+#: inc/admin/widgets/class-esb-location.php:83
+msgid "Location"
+msgstr "Plaats"
+
+#: inc/admin/widgets/class-esb-location.php:287
+#: inc/admin/widgets/class-esb-location.php:711
+#, fuzzy
+msgid "Image Padding"
+msgstr "Naam opvulling"
+
+#: inc/admin/widgets/class-esb-location.php:299
+#: inc/admin/widgets/class-esb-location.php:723
+#, fuzzy
+msgid "Image Margin"
+msgstr "Naammarge"
+
+#: inc/admin/widgets/class-esb-location.php:342
+#: inc/admin/widgets/class-esb-location.php:767
+#: inc/admin/widgets/class-esb-more-info.php:265
+#: inc/admin/widgets/class-esb-organizer.php:204
+#: inc/admin/widgets/class-esb-organizer.php:574
+#: inc/admin/widgets/class-esb-virtual-event.php:427
+#: inc/admin/widgets/class-esb-zoom-event.php:427
+#, fuzzy
+msgid "Link Typography"
+msgstr "Link typografie"
+
+#: inc/admin/widgets/class-esb-location.php:361
+#: inc/admin/widgets/class-esb-location.php:786
+#: inc/admin/widgets/class-esb-organizer.php:223
+#: inc/admin/widgets/class-esb-organizer.php:593
+#, fuzzy
+msgid "Link HoverColor"
+msgstr "Koppel HoverColor"
+
+#: inc/admin/widgets/class-esb-location.php:394
+msgid "Location Box"
+msgstr "Locatie Box"
+
+#: inc/admin/widgets/class-esb-location.php:508
+#, fuzzy
+msgid "Other Location"
+msgstr "Andere locatie"
+
+#: inc/admin/widgets/class-esb-location.php:819
+#, fuzzy
+msgid "Other Location Box"
+msgstr "Doos voor andere locaties"
+
+#: inc/admin/widgets/class-esb-location.php:933
+msgid "Additional Location Box"
+msgstr "Extra locatiebox"
+
+#: inc/admin/widgets/class-esb-more-info.php:41
+#, fuzzy
+#| msgid "Event More Info"
+msgid "Single Event More Info"
+msgstr "Event Meer Info"
+
+#: inc/admin/widgets/class-esb-more-info.php:85
+#, fuzzy
+msgid "More Info Box"
+msgstr "Meer Info Box"
+
+#: inc/admin/widgets/class-esb-more-info.php:186
+#, fuzzy
+msgid "More Info Typography"
+msgstr "Meer info typografie"
+
+#: inc/admin/widgets/class-esb-more-info.php:284
+#: inc/admin/widgets/class-esb-virtual-event.php:446
+#: inc/admin/widgets/class-esb-virtual-event.php:473
+#: inc/admin/widgets/class-esb-virtual-event.php:493
+#: inc/admin/widgets/class-esb-zoom-event.php:446
+#: inc/admin/widgets/class-esb-zoom-event.php:473
+#: inc/admin/widgets/class-esb-zoom-event.php:493
+#, fuzzy
+msgid "Link Hover Color"
+msgstr "Link Hover Color"
+
+#: inc/admin/widgets/class-esb-next-pervious.php:37
+#, fuzzy
+msgid "Single Next Event Module"
+msgstr "Volgende evenementmodule"
+
+#: inc/admin/widgets/class-esb-next-pervious.php:293
+#, fuzzy
+msgid "Next Events Box"
+msgstr "Vak voor volgende evenementen"
+
+#: inc/admin/widgets/class-esb-next-pervious.php:368
+#, fuzzy
+msgid "Next Event Typography"
+msgstr "Typografie van het volgende evenement"
+
+#: inc/admin/widgets/class-esb-next-pervious.php:377
+#, fuzzy
+msgid "Next Event Button Typography"
+msgstr "Volgende gebeurtenis knoptypografie"
+
+#: inc/admin/widgets/class-esb-next-pervious.php:385
+#, fuzzy
+msgid "Next Event Button Color"
+msgstr "Kleur knop volgende gebeurtenis"
+
+#: inc/admin/widgets/class-esb-next-pervious.php:396
+#, fuzzy
+msgid "Next Event Button Background"
+msgstr "Volgende gebeurtenis knop achtergrond"
+
+#: inc/admin/widgets/class-esb-next-pervious.php:432
+#, fuzzy
+msgid "Next Event Hover Button Color"
+msgstr "Kleur van zweefknop voor volgende gebeurtenis"
+
+#: inc/admin/widgets/class-esb-next-pervious.php:443
+#, fuzzy
+msgid "Next Event Hover Button Background"
+msgstr "Volgende gebeurtenis Hover-knopachtergrond"
+
+#: inc/admin/widgets/class-esb-next-pervious.php:465
+msgid "Date & Time"
+msgstr "Datum & Tijd"
+
+#: inc/admin/widgets/class-esb-next-pervious.php:474
+#, fuzzy
+msgid "Date & Time box"
+msgstr "Datum- en tijdvak"
+
+#: inc/admin/widgets/class-esb-next-pervious.php:482
+#, fuzzy
+msgid "Date & Time Box Padding"
+msgstr "Opvulling van datum- en tijdvak"
+
+#: inc/admin/widgets/class-esb-next-pervious.php:494
+#, fuzzy
+msgid "Date & Time Box Margin"
+msgstr "Marge datum- en tijdvak"
+
+#: inc/admin/widgets/class-esb-next-pervious.php:507
+#, fuzzy
+msgid "Date Title Typography"
+msgstr "Datum Titel Typografie"
+
+#: inc/admin/widgets/class-esb-next-pervious.php:515
+#, fuzzy
+msgid "Date & Time Title Color"
+msgstr "Datum en tijd Titelkleur"
+
+#: inc/admin/widgets/class-esb-next-pervious.php:526
+#, fuzzy
+msgid "Date & Time Title Padding"
+msgstr "Datum en tijd titelopvulling"
+
+#: inc/admin/widgets/class-esb-next-pervious.php:538
+#, fuzzy
+msgid "Date & Time Icon Size"
+msgstr "Pictogramgrootte datum en tijd"
+
+#: inc/admin/widgets/class-esb-next-pervious.php:565
+#, fuzzy
+msgid "Date & Time Icon Color"
+msgstr "Datum & tijd pictogram kleur"
+
+#: inc/admin/widgets/class-esb-next-pervious.php:577
+#, fuzzy
+msgid "Date & Time Label Typography"
+msgstr "Datum- en tijdlabel typografie"
+
+#: inc/admin/widgets/class-esb-next-pervious.php:585
+#, fuzzy
+msgid "Date & Time Label Color"
+msgstr "Datum- en tijdlabelkleur"
+
+#: inc/admin/widgets/class-esb-next-pervious.php:596
+#, fuzzy
+msgid "Date & Time Label Padding"
+msgstr "Opvulling van datum- en tijdlabel"
+
+#: inc/admin/widgets/class-esb-nxt-prv.php:37
+#, fuzzy
+msgid "Single Next / Previous Events"
+msgstr "Vak voor volgende evenementen"
+
+#: inc/admin/widgets/class-esb-nxt-prv.php:81
+#, fuzzy
+msgid "Next / Previous Events Box"
+msgstr "Vak voor volgende evenementen"
+
+#: inc/admin/widgets/class-esb-nxt-prv.php:156
+#, fuzzy
+msgid "Next & Previous Typography"
+msgstr "Typografie van het volgende evenement"
+
+#: inc/admin/widgets/class-esb-nxt-prv.php:264
+msgid "Next & Previous Elements"
+msgstr ""
+
+#: inc/admin/widgets/class-esb-organizer.php:37
+#, fuzzy
+msgid "Single Event Organizers"
+msgstr "Organisatoren van evenementen"
+
+#: inc/admin/widgets/class-esb-organizer.php:81
+#, fuzzy
+msgid "Organizer Typography"
+msgstr "Organisator typografie"
+
+#: inc/admin/widgets/class-esb-organizer.php:121
+#, fuzzy
+msgid "Title Margin"
+msgstr "Waardemarge"
+
+#: inc/admin/widgets/class-esb-organizer.php:133
+#: inc/admin/widgets/class-esb-organizer.php:503
+#, fuzzy
+msgid "Icons Size"
+msgstr "Pictogrammen Grootte"
+
+#: inc/admin/widgets/class-esb-organizer.php:171
+#: inc/admin/widgets/class-esb-organizer.php:541
+#, fuzzy
+msgid "Icon Margin"
+msgstr "Baanmarge"
+
+#: inc/admin/widgets/class-esb-organizer.php:256
+#, fuzzy
+msgid "Organizer Image Box"
+msgstr "Organizer afbeeldingsvak"
+
+#: inc/admin/widgets/class-esb-organizer.php:381
+#, fuzzy
+msgid "Organizer Box"
+msgstr "Opbergdoos"
+
+#: inc/admin/widgets/class-esb-organizer.php:495
+#, fuzzy
+msgid "Other Organizer Typography"
+msgstr "Andere organisatietypografie"
+
+#: inc/admin/widgets/class-esb-organizer.php:626
+#, fuzzy
+msgid "Other Organizer Image Box"
+msgstr "Andere Organizer Image Box"
+
+#: inc/admin/widgets/class-esb-organizer.php:751
+#, fuzzy
+msgid "Other Organizer Box"
+msgstr "Andere opbergdoos"
+
+#: inc/admin/widgets/class-esb-organizer.php:865
+msgid "Additional Organizer Box"
+msgstr "Extra Organizer Box"
+
+#: inc/admin/widgets/class-esb-organizer.php:905
+msgid "Additional Background Color"
+msgstr "Extra achtergrondkleur"
+
+#: inc/admin/widgets/class-esb-organizer.php:916
+msgid "Additional Padding"
+msgstr "Extra Padding"
+
+#: inc/admin/widgets/class-esb-organizer.php:928
+msgid "Additional Margin"
+msgstr "Extra marge"
+
+#: inc/admin/widgets/class-esb-organizer.php:941
+msgid "Additional Border"
+msgstr "Extra Border"
+
+#: inc/admin/widgets/class-esb-organizer.php:949
+msgid "Additional Border Radius"
+msgstr "Extra Border Radius"
+
+#: inc/admin/widgets/class-esb-organizer.php:962
+msgid "Additional Box Shadow"
+msgstr "Extra Box Shadow"
+
+#: inc/admin/widgets/class-esb-qr.php:35
+#, fuzzy
+msgid "Single Event QR Code Module"
+msgstr "Gebeurtenis QR-codemodule"
+
+#: inc/admin/widgets/class-esb-qr.php:79
+#, fuzzy
+msgid "QR Code Box"
+msgstr "QR-codevak"
+
+#: inc/admin/widgets/class-esb-register-button.php:41
+#, fuzzy
+msgid "Single Event Register Button"
+msgstr "Knop voor evenementregistratie"
+
+#: inc/admin/widgets/class-esb-register-button.php:85
+#, fuzzy
+msgid "Register Button Box"
+msgstr "Registreer Button Box"
+
+#: inc/admin/widgets/class-esb-register-button.php:160
+#, fuzzy
+msgid "Register Button"
+msgstr "Registreer knop"
+
+#: inc/admin/widgets/class-esb-related-events.php:37
+#, fuzzy
+#| msgid "Event Related"
+msgid "Single Event Related"
+msgstr "Gerelateerd Event"
+
+#: inc/admin/widgets/class-esb-related-events.php:292
+#, fuzzy
+msgid "Related Items Settings"
+msgstr "Instellingen voor gerelateerde items"
+
+#: inc/admin/widgets/class-esb-related-events.php:300
+#, fuzzy
+msgid "Item Background"
+msgstr "Item Achtergrond"
+
+#: inc/admin/widgets/class-esb-related-events.php:311
+#, fuzzy
+msgid "Item Border Radius"
+msgstr "Item Border Radius"
+
+#: inc/admin/widgets/class-esb-related-events.php:323
+#, fuzzy
+msgid "Wrapper Padding"
+msgstr "Wrapper opvulling"
+
+#: inc/admin/widgets/class-esb-related-events.php:335
+#, fuzzy
+msgid "Content Background"
+msgstr "Inhoud Achtergrond"
+
+#: inc/admin/widgets/class-esb-related-events.php:355
+#, fuzzy
+msgid "Date Color"
+msgstr "Datum kleur"
+
+#: inc/admin/widgets/class-esb-related-events.php:386
+#, fuzzy
+msgid "Title Hover Color"
+msgstr "Titel Hover Color"
+
+#: inc/admin/widgets/class-esb-related-events.php:398
+#: inc/admin/widgets/class-esb-related-events.php:452
+#, fuzzy
+msgid "Content Border"
+msgstr "Inhoudsrand"
+
+#: inc/admin/widgets/class-esb-related-events.php:406
+#, fuzzy
+msgid "Content Border Radius"
+msgstr "Content Border Radius"
+
+#: inc/admin/widgets/class-esb-related-events.php:418
+#, fuzzy
+msgid "Content Padding"
+msgstr "Inhoud opvulling"
+
+#: inc/admin/widgets/class-esb-related-events.php:430
+#, fuzzy
+msgid "Content Margin"
+msgstr "Inhoudsmarge"
+
+#: inc/admin/widgets/class-esb-related-events.php:443
+#, fuzzy
+msgid "Content Box Shadow"
+msgstr "Content Box Shadow"
+
+#: inc/admin/widgets/class-esb-related-events.php:460
+#, fuzzy
+msgid "Image Border Radius"
+msgstr "Afbeelding Border Radius"
+
+#: inc/admin/widgets/class-esb-related-events.php:473
+#, fuzzy
+msgid "Image Box Shadow"
+msgstr "Schaduw van het afbeeldingsvak"
+
+#: inc/admin/widgets/class-esb-related-events.php:483
+#, fuzzy
+msgid "Related Box"
+msgstr "Gerelateerde Box"
+
+#: inc/admin/widgets/class-esb-rsvp.php:42
+#, fuzzy
+msgid "Single Event RSVP Module"
+msgstr "Evenement Datum Module"
+
+#: inc/admin/widgets/class-esb-rsvp.php:332
+msgid "RSVP Box"
+msgstr ""
+
+#: inc/admin/widgets/class-esb-rsvp.php:505
+#, fuzzy
+#| msgid "Attendees Typography"
+msgid "Maximum Attendees Typography"
+msgstr "Deelnemers Typografie"
+
+#: inc/admin/widgets/class-esb-rsvp.php:642
+#, fuzzy
+#| msgid "Booking Button"
+msgid "RSVP Button"
+msgstr "Boekingsknop"
+
+#: inc/admin/widgets/class-esb-rsvp.php:1079
+#, fuzzy
+msgid "Answers Styling"
+msgstr "Berichtkleur"
+
+#: inc/admin/widgets/class-esb-rsvp.php:1087
+#, fuzzy
+msgid "Active - Text Color"
+msgstr "Tekst kleur"
+
+#: inc/admin/widgets/class-esb-rsvp.php:1098
+#, fuzzy
+msgid "Active - Background Color"
+msgstr "Pictogram achtergrondkleur"
+
+#: inc/admin/widgets/class-esb-rsvp.php:1110
+#, fuzzy
+msgid "Active - Border"
+msgstr "Item Border Radius"
+
+#: inc/admin/widgets/class-esb-rsvp.php:1118
+#, fuzzy
+msgid "Active - Icon Color"
+msgstr "Icoon Kleur"
+
+#: inc/admin/widgets/class-esb-rsvp.php:1129
+#, fuzzy
+msgid "Active - Icon Color Hover"
+msgstr "Titel kleur zweven"
+
+#: inc/admin/widgets/class-esb-rsvp.php:1140
+#, fuzzy
+msgid "Active - Background Color Hover"
+msgstr "Pictogram achtergrondkleur"
+
+#: inc/admin/widgets/class-esb-rsvp.php:1152
+#: inc/admin/widgets/class-esb-rsvp.php:1236
+#, fuzzy
+msgid "Border hover"
+msgstr "Border Hover"
+
+#: inc/admin/widgets/class-esb-rsvp.php:1213
+#, fuzzy
+msgid "Icon Color Hover"
+msgstr "Icoon Kleur"
+
+#: inc/admin/widgets/class-esb-rsvp.php:1224
+#, fuzzy
+#| msgid "Background Color"
+msgid "Background Color Hover"
+msgstr "Achtergrondkleur"
+
+#: inc/admin/widgets/class-esb-rsvp.php:1298
+#, fuzzy
+#| msgid "Attendess Box"
+msgid "Attendees"
+msgstr "Deelnemers Box"
+
+#: inc/admin/widgets/class-esb-rsvp.php:1315
+#, fuzzy
+msgid "Color"
+msgstr "Job kleur"
+
+#: inc/admin/widgets/class-esb-rsvp.php:1327
+#, fuzzy
+msgid "Hover Color"
+msgstr "Tekst Hover-kleur"
+
+#: inc/admin/widgets/class-esb-social.php:39
+#, fuzzy
+msgid "Single Event Social Share Module"
+msgstr "Module voor sociaal delen van evenementen"
+
+#: inc/admin/widgets/class-esb-social.php:294
+#, fuzzy
+msgid "Social Box"
+msgstr "Sociale doos"
+
+#: inc/admin/widgets/class-esb-social.php:369
+#, fuzzy
+msgid "Social Networks"
+msgstr "Sociale netwerken"
+
+#: inc/admin/widgets/class-esb-social.php:426
+msgid "Icon svg"
+msgstr ""
+
+#: inc/admin/widgets/class-esb-social.php:461
+#, fuzzy
+msgid "Icon Width"
+msgstr "Knopbreedte"
+
+#: inc/admin/widgets/class-esb-social.php:484
+#, fuzzy
+msgid "Icon height"
+msgstr "Knop hoogte"
+
+#: inc/admin/widgets/class-esb-speaker.php:37
+#, fuzzy
+msgid "Single Event Speakers"
+msgstr "Event Sprekers"
+
+#: inc/admin/widgets/class-esb-speaker.php:293
+#, fuzzy
+msgid "Speaker Box"
+msgstr "Luidsprekerbox"
+
+#: inc/admin/widgets/class-esb-speaker.php:368
+#, fuzzy
+msgid "Speakers Item Box"
+msgstr "Luidsprekers Item Box"
+
+#: inc/admin/widgets/class-esb-speaker.php:468
+#: inc/admin/widgets/class-esb-speaker.php:512
+#: inc/admin/widgets/class-esb-speaker.php:523
+#, fuzzy
+msgid "Name Hover Color"
+msgstr "Noem Hover Color"
+
+#: inc/admin/widgets/class-esb-speaker.php:504
+#, fuzzy
+msgid "Name Hover Typography"
+msgstr "Naam typografie"
+
+#: inc/admin/widgets/class-esb-speaker.php:679
+#, fuzzy
+msgid "Border Hover"
+msgstr "Border Hover"
+
+#: inc/admin/widgets/class-esb-speaker.php:687
+#, fuzzy
+msgid "Border Radius Hover"
+msgstr "Border Radius Hover"
+
+#: inc/admin/widgets/class-esb-speaker.php:700
+#, fuzzy
+msgid "Box Shadow Hover"
+msgstr "Box Shadow Hover"
+
+#: inc/admin/widgets/class-esb-speaker.php:710
+#, fuzzy
+msgid "Speaker Popup"
+msgstr "Luidspreker pop-up"
+
+#: inc/admin/widgets/class-esb-speaker.php:835
+#, fuzzy
+msgid "Job Typography"
+msgstr "Job typografie"
+
+#: inc/admin/widgets/class-esb-speaker.php:843
+#, fuzzy
+msgid "Job Color"
+msgstr "Job kleur"
+
+#: inc/admin/widgets/class-esb-speaker.php:854
+#, fuzzy
+msgid "Job Padding"
+msgstr "Job opvulling"
+
+#: inc/admin/widgets/class-esb-speaker.php:866
+#, fuzzy
+msgid "Job Margin"
+msgstr "Baanmarge"
+
+#: inc/admin/widgets/class-esb-speaker.php:910
+#, fuzzy
+msgid "Description Margin"
+msgstr "Beschrijving Marge"
+
+#: inc/admin/widgets/class-esb-speaker.php:978
+#: inc/admin/widgets/class-esb-speaker.php:989
+#, fuzzy
+msgid "Icon Background Color"
+msgstr "Pictogram achtergrondkleur"
+
+#: inc/admin/widgets/class-esb-speaker.php:1143
+#, fuzzy
+msgid "Overlay  Color"
+msgstr "Overlay-kleur"
+
+#: inc/admin/widgets/class-esb-tags.php:36
+#, fuzzy
+msgid "Single Event Tags"
+msgstr "Evenementtags"
+
+#: inc/admin/widgets/class-esb-tags.php:80
+#, fuzzy
+msgid "Tags Box"
+msgstr "Tags vak"
+
+#: inc/admin/widgets/class-esb-tags.php:155
+#: inc/admin/widgets/class-esb-tags.php:206
+#, fuzzy
+msgid "Tags Typography"
+msgstr "Tags typografie"
+
+#: inc/admin/widgets/class-esb-tags.php:215
+#, fuzzy
+msgid "Tags Border"
+msgstr "Tags grens"
+
+#: inc/admin/widgets/class-esb-tags.php:223
+#, fuzzy
+msgid "Tags Border Radius"
+msgstr "Tags Border Radius"
+
+#: inc/admin/widgets/class-esb-tags.php:235
+#, fuzzy
+msgid "Tags Background Color "
+msgstr "Tags achtergrondkleur"
+
+#: inc/admin/widgets/class-esb-tags.php:246
+#, fuzzy
+msgid "Tags Hover Background Color "
+msgstr "Tags zweven achtergrondkleur"
+
+#: inc/admin/widgets/class-esb-tags.php:257
+#, fuzzy
+msgid "Tags Padding"
+msgstr "Tags opvulling"
+
+#: inc/admin/widgets/class-esb-tags.php:269
+#, fuzzy
+msgid "Tags Margin"
+msgstr "Markeringen Marge"
+
+#: inc/admin/widgets/class-esb-time.php:41
+#, fuzzy
+msgid "Single Event Time Module"
+msgstr "Evenement Tijd Module"
+
+#: inc/admin/widgets/class-esb-time.php:85
+#, fuzzy
+msgid "Time Box"
+msgstr "Time Box"
+
+#: inc/admin/widgets/class-esb-time.php:186
+#, fuzzy
+msgid "Time Typography"
+msgstr "Tijd typografie"
+
+#: inc/admin/widgets/class-esb-title.php:37
+#, fuzzy
+msgid "Single Event Title"
+msgstr "Titel van het evenement"
+
+#: inc/admin/widgets/class-esb-title.php:109
+#, fuzzy
+msgid "Hover Title Color"
+msgstr "Kleur van de titel van de muisaanwijzer"
+
+#: inc/admin/widgets/class-esb-virtual-event.php:37
+#, fuzzy
+msgid "Single Virtual Event Details"
+msgstr "Vak voor volgende evenementen"
+
+#: inc/admin/widgets/class-esb-virtual-event.php:81
+msgid "Virtual Event Type"
+msgstr ""
+
+#: inc/admin/widgets/class-esb-virtual-event.php:89
+#: inc/admin/widgets/class-esb-zoom-event.php:89
+#, fuzzy
+msgid "Select Widget Style"
+msgstr "Widgettitel weergeven"
+
+#: inc/admin/widgets/class-esb-virtual-event.php:93
+#: inc/admin/widgets/class-esb-zoom-event.php:93
+#, fuzzy
+msgid "Default Style"
+msgstr "Overlay-stijl"
+
+#: inc/admin/widgets/class-esb-virtual-event.php:94
+#: inc/admin/widgets/class-esb-zoom-event.php:94
+msgid "Under The Content Style"
+msgstr ""
+
+#: inc/admin/widgets/class-esb-virtual-event.php:104
+#, fuzzy
+msgid "Virtual Event Box"
+msgstr "Vak voor volgende evenementen"
+
+#: inc/admin/widgets/class-esb-virtual-event.php:179
+#: inc/admin/widgets/class-esb-zoom-event.php:179
+#, fuzzy
+msgid "Default Style Settings"
+msgstr "Widgettitel-instellingen"
+
+#: inc/admin/widgets/class-esb-virtual-event.php:352
+#: inc/admin/widgets/class-esb-zoom-event.php:352
+#, fuzzy
+msgid "Under The Content Style Settings"
+msgstr "Widgettitel-instellingen"
+
+#: inc/admin/widgets/class-esb-virtual-event.php:365
+#: inc/admin/widgets/class-esb-zoom-event.php:365
+#, fuzzy
+msgid "Items Margin"
+msgstr "Markeringen Marge"
+
+#: inc/admin/widgets/class-esb-virtual-event.php:377
+#: inc/admin/widgets/class-esb-zoom-event.php:377
+#, fuzzy
+msgid "Items Padding"
+msgstr "Titel opvulling"
+
+#: inc/admin/widgets/class-esb-virtual-event.php:390
+#: inc/admin/widgets/class-esb-zoom-event.php:390
+#, fuzzy
+msgid "Items Border"
+msgstr "Item Border Radius"
+
+#: inc/admin/widgets/class-esb-virtual-event.php:398
+#: inc/admin/widgets/class-esb-zoom-event.php:398
+#, fuzzy
+msgid "Items Border Radius"
+msgstr "Item Border Radius"
+
+#: inc/admin/widgets/class-esb-virtual-event.php:411
+#: inc/admin/widgets/class-esb-zoom-event.php:411
+#, fuzzy
+msgid "Last Item Border"
+msgstr "Tags grens"
+
+#: inc/admin/widgets/class-esb-virtual-event.php:465
+#: inc/admin/widgets/class-esb-zoom-event.php:465
+#, fuzzy
+msgid "Password Label Typography"
+msgstr "Label typografie"
+
+#: inc/admin/widgets/class-esb-virtual-event.php:485
+#: inc/admin/widgets/class-esb-zoom-event.php:485
+#, fuzzy
+msgid "Password Value Typography"
+msgstr "Waarde typografie"
+
+#: inc/admin/widgets/class-esb-virtual-event.php:533
+msgid ""
+"First, please make sure that the last  event has appropriate content for "
+"this widget, then make sure this widget has been enabled on WordPress "
+"Dashboard > Appearance > Widgets (on MEC sidebar,  the \"MEC Single Sidebar "
+"Items\" should be included)."
+msgstr ""
+
+#: inc/admin/widgets/class-esb-virtual-event.php:535
+#, fuzzy
+msgid "How to set up virtual event"
+msgstr "Hoe gerelateerde evenementen in te stellen"
+
+#: inc/admin/widgets/class-esb-virtual-event.php:536
+#, fuzzy
+msgid "How to set up single event page sidebar"
+msgstr "Hoe de volgende evenementenmodule in te stellen"
+
+#: inc/admin/widgets/class-esb-weather.php:36
+#, fuzzy
+msgid "Single Event Weather Module"
+msgstr "Evenementweermodule"
+
+#: inc/admin/widgets/class-esb-weather.php:291
+#, fuzzy
+msgid "Weather Box"
+msgstr "Weer Box"
+
+#: inc/admin/widgets/class-esb-weather.php:366
+#, fuzzy
+msgid "Weather Module Styles"
+msgstr "Weermodulestijlen"
+
+#: inc/admin/widgets/class-esb-weather.php:374
+#, fuzzy
+msgid "Weather Background Color"
+msgstr "Weer achtergrondkleur"
+
+#: inc/admin/widgets/class-esb-weather.php:385
+#, fuzzy
+msgid "Condition Color"
+msgstr "Conditie Kleur"
+
+#: inc/admin/widgets/class-esb-weather.php:397
+#, fuzzy
+msgid "Condition typography"
+msgstr "Conditie typografie"
+
+#: inc/admin/widgets/class-esb-weather.php:405
+#, fuzzy
+msgid "Temp Color"
+msgstr "Temp Kleur"
+
+#: inc/admin/widgets/class-esb-weather.php:417
+#, fuzzy
+msgid "Temp typography"
+msgstr "Tijdelijke typografie"
+
+#: inc/admin/widgets/class-esb-weather.php:425
+#, fuzzy
+msgid "More Details Color"
+msgstr "Meer details Kleur"
+
+#: inc/admin/widgets/class-esb-weather.php:437
+#, fuzzy
+msgid "More Details typography"
+msgstr "Meer details typografie"
+
+#: inc/admin/widgets/class-esb-weather.php:445
+#, fuzzy
+msgid "More Details Span Color"
+msgstr "Meer details Span-kleur"
+
+#: inc/admin/widgets/class-esb-weather.php:457
+#, fuzzy
+msgid "More Details Span typography"
+msgstr "Meer details Span typografie"
+
+#: inc/admin/widgets/class-esb-weather.php:465
+#, fuzzy
+msgid "Box Padding"
+msgstr "Box opvulling"
+
+#: inc/admin/widgets/class-esb-weather.php:477
+#, fuzzy
+msgid "Box Margin"
+msgstr "Marge van de doos"
+
+#: inc/admin/widgets/class-esb-zoom-event.php:37
+#, fuzzy
+msgid "Single Zoom Event Details"
+msgstr "Titel van het evenement"
+
+#: inc/admin/widgets/class-esb-zoom-event.php:81
+#, fuzzy
+msgid "Zoom Event Type"
+msgstr "Titel van het evenement"
+
+#: inc/admin/widgets/class-esb-zoom-event.php:104
+#, fuzzy
+msgid "Zoom Event Box"
+msgstr "Vak voor volgende evenementen"
+
+#: inc/admin/widgets/class-esb-zoom-event.php:532
+msgid ""
+"Please make sure the last event has appropriate content for this widget."
+msgstr ""
+
+#: inc/admin/widgets/class-esb-zoom-event.php:534
+#, fuzzy
+msgid "How to set up Zoom event"
+msgstr "Hoe gerelateerde evenementen in te stellen"
+
+#: inc/core/controller/class-activation.php:128
+msgid ""
+"Activation faild. Please check your purchase code or license type."
+"<br><b>Note: Your purchase code should match your licesne type.</b>"
+msgstr ""
+"Activering mislukt. Controleer uw aankoopcode of licentietype. <br><b> "
+"Opmerking: uw aankoopcode moet overeenkomen met uw type licentie. </b>"
+
+#: inc/core/controller/class-activation.php:128
+msgid "Troubleshooting"
+msgstr "Probleemoplossing"
+
+#: inc/core/controller/class-requirements.php:119
+msgid ""
+" is not working because you need to install latest version of Modern Events "
+"Calendar plugin"
+msgstr ""
+" werkt niet omdat u de nieuwste versie van de plug-in Modern Events Calendar "
+"moet installeren"
+
+#: inc/core/controller/class-requirements.php:120
+#: inc/core/controller/class-requirements.php:129
+#, fuzzy
+msgid "Minimum version required"
+msgstr "Minimale versie vereist"
+
+#: inc/core/controller/class-requirements.php:121
+#, fuzzy
+msgid "Update Modern Events Calendar Now"
+msgstr "Update de moderne evenementenkalender nu"
+
+#: inc/core/controller/class-requirements.php:128
+msgid ""
+" is not working because you need to install latest version of Modern Events "
+"Calendar Lite plugin"
+msgstr ""
+" werkt niet omdat u de nieuwste versie van de Modern Events Calendar Lite-"
+"plug-in moet installeren"
+
+#: inc/core/controller/class-requirements.php:130
+#, fuzzy
+msgid "Update Modern Events Calendar Lite Now"
+msgstr "Update de moderne evenementenkalender Lite nu"
+
+#: inc/core/controller/class-requirements.php:151
+msgid ""
+" is not working because you need to install the Modern Events Calendar Lite "
+"plugin"
+msgstr ""
+" werkt niet omdat u de plug-in Modern Events Calendar Lite moet installeren"
+
+#: inc/core/controller/class-requirements.php:152
+#, fuzzy
+msgid "Install Modern Events Calendar Lite Now"
+msgstr "Installeer nu Modern Events Calendar Lite"
+
+#: inc/core/controller/class-requirements.php:157
+msgid ""
+" is not working because you need to activate the Modern Events Calendar "
+"plugin."
+msgstr " werkt niet omdat u de plug-in Modern Events Calendar moet activeren."
+
+#: inc/core/controller/class-requirements.php:158
+msgid "Activate Modern Events Calendar Now"
+msgstr "Activeer Modern Events Calendar nu"
+
+#: inc/core/controller/class-requirements.php:162
+msgid ""
+" is not working because you need to activate the Modern Events Calendar Lite "
+"plugin."
+msgstr ""
+" werkt niet omdat u de plug-in Modern Events Calendar Lite moet activeren."
+
+#: inc/core/controller/class-requirements.php:163
+msgid "Activate Modern Events Calendar Lite Now"
+msgstr "Activeer nu Modern Events Calendar Lite"
+
+#: inc/core/controller/class-requirements.php:187
+msgid " is not working because you need to activate the Elementor plugin."
+msgstr " werkt niet omdat je de Elementor-plug-in moet activeren."
+
+#: inc/core/controller/class-requirements.php:188
+msgid "Activate Elementor Now"
+msgstr "Activeer Elementor nu"
+
+#: inc/core/controller/class-requirements.php:191
+msgid " is not working because you need to install the Elemenor plugin"
+msgstr " werkt niet omdat u de Elementor-plug-in moet installeren"
+
+#: inc/core/controller/class-requirements.php:192
+#, fuzzy
+msgid "Install Elementor Now"
+msgstr "Installeer Elementor nu"
+
+#: inc/frontend/views/single-mec_esb.php:15
+#, fuzzy
+msgid ""
+"This is not the right place to check. Please open the single event page for "
+"seeing the result."
+msgstr ""
+"Dit is niet de juiste plaats om te controleren. Open de enkele "
+"evenementpagina om het resultaat te zien."
+
+#. Plugin Name of the plugin/theme
+#, fuzzy
+msgid "Elementor Single Builder for MEC"
+msgstr "Elementor Single Builder voor MEC"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://webnus.net/"
+msgstr "https://webnus.net/"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"Use this Add-on to build your form in Elementor Editor. It allows you to use "
+"many different type of fields and rearrange them by drag and drop and modify "
+"their styles."
+msgstr ""
+"Gebruik deze add-on om uw formulier in Elementor Editor te bouwen. Hiermee "
+"kunt u veel verschillende typen velden gebruiken en ze opnieuw rangschikken "
+"door middel van slepen en neerzetten en hun stijlen wijzigen."
+
+#. Author of the plugin/theme
+msgid "Webnus"
+msgstr "Webnus"
+
+#, fuzzy
+#~ msgid ""
+#~ "This widget is displayed if buddypress is set. In order for the widget in "
+#~ "this page to be displayed correctly, please set buddypress for your last "
+#~ "event."
+#~ msgstr ""
+#~ "Deze widget wordt weergegeven als Buddypress is ingesteld. Om ervoor te "
+#~ "zorgen dat de widget op deze pagina correct wordt weergegeven, moet u "
+#~ "buddypress instellen voor uw laatste evenement."
+
+#, fuzzy
+#~ msgid "How to set buddypress"
+#~ msgstr "Buddypress instellen"
+
+#, fuzzy
+#~ msgid ""
+#~ "This widget is displayed if label is set. In order for the widget in this "
+#~ "page to be displayed correctly, please set QR code module for your last "
+#~ "event."
+#~ msgstr ""
+#~ "Deze widget wordt weergegeven als het label is ingesteld. Om ervoor te "
+#~ "zorgen dat de widget op deze pagina correct wordt weergegeven, moet u de "
+#~ "QR-codemodule voor uw laatste evenement instellen."
+
+#, fuzzy
+#~ msgid "How to set QR code module"
+#~ msgstr "Hoe de QR-codemodule in te stellen"
+
+#~ msgid "Sold out!"
+#~ msgstr "Uitverkocht!"
+
+#, fuzzy
+#~ msgid ""
+#~ "It seems that you have set \"Booking\" to modal from Single Event MEC "
+#~ "Settings. You need to know that for this mode to work you must add "
+#~ "Register Button Widget to this page, then in the front-end by clicking "
+#~ "the Register button in your events you can then see the modal mode of the "
+#~ "Booking."
+#~ msgstr ""
+#~ "Het lijkt erop dat u \"Boeking\" heeft ingesteld op modaal vanuit de "
+#~ "Single Event MEC-instellingen. U moet weten dat om deze modus te laten "
+#~ "werken, u de knop Widget registreren aan deze pagina moet toevoegen. "
+#~ "Vervolgens kunt u in de front-end door op de knop Registreren in uw "
+#~ "evenementen te klikken de modale modus van de boeking zien."
+
+#, fuzzy
+#~ msgid ""
+#~ "This widget is displayed if Booking is set. In order for the widget in "
+#~ "this page to be displayed correctly, please set Booking module for your "
+#~ "last event."
+#~ msgstr ""
+#~ "Deze widget wordt weergegeven als Boeking is ingesteld. Om ervoor te "
+#~ "zorgen dat de widget op deze pagina correct wordt weergegeven, moet u de "
+#~ "boekingsmodule instellen voor uw laatste evenement."
+
+#, fuzzy
+#~ msgid "How to set Booking module"
+#~ msgstr "Hoe de boekingsmodule in te stellen"
+
+#, fuzzy
+#~ msgid ""
+#~ "This widget is displayed if breadcrumbs is set. In order for the widget "
+#~ "in this page to be displayed correctly, please set breadcrumbs for your "
+#~ "last event."
+#~ msgstr ""
+#~ "Deze widget wordt weergegeven als breadcrumbs is ingesteld. Om ervoor te "
+#~ "zorgen dat de widget op deze pagina correct wordt weergegeven, moet u "
+#~ "broodkruimels instellen voor uw laatste evenement."
+
+#, fuzzy
+#~ msgid "How to set breadcrumbs"
+#~ msgstr "Hoe paneermeel in te stellen"
+
+#, fuzzy
+#~ msgid ""
+#~ "This widget is displayed if cancellation reason is set. In order for the "
+#~ "widget in this page to be displayed correctly, please set cancellation "
+#~ "reason for your last event."
+#~ msgstr ""
+#~ "Deze widget wordt weergegeven als de annuleringsreden is ingesteld. Om "
+#~ "ervoor te zorgen dat de widget op deze pagina correct wordt weergegeven, "
+#~ "moet u de annuleringsreden voor uw laatste evenement instellen."
+
+#, fuzzy
+#~ msgid "Cancellation Reason"
+#~ msgstr "Annuleringsvak"
+
+#~ msgid "Category"
+#~ msgstr "Categorie"
+
+#, fuzzy
+#~ msgid ""
+#~ "This widget is displayed if category is set. In order for the widget in "
+#~ "this page to be displayed correctly, please set category for your last "
+#~ "event."
+#~ msgstr ""
+#~ "Deze widget wordt weergegeven als de categorie is ingesteld. Om ervoor te "
+#~ "zorgen dat de widget op deze pagina correct wordt weergegeven, moet u een "
+#~ "categorie instellen voor uw laatste evenement."
+
+#, fuzzy
+#~ msgid "How to set category"
+#~ msgstr "Categorie instellen"
+
+#~ msgid "Cost"
+#~ msgstr "Prijs"
+
+#, fuzzy
+#~ msgid ""
+#~ "This widget is displayed if cost is set. In order for the widget in this "
+#~ "page to be displayed correctly, please set cost for your last event."
+#~ msgstr ""
+#~ "Deze widget wordt weergegeven als de kosten zijn ingesteld. Om ervoor te "
+#~ "zorgen dat de widget op deze pagina correct wordt weergegeven, moet u de "
+#~ "kosten voor uw laatste evenement instellen."
+
+#, fuzzy
+#~ msgid "How to set cost"
+#~ msgstr "Hoe u de kosten instelt"
+
+#, fuzzy
+#~ msgid ""
+#~ "This widget is displayed if countdown is set. In order for the widget in "
+#~ "this page to be displayed correctly, please set countdown for your last "
+#~ "event."
+#~ msgstr ""
+#~ "Deze widget wordt weergegeven als het aftellen is ingesteld. Om ervoor te "
+#~ "zorgen dat de widget op deze pagina correct wordt weergegeven, moet u het "
+#~ "aftellen instellen voor uw laatste evenement."
+
+#, fuzzy
+#~ msgid "How to set countdown"
+#~ msgstr "Aftellen instellen"
+
+#, fuzzy
+#~ msgid ""
+#~ "This widget is displayed if event data is set. In order for the widget in "
+#~ "this page to be displayed correctly, please set event data for your last "
+#~ "event."
+#~ msgstr ""
+#~ "Deze widget wordt weergegeven als gebeurtenisgegevens zijn ingesteld. Om "
+#~ "ervoor te zorgen dat de widget op deze pagina correct wordt weergegeven, "
+#~ "moet u de gebeurtenisgegevens voor uw laatste evenement instellen."
+
+#, fuzzy
+#~ msgid "How to set Custom Fields"
+#~ msgstr "Aangepaste velden instellen"
+
+#~ msgid "Date"
+#~ msgstr "Datum"
+
+#, fuzzy
+#~ msgid ""
+#~ "This widget is displayed if export module is set. In order for the widget "
+#~ "in this page to be displayed correctly, please set export module for your "
+#~ "last event."
+#~ msgstr ""
+#~ "Deze widget wordt weergegeven als de exportmodule is ingesteld. Om ervoor "
+#~ "te zorgen dat de widget op deze pagina correct wordt weergegeven, moet u "
+#~ "de exportmodule voor uw laatste evenement instellen."
+
+#, fuzzy
+#~ msgid "How to set export module"
+#~ msgstr "Hoe export module in te stellen"
+
+#, fuzzy
+#~ msgid ""
+#~ "This option is disabled. In order for the widget in this page to be "
+#~ "displayed correctly, please turn on  Google Maps Options and set the API "
+#~ "for it there."
+#~ msgstr ""
+#~ "Deze optie is uitgeschakeld. Om ervoor te zorgen dat de widget op deze "
+#~ "pagina correct wordt weergegeven, moet u Google Maps-opties inschakelen "
+#~ "en de API ervoor daar instellen."
+
+#, fuzzy
+#~ msgid "How to set Google Map"
+#~ msgstr "Hoe Google Map in te stellen"
+
+#, fuzzy
+#~ msgid ""
+#~ "This widget is displayed if Google Map is set. In order for the widget in "
+#~ "this page to be displayed correctly, please set Google Map for your last "
+#~ "event."
+#~ msgstr ""
+#~ "Deze widget wordt weergegeven als Google Map is ingesteld. Om ervoor te "
+#~ "zorgen dat de widget op deze pagina correct wordt weergegeven, moet u "
+#~ "Google Map instellen voor uw laatste evenement."
+
+#, fuzzy
+#~ msgid ""
+#~ "This widget is displayed if Hourly Schedule is set. In order for the "
+#~ "widget in this page to be displayed correctly, please set Hourly Schedule "
+#~ "for your last event."
+#~ msgstr ""
+#~ "Deze widget wordt weergegeven als het uurrooster is ingesteld. Om ervoor "
+#~ "te zorgen dat de widget op deze pagina correct wordt weergegeven, moet u "
+#~ "het uurrooster voor uw laatste evenement instellen."
+
+#, fuzzy
+#~ msgid "How to set Hourly Schedule"
+#~ msgstr "Hoe u het uurrooster instelt"
+
+#~ msgid "Labels"
+#~ msgstr "Labels"
+
+#, fuzzy
+#~ msgid ""
+#~ "This widget is displayed if label is set. In order for the widget in this "
+#~ "page to be displayed correctly, please set label for your last event."
+#~ msgstr ""
+#~ "Deze widget wordt weergegeven als het label is ingesteld. Om ervoor te "
+#~ "zorgen dat de widget op deze pagina correct wordt weergegeven, moet u een "
+#~ "label instellen voor uw laatste evenement."
+
+#, fuzzy
+#~ msgid "How to set label"
+#~ msgstr "Hoe een label in te stellen"
+
+#, fuzzy
+#~ msgid ""
+#~ "This widget is displayed if label is set. In order for the widget in this "
+#~ "page to be displayed correctly, please set Localtime module for your last "
+#~ "event."
+#~ msgstr ""
+#~ "Deze widget wordt weergegeven als het label is ingesteld. Om ervoor te "
+#~ "zorgen dat de widget op deze pagina correct wordt weergegeven, moet u de "
+#~ "QR-codemodule voor uw laatste evenement instellen."
+
+#, fuzzy
+#~ msgid "How to set Localtime module"
+#~ msgstr "Hoe export module in te stellen"
+
+#~ msgid "Website"
+#~ msgstr "Website"
+
+#, fuzzy
+#~ msgid ""
+#~ "This widget is displayed if location is set. In order for the widget in "
+#~ "this page to be displayed correctly, please set location for your last "
+#~ "event."
+#~ msgstr ""
+#~ "Deze widget wordt weergegeven als de locatie is ingesteld. Om ervoor te "
+#~ "zorgen dat de widget op deze pagina correct wordt weergegeven, moet u de "
+#~ "locatie voor uw laatste evenement instellen."
+
+#, fuzzy
+#~ msgid "How to set location"
+#~ msgstr "Locatie instellen"
+
+#~ msgid "More Info"
+#~ msgstr "Meer Info"
+
+#, fuzzy
+#~ msgid ""
+#~ "This widget is displayed if read more is set. In order for the widget in "
+#~ "this page to be displayed correctly, please set read more for your last "
+#~ "event."
+#~ msgstr ""
+#~ "Deze widget wordt weergegeven als er meer lezen is ingesteld. Om ervoor "
+#~ "te zorgen dat de widget op deze pagina correct wordt weergegeven, moet u "
+#~ "meer lezen voor uw laatste evenement instellen."
+
+#, fuzzy
+#~ msgid "How to set read more"
+#~ msgstr "Hoe in te stellen lees meer"
+
+#, fuzzy
+#~ msgid ""
+#~ "This widget is displayed if next events module is set. In order for the "
+#~ "widget in this page to be displayed correctly, please set next events "
+#~ "module for your last event."
+#~ msgstr ""
+#~ "Deze widget wordt weergegeven als de volgende evenementenmodule is "
+#~ "ingesteld. Om ervoor te zorgen dat de widget op deze pagina correct wordt "
+#~ "weergegeven, moet u de volgende evenementenmodule voor uw laatste "
+#~ "evenement instellen."
+
+#, fuzzy
+#~ msgid "How to set next events module"
+#~ msgstr "Hoe de volgende evenementenmodule in te stellen"
+
+#, fuzzy
+#~ msgid ""
+#~ "This widget is displayed if related events is set. In order for the "
+#~ "widget in this page to be displayed correctly, please set Related Event "
+#~ "for your last event."
+#~ msgstr ""
+#~ "Deze widget wordt weergegeven als gerelateerde gebeurtenissen zijn "
+#~ "ingesteld. Om ervoor te zorgen dat de widget op deze pagina correct wordt "
+#~ "weergegeven, moet u Gerelateerd evenement instellen voor uw laatste "
+#~ "evenement."
+
+#, fuzzy
+#~ msgid "How to set Next/Previous Events"
+#~ msgstr "Hoe gerelateerde evenementen in te stellen"
+
+#~ msgid "Organizer"
+#~ msgstr "Organisator"
+
+#~ msgid "Phone"
+#~ msgstr "Telefoon"
+
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#, fuzzy
+#~ msgid ""
+#~ "This widget is displayed if organizer is set. In order for the widget in "
+#~ "this page to be displayed correctly, please set organizer for your last "
+#~ "event."
+#~ msgstr ""
+#~ "Deze widget wordt weergegeven als de organisator is ingesteld. Om ervoor "
+#~ "te zorgen dat de widget op deze pagina correct wordt weergegeven, moet u "
+#~ "de organisator voor uw laatste evenement instellen."
+
+#, fuzzy
+#~ msgid "How to set organizer"
+#~ msgstr "Organisator instellen"
+
+#, fuzzy
+#~ msgid ""
+#~ "This widget is displayed if QR Code is set. In order for the widget in "
+#~ "this page to be displayed correctly, please set QR code module for your "
+#~ "last event."
+#~ msgstr ""
+#~ "Deze widget wordt weergegeven als de QR-code is ingesteld. Om ervoor te "
+#~ "zorgen dat de widget op deze pagina correct wordt weergegeven, moet u de "
+#~ "QR-codemodule voor uw laatste evenement instellen."
+
+#~ msgid "REGISTER"
+#~ msgstr "REGISTREREN"
+
+#, fuzzy
+#~ msgid ""
+#~ "This widget is displayed if register button is set. In order for the "
+#~ "widget in this page to be displayed correctly, please set register button "
+#~ "for your last event."
+#~ msgstr ""
+#~ "Deze widget wordt weergegeven als de registerknop is ingesteld. Om ervoor "
+#~ "te zorgen dat de widget op deze pagina correct wordt weergegeven, moet u "
+#~ "de registerknop voor uw laatste evenement instellen."
+
+#, fuzzy
+#~ msgid "How to set register button"
+#~ msgstr "Hoe de registratieknop in te stellen"
+
+#, fuzzy
+#~ msgid "How to set related events"
+#~ msgstr "Hoe gerelateerde evenementen in te stellen"
+
+#~ msgid "Share this event"
+#~ msgstr "Deel dit evenement"
+
+#, fuzzy
+#~ msgid ""
+#~ "This widget is displayed if social networks is set. In order for the "
+#~ "widget in this page to be displayed correctly, please set label for your "
+#~ "last event."
+#~ msgstr ""
+#~ "Deze widget wordt weergegeven als sociale netwerken zijn ingesteld. Om "
+#~ "ervoor te zorgen dat de widget op deze pagina correct wordt weergegeven, "
+#~ "moet u een label instellen voor uw laatste evenement."
+
+#, fuzzy
+#~ msgid "How to set social networks"
+#~ msgstr "Hoe sociale netwerken in te stellen"
+
+#, fuzzy
+#~ msgid ""
+#~ "This widget is displayed if speaker is set. In order for the widget in "
+#~ "this page to be displayed correctly, please set speaker for your last "
+#~ "event."
+#~ msgstr ""
+#~ "Deze widget wordt weergegeven als de luidspreker is ingesteld. Om ervoor "
+#~ "te zorgen dat de widget op deze pagina correct wordt weergegeven, moet u "
+#~ "een luidspreker instellen voor uw laatste evenement."
+
+#, fuzzy
+#~ msgid "How to set speaker"
+#~ msgstr "Hoe de luidspreker in te stellen"
+
+#, fuzzy
+#~ msgid ""
+#~ "This widget is displayed if tags is set. In order for the widget in this "
+#~ "page to be displayed correctly, please set tags for your last event."
+#~ msgstr ""
+#~ "Deze widget wordt weergegeven als tags zijn ingesteld. Om ervoor te "
+#~ "zorgen dat de widget op deze pagina correct wordt weergegeven, moet u "
+#~ "tags instellen voor uw laatste evenement."
+
+#, fuzzy
+#~ msgid "How to set tags"
+#~ msgstr "Hoe tags in te stellen"
+
+#~ msgid "Tags: "
+#~ msgstr "Tags: "
+
+#~ msgid "Time"
+#~ msgstr "Tijd"
+
+#~ msgid "All of the day"
+#~ msgstr "Gehele dag"
+
+#, fuzzy
+#~ msgid ""
+#~ "This widget is displayed if weather is set. In order for the widget in "
+#~ "this page to be displayed correctly, please set location for your last "
+#~ "event."
+#~ msgstr ""
+#~ "Deze widget wordt weergegeven als het weer is ingesteld. Om ervoor te "
+#~ "zorgen dat de widget op deze pagina correct wordt weergegeven, moet u de "
+#~ "locatie voor uw laatste evenement instellen."
+
+#, fuzzy
+#~ msgid "How to set weather"
+#~ msgstr "Weer instellen"
+
+#~ msgctxt "Post Type General Name"
+#~ msgid "Single Builders"
+#~ msgstr "Single Builders"
+
+#~ msgctxt "Post Type Singular Name"
+#~ msgid "Single Builder"
+#~ msgstr "Single Builder"
+
+#~ msgid "Single Builders"
+#~ msgstr "Single Builders"
+
+#~ msgid "All Single Builders"
+#~ msgstr "Alle Single Builders"
+
+#~ msgid "Add New Single Builder"
+#~ msgstr "Voeg nieuwe Single Builder toe"

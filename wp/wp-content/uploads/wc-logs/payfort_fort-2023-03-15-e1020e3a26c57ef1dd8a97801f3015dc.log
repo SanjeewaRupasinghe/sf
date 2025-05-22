@@ -1,0 +1,30 @@
+03-15-2023 @ 17:00:31 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 517554******7603
+    [card_holder_name] => MARK GREGORIO INTON
+    [payment_link_id] => Quote-03155
+    [signature] => d7001133db0e32b747043b088ac4e44f892b8924511dc7d0451b7b26dede1ab0
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA-BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2406
+    [customer_ip] => 5.31.252.214
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990936791297
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03155
+    [authorization_code] => 516414
+    [customer_email] => mgdguinto@yahoo.com
+    [currency] => AED
+    [customer_name] => MARY GRACE GUINTO INTON
+    [status] => 14
+)
+

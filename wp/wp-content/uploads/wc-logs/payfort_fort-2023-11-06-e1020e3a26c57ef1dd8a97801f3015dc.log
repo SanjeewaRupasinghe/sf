@@ -1,0 +1,30 @@
+11-06-2023 @ 18:56:45 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 89250
+    [response_code] => 14000
+    [card_number] => 445135******1268
+    [card_holder_name] => JIJO VARGHESE
+    [payment_link_id] => Quote-03552
+    [signature] => 3767d85d86d471dac31361378d287e3290d17626a690e82929a6b67ef985d4e3
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA PALS
+    [payment_option] => VISA
+    [expiry_date] => 2801
+    [customer_ip] => 86.98.73.18
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991338052906
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03552
+    [authorization_code] => 412754
+    [customer_email] => jijonurse@gmail.com
+    [currency] => AED
+    [customer_name] => JIJO VARGHESE
+    [status] => 14
+)
+

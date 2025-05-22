@@ -1,0 +1,30 @@
+11-03-2023 @ 17:50:53 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 377895
+    [response_code] => 14000
+    [card_number] => 492915******5007
+    [card_holder_name] => M Chaponda
+    [payment_link_id] => 169999991331964755
+    [signature] => 2fc65f90b48726167a9a1823b690a168b2b4424eae0ed243e35e90719ec11a94
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => VISA
+    [expiry_date] => 2709
+    [customer_ip] => 178.153.81.37
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991332026595
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03561
+    [authorization_code] => 050518
+    [customer_email] => maschaponda@yahoo.com
+    [currency] => AED
+    [customer_name] => Masautso Chaponda
+    [status] => 14
+)
+

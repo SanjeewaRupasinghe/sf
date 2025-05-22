@@ -1,0 +1,135 @@
+04-16-2023 @ 15:21:56 - Payfort Request Params for payment method (payfort) 
+
+Array
+(
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [merchant_reference] => 23206
+    [language] => en
+    [service_command] => TOKENIZATION
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [signature] => f066af5e2f1d2996e70b4db2835f41ac8895813415f648d954a975fd13e6b142
+)
+
+04-16-2023 @ 15:21:58 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_merchantPageResponse
+    [response_code] => 18000
+    [card_number] => ****************
+    [card_holder_name] => ***********
+    [signature] => 465a5eb8e2d5d3d3edf024adea11cb5e7db8f5ef6ba635e89f66cff9088cd04b
+    [merchant_identifier] => xyKdBdwl
+    [expiry_date] => ****
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [language] => en
+    [response_message] => Success
+    [service_command] => TOKENIZATION
+    [merchant_reference] => 23206
+    [token_name] => 9afadd26872b4e74a4429c9408ec425b
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [status] => 18
+    [card_bin] => 546756
+)
+
+04-16-2023 @ 15:21:58 - Merchant Page Notify Api Request Params : Array
+(
+    [merchant_reference] => 23206
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [command] => PURCHASE
+    [merchant_identifier] => xyKdBdwl
+    [customer_ip] => 141.179.11.196
+    [amount] => 419895
+    [currency] => AED
+    [customer_email] => drhamid_786@hotmail.com
+    [token_name] => 9afadd26872b4e74a4429c9408ec425b
+    [language] => en
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_responseOnline
+    [customer_name] => hamid ilyas
+    [signature] => 4a0b153bf7b5b1f342132861d36a735322045048ac4da339907a839583ea117a
+)
+
+04-16-2023 @ 15:22:01 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [amount] => 419895
+    [response_code] => 20064
+    [card_number] => ****************
+    [card_holder_name] => ***********
+    [signature] => 6b0b686871587195d33a13e760d31ed45f9eba8cfd770f99869ed3edaee5da5d
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => MASTERCARD
+    [expiry_date] => ****
+    [customer_ip] => **************
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990983526683
+    [command] => PURCHASE
+    [3ds_url] => https://checkout.payfort.com/FortAPI/redirectionResponse/threeDs2RedirectURL?token=148196ksZt8qvuo6Gbpe7xRGpyF27l
+    [response_message] => 3-D Secure check requested
+    [merchant_reference] => 23206
+    [customer_email] => ***********************
+    [currency] => AED
+    [customer_name] => ***********
+    [status] => 20
+)
+
+04-16-2023 @ 15:22:34 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_responseOnline
+    [amount] => 419895
+    [response_code] => 14000
+    [card_number] => ****************
+    [card_holder_name] => ***********
+    [signature] => 0e42589c5f85f259d8c0f62404f3801bc44dff3455887177a7ddfde8ae342d2e
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => MASTERCARD
+    [expiry_date] => ****
+    [customer_ip] => **************
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990983526683
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 23206
+    [authorization_code] => 401818
+    [customer_email] => ***********************
+    [currency] => AED
+    [customer_name] => ***********
+    [status] => 14
+)
+
+04-16-2023 @ 15:22:34 - Fort response parameters (offline) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 419895
+    [response_code] => 14000
+    [card_number] => 546756******3150
+    [card_holder_name] => hamid ilyas
+    [signature] => 66ea2fb9ed72c2e603a19cb0afc63febed98120956e272a35841201d9df700bd
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2709
+    [customer_ip] => 141.179.11.196
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990983526683
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 23206
+    [authorization_code] => 401818
+    [customer_email] => drhamid_786@hotmail.com
+    [currency] => AED
+    [customer_name] => hamid ilyas
+    [status] => 14
+)
+

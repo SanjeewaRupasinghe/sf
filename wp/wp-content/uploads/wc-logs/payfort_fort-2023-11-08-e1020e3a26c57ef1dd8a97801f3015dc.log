@@ -1,0 +1,144 @@
+11-08-2023 @ 12:24:58 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 89019
+    [response_code] => 10119
+    [card_number] => 471365******2307
+    [card_holder_name] => Nawal Alkatheeri
+    [signature] => e23fb7b8e461f2a452543994884b31474377cb41b47751fe4989f83630c48aff
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2501
+    [customer_ip] => 5.31.251.51
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991341134509
+    [command] => PURCHASE
+    [response_message] => Request dropped
+    [merchant_reference] => SO-02413
+    [customer_email] => n.alkatheeri@hotmail.com
+    [currency] => AED
+    [customer_name] => Nawal Alkatheeri
+    [status] => 10
+)
+
+11-08-2023 @ 13:13:49 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 89019
+    [response_code] => 14000
+    [card_number] => 471365******2307
+    [card_holder_name] => Nawal Alkatheeri
+    [payment_link_id] => 169999991341121035
+    [signature] => 5354b6c215bc4b380c83f84d7681509ae3b25d27bfd4865cdb4c654f59b1d238
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2501
+    [customer_ip] => 5.31.210.243
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991341134509
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02413
+    [authorization_code] => 399698
+    [customer_email] => n.alkatheeri@hotmail.com
+    [currency] => AED
+    [customer_name] => Nawal Alkatheeri
+    [status] => 14
+)
+
+11-08-2023 @ 16:23:07 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 10119
+    [card_number] => 517554******5461
+    [card_holder_name] => Ohmar Ramil
+    [signature] => c9d0276e7d6d9bc9b835fb008a531c7878903586f3f76acb90aef5d4309fa216
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2612
+    [customer_ip] => 98.98.156.6
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991341502004
+    [command] => PURCHASE
+    [response_message] => Request dropped
+    [merchant_reference] => Quote-03574
+    [customer_email] => balgle623@yahoo.com.ph
+    [currency] => AED
+    [customer_name] => Glenda Balallo
+    [status] => 10
+)
+
+11-08-2023 @ 16:28:46 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 516171******5179
+    [card_holder_name] => MACK HUGH SULLIVAN JR
+    [payment_link_id] => Quote-03575
+    [signature] => 4d05af6fa7ee193640643b31e11a56996ae2dae27d3075606f550b9422aca5ee
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2710
+    [customer_ip] => 2.50.152.175
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991341678374
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03575
+    [authorization_code] => 494314
+    [customer_email] => mackplastic@aol.com
+    [currency] => AED
+    [customer_name] => Mack Hugh Sullivan JR
+    [status] => 14
+)
+
+11-08-2023 @ 17:15:55 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 10119
+    [card_number] => 517554******5461
+    [card_holder_name] => Ohmar Ramil
+    [signature] => 6a5c9acbfdae197e3ef0ce384b8611b3270791f54091fbe7aa98a22d69647f71
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2612
+    [customer_ip] => 98.98.156.6
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991341551413
+    [command] => PURCHASE
+    [response_message] => Request dropped
+    [merchant_reference] => 03574
+    [customer_email] => balgle623@yahoo.com.ph
+    [currency] => AED
+    [customer_name] => Glenda Galarce Balallo
+    [status] => 10
+)
+

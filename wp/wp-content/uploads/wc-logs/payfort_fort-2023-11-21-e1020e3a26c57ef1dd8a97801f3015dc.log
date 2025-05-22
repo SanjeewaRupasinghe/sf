@@ -1,0 +1,30 @@
+11-21-2023 @ 10:10:16 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 29400
+    [response_code] => 14000
+    [card_number] => 443913******2809
+    [card_holder_name] => Richalin Reminajes
+    [payment_link_id] => Quote-03594
+    [signature] => 31b293b1206198f17a8cb992d78d953eb5e083ae131fcefa8c56604f55d79f34
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2512
+    [customer_ip] => 5.195.104.62
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991366711694
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03594
+    [authorization_code] => 703510
+    [customer_email] => chalin.reminajes@gmail.com
+    [currency] => AED
+    [customer_name] => Richalin R. Deocades
+    [status] => 14
+)
+

@@ -1,0 +1,90 @@
+11-02-2023 @ 10:12:28 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 29400
+    [response_code] => 14000
+    [card_number] => 529120******3982
+    [card_holder_name] => Avijnan Mitra
+    [payment_link_id] => Quote-03556
+    [signature] => 9681cc66a786a769fda8cf57f3acc3fd7d55700a7db522dd649fbfc3c11095da
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2702
+    [customer_ip] => 91.75.24.124
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991329256152
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03556
+    [authorization_code] => 907642
+    [customer_email] => keyamukherjeemitra.diet@gmail.com
+    [currency] => AED
+    [customer_name] => Keya Mukherjee Mitra
+    [status] => 14
+)
+
+11-02-2023 @ 10:16:17 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 519305******7439
+    [card_holder_name] => manoj V K
+    [payment_link_id] => Quote-03557
+    [signature] => 8b7656c1e3d4c91b792ee08778bb8150309a2d0e11cf4eee5d945dffd7655830
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2505
+    [customer_ip] => 217.164.201.92
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991329259245
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03557
+    [authorization_code] => 140727
+    [customer_email] => nancysolomon087@gmail.com
+    [currency] => AED
+    [customer_name] => Dr Priyanka Manoj
+    [status] => 14
+)
+
+11-02-2023 @ 11:57:57 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 29400
+    [response_code] => 14000
+    [card_number] => 536295******3631
+    [card_holder_name] => CHANDRASEKAR 
+    [payment_link_id] => Quote-03558
+    [signature] => f5baae3620bde0e81e202bb3e01c8b574f9510ed4e3fad523c7f538e0fc26240
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2404
+    [customer_ip] => 2.50.185.115
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991329418293
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03558
+    [authorization_code] => 554926
+    [customer_email] => shoba_d@hotmail.com
+    [currency] => AED
+    [customer_name] => Shoba Chandrasekar
+    [status] => 14
+)
+

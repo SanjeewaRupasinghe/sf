@@ -1,0 +1,30 @@
+06-25-2023 @ 17:01:55 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 54933
+    [response_code] => 14000
+    [card_number] => 533191******6172
+    [card_holder_name] => M ALAMERI
+    [payment_link_id] => 169999991094761171
+    [signature] => 4404cde0096f9112c5c7bf9d21e17fcbc388d34133513f9a9441182ab7b8ca9f
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2711
+    [customer_ip] => 94.59.132.14
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991094772064
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02180
+    [authorization_code] => 472627
+    [customer_email] => uae1991zayed@gmail.com
+    [currency] => AED
+    [customer_name] => Muhhammad Ahmad
+    [status] => 14
+)
+

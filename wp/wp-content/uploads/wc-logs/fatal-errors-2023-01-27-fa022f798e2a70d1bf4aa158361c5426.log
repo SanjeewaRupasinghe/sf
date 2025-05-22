@@ -1,0 +1,14 @@
+2023-01-27T15:16:12+00:00 CRITICAL Uncaught Error: Call to a member function is_preview_mode() on null in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/factory.php:356
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): MEC_factory->load_frontend_assets('')
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/script-loader.php(2115): do_action('wp_enqueue_scri...')
+#4 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-customize-manager.php(454): wp_enqueue_scripts()
+#5 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-customize-manager.php(551): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 /home/897092.cloudwaysapps.c in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/factory.php on line 356
+
+2023-01-27T15:41:41+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 40960 bytes) in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-object-cache.php on line 320
+
+2023-01-27T16:08:11+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 81920 bytes) in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-object-cache.php on line 320
+

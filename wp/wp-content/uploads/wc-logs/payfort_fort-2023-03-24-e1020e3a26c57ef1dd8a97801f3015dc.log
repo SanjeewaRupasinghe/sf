@@ -1,0 +1,60 @@
+03-24-2023 @ 11:06:38 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 47250
+    [response_code] => 14000
+    [card_number] => 552102******3371
+    [card_holder_name] => teng Ling Khoo
+    [payment_link_id] => Quote-03168
+    [signature] => 1697e2c445e6412e1cd69107f2a33d7ec7dbea75c20a1082dc248837d64f3b0a
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA- HSFACPRAED Blended
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2709
+    [customer_ip] => 217.164.59.159
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990949467548
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03168
+    [authorization_code] => T07438
+    [customer_email] => khootl@yahoo.com
+    [currency] => AED
+    [customer_name] => Teng Cindy KHOO
+    [status] => 14
+)
+
+03-24-2023 @ 13:33:42 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 47250
+    [response_code] => 14000
+    [card_number] => 557661******7964
+    [card_holder_name] => harm jager
+    [payment_link_id] => Quote-03169
+    [signature] => 97fbb39e5efe37f04c1bd15e0438a06d2bfec1b5212d426a1c4f238c1849e37c
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA- HSFACPRAED Blended
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2608
+    [customer_ip] => 176.205.226.156
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990949558667
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03169
+    [authorization_code] => 560718
+    [customer_email] => hjag01@hotmail.com
+    [currency] => AED
+    [customer_name] => Harm Jager
+    [status] => 14
+)
+

@@ -1,0 +1,29 @@
+08-01-2023 @ 19:22:21 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 10030
+    [card_number] => 557661******5873
+    [card_holder_name] => Noora Khaled
+    [payment_link_id] => Quote-03345
+    [signature] => 0ab436b3630ca6810bc38eb1500d5853ac9515215c70e8fde99d34de9be9e7c0
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2602
+    [customer_ip] => 37.47.113.202
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991157404759
+    [command] => PURCHASE
+    [response_message] => Authentication failed
+    [merchant_reference] => Quote-03345
+    [customer_email] => nooralardhi@gmail.com
+    [currency] => AED
+    [customer_name] => Noora Alhadhrami
+    [status] => 10
+)
+

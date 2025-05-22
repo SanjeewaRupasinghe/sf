@@ -1,0 +1,420 @@
+10-27-2023 @ 10:58:39 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 26250
+    [response_code] => 14000
+    [card_number] => 433367******8929
+    [card_holder_name] => AMNA MOHAMED ABDALLA
+    [payment_link_id] => Quote-03549
+    [signature] => d44182bb86557dc4a1ada1137514a2be793b391e6036dd56dd3575077b40ae4e
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2503
+    [customer_ip] => 176.204.218.144
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991316372973
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03549
+    [authorization_code] => 046789
+    [customer_email] => Wishwing.an.an@gmail.com
+    [currency] => AED
+    [customer_name] => Amna Alloghani
+    [status] => 14
+)
+
+10-27-2023 @ 15:23:39 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 529120******4086
+    [card_holder_name] => Shahad Veerassery 
+    [payment_link_id] => Quote-03535
+    [signature] => 33f3ac0aac83a9b4792feaaef47e01caa9cb679aa2d4c0c70b284d3278ded5fe
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => First Aider
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2711
+    [customer_ip] => 176.204.21.131
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991316844009
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03535
+    [authorization_code] => 793609
+    [customer_email] => shahad.veerassery@toshiba-td.ae
+    [currency] => AED
+    [customer_name] => Shahad Veerassery
+    [status] => 14
+)
+
+10-27-2023 @ 16:39:12 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 56512
+    [response_code] => 14000
+    [card_number] => 419869******4771
+    [card_holder_name] => Mohamad Alsheikh
+    [payment_link_id] => 169999991316996085
+    [signature] => 9996511d5550b0295a5a6451c60bf5d8effee3514961a0ce026243b4d7f1b727
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2809
+    [customer_ip] => 92.97.156.91
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991317019236
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02381
+    [authorization_code] => 050976
+    [customer_email] => loujainalbaba@gmail.com
+    [currency] => AED
+    [customer_name] => Loujain Albaba
+    [status] => 14
+)
+
+10-27-2023 @ 20:33:35 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 52500
+    [response_code] => 14000
+    [card_number] => 493750******8834
+    [card_holder_name] => VINIL CHIMMINIYAN
+    [payment_link_id] => 03535
+    [signature] => c5867ff797f8b1831242548326bd6401358dee88df751e5eb3488e1599d9e813
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => First Aider and Fire Safety
+    [payment_option] => VISA
+    [expiry_date] => 2808
+    [customer_ip] => 31.218.98.122
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991317535431
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03535
+    [authorization_code] => 441194
+    [customer_email] => t.vinil@toshiba-td.ae
+    [currency] => AED
+    [customer_name] => Vinil Thothen Chimminiyan
+    [status] => 14
+)
+
+10-27-2023 @ 20:33:46 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 52500
+    [response_code] => 14000
+    [card_number] => 493750******8834
+    [card_holder_name] => VINIL CHIMMINIYAN
+    [payment_link_id] => 03535
+    [signature] => c5867ff797f8b1831242548326bd6401358dee88df751e5eb3488e1599d9e813
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => First Aider and Fire Safety
+    [payment_option] => VISA
+    [expiry_date] => 2808
+    [customer_ip] => 31.218.98.122
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991317535431
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03535
+    [authorization_code] => 441194
+    [customer_email] => t.vinil@toshiba-td.ae
+    [currency] => AED
+    [customer_name] => Vinil Thothen Chimminiyan
+    [status] => 14
+)
+
+10-27-2023 @ 20:33:56 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 52500
+    [response_code] => 14000
+    [card_number] => 493750******8834
+    [card_holder_name] => VINIL CHIMMINIYAN
+    [payment_link_id] => 03535
+    [signature] => c5867ff797f8b1831242548326bd6401358dee88df751e5eb3488e1599d9e813
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => First Aider and Fire Safety
+    [payment_option] => VISA
+    [expiry_date] => 2808
+    [customer_ip] => 31.218.98.122
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991317535431
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03535
+    [authorization_code] => 441194
+    [customer_email] => t.vinil@toshiba-td.ae
+    [currency] => AED
+    [customer_name] => Vinil Thothen Chimminiyan
+    [status] => 14
+)
+
+10-27-2023 @ 20:34:07 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 52500
+    [response_code] => 14000
+    [card_number] => 493750******8834
+    [card_holder_name] => VINIL CHIMMINIYAN
+    [payment_link_id] => 03535
+    [signature] => c5867ff797f8b1831242548326bd6401358dee88df751e5eb3488e1599d9e813
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => First Aider and Fire Safety
+    [payment_option] => VISA
+    [expiry_date] => 2808
+    [customer_ip] => 31.218.98.122
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991317535431
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03535
+    [authorization_code] => 441194
+    [customer_email] => t.vinil@toshiba-td.ae
+    [currency] => AED
+    [customer_name] => Vinil Thothen Chimminiyan
+    [status] => 14
+)
+
+10-27-2023 @ 20:34:19 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 52500
+    [response_code] => 14000
+    [card_number] => 493750******8834
+    [card_holder_name] => VINIL CHIMMINIYAN
+    [payment_link_id] => 03535
+    [signature] => c5867ff797f8b1831242548326bd6401358dee88df751e5eb3488e1599d9e813
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => First Aider and Fire Safety
+    [payment_option] => VISA
+    [expiry_date] => 2808
+    [customer_ip] => 31.218.98.122
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991317535431
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03535
+    [authorization_code] => 441194
+    [customer_email] => t.vinil@toshiba-td.ae
+    [currency] => AED
+    [customer_name] => Vinil Thothen Chimminiyan
+    [status] => 14
+)
+
+10-27-2023 @ 20:34:30 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 52500
+    [response_code] => 14000
+    [card_number] => 493750******8834
+    [card_holder_name] => VINIL CHIMMINIYAN
+    [payment_link_id] => 03535
+    [signature] => c5867ff797f8b1831242548326bd6401358dee88df751e5eb3488e1599d9e813
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => First Aider and Fire Safety
+    [payment_option] => VISA
+    [expiry_date] => 2808
+    [customer_ip] => 31.218.98.122
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991317535431
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03535
+    [authorization_code] => 441194
+    [customer_email] => t.vinil@toshiba-td.ae
+    [currency] => AED
+    [customer_name] => Vinil Thothen Chimminiyan
+    [status] => 14
+)
+
+10-27-2023 @ 20:34:40 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 52500
+    [response_code] => 14000
+    [card_number] => 493750******8834
+    [card_holder_name] => VINIL CHIMMINIYAN
+    [payment_link_id] => 03535
+    [signature] => c5867ff797f8b1831242548326bd6401358dee88df751e5eb3488e1599d9e813
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => First Aider and Fire Safety
+    [payment_option] => VISA
+    [expiry_date] => 2808
+    [customer_ip] => 31.218.98.122
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991317535431
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03535
+    [authorization_code] => 441194
+    [customer_email] => t.vinil@toshiba-td.ae
+    [currency] => AED
+    [customer_name] => Vinil Thothen Chimminiyan
+    [status] => 14
+)
+
+10-27-2023 @ 20:34:51 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 52500
+    [response_code] => 14000
+    [card_number] => 493750******8834
+    [card_holder_name] => VINIL CHIMMINIYAN
+    [payment_link_id] => 03535
+    [signature] => c5867ff797f8b1831242548326bd6401358dee88df751e5eb3488e1599d9e813
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => First Aider and Fire Safety
+    [payment_option] => VISA
+    [expiry_date] => 2808
+    [customer_ip] => 31.218.98.122
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991317535431
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03535
+    [authorization_code] => 441194
+    [customer_email] => t.vinil@toshiba-td.ae
+    [currency] => AED
+    [customer_name] => Vinil Thothen Chimminiyan
+    [status] => 14
+)
+
+10-27-2023 @ 20:35:03 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 52500
+    [response_code] => 14000
+    [card_number] => 493750******8834
+    [card_holder_name] => VINIL CHIMMINIYAN
+    [payment_link_id] => 03535
+    [signature] => c5867ff797f8b1831242548326bd6401358dee88df751e5eb3488e1599d9e813
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => First Aider and Fire Safety
+    [payment_option] => VISA
+    [expiry_date] => 2808
+    [customer_ip] => 31.218.98.122
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991317535431
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03535
+    [authorization_code] => 441194
+    [customer_email] => t.vinil@toshiba-td.ae
+    [currency] => AED
+    [customer_name] => Vinil Thothen Chimminiyan
+    [status] => 14
+)
+
+10-27-2023 @ 20:35:14 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 52500
+    [response_code] => 14000
+    [card_number] => 493750******8834
+    [card_holder_name] => VINIL CHIMMINIYAN
+    [payment_link_id] => 03535
+    [signature] => c5867ff797f8b1831242548326bd6401358dee88df751e5eb3488e1599d9e813
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => First Aider and Fire Safety
+    [payment_option] => VISA
+    [expiry_date] => 2808
+    [customer_ip] => 31.218.98.122
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991317535431
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03535
+    [authorization_code] => 441194
+    [customer_email] => t.vinil@toshiba-td.ae
+    [currency] => AED
+    [customer_name] => Vinil Thothen Chimminiyan
+    [status] => 14
+)
+
+10-27-2023 @ 20:35:24 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 52500
+    [response_code] => 14000
+    [card_number] => 493750******8834
+    [card_holder_name] => VINIL CHIMMINIYAN
+    [payment_link_id] => 03535
+    [signature] => c5867ff797f8b1831242548326bd6401358dee88df751e5eb3488e1599d9e813
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => First Aider and Fire Safety
+    [payment_option] => VISA
+    [expiry_date] => 2808
+    [customer_ip] => 31.218.98.122
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991317535431
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03535
+    [authorization_code] => 441194
+    [customer_email] => t.vinil@toshiba-td.ae
+    [currency] => AED
+    [customer_name] => Vinil Thothen Chimminiyan
+    [status] => 14
+)
+

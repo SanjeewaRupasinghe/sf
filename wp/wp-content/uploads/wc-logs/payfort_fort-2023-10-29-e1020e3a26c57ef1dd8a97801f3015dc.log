@@ -1,0 +1,30 @@
+10-29-2023 @ 11:25:04 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 26639
+    [response_code] => 14000
+    [card_number] => 443913******5255
+    [card_holder_name] => Maryam alhemeiri
+    [payment_link_id] => 169999991320756311
+    [signature] => 8c3e155ccf12664070a9133b72e5f065de3b399612e4fc4426dd4ca82c95d504
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2711
+    [customer_ip] => 37.245.178.110
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991320811829
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO--02382
+    [authorization_code] => 687759
+    [customer_email] => Maryam.hemeiri@gmail.com
+    [currency] => AED
+    [customer_name] => Maryam Hemeir
+    [status] => 14
+)
+

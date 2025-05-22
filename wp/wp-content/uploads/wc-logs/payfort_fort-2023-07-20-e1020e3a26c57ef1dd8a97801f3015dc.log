@@ -1,0 +1,30 @@
+07-20-2023 @ 09:18:35 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 398895
+    [response_code] => 14000
+    [card_number] => 549284******3705
+    [card_holder_name] => Umaira aziz
+    [payment_link_id] => 169999991134994281
+    [signature] => 747e5906a70786d562a094c78d6d4805393db432dbdd2e9bcb9dbfafe364f18a
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2804
+    [customer_ip] => 94.202.228.59
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991134995906
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03320A
+    [authorization_code] => T44768
+    [customer_email] => umairaaziz@gmail.com
+    [currency] => AED
+    [customer_name] => Umaira Aziz
+    [status] => 14
+)
+

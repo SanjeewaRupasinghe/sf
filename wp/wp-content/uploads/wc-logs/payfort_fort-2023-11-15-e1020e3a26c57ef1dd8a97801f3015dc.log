@@ -1,0 +1,418 @@
+11-15-2023 @ 11:22:12 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 516171******5241
+    [card_holder_name] => Marleine Abu Shamalah 
+    [payment_link_id] => Quote-03586
+    [signature] => 4167cb10742693b37ff6b0a34a1cdb93179ac140edc2d34d0e062115251e518d
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2710
+    [customer_ip] => 2.50.154.158
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991355676133
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03586
+    [authorization_code] => 238284
+    [customer_email] => grace_eid2@hotmail.com
+    [currency] => AED
+    [customer_name] => Advanced American Dental Centre
+    [status] => 14
+)
+
+11-15-2023 @ 12:21:26 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 25001
+    [response_code] => 10119
+    [card_number] => 471364******3302
+    [card_holder_name] => Almaha alameri
+    [signature] => 8395a2ca6dff3da35496ebea7f9d11199e91176e2c8946f858b86c6804a96894
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2807
+    [customer_ip] => 178.250.251.34
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991355625534
+    [command] => PURCHASE
+    [response_message] => Request dropped
+    [merchant_reference] => SO-02424
+    [customer_email] => almaha.s.alameri@gmail.com
+    [currency] => AED
+    [customer_name] => Aysha Humaid
+    [status] => 10
+)
+
+11-15-2023 @ 13:33:30 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 409395
+    [response_code] => 14000
+    [card_number] => 413155******5627
+    [card_holder_name] => RuqqIa Mir 
+    [payment_link_id] => 169999991352158779
+    [signature] => 3b4e39a802ef6864b584612d403a2d5746cd20fcc5240824aaa945c11388c46b
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Revalidation
+    [payment_option] => VISA
+    [expiry_date] => 2504
+    [customer_ip] => 2.48.149.233
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991355866751
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03481A
+    [authorization_code] => 541357
+    [customer_email] => Ruqqiamir@gmail.com
+    [currency] => AED
+    [customer_name] => Ruqqia Mir
+    [status] => 14
+)
+
+11-15-2023 @ 15:09:10 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 29400
+    [response_code] => 14000
+    [card_number] => 557661******9350
+    [card_holder_name] => MONA ALDHANHANI 
+    [payment_link_id] => 03581
+    [signature] => 40fd792a7553da622c84210ec500edfb0d65bc8189287cbd62a85af22ad96a2f
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2609
+    [customer_ip] => 2.48.235.21
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991356023668
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03581
+    [authorization_code] => 589333
+    [customer_email] => maldhanhani99@hotmail.com
+    [currency] => AED
+    [customer_name] => Marwah Rashed Homoud Rashed Aldhanhani
+    [status] => 14
+)
+
+11-15-2023 @ 15:09:21 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 29400
+    [response_code] => 14000
+    [card_number] => 557661******9350
+    [card_holder_name] => MONA ALDHANHANI 
+    [payment_link_id] => 03581
+    [signature] => 40fd792a7553da622c84210ec500edfb0d65bc8189287cbd62a85af22ad96a2f
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2609
+    [customer_ip] => 2.48.235.21
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991356023668
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03581
+    [authorization_code] => 589333
+    [customer_email] => maldhanhani99@hotmail.com
+    [currency] => AED
+    [customer_name] => Marwah Rashed Homoud Rashed Aldhanhani
+    [status] => 14
+)
+
+11-15-2023 @ 15:09:32 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 29400
+    [response_code] => 14000
+    [card_number] => 557661******9350
+    [card_holder_name] => MONA ALDHANHANI 
+    [payment_link_id] => 03581
+    [signature] => 40fd792a7553da622c84210ec500edfb0d65bc8189287cbd62a85af22ad96a2f
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2609
+    [customer_ip] => 2.48.235.21
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991356023668
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03581
+    [authorization_code] => 589333
+    [customer_email] => maldhanhani99@hotmail.com
+    [currency] => AED
+    [customer_name] => Marwah Rashed Homoud Rashed Aldhanhani
+    [status] => 14
+)
+
+11-15-2023 @ 15:09:43 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 29400
+    [response_code] => 14000
+    [card_number] => 557661******9350
+    [card_holder_name] => MONA ALDHANHANI 
+    [payment_link_id] => 03581
+    [signature] => 40fd792a7553da622c84210ec500edfb0d65bc8189287cbd62a85af22ad96a2f
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2609
+    [customer_ip] => 2.48.235.21
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991356023668
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03581
+    [authorization_code] => 589333
+    [customer_email] => maldhanhani99@hotmail.com
+    [currency] => AED
+    [customer_name] => Marwah Rashed Homoud Rashed Aldhanhani
+    [status] => 14
+)
+
+11-15-2023 @ 15:09:54 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 29400
+    [response_code] => 14000
+    [card_number] => 557661******9350
+    [card_holder_name] => MONA ALDHANHANI 
+    [payment_link_id] => 03581
+    [signature] => 40fd792a7553da622c84210ec500edfb0d65bc8189287cbd62a85af22ad96a2f
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2609
+    [customer_ip] => 2.48.235.21
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991356023668
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03581
+    [authorization_code] => 589333
+    [customer_email] => maldhanhani99@hotmail.com
+    [currency] => AED
+    [customer_name] => Marwah Rashed Homoud Rashed Aldhanhani
+    [status] => 14
+)
+
+11-15-2023 @ 15:10:05 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 29400
+    [response_code] => 14000
+    [card_number] => 557661******9350
+    [card_holder_name] => MONA ALDHANHANI 
+    [payment_link_id] => 03581
+    [signature] => 40fd792a7553da622c84210ec500edfb0d65bc8189287cbd62a85af22ad96a2f
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2609
+    [customer_ip] => 2.48.235.21
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991356023668
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03581
+    [authorization_code] => 589333
+    [customer_email] => maldhanhani99@hotmail.com
+    [currency] => AED
+    [customer_name] => Marwah Rashed Homoud Rashed Aldhanhani
+    [status] => 14
+)
+
+11-15-2023 @ 15:10:16 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 29400
+    [response_code] => 14000
+    [card_number] => 557661******9350
+    [card_holder_name] => MONA ALDHANHANI 
+    [payment_link_id] => 03581
+    [signature] => 40fd792a7553da622c84210ec500edfb0d65bc8189287cbd62a85af22ad96a2f
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2609
+    [customer_ip] => 2.48.235.21
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991356023668
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03581
+    [authorization_code] => 589333
+    [customer_email] => maldhanhani99@hotmail.com
+    [currency] => AED
+    [customer_name] => Marwah Rashed Homoud Rashed Aldhanhani
+    [status] => 14
+)
+
+11-15-2023 @ 15:10:28 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 29400
+    [response_code] => 14000
+    [card_number] => 557661******9350
+    [card_holder_name] => MONA ALDHANHANI 
+    [payment_link_id] => 03581
+    [signature] => 40fd792a7553da622c84210ec500edfb0d65bc8189287cbd62a85af22ad96a2f
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2609
+    [customer_ip] => 2.48.235.21
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991356023668
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03581
+    [authorization_code] => 589333
+    [customer_email] => maldhanhani99@hotmail.com
+    [currency] => AED
+    [customer_name] => Marwah Rashed Homoud Rashed Aldhanhani
+    [status] => 14
+)
+
+11-15-2023 @ 15:10:39 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 29400
+    [response_code] => 14000
+    [card_number] => 557661******9350
+    [card_holder_name] => MONA ALDHANHANI 
+    [payment_link_id] => 03581
+    [signature] => 40fd792a7553da622c84210ec500edfb0d65bc8189287cbd62a85af22ad96a2f
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2609
+    [customer_ip] => 2.48.235.21
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991356023668
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03581
+    [authorization_code] => 589333
+    [customer_email] => maldhanhani99@hotmail.com
+    [currency] => AED
+    [customer_name] => Marwah Rashed Homoud Rashed Aldhanhani
+    [status] => 14
+)
+
+11-15-2023 @ 15:10:49 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 29400
+    [response_code] => 14000
+    [card_number] => 557661******9350
+    [card_holder_name] => MONA ALDHANHANI 
+    [payment_link_id] => 03581
+    [signature] => 40fd792a7553da622c84210ec500edfb0d65bc8189287cbd62a85af22ad96a2f
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2609
+    [customer_ip] => 2.48.235.21
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991356023668
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03581
+    [authorization_code] => 589333
+    [customer_email] => maldhanhani99@hotmail.com
+    [currency] => AED
+    [customer_name] => Marwah Rashed Homoud Rashed Aldhanhani
+    [status] => 14
+)
+
+11-15-2023 @ 15:11:00 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 29400
+    [response_code] => 14000
+    [card_number] => 557661******9350
+    [card_holder_name] => MONA ALDHANHANI 
+    [payment_link_id] => 03581
+    [signature] => 40fd792a7553da622c84210ec500edfb0d65bc8189287cbd62a85af22ad96a2f
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2609
+    [customer_ip] => 2.48.235.21
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991356023668
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03581
+    [authorization_code] => 589333
+    [customer_email] => maldhanhani99@hotmail.com
+    [currency] => AED
+    [customer_name] => Marwah Rashed Homoud Rashed Aldhanhani
+    [status] => 14
+)
+

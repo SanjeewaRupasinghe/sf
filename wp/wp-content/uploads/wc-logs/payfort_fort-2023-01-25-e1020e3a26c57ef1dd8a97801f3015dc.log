@@ -1,0 +1,60 @@
+01-25-2023 @ 15:10:53 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 557652******3255
+    [card_holder_name] => Yousef Alsafeen 
+    [payment_link_id] => Quote-03041
+    [signature] => 65c63d0736ffe0b806432b37c0ee77d0bb6b8e414985da2d783d3b3b5148b1cb
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Basic Life Support Provider Course
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2703
+    [customer_ip] => 31.218.53.137
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990856370347
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03041
+    [authorization_code] => 658247
+    [customer_email] => yousef-xo@outlook.com
+    [currency] => AED
+    [customer_name] => Yousef Alsafeen
+    [status] => 14
+)
+
+01-25-2023 @ 17:47:03 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 511879******5007
+    [card_holder_name] => VISHNU MOHAN
+    [payment_link_id] => Quote-03050
+    [signature] => 73006ec329b3baf04d0fec4794fd4f20bc336f74a49e52d2737c5983a526fa86
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA-BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2705
+    [customer_ip] => 31.215.76.197
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990856612557
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03050
+    [authorization_code] => 991725
+    [customer_email] => salusnair2013@gmail.com
+    [currency] => AED
+    [customer_name] => SALU SASIDHARAN NAIR
+    [status] => 14
+)
+

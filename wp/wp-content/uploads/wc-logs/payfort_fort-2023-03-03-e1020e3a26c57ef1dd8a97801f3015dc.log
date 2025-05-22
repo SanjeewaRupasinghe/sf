@@ -1,0 +1,135 @@
+03-03-2023 @ 08:05:15 - Payfort Request Params for payment method (payfort) 
+
+Array
+(
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [merchant_reference] => 22865
+    [language] => en
+    [service_command] => TOKENIZATION
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [signature] => 1f16d65f6beb8a25b80dd2adde41dc3cc86683071f269325c468e486852b5e81
+)
+
+03-03-2023 @ 08:05:18 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_merchantPageResponse
+    [response_code] => 18000
+    [card_number] => ****************
+    [card_holder_name] => ********************
+    [signature] => fa1e170b285ca48a2334bf35a5a031db7dded6508ab2702d797f897c23a849c1
+    [merchant_identifier] => xyKdBdwl
+    [expiry_date] => ****
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [language] => en
+    [response_message] => Success
+    [service_command] => TOKENIZATION
+    [merchant_reference] => 22865
+    [token_name] => a8c6b209225540c795c98e1e3db195de
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [status] => 18
+    [card_bin] => 418348
+)
+
+03-03-2023 @ 08:05:18 - Merchant Page Notify Api Request Params : Array
+(
+    [merchant_reference] => 22865
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [command] => PURCHASE
+    [merchant_identifier] => xyKdBdwl
+    [customer_ip] => 92.96.143.42
+    [amount] => 31500
+    [currency] => AED
+    [customer_email] => ukdajith.goonetilleke@yahoo.com
+    [token_name] => a8c6b209225540c795c98e1e3db195de
+    [language] => en
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_responseOnline
+    [customer_name] => Udugama Goonetilleke
+    [signature] => 25c5fd620c59717d79cb08908c6f1212bd0d009c4e7db5f7a303f7fb1c2c02d8
+)
+
+03-03-2023 @ 08:05:21 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [amount] => 31500
+    [response_code] => 20064
+    [card_number] => ****************
+    [card_holder_name] => ********************
+    [signature] => f43331fd8de491d42da9d21637b071ae32ebda0ea7a548a4f66a4967c78efede
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => ****
+    [customer_ip] => ************
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990916567551
+    [command] => PURCHASE
+    [3ds_url] => https://checkout.payfort.com/FortAPI/redirectionResponse/threeDs2RedirectURL?token=104310wW5KrE4JwTfTtFXOObC5laxv
+    [response_message] => 3-D Secure check requested
+    [merchant_reference] => 22865
+    [customer_email] => *******************************
+    [currency] => AED
+    [customer_name] => ********************
+    [status] => 20
+)
+
+03-03-2023 @ 08:06:36 - Fort response parameters (offline) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 418348******6944
+    [card_holder_name] => Udugama Goonetilleke
+    [signature] => 1ebd00da9b0ada3a6d96ae2f893cffa1f08804636c14a9ec62f21612a9381f9a
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => 2610
+    [customer_ip] => 92.96.143.42
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990916567551
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 22865
+    [authorization_code] => 003027
+    [customer_email] => ukdajith.goonetilleke@yahoo.com
+    [currency] => AED
+    [customer_name] => Udugama Goonetilleke
+    [status] => 14
+)
+
+03-03-2023 @ 08:06:36 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_responseOnline
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => ****************
+    [card_holder_name] => ********************
+    [signature] => cccf6bb5ac1627fe8203cfaa5689ccfd428facd380dc583140f37d731e4ec58d
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => ****
+    [customer_ip] => ************
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990916567551
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 22865
+    [authorization_code] => 003027
+    [customer_email] => *******************************
+    [currency] => AED
+    [customer_name] => ********************
+    [status] => 14
+)
+

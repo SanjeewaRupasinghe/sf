@@ -1,0 +1,30 @@
+05-05-2023 @ 12:08:10 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 21000
+    [response_code] => 14000
+    [card_number] => 536295******9486
+    [card_holder_name] => natalia paola kohon
+    [payment_link_id] => NV-004746
+    [signature] => d67cb412911b58f3ab06c27bfc4f610c02170fb95c91146f54f45dbda2b4cd35
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA HS FA CPR AED
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2712
+    [customer_ip] => 31.215.112.127
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991011733488
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => NV-004746
+    [authorization_code] => 543810
+    [customer_email] => nataliakohon@hotmail.com
+    [currency] => AED
+    [customer_name] => Natalia Paola Kohon
+    [status] => 14
+)
+

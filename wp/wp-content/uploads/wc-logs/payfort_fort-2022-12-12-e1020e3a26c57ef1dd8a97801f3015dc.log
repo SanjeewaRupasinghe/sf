@@ -1,0 +1,195 @@
+12-12-2022 @ 14:23:40 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 84000
+    [response_code] => 14000
+    [card_number] => 471387******5345
+    [card_holder_name] => Daniel Jassal
+    [payment_link_id] => Quote-02947
+    [signature] => b52a9421d1a21714f49cae0c4b2e46d40aaeb92ab72d6df99dc4a658aab459d5
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Heartsaver Pediatric First Aid CPR AED
+    [payment_option] => VISA
+    [expiry_date] => 2703
+    [customer_ip] => 94.203.112.228
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990789946204
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-02947
+    [authorization_code] => 526870
+    [customer_email] => D.r.jassal@hotmaol.com
+    [currency] => AED
+    [customer_name] => Mandeep Dhami
+    [status] => 14
+)
+
+12-12-2022 @ 14:24:23 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 398895
+    [response_code] => 14000
+    [card_number] => 442109******0000
+    [card_holder_name] => Rozh Jalil
+    [payment_link_id] => 169999990789798831
+    [signature] => 46ca980207006c3e86d1a7e36b7bcb4d55c508b795c4a5a1cdfa970802307fcc
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => VISA
+    [expiry_date] => 2711
+    [customer_ip] => 83.110.222.222
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990789946738
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-02944
+    [authorization_code] => 958384
+    [customer_email] => rozh.jalil@doctors.org.uk
+    [currency] => AED
+    [customer_name] => Rozh Tayfoor Jalil
+    [status] => 14
+)
+
+12-12-2022 @ 15:34:45 - Payfort Request Params for payment method (payfort) 
+
+Array
+(
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [merchant_reference] => 22659
+    [language] => en
+    [service_command] => TOKENIZATION
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [signature] => f0df86643dc33e8c9c8a2c87b92cb89a79e27b568464e1c8612a6199142c5afa
+)
+
+12-12-2022 @ 15:34:47 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_merchantPageResponse
+    [response_code] => 18000
+    [card_number] => ****************
+    [card_holder_name] => *****************
+    [signature] => 1dc7e22afad1d83258b7f9fddebc5955e9263b78cf3285d05c0b6d8a84c6a4b5
+    [merchant_identifier] => xyKdBdwl
+    [expiry_date] => ****
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [language] => en
+    [response_message] => Success
+    [service_command] => TOKENIZATION
+    [merchant_reference] => 22659
+    [token_name] => 3d58f2374cb149da8c5fb5daddb9dc1e
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [status] => 18
+    [card_bin] => 539830
+)
+
+12-12-2022 @ 15:34:47 - Merchant Page Notify Api Request Params : Array
+(
+    [merchant_reference] => 22659
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [command] => PURCHASE
+    [merchant_identifier] => xyKdBdwl
+    [customer_ip] => 91.74.96.86
+    [amount] => 472395
+    [currency] => AED
+    [customer_email] => porcup79@gmail.com
+    [token_name] => 3d58f2374cb149da8c5fb5daddb9dc1e
+    [language] => en
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_responseOnline
+    [customer_name] => Patrizia Porcu
+    [signature] => 235382202ff1cd1e2825736eb5a4d73e8da627aab50f17410d7d620280f4a3f5
+)
+
+12-12-2022 @ 15:34:50 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [amount] => 472395
+    [response_code] => 20064
+    [card_number] => ****************
+    [card_holder_name] => *****************
+    [signature] => fe268679262d52eb33e8f117829c836cd7fa59c984f948047af7482230b8267c
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => MASTERCARD
+    [expiry_date] => ****
+    [customer_ip] => ***********
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990790047513
+    [command] => PURCHASE
+    [3ds_url] => https://checkout.payfort.com/FortAPI/redirectionResponse/threeDs2RedirectURL?token=120227qOKVlPYGFyW8x7auJiTlRi3A
+    [response_message] => 3-D Secure check requested
+    [merchant_reference] => 22659
+    [customer_email] => ******************
+    [currency] => AED
+    [customer_name] => **************
+    [status] => 20
+)
+
+12-12-2022 @ 15:35:30 - Fort response parameters (offline) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 472395
+    [response_code] => 14000
+    [card_number] => 539830******1057
+    [card_holder_name] => Dr patrizia porcu
+    [signature] => beba69decadf80f81bf17cc67dc5c1393b80309369e83f7a5aab8c11eceec5f2
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2604
+    [customer_ip] => 91.74.96.86
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990790047513
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 22659
+    [authorization_code] => T05442
+    [customer_email] => porcup79@gmail.com
+    [currency] => AED
+    [customer_name] => Patrizia Porcu
+    [status] => 14
+)
+
+12-12-2022 @ 15:35:30 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_responseOnline
+    [amount] => 472395
+    [response_code] => 14000
+    [card_number] => ****************
+    [card_holder_name] => *****************
+    [signature] => d654747f1d3a100bf941cbc8799f9f1d13c9912ac8959b1be965d7abfaff1f1c
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => MASTERCARD
+    [expiry_date] => ****
+    [customer_ip] => ***********
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990790047513
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 22659
+    [authorization_code] => T05442
+    [customer_email] => ******************
+    [currency] => AED
+    [customer_name] => **************
+    [status] => 14
+)
+

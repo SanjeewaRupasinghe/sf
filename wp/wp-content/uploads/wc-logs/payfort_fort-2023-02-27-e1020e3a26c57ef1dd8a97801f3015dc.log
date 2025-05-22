@@ -1,0 +1,28 @@
+02-27-2023 @ 19:18:18 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 10119
+    [card_number] => 536295******2225
+    [card_holder_name] => humera Naz saleem
+    [signature] => aed30f489a969e903abb1006b122d90217fe271cc1b2060786e9781d91208ed1
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Basic Life Support Provider Course
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2706
+    [customer_ip] => 86.97.169.113
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990909644137
+    [command] => PURCHASE
+    [response_message] => Request dropped
+    [merchant_reference] => Quote-03128
+    [customer_email] => samn_2000_uk@yahoo.com
+    [currency] => AED
+    [customer_name] => Samera naz
+    [status] => 10
+)
+

@@ -1,0 +1,135 @@
+11-25-2022 @ 17:14:14 - Payfort Request Params for payment method (payfort) 
+
+Array
+(
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [merchant_reference] => 22621
+    [language] => en
+    [service_command] => TOKENIZATION
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [signature] => 4bee8eb8e79820014fec3a565858265bd8343a16be97dff492d9cfde7b0e841f
+)
+
+11-25-2022 @ 17:14:16 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_merchantPageResponse
+    [response_code] => 18000
+    [card_number] => ****************
+    [card_holder_name] => ***************
+    [signature] => 78fbcad06b4a7637357e6c816bd269ed26def9ea0cb22232010f9cc11b196698
+    [merchant_identifier] => xyKdBdwl
+    [expiry_date] => ****
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [language] => en
+    [response_message] => Success
+    [service_command] => TOKENIZATION
+    [merchant_reference] => 22621
+    [token_name] => cf057c0ec2394e2c9e373fe2e7401413
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [status] => 18
+    [card_bin] => 510097
+)
+
+11-25-2022 @ 17:14:16 - Merchant Page Notify Api Request Params : Array
+(
+    [merchant_reference] => 22621
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [command] => PURCHASE
+    [merchant_identifier] => xyKdBdwl
+    [customer_ip] => 31.215.226.187
+    [amount] => 31500
+    [currency] => AED
+    [customer_email] => duijzingsd@gmail.com
+    [token_name] => cf057c0ec2394e2c9e373fe2e7401413
+    [language] => en
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_responseOnline
+    [customer_name] => Danny Duijzings
+    [signature] => 32b0babf3fb1218b49b29773208b3ce2c8de944de4ed3ad0f8548af0c898500d
+)
+
+11-25-2022 @ 17:14:19 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [amount] => 31500
+    [response_code] => 20064
+    [card_number] => ****************
+    [card_holder_name] => ***************
+    [signature] => 79ec56aee7e374777859cf592983eeffc8a61bd49079c1d9fb0471a14a1b7750
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => MASTERCARD
+    [expiry_date] => ****
+    [customer_ip] => **************
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990761879755
+    [command] => PURCHASE
+    [3ds_url] => https://checkout.payfort.com/FortAPI/redirectionResponse/threeDs2RedirectURL?token=167205xbkGfcDmpwgeK19vGfoh9zOA
+    [response_message] => 3-D Secure check requested
+    [merchant_reference] => 22621
+    [customer_email] => ********************
+    [currency] => AED
+    [customer_name] => ***************
+    [status] => 20
+)
+
+11-25-2022 @ 17:14:59 - Fort response parameters (offline) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 510097******2703
+    [card_holder_name] => Danny Duijzings
+    [signature] => 246655f73c128712b47adee5205dd22a8368bbc0ee03542065df8c2bc371c700
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2502
+    [customer_ip] => 31.215.226.187
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990761879755
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 22621
+    [authorization_code] => T66405
+    [customer_email] => duijzingsd@gmail.com
+    [currency] => AED
+    [customer_name] => Danny Duijzings
+    [status] => 14
+)
+
+11-25-2022 @ 17:14:59 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_responseOnline
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => ****************
+    [card_holder_name] => ***************
+    [signature] => 7983ba03f2fa22f52e99f19b2d812ee75a52ac354cd6efaeab389afa67a4c86b
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => MASTERCARD
+    [expiry_date] => ****
+    [customer_ip] => **************
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990761879755
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 22621
+    [authorization_code] => T66405
+    [customer_email] => ********************
+    [currency] => AED
+    [customer_name] => ***************
+    [status] => 14
+)
+

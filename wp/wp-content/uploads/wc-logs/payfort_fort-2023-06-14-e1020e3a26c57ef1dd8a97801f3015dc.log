@@ -1,0 +1,30 @@
+06-14-2023 @ 10:28:51 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 54933
+    [response_code] => 14000
+    [card_number] => 433367******4932
+    [card_holder_name] => SHAMMA ALABDULLA
+    [payment_link_id] => 169999991076319721
+    [signature] => e189942965751b0ebbddd3c7631824c35c9510c28f2bd94644eee6c180c8cf0f
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2708
+    [customer_ip] => 86.98.84.42
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991076391709
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02164
+    [authorization_code] => 158100
+    [customer_email] => shamma_a@hotmail.com
+    [currency] => AED
+    [customer_name] => Shama Abdulrehman
+    [status] => 14
+)
+

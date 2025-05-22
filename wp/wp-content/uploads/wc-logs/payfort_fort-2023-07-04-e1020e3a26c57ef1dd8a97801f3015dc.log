@@ -1,0 +1,90 @@
+07-04-2023 @ 12:09:54 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 377895
+    [response_code] => 14000
+    [card_number] => 419649******9483
+    [card_holder_name] => Dr Muhammad Saif Rehman
+    [payment_link_id] => 169999991089945955
+    [signature] => d9e19f7af3802bf35729215633133225e8983a36d025adfb451085a60c139b38
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => VISA
+    [expiry_date] => 2407
+    [customer_ip] => 176.205.2.67
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991108714648
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03273
+    [authorization_code] => 009390
+    [customer_email] => dr.saifi@yahoo.com
+    [currency] => AED
+    [customer_name] => Muhammad Saif Rehman
+    [status] => 14
+)
+
+07-04-2023 @ 14:18:32 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 84000
+    [response_code] => 14000
+    [card_number] => 526408******6207
+    [card_holder_name] => susan guadamuz 
+    [payment_link_id] => Quote-03284
+    [signature] => 001dee127ff41d11d042e6ab0b52d869cc4382c62c8f0dcfda1a70adc4c5e60c
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA HS FA CPR AED
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2712
+    [customer_ip] => 31.215.81.19
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991108879445
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03284
+    [authorization_code] => 843175
+    [customer_email] => ptsusanneal@gmail.com
+    [currency] => AED
+    [customer_name] => Susan Guadamuz
+    [status] => 14
+)
+
+07-04-2023 @ 15:28:32 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 42000
+    [response_code] => 14000
+    [card_number] => 456835******1509
+    [card_holder_name] => Fiazo Baguma 
+    [payment_link_id] => Quote-03282
+    [signature] => faa3e921ba7769ada75dc767f2729e4245daf261a023f45d54cf77038643e620
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA HS FA CPR AED
+    [payment_option] => VISA
+    [expiry_date] => 2801
+    [customer_ip] => 91.73.119.71
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991108981650
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03282
+    [authorization_code] => 707265
+    [customer_email] => faizobaguma@gmail.com
+    [currency] => AED
+    [customer_name] => FAIZO BAGUMA
+    [status] => 14
+)
+

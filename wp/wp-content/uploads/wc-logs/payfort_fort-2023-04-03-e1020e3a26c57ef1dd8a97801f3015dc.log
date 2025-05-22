@@ -1,0 +1,30 @@
+04-03-2023 @ 19:57:31 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 110790
+    [response_code] => 14000
+    [card_number] => 454654******3991
+    [card_holder_name] => Khalfan Almehairi 
+    [payment_link_id] => 169999990956615897
+    [signature] => 5c6916b0af95b9ad8a1f49279cbbd16680367ac14ac0b3a98b68bb8a36d1739d
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2802
+    [customer_ip] => 92.97.220.57
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990964934301
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-2069
+    [authorization_code] => 232254
+    [customer_email] => khalfan_o@hotmail.com
+    [currency] => AED
+    [customer_name] => Khalfan Obaid
+    [status] => 14
+)
+

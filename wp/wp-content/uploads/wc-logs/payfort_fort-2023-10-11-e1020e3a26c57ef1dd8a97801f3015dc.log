@@ -1,0 +1,30 @@
+10-11-2023 @ 20:30:02 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 433367******4723
+    [card_holder_name] => Khadejah mohamed
+    [payment_link_id] => Quote-03508
+    [signature] => 86f403787cc1086e6924b88af5c70ac424deb1b84f0eacc104b7c9ccc46ed72c
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2701
+    [customer_ip] => 2.50.249.51
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991287592254
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03508
+    [authorization_code] => 963237
+    [customer_email] => nursekhadijahmohammed@gmail.com
+    [currency] => AED
+    [customer_name] => Khadeijah Mohamed Jumah Alsereidi
+    [status] => 14
+)
+

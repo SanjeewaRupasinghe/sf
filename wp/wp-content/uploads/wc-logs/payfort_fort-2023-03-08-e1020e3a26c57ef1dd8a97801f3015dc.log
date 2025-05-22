@@ -1,0 +1,86 @@
+03-08-2023 @ 17:38:03 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 17325
+    [response_code] => 10030
+    [card_number] => 433367******5986
+    [card_holder_name] => hind humaid salim 
+    [payment_link_id] => 169999990925400665
+    [signature] => 4cb09de278459aace78e3600849d4eae2c3fe74b2a670e6fd20d1ab9133a0762
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2308
+    [customer_ip] => 87.201.46.72
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990925406678
+    [command] => PURCHASE
+    [response_message] => Authentication failed
+    [merchant_reference] => Quote-02042
+    [customer_email] => abbas@safetyfirstmed.ae
+    [currency] => AED
+    [customer_name] => Hind Humaid
+    [status] => 10
+)
+
+03-08-2023 @ 17:39:59 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 17325
+    [response_code] => 10030
+    [card_number] => 433367******5986
+    [card_holder_name] => hind humaid salim 
+    [payment_link_id] => 169999990925400665
+    [signature] => 4cb09de278459aace78e3600849d4eae2c3fe74b2a670e6fd20d1ab9133a0762
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2308
+    [customer_ip] => 87.201.46.72
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990925406678
+    [command] => PURCHASE
+    [response_message] => Authentication failed
+    [merchant_reference] => Quote-02042
+    [customer_email] => abbas@safetyfirstmed.ae
+    [currency] => AED
+    [customer_name] => Hind Humaid
+    [status] => 10
+)
+
+03-08-2023 @ 19:20:22 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 17325
+    [response_code] => 10119
+    [card_number] => 471363******0708
+    [card_holder_name] => Nada humaid 
+    [signature] => 115074103ff9e2dd30be7db964dbb29585f50f45da43025268084715d8011339
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2708
+    [customer_ip] => 87.201.46.72
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990925406678
+    [command] => PURCHASE
+    [response_message] => Request dropped
+    [merchant_reference] => Quote-02042
+    [customer_email] => abbas@safetyfirstmed.ae
+    [currency] => AED
+    [customer_name] => Hind Humaid
+    [status] => 10
+)
+

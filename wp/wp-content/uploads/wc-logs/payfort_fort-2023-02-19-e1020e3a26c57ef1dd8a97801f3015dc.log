@@ -1,0 +1,135 @@
+02-19-2023 @ 17:45:35 - Payfort Request Params for payment method (payfort) 
+
+Array
+(
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [merchant_reference] => 22852
+    [language] => en
+    [service_command] => TOKENIZATION
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [signature] => d907ec06a9ab271946b788f343128fe3f21dd2b6d7e8071991f068f5a6f0f61b
+)
+
+02-19-2023 @ 17:45:38 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_merchantPageResponse
+    [response_code] => 18000
+    [card_number] => ****************
+    [card_holder_name] => *************
+    [signature] => 7a23c4f9ec83b01772742ece2520c136c6ecfeb960203b97b4dd06cb60bf72e0
+    [merchant_identifier] => xyKdBdwl
+    [expiry_date] => ****
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [language] => en
+    [response_message] => Success
+    [service_command] => TOKENIZATION
+    [merchant_reference] => 22852
+    [token_name] => 3a45411fcc814a3789afab23c4ad47a7
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [status] => 18
+    [card_bin] => 524200
+)
+
+02-19-2023 @ 17:45:38 - Merchant Page Notify Api Request Params : Array
+(
+    [merchant_reference] => 22852
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [command] => PURCHASE
+    [merchant_identifier] => xyKdBdwl
+    [customer_ip] => 94.203.91.41
+    [amount] => 31500
+    [currency] => AED
+    [customer_email] => junmerllubit@yahoo.com
+    [token_name] => 3a45411fcc814a3789afab23c4ad47a7
+    [language] => en
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_responseOnline
+    [customer_name] => Junmer Llubit
+    [signature] => eb73a59acb784231a3dca1f7317756c0852d32ab160b5dd073216bbd3f00ffe4
+)
+
+02-19-2023 @ 17:45:41 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [amount] => 31500
+    [response_code] => 20064
+    [card_number] => ****************
+    [card_holder_name] => *************
+    [signature] => 8774931c42282c6a15e46d98d40ed3619e15cebfabbd79701336d1d11bd793f2
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => MASTERCARD
+    [expiry_date] => ****
+    [customer_ip] => ************
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990896962302
+    [command] => PURCHASE
+    [3ds_url] => https://checkout.payfort.com/FortAPI/redirectionResponse/threeDs2RedirectURL?token=562219u0AluwIw85hGIIiT3GXNNrBS
+    [response_message] => 3-D Secure check requested
+    [merchant_reference] => 22852
+    [customer_email] => **********************
+    [currency] => AED
+    [customer_name] => *************
+    [status] => 20
+)
+
+02-19-2023 @ 17:46:52 - Fort response parameters (offline) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 524200******8415
+    [card_holder_name] => Junmer Llubit
+    [signature] => bc76b7eaae24f14af43f6f2c97c3923d0882d5a39af8ef73ca1d8386764cda9c
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2504
+    [customer_ip] => 94.203.91.41
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990896962302
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 22852
+    [authorization_code] => T67031
+    [customer_email] => junmerllubit@yahoo.com
+    [currency] => AED
+    [customer_name] => Junmer Llubit
+    [status] => 14
+)
+
+02-19-2023 @ 17:46:52 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_responseOnline
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => ****************
+    [card_holder_name] => *************
+    [signature] => 60f6e5ef40ee47378045b0a75904b9c045e481a4e00ba5585cf9fa438dfbbdca
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => MASTERCARD
+    [expiry_date] => ****
+    [customer_ip] => ************
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990896962302
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 22852
+    [authorization_code] => T67031
+    [customer_email] => **********************
+    [currency] => AED
+    [customer_name] => *************
+    [status] => 14
+)
+

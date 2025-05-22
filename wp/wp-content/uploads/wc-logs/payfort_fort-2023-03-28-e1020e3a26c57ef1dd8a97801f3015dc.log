@@ -1,0 +1,30 @@
+03-28-2023 @ 09:24:21 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 557661******3320
+    [card_holder_name] => Diana Villar 
+    [payment_link_id] => Quote-03171
+    [signature] => d836f960db7d05ec4af70757bd51c79d159463cc8be756234b82cac738761f3f
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA-BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2608
+    [customer_ip] => 94.59.99.64
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990954869816
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03171
+    [authorization_code] => 501075
+    [customer_email] => dianam.villar@yahoo.com
+    [currency] => AED
+    [customer_name] => Diana Villar
+    [status] => 14
+)
+

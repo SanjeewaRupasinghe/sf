@@ -1,0 +1,30 @@
+10-16-2023 @ 11:55:21 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 557652******3067
+    [card_holder_name] => Muthiullah Mohamed 
+    [payment_link_id] => Quote-03519
+    [signature] => d3964fa1a3684b88e2a6285c1c23f15f5f8ab91362eb6b8aaa5796afbe6ecaa3
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2412
+    [customer_ip] => 176.204.219.78
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991295690370
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03519
+    [authorization_code] => 883772
+    [customer_email] => docmuthi@gmail.com
+    [currency] => AED
+    [customer_name] => Mohamed Muthiullah
+    [status] => 14
+)
+

@@ -1,0 +1,30 @@
+04-05-2023 @ 18:22:59 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 377895
+    [response_code] => 14000
+    [card_number] => 532660******5436
+    [card_holder_name] => Ziad Dulaimi
+    [payment_link_id] => 169999990933106723
+    [signature] => 6a0b21f8dda052772b29cc5082dce8bc77f3eb2010fca905b8df0f19fa0c9fbc
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2610
+    [customer_ip] => 94.59.226.198
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990967789769
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03145
+    [authorization_code] => 553267
+    [customer_email] => dr_ziadkh@yahoo.co.uk
+    [currency] => AED
+    [customer_name] => Ziad Dulaimi
+    [status] => 14
+)
+

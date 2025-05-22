@@ -1,0 +1,330 @@
+11-19-2022 @ 16:48:41 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 40000
+    [response_code] => 14000
+    [card_number] => 443913******6663
+    [card_holder_name] => eman abdulla
+    [payment_link_id] => 2893
+    [signature] => b2c414146faa28d69099656c350719214ae09750cfa732c7444f5a495359711b
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA PALS
+    [payment_option] => VISA
+    [expiry_date] => 2608
+    [customer_ip] => 91.73.35.130
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990752046264
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 2893
+    [authorization_code] => 864239
+    [customer_email] => amo0o0on_als@hotmail.com
+    [currency] => AED
+    [customer_name] => Eman Abdallah AlSuwaidi
+    [status] => 14
+)
+
+11-19-2022 @ 16:48:52 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 40000
+    [response_code] => 14000
+    [card_number] => 443913******6663
+    [card_holder_name] => eman abdulla
+    [payment_link_id] => 2893
+    [signature] => b2c414146faa28d69099656c350719214ae09750cfa732c7444f5a495359711b
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA PALS
+    [payment_option] => VISA
+    [expiry_date] => 2608
+    [customer_ip] => 91.73.35.130
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990752046264
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 2893
+    [authorization_code] => 864239
+    [customer_email] => amo0o0on_als@hotmail.com
+    [currency] => AED
+    [customer_name] => Eman Abdallah AlSuwaidi
+    [status] => 14
+)
+
+11-19-2022 @ 16:49:03 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 40000
+    [response_code] => 14000
+    [card_number] => 443913******6663
+    [card_holder_name] => eman abdulla
+    [payment_link_id] => 2893
+    [signature] => b2c414146faa28d69099656c350719214ae09750cfa732c7444f5a495359711b
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA PALS
+    [payment_option] => VISA
+    [expiry_date] => 2608
+    [customer_ip] => 91.73.35.130
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990752046264
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 2893
+    [authorization_code] => 864239
+    [customer_email] => amo0o0on_als@hotmail.com
+    [currency] => AED
+    [customer_name] => Eman Abdallah AlSuwaidi
+    [status] => 14
+)
+
+11-19-2022 @ 16:49:14 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 40000
+    [response_code] => 14000
+    [card_number] => 443913******6663
+    [card_holder_name] => eman abdulla
+    [payment_link_id] => 2893
+    [signature] => b2c414146faa28d69099656c350719214ae09750cfa732c7444f5a495359711b
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA PALS
+    [payment_option] => VISA
+    [expiry_date] => 2608
+    [customer_ip] => 91.73.35.130
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990752046264
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 2893
+    [authorization_code] => 864239
+    [customer_email] => amo0o0on_als@hotmail.com
+    [currency] => AED
+    [customer_name] => Eman Abdallah AlSuwaidi
+    [status] => 14
+)
+
+11-19-2022 @ 16:49:25 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 40000
+    [response_code] => 14000
+    [card_number] => 443913******6663
+    [card_holder_name] => eman abdulla
+    [payment_link_id] => 2893
+    [signature] => b2c414146faa28d69099656c350719214ae09750cfa732c7444f5a495359711b
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA PALS
+    [payment_option] => VISA
+    [expiry_date] => 2608
+    [customer_ip] => 91.73.35.130
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990752046264
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 2893
+    [authorization_code] => 864239
+    [customer_email] => amo0o0on_als@hotmail.com
+    [currency] => AED
+    [customer_name] => Eman Abdallah AlSuwaidi
+    [status] => 14
+)
+
+11-19-2022 @ 16:49:35 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 40000
+    [response_code] => 14000
+    [card_number] => 443913******6663
+    [card_holder_name] => eman abdulla
+    [payment_link_id] => 2893
+    [signature] => b2c414146faa28d69099656c350719214ae09750cfa732c7444f5a495359711b
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA PALS
+    [payment_option] => VISA
+    [expiry_date] => 2608
+    [customer_ip] => 91.73.35.130
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990752046264
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 2893
+    [authorization_code] => 864239
+    [customer_email] => amo0o0on_als@hotmail.com
+    [currency] => AED
+    [customer_name] => Eman Abdallah AlSuwaidi
+    [status] => 14
+)
+
+11-19-2022 @ 16:49:46 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 40000
+    [response_code] => 14000
+    [card_number] => 443913******6663
+    [card_holder_name] => eman abdulla
+    [payment_link_id] => 2893
+    [signature] => b2c414146faa28d69099656c350719214ae09750cfa732c7444f5a495359711b
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA PALS
+    [payment_option] => VISA
+    [expiry_date] => 2608
+    [customer_ip] => 91.73.35.130
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990752046264
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 2893
+    [authorization_code] => 864239
+    [customer_email] => amo0o0on_als@hotmail.com
+    [currency] => AED
+    [customer_name] => Eman Abdallah AlSuwaidi
+    [status] => 14
+)
+
+11-19-2022 @ 16:49:57 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 40000
+    [response_code] => 14000
+    [card_number] => 443913******6663
+    [card_holder_name] => eman abdulla
+    [payment_link_id] => 2893
+    [signature] => b2c414146faa28d69099656c350719214ae09750cfa732c7444f5a495359711b
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA PALS
+    [payment_option] => VISA
+    [expiry_date] => 2608
+    [customer_ip] => 91.73.35.130
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990752046264
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 2893
+    [authorization_code] => 864239
+    [customer_email] => amo0o0on_als@hotmail.com
+    [currency] => AED
+    [customer_name] => Eman Abdallah AlSuwaidi
+    [status] => 14
+)
+
+11-19-2022 @ 16:50:08 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 40000
+    [response_code] => 14000
+    [card_number] => 443913******6663
+    [card_holder_name] => eman abdulla
+    [payment_link_id] => 2893
+    [signature] => b2c414146faa28d69099656c350719214ae09750cfa732c7444f5a495359711b
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA PALS
+    [payment_option] => VISA
+    [expiry_date] => 2608
+    [customer_ip] => 91.73.35.130
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990752046264
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 2893
+    [authorization_code] => 864239
+    [customer_email] => amo0o0on_als@hotmail.com
+    [currency] => AED
+    [customer_name] => Eman Abdallah AlSuwaidi
+    [status] => 14
+)
+
+11-19-2022 @ 16:50:19 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 40000
+    [response_code] => 14000
+    [card_number] => 443913******6663
+    [card_holder_name] => eman abdulla
+    [payment_link_id] => 2893
+    [signature] => b2c414146faa28d69099656c350719214ae09750cfa732c7444f5a495359711b
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA PALS
+    [payment_option] => VISA
+    [expiry_date] => 2608
+    [customer_ip] => 91.73.35.130
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990752046264
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 2893
+    [authorization_code] => 864239
+    [customer_email] => amo0o0on_als@hotmail.com
+    [currency] => AED
+    [customer_name] => Eman Abdallah AlSuwaidi
+    [status] => 14
+)
+
+11-19-2022 @ 16:50:29 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 40000
+    [response_code] => 14000
+    [card_number] => 443913******6663
+    [card_holder_name] => eman abdulla
+    [payment_link_id] => 2893
+    [signature] => b2c414146faa28d69099656c350719214ae09750cfa732c7444f5a495359711b
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA PALS
+    [payment_option] => VISA
+    [expiry_date] => 2608
+    [customer_ip] => 91.73.35.130
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990752046264
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 2893
+    [authorization_code] => 864239
+    [customer_email] => amo0o0on_als@hotmail.com
+    [currency] => AED
+    [customer_name] => Eman Abdallah AlSuwaidi
+    [status] => 14
+)
+

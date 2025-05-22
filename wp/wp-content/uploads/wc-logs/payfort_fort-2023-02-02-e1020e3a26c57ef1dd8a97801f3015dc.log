@@ -1,0 +1,90 @@
+02-02-2023 @ 08:22:00 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 398895
+    [response_code] => 14000
+    [card_number] => 457828******0009
+    [card_holder_name] => TIMOTHY COLLYNS
+    [payment_link_id] => 169999990866980914
+    [signature] => badf5497b141afeb7c562d5c476d077179808d69d37c5d2303e6b154f611b716
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => VISA
+    [expiry_date] => 2410
+    [customer_ip] => 195.229.201.169
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990870053929
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03060
+    [authorization_code] => 458125
+    [customer_email] => timothy.collyns@gmail.com
+    [currency] => AED
+    [customer_name] => Timothy Collyns
+    [status] => 14
+)
+
+02-02-2023 @ 08:58:38 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 398895
+    [response_code] => 14000
+    [card_number] => 471386******4959
+    [card_holder_name] => Nigel Umar Beejay
+    [payment_link_id] => 169999990869959396
+    [signature] => a5b0c9e8ccf2e0ea4581cd8f4e53cf2a56fb2815e8d0a6bf33607beeb5a4499a
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => VISA
+    [expiry_date] => 2509
+    [customer_ip] => 2.50.154.79
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990870079590
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03062
+    [authorization_code] => 752327
+    [customer_email] => nigelbeejay@gmail.com
+    [currency] => AED
+    [customer_name] => Nigel Beejay
+    [status] => 14
+)
+
+02-02-2023 @ 12:24:32 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 526408******2153
+    [card_holder_name] => Sreekutty valsala
+    [payment_link_id] => Quote-03065
+    [signature] => eee6340f22bd47a1e2877f11e1551f43345d5dfba5a73cac0f847aa685f4f30a
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA-BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2604
+    [customer_ip] => 2.50.113.228
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990870316047
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03065
+    [authorization_code] => 177835
+    [customer_email] => kirank611@gmail.com
+    [currency] => AED
+    [customer_name] => Kiran Kumar Ck
+    [status] => 14
+)
+

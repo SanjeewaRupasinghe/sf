@@ -1,0 +1,30 @@
+07-18-2023 @ 11:46:14 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 377895
+    [response_code] => 14000
+    [card_number] => 443913******6209
+    [card_holder_name] => Taj fiyaz chowdhry
+    [payment_link_id] => 169999991131853952
+    [signature] => 0c9b3c05165a1da65250eb5ff02cb096aa6010f0c18fc1b9eee035c8da2f4c4f
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => VISA
+    [expiry_date] => 2709
+    [customer_ip] => 94.57.29.8
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991131893603
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03322
+    [authorization_code] => 692961
+    [customer_email] => taj.chowdhry@outlook.com
+    [currency] => AED
+    [customer_name] => Mohammed Fiyaz Chowdhry
+    [status] => 14
+)
+

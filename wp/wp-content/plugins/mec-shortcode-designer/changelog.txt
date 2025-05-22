@@ -1,0 +1,78 @@
+v 1.2.2 - 12 August 2021
+- Added: Ability to show multi speakers
+- Fixed: An issue regading the time and date
+- Fixed: Fatal error when MEC is disabled
+- Fixed: Location widget
+- Fixed: Some notice on normal label on shortcodes
+- Fixed: Some minor issues
+
+v 1.2.1 - 12 May 2021
+- Compatibility: With Elementor Version 3.2.0
+- Fixed: Local time widget
+- Fixed: Date and time in the custom day repeating
+- Fixed: Conflicts with another shortcode
+- Fixed: AM/PM issue in the time format
+- Fixed: An issue regarding the weekday
+- Fixed: Shortcode in category archive page
+- Fixed: Cancellation issue in the frontend
+- Fixed: Some minor issues
+
+v 1.2.0 - 10 March 2021
+- Added: Speaker widget
+- Added: Cost widget
+- Compatibility: With Modern Events Calendar Version 5.17.5
+- Improved: Auto-update
+- Fixed: The wrong date widget
+- Fixed: The wrong time widget
+- Fixed: The wrong localtime widget
+- Fixed: The wrong countdown widget
+- Fixed: The wrong link widget
+- Fixed: An issues regarding the load more
+- Fixed: An issues regarding translation
+
+v 1.1.6 - 15 November 2020
+- Fixed: Available Spot Widgets
+
+v 1.1.5 - 9 August 2020
+- Fixed: Auto update
+
+v 1.1.4 – 04 August 2020
+- Fixed: Read more widget link action
+- Fixed: Read more widget style
+- Fixed: Time widget style
+- Fixed: Countdown widget style
+- Fixed: Label widget style
+- Fixed: Dabel widget style
+
+v 1.1.3 – 5 July 2020
+- Added: Add custom shortcode on wizard
+- Fixed: Month divider on list view
+- Fixed: Event title link
+
+v 1.1.2 – 11 June 2020
+- Compatibility: With Modern Events Calendar Version 5.6.0
+
+v 1.1.1 - 9 May 2020
+- Fixed: Fatal error regarding the date
+
+v 1.1.0 - 28 April 2020
+- Added: Normal labels widget for shortcodes
+- Added: Cancellation reason widget
+- Added: Local time widget
+- Fixed: License notice
+
+v 1.0.4 - 15 March 2020
+- Fixed: Hide event time
+- Fixed: Date format
+
+v 1.0.3 - 7 February 2020
+- Fixed: Showing the wrong date when an event has a repeating
+
+v 1.0.2 - 30 January 2020
+- Fixed: fopen, fread, fclose warnings
+
+v 1.0.1 - 23 January 2020
+- Fixed: Showing Elementor widgets
+
+v 1.0.0 - 11 January 2020
+- Initial Release

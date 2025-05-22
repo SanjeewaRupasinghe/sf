@@ -1,0 +1,59 @@
+07-15-2023 @ 12:24:29 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 356895
+    [response_code] => 10030
+    [card_number] => 401891******0006
+    [card_holder_name] => Ayman Younis
+    [payment_link_id] => 169999991109032250
+    [signature] => f47870c3be49a7b6791efd57c8e3a6245be10e37a93357b7092d5fe38130189a
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => VISA
+    [expiry_date] => 2704
+    [customer_ip] => 86.98.81.70
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991127246297
+    [command] => PURCHASE
+    [response_message] => Authentication failed
+    [merchant_reference] => Quote-03288
+    [customer_email] => ayman.younis@hotmail.co.uk
+    [currency] => AED
+    [customer_name] => Ayman Younis
+    [status] => 10
+)
+
+07-15-2023 @ 12:26:03 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 356895
+    [response_code] => 14000
+    [card_number] => 428688******8711
+    [card_holder_name] => Ayman Younis
+    [payment_link_id] => 169999991109032250
+    [signature] => 44185025b4f2496560dfc2e5526acb0a44b43a09f588e069107d8379bc104417
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => VISA
+    [expiry_date] => 2610
+    [customer_ip] => 86.98.81.70
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991127246297
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03288
+    [authorization_code] => 001081
+    [customer_email] => ayman.younis@hotmail.co.uk
+    [currency] => AED
+    [customer_name] => Ayman Younis
+    [status] => 14
+)
+

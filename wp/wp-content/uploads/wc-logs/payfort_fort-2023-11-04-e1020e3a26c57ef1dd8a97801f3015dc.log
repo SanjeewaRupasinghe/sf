@@ -1,0 +1,30 @@
+11-04-2023 @ 11:24:15 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 335895
+    [response_code] => 14000
+    [card_number] => 557661******5461
+    [card_holder_name] => Sana Kheir 
+    [payment_link_id] => 169999991326960169
+    [signature] => b720deac0932d3e6e202350b7c06c74f98439b572d12d443e3babcc14c3d75d0
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal REV12
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2707
+    [customer_ip] => 5.193.212.187
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991333372126
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03555
+    [authorization_code] => 525404
+    [customer_email] => etharnour@gmail.com
+    [currency] => AED
+    [customer_name] => Ethar Hesham
+    [status] => 14
+)
+

@@ -1,0 +1,30 @@
+09-21-2023 @ 09:47:11 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 377895
+    [response_code] => 14000
+    [card_number] => 471387******6659
+    [card_holder_name] => Samer Mohammad
+    [payment_link_id] => 169999991233177172
+    [signature] => be02ca3a9eca49941d58ab2be14e806f204ae64c635074f9773c8ef271c5d2ac
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => VISA
+    [expiry_date] => 2809
+    [customer_ip] => 217.165.86.42
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991245530075
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03447A
+    [authorization_code] => 119341
+    [customer_email] => sjallad@hotmail.co.uk
+    [currency] => AED
+    [customer_name] => Samer Mohammad Fayez Ahmad Jallad
+    [status] => 14
+)
+

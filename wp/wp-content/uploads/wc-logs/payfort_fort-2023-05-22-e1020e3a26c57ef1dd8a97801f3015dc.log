@@ -1,0 +1,120 @@
+05-22-2023 @ 08:52:36 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 67259
+    [response_code] => 14000
+    [card_number] => 467744******0012
+    [card_holder_name] => Rabeah alfala 
+    [payment_link_id] => 169999991037444848
+    [signature] => bdf7c5c665632e445d17acfdf3039a54e1b68559fdabd5eac1ae185aae2b86c5
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2607
+    [customer_ip] => 2.51.46.244
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991037446786
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02137
+    [authorization_code] => 284264
+    [customer_email] => rbuhussain@gmail.com
+    [currency] => AED
+    [customer_name] => Rabeah Alfalasi
+    [status] => 14
+)
+
+05-22-2023 @ 11:56:20 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 377895
+    [response_code] => 14000
+    [card_number] => 427277******8683
+    [card_holder_name] => AMITH NUTI
+    [payment_link_id] => 169999991037605892
+    [signature] => 75bfeaa88e010187b45b65d28c243bc4039fa25cdc8a67cedb533db8986b60ab
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => VISA
+    [expiry_date] => 2609
+    [customer_ip] => 2.50.121.94
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991037638132
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03220
+    [authorization_code] => 718226
+    [customer_email] => amnuti@doctors.org.uk
+    [currency] => AED
+    [customer_name] => Amith Nuti
+    [status] => 14
+)
+
+05-22-2023 @ 12:03:26 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 356895
+    [response_code] => 14000
+    [card_number] => 552067******1783
+    [card_holder_name] => Saif Al Azzawi
+    [payment_link_id] => 169999991037559325
+    [signature] => e582aed29a54df4e335e0deb6278b4f955a2dcfd9c91d6d654f3383f9dab9099
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2710
+    [customer_ip] => 37.210.153.230
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991037646657
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03219
+    [authorization_code] => T08371
+    [customer_email] => saifazzawi8@gmail.com
+    [currency] => AED
+    [customer_name] => Saif Aouf Ramman Al Azzawi
+    [status] => 14
+)
+
+05-22-2023 @ 19:23:30 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 356895
+    [response_code] => 14000
+    [card_number] => 419648******9919
+    [card_holder_name] => Mhmoud Mohamed
+    [payment_link_id] => 169999991037756154
+    [signature] => e08bedd3c45dabfb257da0cb135f8db248f91883712501ecb6014d8fb6363b1b
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => VISA
+    [expiry_date] => 2803
+    [customer_ip] => 92.96.41.0
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991038229299
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03222
+    [authorization_code] => 002821
+    [customer_email] => mahmoud.temamy@gmail.com
+    [currency] => AED
+    [customer_name] => Mahmoud Eltemamy
+    [status] => 14
+)
+

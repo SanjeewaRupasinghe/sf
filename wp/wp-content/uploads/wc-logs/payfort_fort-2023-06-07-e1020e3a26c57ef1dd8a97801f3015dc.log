@@ -1,0 +1,30 @@
+06-07-2023 @ 19:14:03 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 356895
+    [response_code] => 14000
+    [card_number] => 442109******6685
+    [card_holder_name] => SNEHA ANKUR BOPCHE
+    [payment_link_id] => 169999991062017908
+    [signature] => 09e4d8fe6559f21650cbf6f731f0b3196f48490c2d59c98059e913f1e27f42bb
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal REV12
+    [payment_option] => VISA
+    [expiry_date] => 2509
+    [customer_ip] => 5.195.202.90
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991065627444
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03250
+    [authorization_code] => 546617
+    [customer_email] => snehabopche@gmail.com
+    [currency] => AED
+    [customer_name] => Sneha Ankur Bopche
+    [status] => 14
+)
+

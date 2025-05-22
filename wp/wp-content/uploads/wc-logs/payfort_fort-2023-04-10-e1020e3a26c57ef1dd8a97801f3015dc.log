@@ -1,0 +1,30 @@
+04-10-2023 @ 12:16:16 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 398895
+    [response_code] => 14000
+    [card_number] => 471387******7362
+    [card_holder_name] => S Pakeerathan
+    [payment_link_id] => 169999990974523952
+    [signature] => 8fc01817150e38a6cb036e5b52cd16a799cedad0c1ea1a001bcd472312273cf6
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => VISA
+    [expiry_date] => 2801
+    [customer_ip] => 2.50.171.113
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990974560363
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03183
+    [authorization_code] => 816078
+    [customer_email] => spakeerathan@seha.ae
+    [currency] => AED
+    [customer_name] => Sivarajasingham Pakeerathan
+    [status] => 14
+)
+

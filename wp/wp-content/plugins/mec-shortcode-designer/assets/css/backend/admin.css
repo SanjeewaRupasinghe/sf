@@ -1,0 +1,24 @@
+.mec-shortcode-designer-notice p {
+    display: inline-block;
+}
+
+div.error.mec-shortcode-designer-notice {
+    border-left-color: #38d5ed;
+}
+
+.mec-shortcode-designer-notice a {
+    background: #38d5ed;
+    color: #fff;
+    padding: 5px 9px 6px;
+    font-size: 13px;
+    display: inline-block;
+    border-radius: 2px;
+    transition: all .1s ease;
+    -webkit-transition: all .1s ease;
+    text-decoration: none;
+}
+
+.mec-shortcode-designer-notice a:hover {
+    background: #000;
+    color: #fff;
+}

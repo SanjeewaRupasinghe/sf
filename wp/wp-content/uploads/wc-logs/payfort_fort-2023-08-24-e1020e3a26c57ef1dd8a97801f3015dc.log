@@ -1,0 +1,59 @@
+08-24-2023 @ 11:12:53 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 13029
+    [card_number] => 517554******7546
+    [card_holder_name] => Abdullah Yousef
+    [payment_link_id] => Quote-03385
+    [signature] => 6599f5c4c5d8111431f0a6f9264004f9ae47c5929b3892625a5055569ed39471
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2611
+    [customer_ip] => 5.31.211.166
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991195441145
+    [command] => PURCHASE
+    [response_message] => Insufficient funds
+    [merchant_reference] => Quote-03385
+    [customer_email] => Alqwsmah@gmail.com
+    [currency] => AED
+    [customer_name] => Ahlam Ramadan Najeeb Alradi
+    [status] => 13
+)
+
+08-24-2023 @ 15:40:23 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 517554******7546
+    [card_holder_name] => ABDULLAH YOUSEF
+    [payment_link_id] => Quote-03385
+    [signature] => 18e65d73520b1f1de4e3a341b0a003beb00e5d8a27021f41a80185ea85a917f2
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2611
+    [customer_ip] => 217.164.15.86
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991195441145
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03385
+    [authorization_code] => 516529
+    [customer_email] => Alqwsmah@gmail.com
+    [currency] => AED
+    [customer_name] => Ahlam Ramadan Najeeb Alradi
+    [status] => 14
+)
+

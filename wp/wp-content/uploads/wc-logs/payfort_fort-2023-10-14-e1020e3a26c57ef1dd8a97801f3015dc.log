@@ -1,0 +1,30 @@
+10-14-2023 @ 20:56:39 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 549284******5086
+    [card_holder_name] => Edward Vargas
+    [payment_link_id] => Quote-03514
+    [signature] => 8a383189c955507ffeaa62a23bf2b1435569f3f3ff3922621404cda9ad83a79d
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2607
+    [customer_ip] => 195.229.82.41
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991293052208
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03514
+    [authorization_code] => T54446
+    [customer_email] => Vargas.edward88@yahoo.com
+    [currency] => AED
+    [customer_name] => Edward Vargas
+    [status] => 14
+)
+

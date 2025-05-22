@@ -1,0 +1,145 @@
+11-29-2022 @ 22:23:11 - apw merchant valildation url => : https://apple-pay-gateway.apple.com/paymentservices/startSession
+11-29-2022 @ 22:23:11 - json Data => : {"merchantIdentifier":"merchant.safetyfirstmed.test", "domainName":"safetyfirstmed.ae", "displayName":"Safety First"}
+11-29-2022 @ 22:23:11 - apw_certificate_key => : /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/apwcertificates/Certificate.key.pem
+11-29-2022 @ 22:23:11 - apw_certificate_path => : /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/apwcertificates/ApplePay.crt.pem
+11-29-2022 @ 22:23:11 - apw_certificate_key_pass => : 
+11-29-2022 @ 22:23:20 - apw merchant valildation url => : https://apple-pay-gateway.apple.com/paymentservices/startSession
+11-29-2022 @ 22:23:20 - json Data => : {"merchantIdentifier":"merchant.safetyfirstmed.test", "domainName":"safetyfirstmed.ae", "displayName":"Safety First"}
+11-29-2022 @ 22:23:20 - apw_certificate_key => : /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/apwcertificates/Certificate.key.pem
+11-29-2022 @ 22:23:20 - apw_certificate_path => : /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/apwcertificates/ApplePay.crt.pem
+11-29-2022 @ 22:23:20 - apw_certificate_key_pass => : 
+11-29-2022 @ 22:23:38 - Payfort Request Params for payment method (payfort) 
+
+Array
+(
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [merchant_reference] => 22630
+    [language] => en
+    [service_command] => TOKENIZATION
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [signature] => 822084ac0ff934ca71f509235de03f9043f0e52a296d241c3ff2a27d3ed6716d
+)
+
+11-29-2022 @ 22:23:40 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_merchantPageResponse
+    [response_code] => 18000
+    [card_number] => ****************
+    [card_holder_name] => **************
+    [signature] => e0a3a710ee602798fec9b8c9e49fc1a6d1ad0bd3639e4e1a0adf3d660e1b643d
+    [merchant_identifier] => xyKdBdwl
+    [expiry_date] => ****
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [language] => en
+    [response_message] => Success
+    [service_command] => TOKENIZATION
+    [merchant_reference] => 22630
+    [token_name] => 78be318e1fa545568755184109d71ce0
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [status] => 18
+    [card_bin] => 419869
+)
+
+11-29-2022 @ 22:23:40 - Merchant Page Notify Api Request Params : Array
+(
+    [merchant_reference] => 22630
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [command] => PURCHASE
+    [merchant_identifier] => xyKdBdwl
+    [customer_ip] => 86.97.165.224
+    [amount] => 472395
+    [currency] => AED
+    [customer_email] => mciras@gmail.com
+    [token_name] => 78be318e1fa545568755184109d71ce0
+    [language] => en
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_responseOnline
+    [customer_name] => Mahesh Cirasanambati
+    [signature] => 5beb09c8392ee32236e8f42c419f76857c1a101a10c51150042326b9aae1a671
+)
+
+11-29-2022 @ 22:23:43 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [amount] => 472395
+    [response_code] => 20064
+    [card_number] => ****************
+    [card_holder_name] => **************
+    [signature] => 2079c066b7fa9f5d5f14a6280d90d1d93f313bcd7cee488d569ea8512512a722
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => ****
+    [customer_ip] => *************
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990769884752
+    [command] => PURCHASE
+    [3ds_url] => https://checkout.payfort.com/FortAPI/redirectionResponse/threeDs2RedirectURL?token=16238gVkvjtBdx0YDKS939x6s0yyvL
+    [response_message] => 3-D Secure check requested
+    [merchant_reference] => 22630
+    [customer_email] => ****************
+    [currency] => AED
+    [customer_name] => ********************
+    [status] => 20
+)
+
+11-29-2022 @ 22:24:26 - Fort response parameters (offline) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 472395
+    [response_code] => 14000
+    [card_number] => 419869******8347
+    [card_holder_name] => Mahesh Cirasan
+    [signature] => cf04b11c74e4c9475196b5d62ebba4efc642b415c917689dc17055a85552eb58
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => 2603
+    [customer_ip] => 86.97.165.224
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990769884752
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 22630
+    [authorization_code] => 051917
+    [customer_email] => mciras@gmail.com
+    [currency] => AED
+    [customer_name] => Mahesh Cirasanambati
+    [status] => 14
+)
+
+11-29-2022 @ 22:24:27 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_responseOnline
+    [amount] => 472395
+    [response_code] => 14000
+    [card_number] => ****************
+    [card_holder_name] => **************
+    [signature] => bb0cc2c9ccded9142a31eb41dd98ce344ed57f9adaeee01bab041221be548bb1
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => ****
+    [customer_ip] => *************
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990769884752
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 22630
+    [authorization_code] => 051917
+    [customer_email] => ****************
+    [currency] => AED
+    [customer_name] => ********************
+    [status] => 14
+)
+

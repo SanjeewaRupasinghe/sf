@@ -1,0 +1,30 @@
+07-21-2023 @ 09:34:48 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 377895
+    [response_code] => 14000
+    [card_number] => 442109******0002
+    [card_holder_name] => Samir Rahmani
+    [payment_link_id] => 169999991125511853
+    [signature] => 78d1f31fe911a9600584c29612e387fe5368f6e3df69a6681a7144f76d89ca58
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => VISA
+    [expiry_date] => 2711
+    [customer_ip] => 87.200.11.46
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991136620981
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03311
+    [authorization_code] => 160418
+    [customer_email] => rahmanisamir@hotmail.com
+    [currency] => AED
+    [customer_name] => Samir Rahmani
+    [status] => 14
+)
+

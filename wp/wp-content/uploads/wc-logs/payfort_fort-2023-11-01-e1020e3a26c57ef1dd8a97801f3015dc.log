@@ -1,0 +1,30 @@
+11-01-2023 @ 11:18:39 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 519305******2181
+    [card_holder_name] => GEORGE GOLIT
+    [payment_link_id] => Quote-03554
+    [signature] => 0ab32d9a2717ccf5891c0c7a5c7bff4b484c013cc27c691f740ac9c060cf4f7e
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2502
+    [customer_ip] => 5.195.253.187
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991327093164
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03554
+    [authorization_code] => 442728
+    [customer_email] => Dr.nancyshaker@gmail.com
+    [currency] => AED
+    [customer_name] => Nancy nabil shaker
+    [status] => 14
+)
+

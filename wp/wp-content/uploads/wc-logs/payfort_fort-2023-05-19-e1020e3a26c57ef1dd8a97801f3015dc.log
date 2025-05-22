@@ -1,0 +1,30 @@
+05-19-2023 @ 14:05:50 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 557661******1606
+    [card_holder_name] => Irina Baron
+    [payment_link_id] => Quote-03218
+    [signature] => 0b03b945dd10f7d25345cbb161eea704db624b2d148450df7c4e62061ee09c59
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Basic Life Support Provider Course
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2607
+    [customer_ip] => 92.96.143.112
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991033290548
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03218
+    [authorization_code] => 595558
+    [customer_email] => irinabaron@gmail.com
+    [currency] => AED
+    [customer_name] => Irina Baron
+    [status] => 14
+)
+

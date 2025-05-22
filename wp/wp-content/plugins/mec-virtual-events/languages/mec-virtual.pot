@@ -1,0 +1,145 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: MEC Virtual Events\n"
+"POT-Creation-Date: 2020-07-26 11:35+0430\n"
+"PO-Revision-Date: 2020-07-26 11:35+0430\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: mec-virtual-events.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: core/addEventOptions/add-event-options.php:112
+#: core/addEventOptions/add-event-options.php:144
+#: core/addEventOptions/add-event-options.php:373
+#: core/addEventOptions/add-event-options.php:385
+#: core/addEventOptions/add-event-options.php:400
+msgid "Virtual Event"
+msgstr ""
+
+#: core/addEventOptions/add-event-options.php:153
+msgid "Enable Virtual Event"
+msgstr ""
+
+#: core/addEventOptions/add-event-options.php:164
+msgid "Display virtual badge in shortcode"
+msgstr ""
+
+#: core/addEventOptions/add-event-options.php:174
+msgid "Display virtual badge in single event"
+msgstr ""
+
+#: core/addEventOptions/add-event-options.php:177
+msgid "Link"
+msgstr ""
+
+#: core/addEventOptions/add-event-options.php:181
+msgid "Current Window"
+msgstr ""
+
+#: core/addEventOptions/add-event-options.php:182
+msgid "New Window"
+msgstr ""
+
+#: core/addEventOptions/add-event-options.php:190
+#: core/addEventOptions/add-event-options.php:201
+msgid "Display when booking is complete"
+msgstr ""
+
+#: core/addEventOptions/add-event-options.php:193
+msgid "Password"
+msgstr ""
+
+#: core/addEventOptions/add-event-options.php:204
+msgid "Embed"
+msgstr ""
+
+#: core/addEventOptions/add-event-options.php:215
+msgid "Display above information"
+msgstr ""
+
+#: core/addEventOptions/add-event-options.php:216
+msgid "e.g. 0"
+msgstr ""
+
+#: core/addEventOptions/add-event-options.php:218
+msgid "Day"
+msgstr ""
+
+#: core/addEventOptions/add-event-options.php:219
+msgid "Hour"
+msgstr ""
+
+#: core/addEventOptions/add-event-options.php:220
+msgid "Minute"
+msgstr ""
+
+#: core/addEventOptions/add-event-options.php:222
+msgid "before event start."
+msgstr ""
+
+#: core/addEventOptions/add-event-options.php:232
+msgid "Hide above information when event is live"
+msgstr ""
+
+#: core/addEventOptions/add-event-options.php:346
+msgid "Password:"
+msgstr ""
+
+#: core/addEventOptions/add-event-options.php:418
+msgid "Virtual Event Password:"
+msgstr ""
+
+#: core/addEventOptions/add-event-options.php:427
+msgid "Virtual link"
+msgstr ""
+
+#: core/addEventOptions/add-event-options.php:428
+msgid "Virtual password"
+msgstr ""
+
+#: core/addEventOptions/add-event-options.php:429
+msgid "Virtual embed"
+msgstr ""
+
+#: core/checkLicense/check-activation.php:203
+msgid ""
+"Activation faild. Please check your purchase code or license type."
+"<br><b>Note: Your purchase code should match your licesne type.</b>"
+msgstr ""
+
+#: core/checkLicense/check-activation.php:203
+msgid "Troubleshooting"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "MEC Virtual Events"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://webnus.net/modern-events-calendar/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Conver your events to virtual."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Webnus"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://webnus.net"
+msgstr ""

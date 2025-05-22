@@ -1,0 +1,88 @@
+2022-11-19T12:48:41+00:00 CRITICAL Uncaught Exception: Invalid order. in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:104
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(116): WC_Data_Store->read(Object(WC_Order))
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/payfort_fort/classes/class-woocommerce-fort.php(469): WC_Abstract_Order->__construct('2893')
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/payfort_fort/classes/class-woocommerce-fort.php(444): WC_Gateway_Payfort->_handleResponse('offline')
+#4 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): WC_Gateway_Payfort->process_re in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 104
+
+2022-11-19T12:48:52+00:00 CRITICAL Uncaught Exception: Invalid order. in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:104
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(116): WC_Data_Store->read(Object(WC_Order))
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/payfort_fort/classes/class-woocommerce-fort.php(469): WC_Abstract_Order->__construct('2893')
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/payfort_fort/classes/class-woocommerce-fort.php(444): WC_Gateway_Payfort->_handleResponse('offline')
+#4 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): WC_Gateway_Payfort->process_re in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 104
+
+2022-11-19T12:49:03+00:00 CRITICAL Uncaught Exception: Invalid order. in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:104
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(116): WC_Data_Store->read(Object(WC_Order))
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/payfort_fort/classes/class-woocommerce-fort.php(469): WC_Abstract_Order->__construct('2893')
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/payfort_fort/classes/class-woocommerce-fort.php(444): WC_Gateway_Payfort->_handleResponse('offline')
+#4 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): WC_Gateway_Payfort->process_re in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 104
+
+2022-11-19T12:49:14+00:00 CRITICAL Uncaught Exception: Invalid order. in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:104
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(116): WC_Data_Store->read(Object(WC_Order))
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/payfort_fort/classes/class-woocommerce-fort.php(469): WC_Abstract_Order->__construct('2893')
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/payfort_fort/classes/class-woocommerce-fort.php(444): WC_Gateway_Payfort->_handleResponse('offline')
+#4 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): WC_Gateway_Payfort->process_re in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 104
+
+2022-11-19T12:49:25+00:00 CRITICAL Uncaught Exception: Invalid order. in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:104
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(116): WC_Data_Store->read(Object(WC_Order))
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/payfort_fort/classes/class-woocommerce-fort.php(469): WC_Abstract_Order->__construct('2893')
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/payfort_fort/classes/class-woocommerce-fort.php(444): WC_Gateway_Payfort->_handleResponse('offline')
+#4 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): WC_Gateway_Payfort->process_re in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 104
+
+2022-11-19T12:49:35+00:00 CRITICAL Uncaught Exception: Invalid order. in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:104
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(116): WC_Data_Store->read(Object(WC_Order))
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/payfort_fort/classes/class-woocommerce-fort.php(469): WC_Abstract_Order->__construct('2893')
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/payfort_fort/classes/class-woocommerce-fort.php(444): WC_Gateway_Payfort->_handleResponse('offline')
+#4 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): WC_Gateway_Payfort->process_re in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 104
+
+2022-11-19T12:49:46+00:00 CRITICAL Uncaught Exception: Invalid order. in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:104
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(116): WC_Data_Store->read(Object(WC_Order))
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/payfort_fort/classes/class-woocommerce-fort.php(469): WC_Abstract_Order->__construct('2893')
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/payfort_fort/classes/class-woocommerce-fort.php(444): WC_Gateway_Payfort->_handleResponse('offline')
+#4 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): WC_Gateway_Payfort->process_re in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 104
+
+2022-11-19T12:49:57+00:00 CRITICAL Uncaught Exception: Invalid order. in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:104
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(116): WC_Data_Store->read(Object(WC_Order))
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/payfort_fort/classes/class-woocommerce-fort.php(469): WC_Abstract_Order->__construct('2893')
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/payfort_fort/classes/class-woocommerce-fort.php(444): WC_Gateway_Payfort->_handleResponse('offline')
+#4 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): WC_Gateway_Payfort->process_re in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 104
+
+2022-11-19T12:50:08+00:00 CRITICAL Uncaught Exception: Invalid order. in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:104
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(116): WC_Data_Store->read(Object(WC_Order))
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/payfort_fort/classes/class-woocommerce-fort.php(469): WC_Abstract_Order->__construct('2893')
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/payfort_fort/classes/class-woocommerce-fort.php(444): WC_Gateway_Payfort->_handleResponse('offline')
+#4 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): WC_Gateway_Payfort->process_re in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 104
+
+2022-11-19T12:50:19+00:00 CRITICAL Uncaught Exception: Invalid order. in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:104
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(116): WC_Data_Store->read(Object(WC_Order))
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/payfort_fort/classes/class-woocommerce-fort.php(469): WC_Abstract_Order->__construct('2893')
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/payfort_fort/classes/class-woocommerce-fort.php(444): WC_Gateway_Payfort->_handleResponse('offline')
+#4 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): WC_Gateway_Payfort->process_re in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 104
+
+2022-11-19T12:50:29+00:00 CRITICAL Uncaught Exception: Invalid order. in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:104
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(116): WC_Data_Store->read(Object(WC_Order))
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/payfort_fort/classes/class-woocommerce-fort.php(469): WC_Abstract_Order->__construct('2893')
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/payfort_fort/classes/class-woocommerce-fort.php(444): WC_Gateway_Payfort->_handleResponse('offline')
+#4 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): WC_Gateway_Payfort->process_re in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 104
+

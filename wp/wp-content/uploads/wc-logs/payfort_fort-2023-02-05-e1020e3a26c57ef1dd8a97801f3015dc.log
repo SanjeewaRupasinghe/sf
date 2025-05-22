@@ -1,0 +1,148 @@
+02-05-2023 @ 09:25:32 - Payfort Request Params for payment method (payfort) 
+
+Array
+(
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [merchant_reference] => 22789
+    [language] => en
+    [service_command] => TOKENIZATION
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [signature] => ea1adc99606ee72a9b703178fb19cd231226fc3f4f922999e02cbd17d16a0399
+)
+
+02-05-2023 @ 09:25:35 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_merchantPageResponse
+    [response_code] => 18000
+    [card_number] => ****************
+    [card_holder_name] => *********************
+    [signature] => 7327d22895ecbd74a3573fa3484d473d10472f2088e4af203c21a54eb0edd1ce
+    [merchant_identifier] => xyKdBdwl
+    [expiry_date] => ****
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [language] => en
+    [response_message] => Success
+    [service_command] => TOKENIZATION
+    [merchant_reference] => 22789
+    [token_name] => 4393f22bf4274802a7c3821a7bd11958
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [status] => 18
+    [card_bin] => 557652
+)
+
+02-05-2023 @ 09:25:35 - Merchant Page Notify Api Request Params : Array
+(
+    [merchant_reference] => 22789
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [command] => PURCHASE
+    [merchant_identifier] => xyKdBdwl
+    [customer_ip] => 92.96.210.196
+    [amount] => 31500
+    [currency] => AED
+    [customer_email] => jumanah.m.breighith@gmail.com
+    [token_name] => 4393f22bf4274802a7c3821a7bd11958
+    [language] => en
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_responseOnline
+    [customer_name] => Jumanah Breighith
+    [signature] => 5e544b0e1eac70ab967ac0ae2d775f87ec66f893845411ba9e5d587d0efa5089
+)
+
+02-05-2023 @ 09:25:38 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [amount] => 31500
+    [response_code] => 20064
+    [card_number] => ****************
+    [card_holder_name] => *********************
+    [signature] => ad4c3a1a5ea1e747579aa9ed249a34ecccd6869e95ae33841761b72e562f00d1
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => MASTERCARD
+    [expiry_date] => ****
+    [customer_ip] => *************
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990875133773
+    [command] => PURCHASE
+    [3ds_url] => https://checkout.payfort.com/FortAPI/redirectionResponse/threeDs2RedirectURL?token=23250BQDkAn6EOBtHBYFLsQdWR0BtD
+    [response_message] => 3-D Secure check requested
+    [merchant_reference] => 22789
+    [customer_email] => *****************************
+    [currency] => AED
+    [customer_name] => *****************
+    [status] => 20
+)
+
+02-05-2023 @ 09:25:41 - Payfort Request Params for payment method (payfort) 
+
+Array
+(
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [merchant_reference] => 22789
+    [language] => en
+    [service_command] => TOKENIZATION
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [signature] => ea1adc99606ee72a9b703178fb19cd231226fc3f4f922999e02cbd17d16a0399
+)
+
+02-05-2023 @ 09:26:27 - Fort response parameters (offline) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 557652******1288
+    [card_holder_name] => Jumanah M A breighith
+    [signature] => 66bfa8566ec914541da3da2f34a533cfcafedefbc738f1f0ed45dee224cb71eb
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2610
+    [customer_ip] => 92.96.210.196
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990875133773
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 22789
+    [authorization_code] => 225637
+    [customer_email] => jumanah.m.breighith@gmail.com
+    [currency] => AED
+    [customer_name] => Jumanah Breighith
+    [status] => 14
+)
+
+02-05-2023 @ 09:26:28 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_responseOnline
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => ****************
+    [card_holder_name] => *********************
+    [signature] => 289a5d29a813319b7ef2b0183df0a2d9c954672b6831ac5edf0e5084c6c96ef3
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => MASTERCARD
+    [expiry_date] => ****
+    [customer_ip] => *************
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990875133773
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 22789
+    [authorization_code] => 225637
+    [customer_email] => *****************************
+    [currency] => AED
+    [customer_name] => *****************
+    [status] => 14
+)
+

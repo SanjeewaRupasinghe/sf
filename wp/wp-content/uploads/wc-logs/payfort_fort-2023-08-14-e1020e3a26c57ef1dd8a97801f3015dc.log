@@ -1,0 +1,195 @@
+08-14-2023 @ 10:33:12 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 42608
+    [response_code] => 14000
+    [card_number] => 467745******1680
+    [card_holder_name] => Nida s 
+    [payment_link_id] => 169999991178981179
+    [signature] => ca629e6608e6349208a734eeb6d848873349c7f94e6a6b9629aa55ad024f1c66
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2801
+    [customer_ip] => 86.98.143.178
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991178986721
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02243
+    [authorization_code] => 922421
+    [customer_email] => safenada@gmail.com
+    [currency] => AED
+    [customer_name] => Nida Abdul Hameed
+    [status] => 14
+)
+
+08-14-2023 @ 11:37:02 - Payfort Request Params for payment method (payfort) 
+
+Array
+(
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [merchant_reference] => 23696
+    [language] => en
+    [service_command] => TOKENIZATION
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [signature] => fe777e4f9cce5c2d915659a3fe60a6d037bbb648f20edaf805ccc5d48b38e35a
+)
+
+08-14-2023 @ 11:37:05 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_merchantPageResponse
+    [response_code] => 18000
+    [card_number] => ****************
+    [card_holder_name] => ***********
+    [signature] => 3007e0295cffb8d3e2df4631b815a054c6187f0011ce6b25e7cb3a02bc319333
+    [merchant_identifier] => xyKdBdwl
+    [expiry_date] => ****
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [language] => en
+    [response_message] => Success
+    [service_command] => TOKENIZATION
+    [merchant_reference] => 23696
+    [token_name] => aeb0029e51fc406d9f8b905dc08f0708
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [status] => 18
+    [card_bin] => 443913
+)
+
+08-14-2023 @ 11:37:05 - Merchant Page Notify Api Request Params : Array
+(
+    [merchant_reference] => 23696
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [command] => PURCHASE
+    [merchant_identifier] => xyKdBdwl
+    [customer_ip] => 85.115.46.180
+    [amount] => 472395
+    [currency] => AED
+    [customer_email] => drharoon_khan@yahoo.co.uk
+    [token_name] => aeb0029e51fc406d9f8b905dc08f0708
+    [language] => en
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_responseOnline
+    [customer_name] => Haroon Khan
+    [signature] => adee0b327738c41035494c136017a489bf17a7af85d3dd51fc514ff912cc3e36
+)
+
+08-14-2023 @ 11:37:08 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [amount] => 472395
+    [response_code] => 20064
+    [card_number] => ****************
+    [card_holder_name] => ***********
+    [signature] => e5c9573eda3197d51868cb5153784494f6d29921f804e92fe71f0f628f51c6c2
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => ****
+    [customer_ip] => *************
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991179061045
+    [command] => PURCHASE
+    [3ds_url] => https://checkout.payfort.com/FortAPI/redirectionResponse/threeDs2RedirectURL?token=70111Cp4eAX1YbJ6dLIhgmN3zHEdPN
+    [response_message] => 3-D Secure check requested
+    [merchant_reference] => 23696
+    [customer_email] => *************************
+    [currency] => AED
+    [customer_name] => ***********
+    [status] => 20
+)
+
+08-14-2023 @ 11:37:57 - Fort response parameters (offline) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 472395
+    [response_code] => 14000
+    [card_number] => 443913******6426
+    [card_holder_name] => haroon khan
+    [signature] => 15b29e1f99426a8eb72834d39ea2bc9c55cf11bb25e75c84d52d61d2fcc2f326
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => 2712
+    [customer_ip] => 85.115.46.180
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991179061045
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 23696
+    [authorization_code] => 958420
+    [customer_email] => drharoon_khan@yahoo.co.uk
+    [currency] => AED
+    [customer_name] => Haroon Khan
+    [status] => 14
+)
+
+08-14-2023 @ 11:38:00 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_responseOnline
+    [amount] => 472395
+    [response_code] => 14000
+    [card_number] => ****************
+    [card_holder_name] => ***********
+    [signature] => 4f3228bd313a1a9882c94bba7378843dd55b0f5d6f5c345439d52c431dfcca2b
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => ****
+    [customer_ip] => *************
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991179061045
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 23696
+    [authorization_code] => 958420
+    [customer_email] => *************************
+    [currency] => AED
+    [customer_name] => ***********
+    [status] => 14
+)
+
+08-14-2023 @ 15:29:47 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 478839******9378
+    [card_holder_name] => Imad Ali
+    [payment_link_id] => Quote-03378
+    [signature] => 95b98835b96966dceb8d881a1ae0b9cb599f88bb5d5dd8db52fae73a846202c1
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2607
+    [customer_ip] => 31.218.6.63
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991179358053
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03378
+    [authorization_code] => 218310
+    [customer_email] => tahonsyr22003@yahoo.com
+    [currency] => AED
+    [customer_name] => Imad Ali
+    [status] => 14
+)
+

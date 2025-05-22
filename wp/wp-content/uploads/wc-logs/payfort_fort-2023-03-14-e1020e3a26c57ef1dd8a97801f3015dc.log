@@ -1,0 +1,88 @@
+03-14-2023 @ 15:34:02 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 13029
+    [card_number] => 433367******5376
+    [card_holder_name] => FATIMA H. ALSHAMSI
+    [payment_link_id] => Quote-03150
+    [signature] => 219fa62ff4bc74d557102a65d504505261295ad231e966ffd54e1d93cd2380da
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2503
+    [customer_ip] => 5.38.22.200
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990935076882
+    [command] => PURCHASE
+    [response_message] => Insufficient funds
+    [merchant_reference] => Quote-03150
+    [customer_email] => f.alshamsi0144@gmail.com
+    [currency] => AED
+    [customer_name] => Fatima Hasan Awad Alshams
+    [status] => 13
+)
+
+03-14-2023 @ 15:37:57 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 13029
+    [card_number] => 433367******8932
+    [card_holder_name] => FATIMA HASAN AWAD
+    [payment_link_id] => Quote-03150
+    [signature] => 72577158be2dc077cac0d8b48bcfd3126f269739d907b07729aafa835ffb87a9
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2712
+    [customer_ip] => 5.38.22.200
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990935076882
+    [command] => PURCHASE
+    [response_message] => Insufficient funds
+    [merchant_reference] => Quote-03150
+    [customer_email] => f.alshamsi0144@gmail.com
+    [currency] => AED
+    [customer_name] => Fatima Hasan Awad Alshams
+    [status] => 13
+)
+
+03-14-2023 @ 15:41:19 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 433367******5376
+    [card_holder_name] => FATIMA H. ALSHAMSI
+    [payment_link_id] => Quote-03150
+    [signature] => 984e6b1b55f6bf9cd5b7119b6f68d70ecf030486e63780cd89efc383abd77ae8
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2503
+    [customer_ip] => 5.38.22.200
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990935076882
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03150
+    [authorization_code] => 727975
+    [customer_email] => f.alshamsi0144@gmail.com
+    [currency] => AED
+    [customer_name] => Fatima Hasan Awad Alshams
+    [status] => 14
+)
+

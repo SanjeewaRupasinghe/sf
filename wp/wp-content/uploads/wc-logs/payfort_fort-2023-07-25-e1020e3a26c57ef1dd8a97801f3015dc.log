@@ -1,0 +1,60 @@
+07-25-2023 @ 09:24:37 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 94500
+    [response_code] => 14000
+    [card_number] => 471387******9828
+    [card_holder_name] => Rubina ansari
+    [payment_link_id] => Quote-03330
+    [signature] => 7e2a39743e9cb40531e4a94f47e3185d82bbbd1f1ee91f6bfa13ecdbaa33dbe3
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA PALS
+    [payment_option] => VISA
+    [expiry_date] => 2807
+    [customer_ip] => 2.50.172.130
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991142940208
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03330
+    [authorization_code] => 197157
+    [customer_email] => Rubina2@hotmail.com
+    [currency] => AED
+    [customer_name] => Dr. Rubina Ansari
+    [status] => 14
+)
+
+07-25-2023 @ 11:54:19 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 54933
+    [response_code] => 14000
+    [card_number] => 467745******3564
+    [card_holder_name] => Megan brayford
+    [payment_link_id] => 169999991143103884
+    [signature] => a1a61173e96b277585e69e222eb7a6a50da4e0801e7ddc3fa41fda0e52487956
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2806
+    [customer_ip] => 217.165.255.188
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991143110109
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02217
+    [authorization_code] => 691158
+    [customer_email] => meganbrayford@gmail.com
+    [currency] => AED
+    [customer_name] => Megan Brayford
+    [status] => 14
+)
+

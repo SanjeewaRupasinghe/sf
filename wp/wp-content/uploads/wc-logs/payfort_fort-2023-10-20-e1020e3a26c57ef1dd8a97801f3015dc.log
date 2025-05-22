@@ -1,0 +1,26 @@
+10-20-2023 @ 12:03:35 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 63000
+    [response_code] => 00003
+    [card_holder_name] => Mayoof Hamza
+    [payment_link_id] => 03436
+    [signature] => e14b487bd4c6026c8a023caa6141f613448c594d2757b0b601aa623aaf050310
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => HABC First Aid
+    [payment_option] => AMEX
+    [customer_ip] => 147.161.160.110
+    [language] => en
+    [eci] => ECOMMERCE
+    [command] => PURCHASE
+    [response_message] => Payment option is not available for this merchants account : AMEX
+    [merchant_reference] => 03436
+    [customer_email] => Mehroof.Hamza@cliffordchance.com
+    [currency] => AED
+    [customer_name] => Clifford Chance LLP
+    [status] => 00
+)
+

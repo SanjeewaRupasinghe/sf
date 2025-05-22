@@ -1,0 +1,28 @@
+12-27-2022 @ 02:29:41 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 398895
+    [response_code] => 10119
+    [card_number] => 537707******9938
+    [card_holder_name] => khulood AlAwadi
+    [signature] => 2378af0090179830e3ae2be72f7e5b1f379af51a207241bad982a9f10d4975de
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2610
+    [customer_ip] => 5.38.66.112
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990811177928
+    [command] => PURCHASE
+    [response_message] => Request dropped
+    [merchant_reference] => Quote-02907
+    [customer_email] => drkhuloodabdulla@gmail.com
+    [currency] => AED
+    [customer_name] => Khulood Abdulla Mohammed Alawadi
+    [status] => 10
+)
+

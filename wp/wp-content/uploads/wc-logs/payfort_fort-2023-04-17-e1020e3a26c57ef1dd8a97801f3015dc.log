@@ -1,0 +1,30 @@
+04-17-2023 @ 10:29:12 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 377895
+    [response_code] => 14000
+    [card_number] => 407075******6372
+    [card_holder_name] => robert janas
+    [payment_link_id] => 169999990977431395
+    [signature] => f738223680e8d76f2b9a42a2b4a7687b3ae27adb8b5aef60d6922f200718e754
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => VISA
+    [expiry_date] => 2709
+    [customer_ip] => 92.96.76.146
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990984732984
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03184
+    [authorization_code] => 003134
+    [customer_email] => rojanas@ssmc.ae
+    [currency] => AED
+    [customer_name] => Robert Janas
+    [status] => 14
+)
+

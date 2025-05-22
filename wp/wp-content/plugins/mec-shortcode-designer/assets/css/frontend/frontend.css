@@ -1,0 +1,177 @@
+/* global
+---------------- */
+.elementor-widget-mec-title,
+.elementor-widget-mec-label,
+.elementor-widget-mec-organizer,
+.elementor-widget-mec-location-name,
+.elementor-widget-mec-thumbnail,
+.elementor-widget-mec-address,
+.elementor-widget-mec-read-more,
+.elementor-widget-mec-social {
+    margin-bottom: 0 !important;
+}
+
+.mec-shortcode-designer .mec-event-content,
+.mec-shortcode-designer .mec-location-name,
+.mec-shortcode-designer .mec-event-readmore,
+.mec-shortcode-designer .mec-event-share {
+    margin-bottom: 20px;
+}
+
+/* socials
+--------------------- */
+.mec-shortcode-designer .mec-event-sharing-wrap {
+    padding-left: 0;
+    left: auto;
+    position: relative;
+    display: inline-block;
+}
+
+.mec-shortcode-designer .mec-event-sharing-wrap .mec-event-share {
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+.mec-shortcode-designer .mec-event-share i,
+.mec-shortcode-designer .mec-event-sharing i {
+    font-size: 14px;
+}
+
+.mec-shortcode-designer .mec-event-sharing-wrap,
+.mec-shortcode-designer .mec-event-sharing-wrap li i,
+.mec-shortcode-designer .mec-event-sharing-wrap li {
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+.mec-shortcode-designer .mec-event-sharing-wrap li ul li i {
+    display: block;
+    text-align: center;
+    margin: 10px;
+}
+
+.mec-shortcode-designer .mec-event-sharing-wrap>li.mec-event-share {
+    padding: 12px;
+    margin-bottom: 0;
+}
+
+/* Countdown
+--------------------- */
+.mec-shortcode-designer .mec-event-countdown {
+    display: block;
+}
+
+.mec-shortcode-designer .mec-event-countdown .block-w {
+    display: inline-block;
+    text-align: center;
+    padding: 0 7px;
+}
+
+/** Custom data begin */
+
+.mec-shortcode-designer .mec-event-data-fields{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+    margin: 0 4px;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAD90lEQVRoge2ZzWscZRjAf8/OJpUkQrF6SJMcNB+zobVdk8WCWEwqBEou0kMKtkgPHoRUD54VFMQ/wJBYhJ6MoGvFg3rQQ7dQFJVN09RANl9UkrgRbVrFuDZpZh4PSWqYmd2Z2a8Ize+0+7zPO/N7dt7l/RjYY48HGynHRZKqRltm7mmBXo1It9jEEBqBhq2UVYSswrTYmraVVFdn248iYpd675IK+GluruXehg4KchZoCtl9SVRHJcrw0fb2pWIdiirg2uzsY2LLOyjngNpib77FOujFdd1481hn50rYzqELGJ+afxGxh0AeCdvXhxURBuNm2ydhOgUuIJ1O1xgN+0eAl0OrhUDgwp3lxVd7e3s3Aub7k05n64yG3CXgZEl2QVG+sv6uG0gkDub8UiN+CZu/fBXlAYR+oz6XTKVSUb9U3wK2hk315LcR+vc3Nr/nn1aA8cz8GdDR8lmFR9DT8Vh7Mn97Hn6YmjpQKzUZ4NGKmAVnxRIrljDNW16NeYdQbaTmXXZfHuCAYUffytfo+QQmZmebbUvmKX2SKhdrIlZr3DR/cTZ4PgHL4jz/H3mAfUp00KvBVYCqRgQ5U3mnkKi+lFQ1nGFXAeOZuWNAc1WkwtHUMXOz2xl0FSDQWx2f8NjoCWfM4z8giWrIFIMorifgnqojdKDeF7Asi69TVxm7MYkIdB85TF/PcQzDqGjeNoqa/gWoNuab3765cpUr331//3vq283PJ5/vqWjeNgKNzpjXEGpwxzZJT0zuSmwHDzsDvou5nYjHg4l4xMqdVwiPAnQ1X3L3kcOuWNfRJyuet4O/nAH3f0BkGcVzu9jXcxyAsRuT9wX6nnu24nnbKCy7dJ2Ba9Nzn4lyKu9VdhX59KlY68DOiHsis3WsekLhEHC5uQqwlcvV0QmPitvNNYRUNTI+Pf+zQEt1tAKzEDdbH3ee5rmHkIgdUf2oel4BEUa9jiI95wGJMgysV1wqOGuCNeLV4FnA5lmlXqysU3BE+MBrNwaF9sTWQ28Av1fMKjgra/a9t/M15i3g0KGW2yq8Vhmn4Cj6SqFD34JroS6z7WOBC+XXCoYIQ12x9kuFcnwXczNm63mUz8unFRDRL+9kF1/3TQtyrXQ6W2fU55II/aWb+aPIF3fra08/09Lyj19uoOV0InEw98eviy+Avl+6XmFEGPpzeeFUEHko4gXH9czsgCLDlP/U7jdFB/3GvJNQGxqAeKw9WWvtM1EZBtbC9ncicFeEIWO9JhZWfqt/8Vyfnm5SooOqeraItdMC8KGyMdIVi2WLdSjLa1ZVjUzM3EzY6AlRuhU1BW36b3+tqyBLIDMCaRUuxzueGCvHa9Y99njQ+RcbkGTacAW/agAAAABJRU5ErkJggg==');
+    background-position: center center;
+    background-size: cover;
+}
+
+.mec-shortcode-designer .mec-event-data-fields .mec-data-fields-tooltip{
+    position: absolute;
+    width: 340px;
+    bottom: 24px;
+    left: calc(50% - 170px);
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #535a6121;
+    box-shadow: 0 4px 45px -8px #444b5061;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.18s ease, transform 0.18s ease, visibility 0.25s ease;
+    transform: scale(0.9);
+    z-index: 99;
+}
+
+.mec-shortcode-designer .mec-event-data-fields:hover .mec-data-fields-tooltip{
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+}
+
+.mec-shortcode-designer .mec-event-data-fields .mec-data-fields-tooltip:before{
+    display: block;
+    content: '' ;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: calc(50% - 12px);
+    top: 100%;
+    transform: translate(50%,-50%) rotate( -45deg );
+    background-color: #fff;
+    box-shadow: 0 8px 9px -4px #535a61;
+    z-index: 0;
+}
+
+.mec-shortcode-designer .mec-event-data-fields .mec-data-fields-tooltip .mec-data-fields-tooltip-box{
+    overflow: hidden;
+    border-radius: 11px;
+    padding: 12px 0;
+}
+
+.mec-shortcode-designer .mec-event-data-fields .mec-data-fields-tooltip .mec-data-fields-tooltip-box ul{
+    width: 100%;
+    height: 200px;
+    overflow-y: scroll;
+    padding: 9px 15px;
+    text-align: left;
+}
+
+.mec-shortcode-designer .mec-event-data-fields .mec-data-fields-tooltip .mec-data-fields-tooltip-box ul::-webkit-scrollbar-track{
+    background-color: #fafafa;
+}
+
+.mec-shortcode-designer .mec-event-data-fields .mec-data-fields-tooltip .mec-data-fields-tooltip-box ul::-webkit-scrollbar{
+    width: 4px;
+    background-color: #fafafa;
+}
+
+.mec-shortcode-designer .mec-event-data-fields .mec-data-fields-tooltip .mec-data-fields-tooltip-box ul::-webkit-scrollbar-thumb{
+    background-color: #40d9f1;
+    border-radius: 4px;
+}
+
+.mec-shortcode-designer .mec-event-data-fields .mec-data-fields-tooltip .mec-data-fields-tooltip-box ul .mec-event-data-field-item{
+    display: block;
+    width: 100%;
+    text-transform: none;
+    margin: 0 0 8px 0;
+    color: #616263;
+    font-size: 13px;
+    line-height: 1.5;
+    font-weight: 400;
+    padding-bottom: 8px;
+    border-bottom: 1px dashed #e1e2e3;
+}
+
+.mec-shortcode-designer .mec-event-data-fields .mec-data-fields-tooltip .mec-data-fields-tooltip-box ul .mec-event-data-field-item:last-child{
+    border-bottom: none;
+}
+
+.mec-shortcode-designer .mec-data-fields-tooltip .mec-data-fields-tooltip-box ul .mec-event-data-field-item a{
+    color: #40d9f1;
+    font-size: 13px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.mec-shortcode-designer .mec-data-fields-tooltip .mec-data-fields-tooltip-box ul .mec-event-data-field-item a:hover{
+    color: #000;
+}
+
+/** Custom data end */

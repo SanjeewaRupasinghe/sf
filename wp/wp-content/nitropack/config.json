@@ -1,0 +1,21 @@
+{
+    "safetyfirstmed.ae": {
+        "siteId": "SVNOXpuOHIcQMNCuiEkyExvcEqSuEnOG",
+        "siteSecret": "LormVXRwcGVYXSBJUm8Wl7gjg3WUATnSZDZpQeuPJUcBQjmQmQI66JCHYlzGs1DT",
+        "blogId": 1,
+        "compression": false,
+        "webhookToken": "0604b07546465556914d8bfd26d90c5f",
+        "home_url": "https:\/\/safetyfirstmed.ae",
+        "admin_url": "https:\/\/safetyfirstmed.ae\/wp-admin\/",
+        "hosting": "cloudways",
+        "alwaysBuffer": true,
+        "isEzoicActive": false,
+        "isApoActive": false,
+        "isLateIntegrationInitRequired": false,
+        "isDlmActive": false,
+        "dlm_downloading_url": null,
+        "dlm_download_endpoint": null,
+        "pluginVersion": "1.5.10"
+    },
+    "config_path": "de134c604453544cd796781271ac426e"
+}

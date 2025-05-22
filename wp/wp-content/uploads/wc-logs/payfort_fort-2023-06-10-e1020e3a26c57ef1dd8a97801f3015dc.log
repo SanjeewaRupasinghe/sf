@@ -1,0 +1,30 @@
+06-10-2023 @ 14:49:53 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 94500
+    [response_code] => 14000
+    [card_number] => 425893******5174
+    [card_holder_name] => sherien nasr 
+    [payment_link_id] => Quote-03254
+    [signature] => f99e2ebbc9ea445d39938fd16115d267f74c6bf83b89a8a84057f7a7f18b0e3b
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Advanced Cardiac Life Support Course
+    [payment_option] => VISA
+    [expiry_date] => 2411
+    [customer_ip] => 217.164.11.123
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991070068647
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03254
+    [authorization_code] => 289784
+    [customer_email] => Kmghoneem@gmail.com
+    [currency] => AED
+    [customer_name] => Khaled Moustafa Ibrahim
+    [status] => 14
+)
+

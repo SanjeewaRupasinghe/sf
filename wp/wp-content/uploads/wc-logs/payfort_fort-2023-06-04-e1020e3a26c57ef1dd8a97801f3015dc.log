@@ -1,0 +1,60 @@
+06-04-2023 @ 11:46:23 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 94220
+    [response_code] => 14000
+    [card_number] => 433367******5986
+    [card_holder_name] => Hind humaid salim
+    [payment_link_id] => 169999991059897142
+    [signature] => 221a9c7d5558c6c01a871ef18961fb9ddde2aa3d1eb3ca6b6f712a312252c11f
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2308
+    [customer_ip] => 217.164.221.173
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991060075695
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02148
+    [authorization_code] => 851366
+    [customer_email] => hinda.50@hotmail.com
+    [currency] => AED
+    [customer_name] => Hind Humaid Salim
+    [status] => 14
+)
+
+06-04-2023 @ 13:22:05 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 54933
+    [response_code] => 14000
+    [card_number] => 536295******6563
+    [card_holder_name] => ABDULLAH ISHAQ 
+    [payment_link_id] => 169999991060193157
+    [signature] => 6cff74a9b815f431c4417ae70e4f2e348f85e87a6d7a1afc4e8a65f91c3ca287
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2405
+    [customer_ip] => 2.49.165.98
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991060199239
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02150
+    [authorization_code] => 548971
+    [customer_email] => Abdul.mahd@gmail.com
+    [currency] => AED
+    [customer_name] => Abdullah Mahmood
+    [status] => 14
+)
+

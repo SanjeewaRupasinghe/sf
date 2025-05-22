@@ -1,0 +1,30 @@
+11-20-2023 @ 12:54:50 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 63000
+    [response_code] => 14000
+    [card_number] => 516171******5241
+    [card_holder_name] => Marleine Abu Shamalah 
+    [payment_link_id] => Q-03586
+    [signature] => d9e0204f7ec8b2033db02ad7e9117519e58861a6f3f7979bc0b0cc39d60604d4
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA PALS Remaining payment
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2710
+    [customer_ip] => 2.50.154.158
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991364942441
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Q-03586
+    [authorization_code] => 983914
+    [customer_email] => grace_eid2@hotmail.com
+    [currency] => AED
+    [customer_name] => Advanced American Dental Centre
+    [status] => 14
+)
+

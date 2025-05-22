@@ -1,0 +1,30 @@
+11-27-2023 @ 14:56:36 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 35007
+    [response_code] => 14000
+    [card_number] => 425893******2400
+    [card_holder_name] => Hend Alzaabi
+    [payment_link_id] => 169999991380449103
+    [signature] => 79d922ff10ca4377d565cdc497c4eda0f2c658c830ad70ed6142427d2e40df5c
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2803
+    [customer_ip] => 94.57.46.38
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991380489974
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02452
+    [authorization_code] => 592240
+    [customer_email] => hend.alzaabi@live.com
+    [currency] => AED
+    [customer_name] => Hend al zabi
+    [status] => 14
+)
+

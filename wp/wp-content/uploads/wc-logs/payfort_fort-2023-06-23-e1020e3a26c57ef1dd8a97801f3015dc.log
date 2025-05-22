@@ -1,0 +1,88 @@
+06-23-2023 @ 07:18:32 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 10119
+    [card_number] => 552191******0350
+    [card_holder_name] => Girish kumar
+    [signature] => d5729bafba46f754bb6c302869ca6df2e9680eb24e238649916ae3d752cce093
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Basic Life Support Provider Course In Person
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2607
+    [customer_ip] => 1.39.77.45
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991090752568
+    [command] => PURCHASE
+    [response_message] => Request dropped
+    [merchant_reference] => Quote-03265
+    [customer_email] => athira.remakanthan@gmail.com
+    [currency] => AED
+    [customer_name] => Athira Girish
+    [status] => 10
+)
+
+06-23-2023 @ 10:19:10 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 24340
+    [response_code] => 14000
+    [card_number] => 419648******6726
+    [card_holder_name] => Miss L Roberts
+    [payment_link_id] => 169999991087464084
+    [signature] => c6233944c79e8ea5a5f8e5c77c244ab3ef41a99268e21d32a41971cb0266bab4
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2605
+    [customer_ip] => 91.73.95.228
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991090881173
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02174
+    [authorization_code] => 003277
+    [customer_email] => misslouiseroberts@gmail.com
+    [currency] => AED
+    [customer_name] => Louise Roberts
+    [status] => 14
+)
+
+06-23-2023 @ 13:13:59 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 456835******1503
+    [card_holder_name] => santhosh Mathew Sunny
+    [payment_link_id] => Quote-03268
+    [signature] => 2441cbe8af8d8b3f22bdbce963f933f0be71578fdf2dd2de86367046f9bda147
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA-BLS
+    [payment_option] => VISA
+    [expiry_date] => 2512
+    [customer_ip] => 5.31.247.109
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991091033753
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03268
+    [authorization_code] => 696192
+    [customer_email] => santhoshmathewsunny09@gmail.com
+    [currency] => AED
+    [customer_name] => Santhosh Mathew Sunny Sunny Kadukkamoott
+    [status] => 14
+)
+

@@ -1,0 +1,39 @@
+v 1.0.8 - 17 May 2020
+- Fixed: Style Generation Progress
+
+v 1.0.7 - 11 April 2020
+- Fixed: Agreement URL
+- Fixed: Paragraph length issue
+- Fixed: Customize Form Builder Columns
+
+v 1.0.6 - 7 February 2020
+- Fixed: License error
+
+v 1.0.5 - 2 February 2020
+- Added: Paragraph typography
+- Added: Checkbox and radio button typography
+- Added: Agreement styles
+- Improved: All fields styling
+- Fixed: Half-width option for each item
+- Fixed: Extra empty space
+- Fixed: Set form in settings and single event back-end page
+
+v 1.0.3 - 30 November 2019
+- Fixed: Checkbox in Agreement field
+- Fixed: Checkbox field
+- Fixed: Radio button field
+- Fixed: Next button moving
+- Fixed: Showing form builder on single event backend page
+- Fixed: Mandatory fields label 
+- Fixed: Form Builder show on settings
+- Fixed: Some minor issue
+
+v 1.0.2 - 6 August 2019
+- Added: Language files
+- Added: Optimize speed
+
+v 1.0.1 - 5 August 2019
+- Fixed: Form id problem when update event or settings
+
+v 1.0.0 - 16 Jul 2019
+- Initial Release

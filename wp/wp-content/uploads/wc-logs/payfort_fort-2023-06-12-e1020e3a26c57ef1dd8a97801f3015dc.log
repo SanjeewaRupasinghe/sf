@@ -1,0 +1,30 @@
+06-12-2023 @ 14:31:07 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 425893******0935
+    [card_holder_name] => mariam al mazrouei
+    [payment_link_id] => Quote-03261
+    [signature] => 3a85841ed17118d093a8a3cafebfb8edb84f49644c8fcbbf16c4ffa387279659
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Highfield Level 3 Intl Award in EFA and use of AED with CPR for all Ages
+    [payment_option] => VISA
+    [expiry_date] => 2606
+    [customer_ip] => 86.96.250.27
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991073442047
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03261
+    [authorization_code] => 375888
+    [customer_email] => mariamalmazrouie93@gmail.com
+    [currency] => AED
+    [customer_name] => Mariam Al Mazrouei
+    [status] => 14
+)
+

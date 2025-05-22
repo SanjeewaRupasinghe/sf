@@ -1,0 +1,30 @@
+09-06-2023 @ 14:34:21 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 157500
+    [response_code] => 14000
+    [card_number] => 425893******0885
+    [card_holder_name] => Khalaf Almazrouei
+    [payment_link_id] => Quote-03423
+    [signature] => 3933c6d6459bdc18721e87846e7708205bdb122ab3e00704e8f174026c28f598
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS Instructor Renewal
+    [payment_option] => VISA
+    [expiry_date] => 2606
+    [customer_ip] => 31.215.198.248
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991220122114
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03423
+    [authorization_code] => 327414
+    [customer_email] => mkmkhalaf1971@gmail.com
+    [currency] => AED
+    [customer_name] => Khalaf Almazrouei
+    [status] => 14
+)
+

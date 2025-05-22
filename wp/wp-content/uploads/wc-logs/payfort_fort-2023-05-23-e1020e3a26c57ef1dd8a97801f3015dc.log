@@ -1,0 +1,29 @@
+05-23-2023 @ 17:18:33 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 377895
+    [response_code] => 14000
+    [card_number] => 532448******3931
+    [payment_link_id] => 169999991038396279
+    [signature] => d687271645bac4bc51929c079271f279932d10a2b1240026345f9c6607bcdcb6
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2406
+    [customer_ip] => 167.86.188.129
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991039541467
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03221B
+    [authorization_code] => 020802
+    [customer_email] => drmadeehanoureen@yahoo.co.uk
+    [currency] => AED
+    [customer_name] => Madeeha Noureen
+    [status] => 14
+)
+

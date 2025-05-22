@@ -1,0 +1,30 @@
+07-19-2023 @ 10:36:33 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 443913******2008
+    [card_holder_name] => paul Jayson Rejas
+    [payment_link_id] => Quote-03314
+    [signature] => e1f967f4f048992bc0fd3d45dafff9597c665fe3975a534e54f29b7efba23128
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2601
+    [customer_ip] => 176.205.53.182
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991133450060
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03314
+    [authorization_code] => 807025
+    [customer_email] => paulrejas@gmail.com
+    [currency] => AED
+    [customer_name] => Paul Jayson Rejas
+    [status] => 14
+)
+

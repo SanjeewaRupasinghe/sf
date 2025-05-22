@@ -1,0 +1,120 @@
+09-13-2023 @ 08:33:59 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 552191******6407
+    [card_holder_name] => SAJU DAS
+    [payment_link_id] => Quote-03437
+    [signature] => 7cb944e9adc867234095d21dbb90dc575802dffcfad1a3c85959a833b7a26d23
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2703
+    [customer_ip] => 5.195.232.115
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991231409283
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03437
+    [authorization_code] => 913228
+    [customer_email] => Rajitha.saju@danatalemarat.ae
+    [currency] => AED
+    [customer_name] => Rajitha Saju
+    [status] => 14
+)
+
+09-13-2023 @ 11:49:03 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 36750
+    [response_code] => 14000
+    [card_number] => 455066******0856
+    [card_holder_name] => SIMONA  DAVID
+    [payment_link_id] => Quote-03434
+    [signature] => 697d49159bbf758fb36f69e5195bd28cf563bb5a18be6693a9b40a57e536d104
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA HS FA CPR AED
+    [payment_option] => VISA
+    [expiry_date] => 2805
+    [customer_ip] => 2.50.126.148
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991231623084
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03434
+    [authorization_code] => 223822
+    [customer_email] => Simona.macresy@gmail.com
+    [currency] => AED
+    [customer_name] => Simona Macresy
+    [status] => 14
+)
+
+09-13-2023 @ 16:39:58 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 89250
+    [response_code] => 14000
+    [card_number] => 457828******0005
+    [card_holder_name] => Abelardo Mendiola
+    [payment_link_id] => Quote-03442
+    [signature] => 8ea8e493707c9063a482abf0bf3e0f32d2308e1c718ceb531a9cf9a02d1393e0
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA ACLS
+    [payment_option] => VISA
+    [expiry_date] => 2705
+    [customer_ip] => 83.110.90.1
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991232056306
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03442
+    [authorization_code] => 928081
+    [customer_email] => abelardomendiola@gmail.com
+    [currency] => AED
+    [customer_name] => Abelardo Jr. Mendiola
+    [status] => 14
+)
+
+09-13-2023 @ 18:11:07 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 56438
+    [response_code] => 14000
+    [card_number] => 407075******8457
+    [card_holder_name] => TJ Ignatious
+    [payment_link_id] => 169999991231639546
+    [signature] => a112726158ca3ba11b7b670046db0570030fdcb8cc2888fedd906ce0d1be07c2
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2712
+    [customer_ip] => 2.49.59.206
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991232193470
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02282
+    [authorization_code] => 009512
+    [customer_email] => to.ignatous@gmail.com
+    [currency] => AED
+    [customer_name] => Jose Ignatious
+    [status] => 14
+)
+

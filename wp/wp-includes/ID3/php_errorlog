@@ -1,0 +1,59 @@
+[11-Feb-2020 23:36:01 CST6CDT] PHP Fatal error:  Class 'getid3_handler' not found in /home/customer/www/safetyfirstmed.ae/public_html/wp-includes/ID3/module.audio.ac3.php on line 18
+[15-Feb-2020 22:34:52 CST6CDT] PHP Fatal error:  Class 'getid3_handler' not found in /home/customer/www/safetyfirstmed.ae/public_html/wp-includes/ID3/module.audio.ac3.php on line 18
+[21-Feb-2020 20:50:04 CST6CDT] PHP Fatal error:  Class 'getid3_handler' not found in /home/customer/www/safetyfirstmed.ae/public_html/wp-includes/ID3/module.audio.ac3.php on line 18
+[08-Mar-2020 15:14:07 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'getid3_handler' not found in /home/customer/www/safetyfirstmed.ae/public_html/wp-includes/ID3/module.audio.ac3.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/safetyfirstmed.ae/public_html/wp-includes/ID3/module.audio.ac3.php on line 18
+[16-Mar-2020 12:40:53 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'getid3_handler' not found in /home/customer/www/safetyfirstmed.ae/public_html/wp-includes/ID3/module.audio.ac3.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/safetyfirstmed.ae/public_html/wp-includes/ID3/module.audio.ac3.php on line 18
+[23-Mar-2020 09:04:19 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'getid3_handler' not found in /home/customer/www/safetyfirstmed.ae/public_html/wp-includes/ID3/module.audio.ac3.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/safetyfirstmed.ae/public_html/wp-includes/ID3/module.audio.ac3.php on line 18
+[23-Apr-2020 19:20:31 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'getid3_handler' not found in /home/customer/www/safetyfirstmed.ae/public_html/wp-includes/ID3/module.audio.ac3.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/safetyfirstmed.ae/public_html/wp-includes/ID3/module.audio.ac3.php on line 18
+[01-May-2020 00:53:43 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'getid3_handler' not found in /home/customer/www/safetyfirstmed.ae/public_html/wp-includes/ID3/module.audio.ac3.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/safetyfirstmed.ae/public_html/wp-includes/ID3/module.audio.ac3.php on line 18
+[28-May-2020 19:38:45 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'getid3_handler' not found in /home/customer/www/safetyfirstmed.ae/public_html/wp-includes/ID3/module.audio.ac3.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/safetyfirstmed.ae/public_html/wp-includes/ID3/module.audio.ac3.php on line 18
+[10-Jun-2020 23:23:27 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'getid3_handler' not found in /home/customer/www/safetyfirstmed.ae/public_html/wp-includes/ID3/module.audio.ac3.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/safetyfirstmed.ae/public_html/wp-includes/ID3/module.audio.ac3.php on line 18
+[15-Jun-2020 22:56:12 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'getid3_handler' not found in /home/customer/www/safetyfirstmed.ae/public_html/wp-includes/ID3/module.audio.ac3.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/safetyfirstmed.ae/public_html/wp-includes/ID3/module.audio.ac3.php on line 18
+[06-Jul-2020 04:47:39 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'getid3_handler' not found in /home/customer/www/safetyfirstmed.ae/public_html/wp-includes/ID3/module.audio.ac3.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/safetyfirstmed.ae/public_html/wp-includes/ID3/module.audio.ac3.php on line 18
+[01-Aug-2020 07:39:58 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'getid3_handler' not found in /home/customer/www/safetyfirstmed.ae/public_html/wp-includes/ID3/module.audio.ac3.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/safetyfirstmed.ae/public_html/wp-includes/ID3/module.audio.ac3.php on line 18
+[01-Aug-2020 07:47:17 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'getid3_handler' not found in /home/customer/www/safetyfirstmed.ae/public_html/wp-includes/ID3/module.audio.ac3.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/safetyfirstmed.ae/public_html/wp-includes/ID3/module.audio.ac3.php on line 18
+[01-Aug-2020 11:52:51 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'getid3_handler' not found in /home/customer/www/safetyfirstmed.ae/public_html/wp-includes/ID3/module.audio.ac3.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/safetyfirstmed.ae/public_html/wp-includes/ID3/module.audio.ac3.php on line 18
+[02-Aug-2020 13:08:18 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'getid3_handler' not found in /home/customer/www/safetyfirstmed.ae/public_html/wp-includes/ID3/module.audio.ac3.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/safetyfirstmed.ae/public_html/wp-includes/ID3/module.audio.ac3.php on line 18
+[06-Aug-2020 00:43:24 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'getid3_handler' not found in /home/customer/www/safetyfirstmed.ae/public_html/wp-includes/ID3/module.audio.ac3.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/safetyfirstmed.ae/public_html/wp-includes/ID3/module.audio.ac3.php on line 18

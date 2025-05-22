@@ -1,0 +1,135 @@
+04-11-2023 @ 11:06:02 - Payfort Request Params for payment method (payfort) 
+
+Array
+(
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [merchant_reference] => 23192
+    [language] => en
+    [service_command] => TOKENIZATION
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [signature] => 2b9870b17caad1fc7ab6b3d358996d8e858571f9be27b8e9e89d0c3f90b8994e
+)
+
+04-11-2023 @ 11:06:04 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_merchantPageResponse
+    [response_code] => 18000
+    [card_number] => ****************
+    [card_holder_name] => **************************
+    [signature] => c4353fff3b5864c2bb3b26aac3a8957cbf0283f5f3dc9873c9bffccdff0bb3e8
+    [merchant_identifier] => xyKdBdwl
+    [expiry_date] => ****
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [language] => en
+    [response_message] => Success
+    [service_command] => TOKENIZATION
+    [merchant_reference] => 23192
+    [token_name] => 26556ecde9004ec086bc49e56ac668e4
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [status] => 18
+    [card_bin] => 425893
+)
+
+04-11-2023 @ 11:06:04 - Merchant Page Notify Api Request Params : Array
+(
+    [merchant_reference] => 23192
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [command] => PURCHASE
+    [merchant_identifier] => xyKdBdwl
+    [customer_ip] => 86.98.94.242
+    [amount] => 115500
+    [currency] => AED
+    [customer_email] => mkmkhalaf1971@gmaill.com
+    [token_name] => 26556ecde9004ec086bc49e56ac668e4
+    [language] => en
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_responseOnline
+    [customer_name] => Khalaf Mohamed Khalaf Khalfan Almazrouei
+    [signature] => 5de0446039a1208efc5c7c56cf690c597bbfcfa78d683457a5641b1a5b4ddfa9
+)
+
+04-11-2023 @ 11:06:08 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [amount] => 115500
+    [response_code] => 20064
+    [card_number] => ****************
+    [card_holder_name] => **************************
+    [signature] => 4313956bb208889487e9d816351f63d6b437182d7c191bc9e034484748f644f8
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => ****
+    [customer_ip] => ************
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990975961222
+    [command] => PURCHASE
+    [3ds_url] => https://checkout.payfort.com/FortAPI/redirectionResponse/threeDs2RedirectURL?token=172189AUcmwySVvxk9bwoJvl6o8z4a
+    [response_message] => 3-D Secure check requested
+    [merchant_reference] => 23192
+    [customer_email] => ************************
+    [currency] => AED
+    [customer_name] => ****************************************
+    [status] => 20
+)
+
+04-11-2023 @ 11:07:14 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_responseOnline
+    [amount] => 115500
+    [response_code] => 14000
+    [card_number] => ****************
+    [card_holder_name] => **************************
+    [signature] => 25de1ed3f32ce5e031f1dfcc60c367ffa2e92546cf5dd3bd94143822043672ea
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => ****
+    [customer_ip] => ************
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990975961222
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 23192
+    [authorization_code] => 336143
+    [customer_email] => ************************
+    [currency] => AED
+    [customer_name] => ****************************************
+    [status] => 14
+)
+
+04-11-2023 @ 11:07:14 - Fort response parameters (offline) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 115500
+    [response_code] => 14000
+    [card_number] => 425893******0885
+    [card_holder_name] => khalaf Mohammed Almazrouei
+    [signature] => 35e19b15955a8a58b7ed34e2f1481b73b4b6a599ac18bca35c2270c29efc4d31
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => 2606
+    [customer_ip] => 86.98.94.242
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990975961222
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 23192
+    [authorization_code] => 336143
+    [customer_email] => mkmkhalaf1971@gmaill.com
+    [currency] => AED
+    [customer_name] => Khalaf Mohamed Khalaf Khalfan Almazrouei
+    [status] => 14
+)
+

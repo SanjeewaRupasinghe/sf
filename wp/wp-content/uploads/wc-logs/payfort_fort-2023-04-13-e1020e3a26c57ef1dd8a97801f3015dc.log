@@ -1,0 +1,30 @@
+04-13-2023 @ 10:13:50 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 135055
+    [response_code] => 14000
+    [card_number] => 425893******6450
+    [card_holder_name] => Shady Ehab
+    [payment_link_id] => 169999990978893859
+    [signature] => f32635b10bd3b29de8afdcdd595f3d94e0db3c038373a5c952570f7081ff4b49
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2711
+    [customer_ip] => 31.219.129.45
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990978905277
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02084
+    [authorization_code] => 156171
+    [customer_email] => shady_ewd@yahoo.com
+    [currency] => AED
+    [customer_name] => Shady Dawad
+    [status] => 14
+)
+

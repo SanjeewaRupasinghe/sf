@@ -1,0 +1,30 @@
+08-16-2023 @ 08:17:13 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 377895
+    [response_code] => 14000
+    [card_number] => 471387******1377
+    [card_holder_name] => I Uchendu
+    [payment_link_id] => 169999991180591439
+    [signature] => 150b3976633f820ff94639ebc6e8dce54d38a057f58e067b7476a61baf3c114f
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => VISA
+    [expiry_date] => 2804
+    [customer_ip] => 5.38.16.52
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991182128104
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03379A
+    [authorization_code] => 691727
+    [customer_email] => chiefanyi@yahoo.com
+    [currency] => AED
+    [customer_name] => Ifeanyichukwu Uchendu
+    [status] => 14
+)
+

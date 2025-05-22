@@ -1,0 +1,60 @@
+06-22-2023 @ 13:36:45 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 54933
+    [response_code] => 14000
+    [card_number] => 408565******1020
+    [card_holder_name] => Nadya al hamdan
+    [payment_link_id] => 169999991089266589
+    [signature] => 4e1c8d4b81727b1691b76c6f3655a41e69bf85e163ed658b1b7fc892fd314a41
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2803
+    [customer_ip] => 86.98.183.123
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991089424392
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02166
+    [authorization_code] => 757978
+    [customer_email] => angeln_297@icloud.com
+    [currency] => AED
+    [customer_name] => Nadia Hamdan
+    [status] => 14
+)
+
+06-22-2023 @ 13:40:31 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 183750
+    [response_code] => 14000
+    [card_number] => 479746******3480
+    [card_holder_name] => Rachel Subida
+    [payment_link_id] => Quote-03269
+    [signature] => 2fc6d7ca02c1c4f07b3fb00d758f5b26a1f9c1e5a73d7a3ce50912d3a81ae6e9
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA-ACLS PALS
+    [payment_option] => VISA
+    [expiry_date] => 2507
+    [customer_ip] => 5.194.219.41
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991089429776
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03269
+    [authorization_code] => 836911
+    [customer_email] => rach.subida@yahoo.com
+    [currency] => AED
+    [customer_name] => Rachel Ann Subida
+    [status] => 14
+)
+

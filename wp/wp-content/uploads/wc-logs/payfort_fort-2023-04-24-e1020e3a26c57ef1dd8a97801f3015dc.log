@@ -1,0 +1,59 @@
+04-24-2023 @ 11:18:44 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 64500
+    [response_code] => 14000
+    [card_number] => 532655******2853
+    [card_holder_name] => Alison Campbell
+    [payment_link_id] => 169999990993810728
+    [signature] => 52c488d17cb46d26f2ad3d96fe46614cf16272fddc9ab375688ae25c24cb56d8
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2403
+    [customer_ip] => 83.110.197.195
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990993824366
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02091
+    [authorization_code] => 646894
+    [customer_email] => alisonleecambell@gmail.com
+    [currency] => AED
+    [customer_name] => Alison Cambell
+    [status] => 14
+)
+
+04-24-2023 @ 20:35:52 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 377895
+    [response_code] => 10030
+    [card_number] => 525303******7334
+    [card_holder_name] => Dr Muhammad Ali Zia
+    [payment_link_id] => 169999990954879923
+    [signature] => 7c1800cfe66c01a17b1ecfa11cb6f3ed92fcdf8a2906805001f02c9e51f30f7c
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2606
+    [customer_ip] => 37.43.144.81
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990994360512
+    [command] => PURCHASE
+    [response_message] => Authentication failed
+    [merchant_reference] => Quote-03172
+    [customer_email] => malizia100@yahoo.com
+    [currency] => AED
+    [customer_name] => Muhammad Ali ZIa
+    [status] => 10
+)
+

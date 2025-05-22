@@ -1,0 +1,31 @@
+05-09-2023 @ 12:18:17 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 94500
+    [response_code] => 14000
+    [card_number] => 419648******9686
+    [card_holder_name] => Rose D India 
+    [payment_link_id] => Quote-03204
+    [signature] => a465e2ed2b465933f4ce87382d02fd64a7eee4ddd77f18c6399a0c2e1f4eeb28
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Advanced Cardiac Life Support Course
+    [payment_option] => VISA
+    [expiry_date] => 2711
+    [customer_ip] => 2.50.167.120
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991018095494
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03204
+    [authorization_code] => 007802
+    [customer_email] => rlsd14@yahoo.com
+    [currency] => AED
+    [customer_name] => Rose D\'India
+    [status] => 14
+)
+
+05-09-2023 @ 12:18:17 - Invalid Signature. Calculated Signature: a465e2ed2b465933f4ce87382d02fd64a7eee4ddd77f18c6399a0c2e1f4eeb28, Response Signature: 43029993d4faf17ecaf1adf2e159bfd0ab9f163944dacca718c37e973b7e782a

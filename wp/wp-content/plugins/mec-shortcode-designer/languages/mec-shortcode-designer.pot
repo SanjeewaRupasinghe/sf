@@ -1,0 +1,1066 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Elementor Shortcode Designer\n"
+"POT-Creation-Date: 2021-08-12 11:31+0430\n"
+"PO-Revision-Date: 2019-12-23 12:03+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: mec-shortcode-designer.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: core/checkLicense/check-activation.php:205
+msgid ""
+"Activation faild. Please check your purchase code or license type."
+"<br><b>Note: Your purchase code should match your licesne type.</b>"
+msgstr ""
+
+#: core/checkLicense/check-activation.php:205
+msgid "Troubleshooting"
+msgstr ""
+
+#: core/elementor/configuration.php:119 core/mec/compatiblity.php:64
+msgid "Shortcode Designer"
+msgstr ""
+
+#: core/elementor/widgets/address.php:40
+msgid "MEC Address"
+msgstr ""
+
+#: core/elementor/widgets/address.php:77 core/elementor/widgets/address.php:85
+#: core/elementor/widgets/available-spot.php:78
+#: core/elementor/widgets/available-spot.php:86
+#: core/elementor/widgets/cancellation-reason.php:76
+#: core/elementor/widgets/cancellation-reason.php:84
+#: core/elementor/widgets/color.php:97 core/elementor/widgets/cost.php:77
+#: core/elementor/widgets/cost.php:85 core/elementor/widgets/countdown.php:78
+#: core/elementor/widgets/custom-data.php:97
+#: core/elementor/widgets/custom-data.php:157
+#: core/elementor/widgets/custom-data.php:173
+#: core/elementor/widgets/date.php:78 core/elementor/widgets/date.php:86
+#: core/elementor/widgets/excerpt.php:77 core/elementor/widgets/excerpt.php:85
+#: core/elementor/widgets/label.php:77 core/elementor/widgets/label.php:85
+#: core/elementor/widgets/localtime.php:77
+#: core/elementor/widgets/localtime.php:85
+#: core/elementor/widgets/location-name.php:77
+#: core/elementor/widgets/location-name.php:85
+#: core/elementor/widgets/normal-label.php:76
+#: core/elementor/widgets/normal-label.php:84
+#: core/elementor/widgets/organizer-name.php:77
+#: core/elementor/widgets/organizer-name.php:85
+#: core/elementor/widgets/readmore.php:78
+#: core/elementor/widgets/readmore.php:86 core/elementor/widgets/socials.php:77
+#: core/elementor/widgets/speaker-name.php:77
+#: core/elementor/widgets/speaker-name.php:85
+#: core/elementor/widgets/time.php:78 core/elementor/widgets/time.php:86
+#: core/elementor/widgets/title.php:78 core/elementor/widgets/title.php:86
+#: core/elementor/widgets/weekday.php:78 core/elementor/widgets/weekday.php:86
+msgid "Typography"
+msgstr ""
+
+#: core/elementor/widgets/address.php:93
+#: core/elementor/widgets/available-spot.php:103
+#: core/elementor/widgets/cancellation-reason.php:92
+#: core/elementor/widgets/color.php:104 core/elementor/widgets/cost.php:93
+#: core/elementor/widgets/countdown.php:103
+#: core/elementor/widgets/custom-data.php:105
+#: core/elementor/widgets/custom-data.php:130
+#: core/elementor/widgets/date.php:94 core/elementor/widgets/excerpt.php:93
+#: core/elementor/widgets/label.php:93 core/elementor/widgets/localtime.php:115
+#: core/elementor/widgets/location-name.php:93
+#: core/elementor/widgets/normal-label.php:92
+#: core/elementor/widgets/organizer-name.php:93
+#: core/elementor/widgets/readmore.php:94
+#: core/elementor/widgets/socials.php:107
+#: core/elementor/widgets/speaker-name.php:93
+#: core/elementor/widgets/time.php:94 core/elementor/widgets/title.php:94
+#: core/elementor/widgets/weekday.php:94
+msgid "Alignment"
+msgstr ""
+
+#: core/elementor/widgets/address.php:97
+#: core/elementor/widgets/available-spot.php:107
+#: core/elementor/widgets/cancellation-reason.php:96
+#: core/elementor/widgets/color.php:108 core/elementor/widgets/cost.php:97
+#: core/elementor/widgets/countdown.php:107
+#: core/elementor/widgets/custom-data.php:109
+#: core/elementor/widgets/custom-data.php:134
+#: core/elementor/widgets/date.php:98 core/elementor/widgets/excerpt.php:97
+#: core/elementor/widgets/label.php:97 core/elementor/widgets/localtime.php:119
+#: core/elementor/widgets/location-name.php:97
+#: core/elementor/widgets/normal-label.php:96
+#: core/elementor/widgets/organizer-name.php:97
+#: core/elementor/widgets/readmore.php:98
+#: core/elementor/widgets/socials.php:111
+#: core/elementor/widgets/speaker-name.php:97
+#: core/elementor/widgets/time.php:98 core/elementor/widgets/title.php:98
+#: core/elementor/widgets/weekday.php:98
+msgid "Left"
+msgstr ""
+
+#: core/elementor/widgets/address.php:101
+#: core/elementor/widgets/available-spot.php:111
+#: core/elementor/widgets/cancellation-reason.php:100
+#: core/elementor/widgets/color.php:112 core/elementor/widgets/cost.php:101
+#: core/elementor/widgets/countdown.php:111
+#: core/elementor/widgets/custom-data.php:113
+#: core/elementor/widgets/custom-data.php:138
+#: core/elementor/widgets/date.php:102 core/elementor/widgets/excerpt.php:101
+#: core/elementor/widgets/label.php:101
+#: core/elementor/widgets/localtime.php:123
+#: core/elementor/widgets/location-name.php:101
+#: core/elementor/widgets/normal-label.php:100
+#: core/elementor/widgets/organizer-name.php:101
+#: core/elementor/widgets/readmore.php:102
+#: core/elementor/widgets/socials.php:115
+#: core/elementor/widgets/speaker-name.php:101
+#: core/elementor/widgets/time.php:102 core/elementor/widgets/title.php:102
+#: core/elementor/widgets/weekday.php:102
+msgid "Center"
+msgstr ""
+
+#: core/elementor/widgets/address.php:105
+#: core/elementor/widgets/available-spot.php:115
+#: core/elementor/widgets/cancellation-reason.php:104
+#: core/elementor/widgets/color.php:116 core/elementor/widgets/cost.php:105
+#: core/elementor/widgets/countdown.php:115
+#: core/elementor/widgets/custom-data.php:117
+#: core/elementor/widgets/custom-data.php:142
+#: core/elementor/widgets/date.php:106 core/elementor/widgets/excerpt.php:105
+#: core/elementor/widgets/label.php:105
+#: core/elementor/widgets/localtime.php:127
+#: core/elementor/widgets/location-name.php:105
+#: core/elementor/widgets/normal-label.php:104
+#: core/elementor/widgets/organizer-name.php:105
+#: core/elementor/widgets/readmore.php:106
+#: core/elementor/widgets/socials.php:119
+#: core/elementor/widgets/speaker-name.php:105
+#: core/elementor/widgets/time.php:106 core/elementor/widgets/title.php:106
+#: core/elementor/widgets/weekday.php:106
+msgid "Right"
+msgstr ""
+
+#: core/elementor/widgets/address.php:118
+#: core/elementor/widgets/available-spot.php:128
+#: core/elementor/widgets/cancellation-reason.php:117
+#: core/elementor/widgets/color.php:129 core/elementor/widgets/cost.php:118
+#: core/elementor/widgets/countdown.php:128 core/elementor/widgets/date.php:119
+#: core/elementor/widgets/excerpt.php:118 core/elementor/widgets/label.php:118
+#: core/elementor/widgets/location-name.php:118
+#: core/elementor/widgets/normal-label.php:117
+#: core/elementor/widgets/organizer-name.php:118
+#: core/elementor/widgets/readmore.php:119
+#: core/elementor/widgets/socials.php:132
+#: core/elementor/widgets/speaker-name.php:118
+#: core/elementor/widgets/thumbnail.php:103 core/elementor/widgets/time.php:119
+#: core/elementor/widgets/title.php:119 core/elementor/widgets/weekday.php:119
+msgid "Display"
+msgstr ""
+
+#: core/elementor/widgets/address.php:122
+#: core/elementor/widgets/available-spot.php:132
+#: core/elementor/widgets/cancellation-reason.php:121
+#: core/elementor/widgets/color.php:133 core/elementor/widgets/cost.php:122
+#: core/elementor/widgets/countdown.php:132 core/elementor/widgets/date.php:123
+#: core/elementor/widgets/excerpt.php:122 core/elementor/widgets/label.php:122
+#: core/elementor/widgets/location-name.php:122
+#: core/elementor/widgets/normal-label.php:121
+#: core/elementor/widgets/organizer-name.php:122
+#: core/elementor/widgets/readmore.php:123
+#: core/elementor/widgets/socials.php:136
+#: core/elementor/widgets/speaker-name.php:122
+#: core/elementor/widgets/thumbnail.php:107 core/elementor/widgets/time.php:123
+#: core/elementor/widgets/title.php:123 core/elementor/widgets/weekday.php:123
+msgid "inherit"
+msgstr ""
+
+#: core/elementor/widgets/address.php:123
+#: core/elementor/widgets/available-spot.php:133
+#: core/elementor/widgets/cancellation-reason.php:122
+#: core/elementor/widgets/color.php:134 core/elementor/widgets/cost.php:123
+#: core/elementor/widgets/countdown.php:133 core/elementor/widgets/date.php:124
+#: core/elementor/widgets/excerpt.php:123 core/elementor/widgets/label.php:123
+#: core/elementor/widgets/location-name.php:123
+#: core/elementor/widgets/normal-label.php:122
+#: core/elementor/widgets/organizer-name.php:123
+#: core/elementor/widgets/readmore.php:124
+#: core/elementor/widgets/socials.php:137
+#: core/elementor/widgets/speaker-name.php:123
+#: core/elementor/widgets/thumbnail.php:108 core/elementor/widgets/time.php:124
+#: core/elementor/widgets/title.php:124 core/elementor/widgets/weekday.php:124
+msgid "inline"
+msgstr ""
+
+#: core/elementor/widgets/address.php:124
+#: core/elementor/widgets/available-spot.php:134
+#: core/elementor/widgets/cancellation-reason.php:123
+#: core/elementor/widgets/color.php:135 core/elementor/widgets/cost.php:124
+#: core/elementor/widgets/countdown.php:134 core/elementor/widgets/date.php:125
+#: core/elementor/widgets/excerpt.php:124 core/elementor/widgets/label.php:124
+#: core/elementor/widgets/location-name.php:124
+#: core/elementor/widgets/normal-label.php:123
+#: core/elementor/widgets/organizer-name.php:124
+#: core/elementor/widgets/readmore.php:125
+#: core/elementor/widgets/socials.php:138
+#: core/elementor/widgets/speaker-name.php:124
+#: core/elementor/widgets/thumbnail.php:109 core/elementor/widgets/time.php:125
+#: core/elementor/widgets/title.php:125 core/elementor/widgets/weekday.php:125
+msgid "inline-block"
+msgstr ""
+
+#: core/elementor/widgets/address.php:125
+#: core/elementor/widgets/available-spot.php:135
+#: core/elementor/widgets/cancellation-reason.php:124
+#: core/elementor/widgets/color.php:136 core/elementor/widgets/cost.php:125
+#: core/elementor/widgets/countdown.php:135 core/elementor/widgets/date.php:126
+#: core/elementor/widgets/excerpt.php:125 core/elementor/widgets/label.php:125
+#: core/elementor/widgets/location-name.php:125
+#: core/elementor/widgets/normal-label.php:124
+#: core/elementor/widgets/organizer-name.php:125
+#: core/elementor/widgets/readmore.php:126
+#: core/elementor/widgets/socials.php:139
+#: core/elementor/widgets/speaker-name.php:125
+#: core/elementor/widgets/thumbnail.php:110 core/elementor/widgets/time.php:126
+#: core/elementor/widgets/title.php:126 core/elementor/widgets/weekday.php:126
+msgid "block"
+msgstr ""
+
+#: core/elementor/widgets/address.php:126
+#: core/elementor/widgets/available-spot.php:136
+#: core/elementor/widgets/cancellation-reason.php:125
+#: core/elementor/widgets/color.php:137 core/elementor/widgets/cost.php:126
+#: core/elementor/widgets/countdown.php:136 core/elementor/widgets/date.php:127
+#: core/elementor/widgets/excerpt.php:126 core/elementor/widgets/label.php:126
+#: core/elementor/widgets/location-name.php:126
+#: core/elementor/widgets/normal-label.php:125
+#: core/elementor/widgets/organizer-name.php:126
+#: core/elementor/widgets/readmore.php:127
+#: core/elementor/widgets/socials.php:140
+#: core/elementor/widgets/speaker-name.php:126
+#: core/elementor/widgets/thumbnail.php:111 core/elementor/widgets/time.php:127
+#: core/elementor/widgets/title.php:127 core/elementor/widgets/weekday.php:127
+msgid "none"
+msgstr ""
+
+#: core/elementor/widgets/address.php:138
+#: core/elementor/widgets/available-spot.php:148
+#: core/elementor/widgets/cancellation-reason.php:137
+#: core/elementor/widgets/cost.php:138 core/elementor/widgets/countdown.php:148
+#: core/elementor/widgets/custom-data.php:187
+#: core/elementor/widgets/date.php:139 core/elementor/widgets/excerpt.php:138
+#: core/elementor/widgets/label.php:138
+#: core/elementor/widgets/localtime.php:142
+#: core/elementor/widgets/location-name.php:138
+#: core/elementor/widgets/normal-label.php:137
+#: core/elementor/widgets/organizer-name.php:138
+#: core/elementor/widgets/readmore.php:152
+#: core/elementor/widgets/socials.php:163
+#: core/elementor/widgets/speaker-name.php:138
+#: core/elementor/widgets/time.php:139 core/elementor/widgets/title.php:152
+#: core/elementor/widgets/weekday.php:139
+msgid "Colors"
+msgstr ""
+
+#: core/elementor/widgets/address.php:145
+#: core/elementor/widgets/available-spot.php:155
+#: core/elementor/widgets/cancellation-reason.php:144
+#: core/elementor/widgets/cost.php:145
+#: core/elementor/widgets/custom-data.php:200
+#: core/elementor/widgets/date.php:146 core/elementor/widgets/excerpt.php:145
+#: core/elementor/widgets/label.php:145
+#: core/elementor/widgets/localtime.php:149
+#: core/elementor/widgets/location-name.php:145
+#: core/elementor/widgets/normal-label.php:144
+#: core/elementor/widgets/organizer-name.php:145
+#: core/elementor/widgets/readmore.php:159
+#: core/elementor/widgets/speaker-name.php:145
+#: core/elementor/widgets/time.php:146 core/elementor/widgets/title.php:159
+#: core/elementor/widgets/weekday.php:146
+msgid "Color"
+msgstr ""
+
+#: core/elementor/widgets/address.php:160
+#: core/elementor/widgets/address.php:199
+#: core/elementor/widgets/available-spot.php:170
+#: core/elementor/widgets/available-spot.php:239
+#: core/elementor/widgets/cancellation-reason.php:159
+#: core/elementor/widgets/color.php:171 core/elementor/widgets/cost.php:160
+#: core/elementor/widgets/cost.php:199
+#: core/elementor/widgets/custom-data.php:216
+#: core/elementor/widgets/custom-data.php:260
+#: core/elementor/widgets/date.php:161 core/elementor/widgets/date.php:200
+#: core/elementor/widgets/excerpt.php:160
+#: core/elementor/widgets/excerpt.php:199 core/elementor/widgets/label.php:160
+#: core/elementor/widgets/location-name.php:160
+#: core/elementor/widgets/location-name.php:199
+#: core/elementor/widgets/normal-label.php:159
+#: core/elementor/widgets/organizer-name.php:160
+#: core/elementor/widgets/organizer-name.php:199
+#: core/elementor/widgets/readmore.php:174
+#: core/elementor/widgets/readmore.php:213
+#: core/elementor/widgets/speaker-name.php:160
+#: core/elementor/widgets/speaker-name.php:199
+#: core/elementor/widgets/time.php:161 core/elementor/widgets/time.php:200
+#: core/elementor/widgets/title.php:174 core/elementor/widgets/title.php:213
+#: core/elementor/widgets/weekday.php:161
+#: core/elementor/widgets/weekday.php:200
+msgid "Hover"
+msgstr ""
+
+#: core/elementor/widgets/address.php:177
+#: core/elementor/widgets/address.php:184
+#: core/elementor/widgets/available-spot.php:217
+#: core/elementor/widgets/available-spot.php:224
+#: core/elementor/widgets/cancellation-reason.php:176
+#: core/elementor/widgets/cancellation-reason.php:183
+#: core/elementor/widgets/color.php:149 core/elementor/widgets/color.php:156
+#: core/elementor/widgets/cost.php:177 core/elementor/widgets/cost.php:184
+#: core/elementor/widgets/countdown.php:187
+#: core/elementor/widgets/countdown.php:194
+#: core/elementor/widgets/custom-data.php:238
+#: core/elementor/widgets/custom-data.php:245
+#: core/elementor/widgets/date.php:178 core/elementor/widgets/date.php:185
+#: core/elementor/widgets/excerpt.php:177
+#: core/elementor/widgets/excerpt.php:184 core/elementor/widgets/label.php:177
+#: core/elementor/widgets/label.php:184
+#: core/elementor/widgets/localtime.php:181
+#: core/elementor/widgets/localtime.php:188
+#: core/elementor/widgets/location-name.php:177
+#: core/elementor/widgets/location-name.php:184
+#: core/elementor/widgets/organizer-name.php:177
+#: core/elementor/widgets/organizer-name.php:184
+#: core/elementor/widgets/readmore.php:191
+#: core/elementor/widgets/readmore.php:198
+#: core/elementor/widgets/socials.php:202
+#: core/elementor/widgets/speaker-name.php:177
+#: core/elementor/widgets/speaker-name.php:184
+#: core/elementor/widgets/time.php:178 core/elementor/widgets/time.php:185
+#: core/elementor/widgets/title.php:191 core/elementor/widgets/title.php:198
+#: core/elementor/widgets/weekday.php:178
+#: core/elementor/widgets/weekday.php:185
+msgid "Background"
+msgstr ""
+
+#: core/elementor/widgets/address.php:216
+#: core/elementor/widgets/available-spot.php:286
+#: core/elementor/widgets/cancellation-reason.php:215
+#: core/elementor/widgets/color.php:188 core/elementor/widgets/cost.php:216
+#: core/elementor/widgets/custom-data.php:278
+#: core/elementor/widgets/date.php:217 core/elementor/widgets/excerpt.php:216
+#: core/elementor/widgets/label.php:277
+#: core/elementor/widgets/localtime.php:220
+#: core/elementor/widgets/location-name.php:216
+#: core/elementor/widgets/normal-label.php:176
+#: core/elementor/widgets/organizer-name.php:216
+#: core/elementor/widgets/readmore.php:230
+#: core/elementor/widgets/socials.php:241
+#: core/elementor/widgets/speaker-name.php:216
+#: core/elementor/widgets/time.php:217 core/elementor/widgets/title.php:230
+#: core/elementor/widgets/weekday.php:217
+msgid "Spacing"
+msgstr ""
+
+#: core/elementor/widgets/address.php:223
+#: core/elementor/widgets/available-spot.php:293
+#: core/elementor/widgets/cancellation-reason.php:222
+#: core/elementor/widgets/color.php:195 core/elementor/widgets/cost.php:223
+#: core/elementor/widgets/countdown.php:235
+#: core/elementor/widgets/countdown.php:273
+#: core/elementor/widgets/custom-data.php:285
+#: core/elementor/widgets/date.php:224 core/elementor/widgets/excerpt.php:223
+#: core/elementor/widgets/label.php:284
+#: core/elementor/widgets/localtime.php:227
+#: core/elementor/widgets/location-name.php:223
+#: core/elementor/widgets/normal-label.php:183
+#: core/elementor/widgets/organizer-name.php:223
+#: core/elementor/widgets/readmore.php:237
+#: core/elementor/widgets/socials.php:248
+#: core/elementor/widgets/speaker-name.php:223
+#: core/elementor/widgets/thumbnail.php:186 core/elementor/widgets/time.php:224
+#: core/elementor/widgets/title.php:237 core/elementor/widgets/weekday.php:224
+msgid "Margin"
+msgstr ""
+
+#: core/elementor/widgets/address.php:241
+#: core/elementor/widgets/available-spot.php:311
+#: core/elementor/widgets/cancellation-reason.php:240
+#: core/elementor/widgets/color.php:213 core/elementor/widgets/cost.php:241
+#: core/elementor/widgets/countdown.php:253
+#: core/elementor/widgets/countdown.php:291
+#: core/elementor/widgets/custom-data.php:303
+#: core/elementor/widgets/date.php:242 core/elementor/widgets/excerpt.php:241
+#: core/elementor/widgets/label.php:295
+#: core/elementor/widgets/localtime.php:245
+#: core/elementor/widgets/location-name.php:241
+#: core/elementor/widgets/normal-label.php:201
+#: core/elementor/widgets/organizer-name.php:241
+#: core/elementor/widgets/readmore.php:255
+#: core/elementor/widgets/socials.php:259
+#: core/elementor/widgets/speaker-name.php:241
+#: core/elementor/widgets/thumbnail.php:204 core/elementor/widgets/time.php:242
+#: core/elementor/widgets/title.php:255 core/elementor/widgets/weekday.php:242
+msgid "Padding"
+msgstr ""
+
+#: core/elementor/widgets/address.php:253
+#: core/elementor/widgets/available-spot.php:323
+#: core/elementor/widgets/cancellation-reason.php:252
+#: core/elementor/widgets/color.php:225 core/elementor/widgets/cost.php:253
+#: core/elementor/widgets/countdown.php:303
+#: core/elementor/widgets/custom-data.php:315
+#: core/elementor/widgets/date.php:254 core/elementor/widgets/excerpt.php:253
+#: core/elementor/widgets/label.php:314
+#: core/elementor/widgets/localtime.php:257
+#: core/elementor/widgets/location-name.php:253
+#: core/elementor/widgets/normal-label.php:213
+#: core/elementor/widgets/organizer-name.php:253
+#: core/elementor/widgets/readmore.php:274
+#: core/elementor/widgets/socials.php:271
+#: core/elementor/widgets/speaker-name.php:253
+#: core/elementor/widgets/thumbnail.php:216 core/elementor/widgets/time.php:254
+#: core/elementor/widgets/title.php:267 core/elementor/widgets/weekday.php:254
+msgid "Border"
+msgstr ""
+
+#: core/elementor/widgets/address.php:260
+#: core/elementor/widgets/available-spot.php:330
+#: core/elementor/widgets/cancellation-reason.php:259
+#: core/elementor/widgets/color.php:232 core/elementor/widgets/cost.php:260
+#: core/elementor/widgets/countdown.php:310
+#: core/elementor/widgets/custom-data.php:322
+#: core/elementor/widgets/date.php:261 core/elementor/widgets/excerpt.php:260
+#: core/elementor/widgets/label.php:321
+#: core/elementor/widgets/localtime.php:264
+#: core/elementor/widgets/location-name.php:260
+#: core/elementor/widgets/normal-label.php:220
+#: core/elementor/widgets/organizer-name.php:260
+#: core/elementor/widgets/readmore.php:289
+#: core/elementor/widgets/socials.php:286
+#: core/elementor/widgets/speaker-name.php:260
+#: core/elementor/widgets/thumbnail.php:223 core/elementor/widgets/time.php:261
+#: core/elementor/widgets/title.php:274 core/elementor/widgets/weekday.php:261
+msgid "Border Radius"
+msgstr ""
+
+#: core/elementor/widgets/address.php:272
+#: core/elementor/widgets/available-spot.php:342
+#: core/elementor/widgets/cancellation-reason.php:271
+#: core/elementor/widgets/color.php:244 core/elementor/widgets/cost.php:272
+#: core/elementor/widgets/countdown.php:322
+#: core/elementor/widgets/custom-data.php:334
+#: core/elementor/widgets/date.php:273 core/elementor/widgets/excerpt.php:272
+#: core/elementor/widgets/label.php:333
+#: core/elementor/widgets/localtime.php:276
+#: core/elementor/widgets/location-name.php:272
+#: core/elementor/widgets/normal-label.php:232
+#: core/elementor/widgets/organizer-name.php:272
+#: core/elementor/widgets/readmore.php:301
+#: core/elementor/widgets/socials.php:298
+#: core/elementor/widgets/speaker-name.php:272
+#: core/elementor/widgets/thumbnail.php:235 core/elementor/widgets/time.php:273
+#: core/elementor/widgets/title.php:286 core/elementor/widgets/weekday.php:273
+msgid "Box Shadow"
+msgstr ""
+
+#: core/elementor/widgets/available-spot.php:41
+msgid "MEC Available Spot"
+msgstr ""
+
+#: core/elementor/widgets/available-spot.php:95
+msgid "Spot"
+msgstr ""
+
+#: core/elementor/widgets/available-spot.php:185
+msgid "Spot Color"
+msgstr ""
+
+#: core/elementor/widgets/available-spot.php:200
+#: core/elementor/widgets/available-spot.php:269
+msgid "Spot Hover"
+msgstr ""
+
+#: core/elementor/widgets/available-spot.php:254
+msgid "Spot Background"
+msgstr ""
+
+#: core/elementor/widgets/available-spot.php:381
+#: core/elementor/widgets/available-spot.php:420
+msgid "Available Spot(s):"
+msgstr ""
+
+#: core/elementor/widgets/available-spot.php:381
+#: core/elementor/widgets/available-spot.php:420
+msgid "Unlimited"
+msgstr ""
+
+#: core/elementor/widgets/cancellation-reason.php:40
+msgid "MEC Cancellation Reason"
+msgstr ""
+
+#: core/elementor/widgets/cancellation-reason.php:198
+#: core/elementor/widgets/countdown.php:209
+#: core/elementor/widgets/label.php:199
+#: core/elementor/widgets/localtime.php:203
+msgid "Background Hover"
+msgstr ""
+
+#: core/elementor/widgets/cancellation-reason.php:301
+msgid "Reason for Cancellation (for example)"
+msgstr ""
+
+#: core/elementor/widgets/color.php:40
+msgid "MEC Color"
+msgstr ""
+
+#: core/elementor/widgets/color.php:77
+msgid "Content"
+msgstr ""
+
+#: core/elementor/widgets/color.php:84
+msgid "Event Color as background"
+msgstr ""
+
+#: core/elementor/widgets/color.php:86
+msgid "Yes"
+msgstr ""
+
+#: core/elementor/widgets/color.php:87
+msgid "No"
+msgstr ""
+
+#: core/elementor/widgets/cost.php:40
+msgid "MEC Cost"
+msgstr ""
+
+#: core/elementor/widgets/countdown.php:41
+msgid "MEC Countdown"
+msgstr ""
+
+#: core/elementor/widgets/countdown.php:86
+msgid "ٔNumber Typography"
+msgstr ""
+
+#: core/elementor/widgets/countdown.php:95
+msgid "Label Typography"
+msgstr ""
+
+#: core/elementor/widgets/countdown.php:155
+msgid "ٔNumber Color"
+msgstr ""
+
+#: core/elementor/widgets/countdown.php:170
+msgid "Label Color"
+msgstr ""
+
+#: core/elementor/widgets/countdown.php:228
+msgid "Block Spacing"
+msgstr ""
+
+#: core/elementor/widgets/countdown.php:266
+msgid "Box Settings"
+msgstr ""
+
+#: core/elementor/widgets/countdown.php:392
+msgid "The event is finished."
+msgstr ""
+
+#: core/elementor/widgets/countdown.php:396
+msgid "The event is ongoing."
+msgstr ""
+
+#: core/elementor/widgets/countdown.php:436
+msgid "days"
+msgstr ""
+
+#: core/elementor/widgets/countdown.php:442
+msgid "hours"
+msgstr ""
+
+#: core/elementor/widgets/countdown.php:448
+msgid "minutes"
+msgstr ""
+
+#: core/elementor/widgets/countdown.php:454
+msgid "seconds"
+msgstr ""
+
+#: core/elementor/widgets/custom-data.php:44
+msgid "MEC Custom Fields"
+msgstr ""
+
+#: core/elementor/widgets/custom-data.php:83
+msgid "label"
+msgstr ""
+
+#: core/elementor/widgets/custom-data.php:88
+msgid "value"
+msgstr ""
+
+#: core/elementor/widgets/custom-data.php:403
+#: core/elementor/widgets/custom-data.php:407
+#: core/elementor/widgets/custom-data.php:411
+#: core/elementor/widgets/custom-data.php:415
+msgid "Title:"
+msgstr ""
+
+#: core/elementor/widgets/custom-data.php:404
+#: core/elementor/widgets/custom-data.php:408
+#: core/elementor/widgets/custom-data.php:412
+#: core/elementor/widgets/custom-data.php:416
+msgid "Value"
+msgstr ""
+
+#: core/elementor/widgets/date.php:41
+msgid "MEC Date"
+msgstr ""
+
+#: core/elementor/widgets/excerpt.php:40
+msgid "MEC Excerpt"
+msgstr ""
+
+#: core/elementor/widgets/label.php:40
+msgid "MEC Label"
+msgstr ""
+
+#: core/elementor/widgets/label.php:368
+msgid "Featured (for example)"
+msgstr ""
+
+#: core/elementor/widgets/localtime.php:41
+msgid "MEC Local Time"
+msgstr ""
+
+#: core/elementor/widgets/localtime.php:93
+#: core/elementor/widgets/socials.php:84
+msgid "Icon Size"
+msgstr ""
+
+#: core/elementor/widgets/localtime.php:164
+#: core/elementor/widgets/socials.php:170
+msgid "Icon Color"
+msgstr ""
+
+#: core/elementor/widgets/localtime.php:317
+msgid "Please enable \"Local Time\" on MEC Settings > Modules"
+msgstr ""
+
+#: core/elementor/widgets/location-name.php:40
+msgid "MEC Location Name"
+msgstr ""
+
+#: core/elementor/widgets/normal-label.php:40
+msgid "MEC Normal Label(s)"
+msgstr ""
+
+#: core/elementor/widgets/organizer-name.php:40
+msgid "MEC Organizer"
+msgstr ""
+
+#: core/elementor/widgets/organizer-name.php:324
+#: core/elementor/widgets/speaker-name.php:324
+msgid " , "
+msgstr ""
+
+#: core/elementor/widgets/readmore.php:41
+msgid "MEC Read More"
+msgstr ""
+
+#: core/elementor/widgets/readmore.php:137
+#: core/elementor/widgets/thumbnail.php:121
+#: core/elementor/widgets/title.php:137
+msgid "Link Target"
+msgstr ""
+
+#: core/elementor/widgets/readmore.php:141
+#: core/elementor/widgets/thumbnail.php:125
+#: core/elementor/widgets/title.php:141
+msgid "New Window"
+msgstr ""
+
+#: core/elementor/widgets/readmore.php:142
+#: core/elementor/widgets/thumbnail.php:126
+#: core/elementor/widgets/title.php:142
+msgid "Same Window"
+msgstr ""
+
+#: core/elementor/widgets/readmore.php:143
+#: core/elementor/widgets/thumbnail.php:127
+#: core/elementor/widgets/title.php:143
+msgid "Default Action"
+msgstr ""
+
+#: core/elementor/widgets/readmore.php:333
+#: core/elementor/widgets/readmore.php:389
+msgid "REGISTER"
+msgstr ""
+
+#: core/elementor/widgets/readmore.php:333
+#: core/elementor/widgets/readmore.php:389
+msgid "View Detail"
+msgstr ""
+
+#: core/elementor/widgets/socials.php:40
+msgid "MEC Social"
+msgstr ""
+
+#: core/elementor/widgets/socials.php:150
+msgid "Toggle Icon"
+msgstr ""
+
+#: core/elementor/widgets/socials.php:152
+msgid "True"
+msgstr ""
+
+#: core/elementor/widgets/socials.php:153
+msgid "False"
+msgstr ""
+
+#: core/elementor/widgets/socials.php:185
+msgid "Icon Hover Color"
+msgstr ""
+
+#: core/elementor/widgets/socials.php:209
+msgid "Social Box"
+msgstr ""
+
+#: core/elementor/widgets/socials.php:224
+msgid "Social Box Hover"
+msgstr ""
+
+#: core/elementor/widgets/speaker-name.php:40
+msgid "MEC Speaker"
+msgstr ""
+
+#: core/elementor/widgets/thumbnail.php:41
+msgid "MEC Thumbnail"
+msgstr ""
+
+#: core/elementor/widgets/thumbnail.php:80
+msgid "Styling"
+msgstr ""
+
+#: core/elementor/widgets/thumbnail.php:87
+msgid "Thumbnail size"
+msgstr ""
+
+#: core/elementor/widgets/thumbnail.php:91
+msgid "full"
+msgstr ""
+
+#: core/elementor/widgets/thumbnail.php:92
+msgid "474 x 324"
+msgstr ""
+
+#: core/elementor/widgets/thumbnail.php:93
+msgid "391 x 260"
+msgstr ""
+
+#: core/elementor/widgets/thumbnail.php:94
+msgid "300 x 300"
+msgstr ""
+
+#: core/elementor/widgets/thumbnail.php:95
+msgid "300 x 200"
+msgstr ""
+
+#: core/elementor/widgets/thumbnail.php:96
+msgid "150 x 150"
+msgstr ""
+
+#: core/elementor/widgets/thumbnail.php:134
+msgid "Thumb Link"
+msgstr ""
+
+#: core/elementor/widgets/thumbnail.php:136
+msgid "Use"
+msgstr ""
+
+#: core/elementor/widgets/thumbnail.php:137
+msgid "Don`t"
+msgstr ""
+
+#: core/elementor/widgets/thumbnail.php:140
+msgid "Enable: Custom link or Event Link."
+msgstr ""
+
+#: core/elementor/widgets/thumbnail.php:146
+msgid "Image Link Url"
+msgstr ""
+
+#: core/elementor/widgets/thumbnail.php:154
+msgid "Empty: Event URL"
+msgstr ""
+
+#: core/elementor/widgets/thumbnail.php:163
+msgid "Image Width Size"
+msgstr ""
+
+#: core/elementor/widgets/time.php:41
+msgid "MEC Time"
+msgstr ""
+
+#: core/elementor/widgets/time.php:329
+msgid "All Day"
+msgstr ""
+
+#: core/elementor/widgets/title.php:41
+msgid "MEC Title"
+msgstr ""
+
+#: core/elementor/widgets/weekday.php:41
+msgid "MEC Weekday"
+msgstr ""
+
+#: core/mec/search_options.php:8
+msgid "Category"
+msgstr ""
+
+#: core/mec/search_options.php:10 core/mec/search_options.php:17
+#: core/mec/search_options.php:24 core/mec/search_options.php:31
+#: core/mec/search_options.php:38 core/mec/search_options.php:45
+#: core/mec/search_options.php:52 core/mec/search_options.php:59
+msgid "Disabled"
+msgstr ""
+
+#: core/mec/search_options.php:11 core/mec/search_options.php:18
+#: core/mec/search_options.php:25 core/mec/search_options.php:32
+#: core/mec/search_options.php:39 core/mec/search_options.php:46
+#: core/mec/search_options.php:53
+msgid "Dropdown"
+msgstr ""
+
+#: core/mec/search_options.php:15
+msgid "Location"
+msgstr ""
+
+#: core/mec/search_options.php:22
+msgid "Organizer"
+msgstr ""
+
+#: core/mec/search_options.php:29
+msgid "Speaker"
+msgstr ""
+
+#: core/mec/search_options.php:36
+msgid "Tag"
+msgstr ""
+
+#: core/mec/search_options.php:43
+msgid "Label"
+msgstr ""
+
+#: core/mec/search_options.php:50
+msgid "Month Filter"
+msgstr ""
+
+#: core/mec/search_options.php:57
+msgid "Text Search"
+msgstr ""
+
+#: core/mec/search_options.php:60
+msgid "Text Input"
+msgstr ""
+
+#: core/mec/skin_options.php:17
+msgid "Style"
+msgstr ""
+
+#: core/mec/skin_options.php:26
+msgid "Start Date"
+msgstr ""
+
+#: core/mec/skin_options.php:28
+msgid "Today"
+msgstr ""
+
+#: core/mec/skin_options.php:29
+msgid "Tomorrow"
+msgstr ""
+
+#: core/mec/skin_options.php:30
+msgid "Start of Current Month"
+msgstr ""
+
+#: core/mec/skin_options.php:31
+msgid "Start of Next Month"
+msgstr ""
+
+#: core/mec/skin_options.php:32
+msgid "On a certain date"
+msgstr ""
+
+#: core/mec/skin_options.php:35
+#, php-format
+msgid "eg. %s"
+msgstr ""
+
+#: core/mec/skin_options.php:39
+msgid "Count in row"
+msgstr ""
+
+#: core/mec/skin_options.php:50
+msgid "Limit"
+msgstr ""
+
+#: core/mec/skin_options.php:51
+msgid "eg. 6"
+msgstr ""
+
+#: core/mec/skin_options.php:55
+msgid "Load More Button"
+msgstr ""
+
+#: core/mec/skin_options.php:65
+msgid "Show Map on top"
+msgstr ""
+
+#: core/mec/skin_options.php:69
+#, php-format
+msgid "%s is required to use this feature."
+msgstr ""
+
+#: core/mec/skin_options.php:69
+msgid "Pro version of Modern Events Calendar"
+msgstr ""
+
+#: core/mec/skin_options.php:80
+msgid "Geolocation"
+msgstr ""
+
+#: core/mec/skin_options.php:92
+msgid "Show Month Divider"
+msgstr ""
+
+#: core/postTypes/mec-shortcode-designer.php:97
+msgid "MEC Designer"
+msgstr ""
+
+#: core/postTypes/mec-shortcode-designer.php:98
+msgid "All Designs"
+msgstr ""
+
+#: core/postTypes/mec-shortcode-designer.php:99
+msgid "Design"
+msgstr ""
+
+#: core/postTypes/mec-shortcode-designer.php:100
+msgid "Add New"
+msgstr ""
+
+#: core/postTypes/mec-shortcode-designer.php:101
+msgid "Add New Design"
+msgstr ""
+
+#: core/postTypes/mec-shortcode-designer.php:102
+msgid "Edit Design"
+msgstr ""
+
+#: core/postTypes/mec-shortcode-designer.php:103
+msgid "New Design"
+msgstr ""
+
+#: core/postTypes/mec-shortcode-designer.php:104
+msgid "View Design"
+msgstr ""
+
+#: core/postTypes/mec-shortcode-designer.php:105
+msgid "Search Design"
+msgstr ""
+
+#: core/postTypes/mec-shortcode-designer.php:106
+msgid "No Design found"
+msgstr ""
+
+#: core/postTypes/mec-shortcode-designer.php:107
+msgid "No Design found in Trash"
+msgstr ""
+
+#: mec-shortcode-designer.php:239
+msgid ""
+"Elementor Shortcode Designer is not working because you need to install "
+"latest version of Modern Events Calendar Pro plugin - Minimum version "
+"required"
+msgstr ""
+
+#: mec-shortcode-designer.php:240
+msgid "Update Modern Events Calendar Pro Now"
+msgstr ""
+
+#: mec-shortcode-designer.php:249
+msgid ""
+"Elementor Shortcode Designer is not working because you need to install "
+"latest version of Modern Events Calendar Lite plugin - Minimum version "
+"required"
+msgstr ""
+
+#: mec-shortcode-designer.php:250
+msgid "Update Modern Events Calendar Lite Now"
+msgstr ""
+
+#: mec-shortcode-designer.php:293
+msgctxt "Installation notice"
+msgid ""
+"Before install the \"Shortcode Designer\". Please first install the \"Modern "
+"Events Calendar\"."
+msgstr ""
+
+#: mec-shortcode-designer.php:295
+msgid "Free version"
+msgstr ""
+
+#: mec-shortcode-designer.php:296
+msgid "Pro version"
+msgstr ""
+
+#: mec-shortcode-designer.php:331
+msgid ""
+"Elementor Shortcode Designer is not working because you need to activate the "
+"Elementor plugin."
+msgstr ""
+
+#: mec-shortcode-designer.php:331
+msgid "Activate Elementor Now"
+msgstr ""
+
+#: mec-shortcode-designer.php:338
+msgid ""
+"Elementor Shortcode Designer is not working because you need to install the "
+"Elemenor plugin"
+msgstr ""
+
+#: mec-shortcode-designer.php:338
+msgid "Install Elementor Now"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Elementor Shortcode Designer"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://webnus.net/modern-events-calendar/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin makes it possible to visually build MEC shortcodes in Elementor."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Webnus"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://webnus.net"
+msgstr ""

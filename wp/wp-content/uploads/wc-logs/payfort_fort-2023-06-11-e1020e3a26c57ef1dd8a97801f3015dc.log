@@ -1,0 +1,60 @@
+06-11-2023 @ 15:11:43 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 54933
+    [response_code] => 14000
+    [card_number] => 454654******7370
+    [card_holder_name] => MOHAMAD Nabil Yakoub
+    [payment_link_id] => 169999991071731915
+    [signature] => 2eea4bc6e219221995890474cc30038a595123f69c3ea480db217d70fc13d6aa
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2511
+    [customer_ip] => 5.107.47.97
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991071834428
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02159
+    [authorization_code] => 029463
+    [customer_email] => mohamadyakoub@yahoo.com
+    [currency] => AED
+    [customer_name] => Nabil Yakub
+    [status] => 14
+)
+
+06-11-2023 @ 17:24:49 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 356895
+    [response_code] => 14000
+    [card_number] => 419649******5822
+    [card_holder_name] => shroque Zaher
+    [payment_link_id] => 169999991064889248
+    [signature] => 62b016f89bb149268773fa074b740024327bff46839c15af9633a4c869c55ae2
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => VISA
+    [expiry_date] => 2805
+    [customer_ip] => 86.97.172.197
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991072026556
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03252
+    [authorization_code] => 007062
+    [customer_email] => Drrukizaher@yahoo.com
+    [currency] => AED
+    [customer_name] => Shroque Samir Zaher
+    [status] => 14
+)
+

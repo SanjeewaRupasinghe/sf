@@ -1,0 +1,30 @@
+09-12-2023 @ 16:15:31 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 55000
+    [response_code] => 14000
+    [card_number] => 442169******3661
+    [card_holder_name] => QAHER ALRAQAYA
+    [payment_link_id] => 169999991230319924
+    [signature] => 9c58a2f45c9a9855d60727962e7135780f88d5bb77f36ff3c37c24bc0a1264e7
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2802
+    [customer_ip] => 94.202.21.190
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991230339270
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02280
+    [authorization_code] => 313938
+    [customer_email] => qaher@qahercom.com
+    [currency] => AED
+    [customer_name] => Qaher
+    [status] => 14
+)
+

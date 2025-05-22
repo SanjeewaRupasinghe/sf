@@ -1,0 +1,60 @@
+01-30-2023 @ 10:49:43 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 65300
+    [response_code] => 14000
+    [card_number] => 467744******2189
+    [card_holder_name] => silvia eldawi
+    [payment_link_id] => 169999990864786238
+    [signature] => 1530675559854fd057423d3d5ac47f775e81582b3e5453688eb5f67c660fccb6
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2702
+    [customer_ip] => 5.195.60.60
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990864801985
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02011
+    [authorization_code] => 381772
+    [customer_email] => Silviaeldawi@hotmail.com
+    [currency] => AED
+    [customer_name] => Silvia Eldawi
+    [status] => 14
+)
+
+01-30-2023 @ 17:05:16 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 398895
+    [response_code] => 14000
+    [card_number] => 552102******4346
+    [card_holder_name] => DR NAYAZ AHMED
+    [payment_link_id] => 169999990823445865
+    [signature] => 2354777820b8ee648dfd35cdf096f36400548bb6c9500022abc616be0b68091f
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2308
+    [customer_ip] => 2.48.202.136
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990865339345
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-02986
+    [authorization_code] => T08323
+    [customer_email] => Nayaznet@yahoo.com
+    [currency] => AED
+    [customer_name] => Nayaz Ahmed
+    [status] => 14
+)
+

@@ -1,0 +1,60 @@
+10-12-2023 @ 11:19:19 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 433367******5628
+    [card_holder_name] => MUSABEH OBAID
+    [payment_link_id] => Quote-03501
+    [signature] => 841a276cb26181f83f56d9863115f1ca9d950c12385d7b2b8a1090029bbfd44b
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2511
+    [customer_ip] => 2.48.196.210
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991288538301
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03501
+    [authorization_code] => 452694
+    [customer_email] => athariobaid5@gmail.com
+    [currency] => AED
+    [customer_name] => Azari Musabeh Obaid
+    [status] => 14
+)
+
+10-12-2023 @ 11:42:35 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 90149
+    [response_code] => 14000
+    [card_number] => 456835******2740
+    [card_holder_name] => Humaid Thani
+    [payment_link_id] => 169999991288563174
+    [signature] => 61c769181bdab575bf4378750006a2d5a7934a989008489deef4449b88f0df8d
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2805
+    [customer_ip] => 2.51.45.106
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991288570373
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02347
+    [authorization_code] => 666606
+    [customer_email] => humaidanwahi@gmail.com
+    [currency] => AED
+    [customer_name] => Humaid Alwahi
+    [status] => 14
+)
+

@@ -1,0 +1,30 @@
+07-06-2023 @ 08:22:22 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 64500
+    [response_code] => 14000
+    [card_number] => 419648******0150
+    [card_holder_name] => Alison Campbell
+    [payment_link_id] => 169999991110345587
+    [signature] => a91c3ea4dcdb9a92c0e9277a1311000f0dc898a569cf5f31e652275db5e7e205
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2803
+    [customer_ip] => 83.110.197.217
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991111899240
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02187
+    [authorization_code] => 008154
+    [customer_email] => alisonleecambell@gmail.com
+    [currency] => AED
+    [customer_name] => Alison Campbell
+    [status] => 14
+)
+

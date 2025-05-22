@@ -1,0 +1,211 @@
+
+.post-type-mec_esb .wrap h1.wp-heading-inline {
+    margin-bottom: 14px;
+}
+
+.post-type-mec_esb #adv-settings .button,
+.post-type-mec_esb .search-box .button,
+.post-type-mec_esb .tablenav .button,
+.post-type-mec_esb .page-title-action:active,
+.post-type-mec_esb .page-title-action {
+    color: #fff;
+    font-weight: 500;
+    border-radius: 60px;
+    box-shadow: 0 0 0 4px rgb(56 213 237 / 1%);
+    text-shadow: none;
+    background: #38d5ed;
+    border: none;
+    line-height: 1.4;
+    padding: 9px 36px 12px;
+    text-align: center;
+    transition: .24s;
+}
+
+.post-type-mec_esb .page-title-action {
+    display: block;
+    margin-bottom: 14px;
+}
+
+.post-type-mec_esb .page-title-action {
+    max-width: fit-content;
+}
+
+.post-type-mec_esb #adv-settings .button:hover,
+.post-type-mec_esb .search-box .button:hover,
+.post-type-mec_esb .tablenav .button:hover,
+.post-type-mec_esb .page-title-action:hover {
+    background: #26bbd2;
+    box-shadow: 0 0 0 4px rgb(56 213 237 / 15%);
+    cursor: pointer;
+    color: #fff;
+}
+
+.post-type-mec_esb .metabox-prefs .screen-options .screen-per-page,
+.post-type-mec_esb .tablenav-pages .current-page,
+.post-type-mec_esb .search-box input[name="s"],
+.post-type-mec_esb .tablenav .search-plugins input[name="s"],
+.post-type-mec_esb .tagsdiv .newtag{  
+    border-radius: 5px;
+    min-height: 38px;
+    border: none;
+    background-color: #fff;
+    box-shadow: inset 0 1px 2px rgb(0 0 0 / 7%);
+    margin-bottom: 15px;
+}
+
+.post-type-mec_esb .tablenav .actions select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    min-height: 39px;
+    line-height: 39px;
+    background-color: #fff;
+    border-radius: 2px;
+    padding-left: 8px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 2%);
+    transition: all .23s ease;
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0ZWQgYnkgSWNvTW9vbi5pbyAtLT4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIxNyIgaGVpZ2h0PSIxNyIgdmlld0JveD0iMCAwIDE3IDE3Ij4KPGc+CjwvZz4KCTxwYXRoIGQ9Ik0xNi4zNTQgNS4wNzVsLTcuODU1IDcuODU0LTcuODUzLTcuODU0IDAuNzA3LTAuNzA3IDcuMTQ1IDcuMTQ2IDcuMTQ4LTcuMTQ3IDAuNzA4IDAuNzA4eiIgZmlsbD0iIzAwMDAwMCIgLz4KPC9zdmc+Cg==);
+    background-repeat: no-repeat;
+    background-size: 26px 10px;
+    background-position: right center;
+    min-width: 160px;
+    border: 1px solid #e6e9eb;
+    margin-bottom: 15px;
+
+}
+
+.post-type-mec_esb .metabox-prefs .screen-options .screen-per-page {
+    margin: 0;
+}
+
+/* Single Event Elementor MetaBox */
+#mec_sb_choose_single_page label {
+    margin-bottom: 4px;
+    display: block;
+}
+
+#mec_sb_choose_single_page select {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+#mec_sb_choose_single_page a.mec-settings-btn {
+    display: inline-block;
+    font-size: 1em;
+    padding: 6px 22px;
+    margin-right: 3px;
+    margin-bottom: 16px;
+    line-height: 25px;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 2px;
+    text-shadow: none;
+    background: #38d5ed;
+    border: none;
+    transition: all .24s ease;
+    text-decoration: none;
+}
+
+#mec_sb_choose_single_page a.mec-settings-btn:hover {
+    background: #222;
+    box-shadow: 0 5px 23px -7px rgba(0,0,0,.5);
+    color: #fff;
+}
+
+/* Screen Options */
+.post-type-mec_esb #screen-options-wrap input[type=radio],
+.post-type-mec_esb #screen-options-wrap input[type=checkbox] {
+    background-color: #fff;
+    border: 1px solid #38d5ed;
+    padding: 9px;
+    border-radius: 3px;
+    min-width: 24px;
+    min-height: 24px;
+    display: inline-block!important;
+    vertical-align: middle;
+    float: none;
+    transition: all .18s ease;
+    outline: 0;
+    margin: 1px 4px 4px 0;
+    text-align: left;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.post-type-mec_esb #screen-options-wrap input[type=radio] {
+    -webkit-appearance: none;
+    border-radius: 20px!important;
+    min-width: 20px;
+    min-height: 20px;
+    margin: 0 0 4px 0;
+    vertical-align: middle;
+}
+
+.post-type-mec_esb #screen-options-wrap input[type=radio]:hover,
+.post-type-mec_esb #screen-options-wrap input[type=checkbox]:hover {
+    border-color: #38d5ed
+}
+
+.post-type-mec_esb #screen-options-wrap input[type=radio]:checked,
+.post-type-mec_esb #screen-options-wrap input[type=checkbox]:checked {
+    border-color: #38d5ed;
+    background: #38d5ed;
+    border-radius: 2px;
+    position: relative
+}
+
+.post-type-mec_esb #screen-options-wrap input[type=radio]:checked {
+    box-shadow: 0 1px 6px -2px #38d5ed,inset 0 0 0 3px #fff!important;
+}
+
+.post-type-mec_esb #screen-options-wrap input[type=checkbox]:checked:before {
+    content: "";
+    font: normal;
+    position: absolute;
+    top: 10px;
+    left: 3px;
+    margin: 0;
+    vertical-align: middle;
+    line-height: 1;
+    border-right: 2px solid #fff!important;
+    border-bottom: 2px solid #fff!important;
+    transform: rotate(45deg);
+    transform-origin: 0 100%;
+    color: #fff;
+    transition: all .2s ease;
+    animation: checkbox-check 130ms 140ms cubic-bezier(.4,0,.23,1) forwards;
+}
+
+.post-type-mec_esb #screen-options-wrap input[type=radio]:checked {
+    box-shadow: 0 1px 6px -2px #38d5ed,inset 0 0 0 3px #fff!important
+}
+
+.post-type-mec_esb #screen-options-wrap input[type="radio"]:checked::before {
+    display: none;
+}
+
+@keyframes checkbox-check {
+    0% {
+        width: 0;
+        height: 0;
+        border-color: #fff;
+        transform: translate3d(0,0,0) rotate(45deg)
+    }
+
+    33% {
+        width: 6px;
+        height: 0;
+        transform: translate3d(0,0,0) rotate(45deg)
+    }
+
+    100% {
+        width: 6px;
+        height: 12px;
+        border-color: #fff;
+        transform: translate3d(0,-12px,0) rotate(45deg)
+    }
+}

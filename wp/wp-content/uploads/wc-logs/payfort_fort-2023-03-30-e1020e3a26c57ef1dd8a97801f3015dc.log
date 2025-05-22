@@ -1,0 +1,30 @@
+03-30-2023 @ 09:43:05 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 546068******4595
+    [card_holder_name] => Masoud Jafar Hassan
+    [payment_link_id] => Quote-03178
+    [signature] => 7a037bd3f7fe161bcb044b60a1e7d3b862890f0fa28643eedde1cb80de25e534
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2611
+    [customer_ip] => 2.50.19.43
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990958107631
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03178
+    [authorization_code] => 190994
+    [customer_email] => drmasoud82@gmail.com
+    [currency] => AED
+    [customer_name] => Masoud Jafar Hassan Mohemmed
+    [status] => 14
+)
+

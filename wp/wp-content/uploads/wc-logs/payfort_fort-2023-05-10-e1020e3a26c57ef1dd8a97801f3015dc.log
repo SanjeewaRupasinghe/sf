@@ -1,0 +1,165 @@
+05-10-2023 @ 12:54:38 - Payfort Request Params for payment method (payfort) 
+
+Array
+(
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [merchant_reference] => 23334
+    [language] => en
+    [service_command] => TOKENIZATION
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [signature] => d7b3b4a2f13987b3f784b2ce3522b498a8523c2de258869f848e8406fb696fa0
+)
+
+05-10-2023 @ 12:54:40 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_merchantPageResponse
+    [response_code] => 18000
+    [card_number] => ****************
+    [card_holder_name] => ****
+    [signature] => 47cb62d2652c3f82892c2d84f0330c1318556fad197bbf8f39053b56cacfa3c4
+    [merchant_identifier] => xyKdBdwl
+    [expiry_date] => ****
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [language] => en
+    [response_message] => Success
+    [service_command] => TOKENIZATION
+    [merchant_reference] => 23334
+    [token_name] => beb5d2f10ee04f1a9a85c61e784df9b9
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [status] => 18
+    [card_bin] => 400555
+)
+
+05-10-2023 @ 12:54:40 - Merchant Page Notify Api Request Params : Array
+(
+    [merchant_reference] => 23334
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [command] => PURCHASE
+    [merchant_identifier] => xyKdBdwl
+    [customer_ip] => 2.48.50.203
+    [amount] => 5723
+    [currency] => AED
+    [customer_email] => ceo@safetyfirstmed.ae
+    [token_name] => beb5d2f10ee04f1a9a85c61e784df9b9
+    [language] => en
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_responseOnline
+    [customer_name] => test test
+    [signature] => 6498316802a831564545c8a5abdcc880114bb13784924968332bd4cac5766997
+)
+
+05-10-2023 @ 12:54:45 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [amount] => 5723
+    [response_code] => 10785
+    [card_number] => ****************
+    [card_holder_name] => ****
+    [signature] => 90c7d927265be8ca04fc8009ea7669b9772e09a95c97d5a317f5e2503196bb1b
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => ****
+    [customer_ip] => ***********
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991019722108
+    [command] => PURCHASE
+    [response_message] => Transaction blocked by fraud check
+    [merchant_reference] => 23334
+    [customer_email] => *********************
+    [currency] => AED
+    [customer_name] => *********
+    [status] => 10
+)
+
+05-10-2023 @ 12:54:45 - Fort response parameters (offline) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 5723
+    [response_code] => 10785
+    [card_number] => 400555******0001
+    [card_holder_name] => test
+    [signature] => 619ff5ec834d7874c762413df3d3ae33c58e8143f289e41d79eb38cc0f6b501b
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => 2505
+    [customer_ip] => 2.48.50.203
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991019722108
+    [command] => PURCHASE
+    [response_message] => Transaction blocked by fraud check
+    [merchant_reference] => 23334
+    [customer_email] => ceo@safetyfirstmed.ae
+    [currency] => AED
+    [customer_name] => test test
+    [status] => 10
+)
+
+05-10-2023 @ 16:28:07 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 55395
+    [response_code] => 14000
+    [card_number] => 416598******8489
+    [card_holder_name] => Florian Herold
+    [payment_link_id] => 169999991020007898
+    [signature] => 98017837473b41510ce648f5b9ad3ed1d90c38dea2abffc97f0bb88c1141f08e
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2701
+    [customer_ip] => 91.74.6.211
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991020017650
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-2116
+    [authorization_code] => 9MXF4R
+    [customer_email] => sfherold@gmail.com
+    [currency] => AED
+    [customer_name] => Sara Herold
+    [status] => 14
+)
+
+05-10-2023 @ 16:45:59 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 54933
+    [response_code] => 14000
+    [card_number] => 433367******3211
+    [card_holder_name] => Alia albastaki
+    [payment_link_id] => 169999991020030385
+    [signature] => 54f96c6b1149764024d4122c79dbfdb6fe3f4d7f72cb2d50da4ede8be0b49160
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2509
+    [customer_ip] => 2.51.50.171
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991020042184
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02120
+    [authorization_code] => 958129
+    [customer_email] => alia.essa@hotmail.com
+    [currency] => AED
+    [customer_name] => Alia Essa
+    [status] => 14
+)
+

@@ -1,0 +1,552 @@
+2023-12-05T09:48:42+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php:392
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(392): method_exists()
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(121): Essential_Addons_Elementor\Classes\Asset_Builder->load_commnon_asset()
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): Essential_Addons_Elementor\Classes\Asset_Builder->frontend_asset_load()
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#4 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#5 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/script-loader.php(2115): do_action()
+#6 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): wp_enqueue_scripts()
+#7 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#8 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#9 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(3042): do_action()
+#10 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/themes/ekommart/header.php(8): wp_head()
+#11 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(770): require_once('/home/897092.cl...')
+#12 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(716): load_template()
+#13 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(48): locate_template()
+#14 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/themes/ekommart/404.php(2): get_header()
+#15 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template-loader.php(106): include('/home/897092.cl...')
+#16 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-blog-header.php(19): require_once('/home/897092.cl...')
+#17 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/index.php(17): require('/home/897092.cl...')
+#18 {main}
+  thrown in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php on line 392
+
+2023-12-05T09:49:45+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php:392
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(392): method_exists()
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(121): Essential_Addons_Elementor\Classes\Asset_Builder->load_commnon_asset()
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): Essential_Addons_Elementor\Classes\Asset_Builder->frontend_asset_load()
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#4 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#5 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/script-loader.php(2115): do_action()
+#6 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): wp_enqueue_scripts()
+#7 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#8 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#9 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(3042): do_action()
+#10 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/themes/ekommart/header.php(8): wp_head()
+#11 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(770): require_once('/home/897092.cl...')
+#12 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(716): load_template()
+#13 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(48): locate_template()
+#14 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/themes/ekommart/404.php(2): get_header()
+#15 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template-loader.php(106): include('/home/897092.cl...')
+#16 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-blog-header.php(19): require_once('/home/897092.cl...')
+#17 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/index.php(17): require('/home/897092.cl...')
+#18 {main}
+  thrown in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php on line 392
+
+2023-12-05T09:51:00+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php:392
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(392): method_exists()
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(121): Essential_Addons_Elementor\Classes\Asset_Builder->load_commnon_asset()
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): Essential_Addons_Elementor\Classes\Asset_Builder->frontend_asset_load()
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#4 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#5 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/script-loader.php(2115): do_action()
+#6 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): wp_enqueue_scripts()
+#7 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#8 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#9 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(3042): do_action()
+#10 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/themes/ekommart/header.php(8): wp_head()
+#11 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(770): require_once('/home/897092.cl...')
+#12 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(716): load_template()
+#13 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(48): locate_template()
+#14 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/templates/single-mec-events.php(12): get_header()
+#15 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template-loader.php(106): include('/home/897092.cl...')
+#16 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-blog-header.php(19): require_once('/home/897092.cl...')
+#17 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/index.php(17): require('/home/897092.cl...')
+#18 {main}
+  thrown in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php on line 392
+
+2023-12-05T09:55:53+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php:392
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(392): method_exists()
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(121): Essential_Addons_Elementor\Classes\Asset_Builder->load_commnon_asset()
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): Essential_Addons_Elementor\Classes\Asset_Builder->frontend_asset_load()
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#4 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#5 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/script-loader.php(2115): do_action()
+#6 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): wp_enqueue_scripts()
+#7 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#8 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#9 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(3042): do_action()
+#10 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/themes/ekommart/header.php(8): wp_head()
+#11 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(770): require_once('/home/897092.cl...')
+#12 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(716): load_template()
+#13 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(48): locate_template()
+#14 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/themes/ekommart/page.php(3): get_header()
+#15 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template-loader.php(106): include('/home/897092.cl...')
+#16 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-blog-header.php(19): require_once('/home/897092.cl...')
+#17 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/index.php(17): require('/home/897092.cl...')
+#18 {main}
+  thrown in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php on line 392
+
+2023-12-05T09:58:28+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php:392
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(392): method_exists()
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(121): Essential_Addons_Elementor\Classes\Asset_Builder->load_commnon_asset()
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): Essential_Addons_Elementor\Classes\Asset_Builder->frontend_asset_load()
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#4 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#5 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/script-loader.php(2115): do_action()
+#6 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): wp_enqueue_scripts()
+#7 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#8 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#9 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(3042): do_action()
+#10 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/themes/ekommart/header.php(8): wp_head()
+#11 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(770): require_once('/home/897092.cl...')
+#12 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(716): load_template()
+#13 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(48): locate_template()
+#14 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/templates/single-mec-events.php(12): get_header()
+#15 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template-loader.php(106): include('/home/897092.cl...')
+#16 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-blog-header.php(19): require_once('/home/897092.cl...')
+#17 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/index.php(17): require('/home/897092.cl...')
+#18 {main}
+  thrown in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php on line 392
+
+2023-12-05T09:59:39+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php:392
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(392): method_exists()
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(121): Essential_Addons_Elementor\Classes\Asset_Builder->load_commnon_asset()
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): Essential_Addons_Elementor\Classes\Asset_Builder->frontend_asset_load()
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#4 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#5 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/script-loader.php(2115): do_action()
+#6 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): wp_enqueue_scripts()
+#7 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#8 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#9 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(3042): do_action()
+#10 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/themes/ekommart/header.php(8): wp_head()
+#11 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(770): require_once('/home/897092.cl...')
+#12 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(716): load_template()
+#13 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(48): locate_template()
+#14 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/templates/single-mec-events.php(12): get_header()
+#15 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template-loader.php(106): include('/home/897092.cl...')
+#16 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-blog-header.php(19): require_once('/home/897092.cl...')
+#17 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/index.php(17): require('/home/897092.cl...')
+#18 {main}
+  thrown in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php on line 392
+
+2023-12-05T10:00:59+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php:392
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(392): method_exists()
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(121): Essential_Addons_Elementor\Classes\Asset_Builder->load_commnon_asset()
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): Essential_Addons_Elementor\Classes\Asset_Builder->frontend_asset_load()
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#4 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#5 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/script-loader.php(2115): do_action()
+#6 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): wp_enqueue_scripts()
+#7 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#8 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#9 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(3042): do_action()
+#10 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/themes/ekommart/header.php(8): wp_head()
+#11 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(770): require_once('/home/897092.cl...')
+#12 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(716): load_template()
+#13 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(48): locate_template()
+#14 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/templates/single-mec-events.php(12): get_header()
+#15 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template-loader.php(106): include('/home/897092.cl...')
+#16 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-blog-header.php(19): require_once('/home/897092.cl...')
+#17 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/index.php(17): require('/home/897092.cl...')
+#18 {main}
+  thrown in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php on line 392
+
+2023-12-05T10:02:40+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php:392
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(392): method_exists()
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(121): Essential_Addons_Elementor\Classes\Asset_Builder->load_commnon_asset()
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): Essential_Addons_Elementor\Classes\Asset_Builder->frontend_asset_load()
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#4 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#5 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/script-loader.php(2115): do_action()
+#6 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): wp_enqueue_scripts()
+#7 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#8 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#9 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(3042): do_action()
+#10 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/themes/ekommart/header.php(8): wp_head()
+#11 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(770): require_once('/home/897092.cl...')
+#12 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(716): load_template()
+#13 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(48): locate_template()
+#14 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/templates/single-mec-events.php(12): get_header()
+#15 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template-loader.php(106): include('/home/897092.cl...')
+#16 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-blog-header.php(19): require_once('/home/897092.cl...')
+#17 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/index.php(17): require('/home/897092.cl...')
+#18 {main}
+  thrown in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php on line 392
+
+2023-12-05T10:03:00+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php:392
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(392): method_exists()
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(121): Essential_Addons_Elementor\Classes\Asset_Builder->load_commnon_asset()
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): Essential_Addons_Elementor\Classes\Asset_Builder->frontend_asset_load()
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#4 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#5 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/script-loader.php(2115): do_action()
+#6 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): wp_enqueue_scripts()
+#7 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#8 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#9 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(3042): do_action()
+#10 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/themes/ekommart/header.php(8): wp_head()
+#11 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(770): require_once('/home/897092.cl...')
+#12 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(716): load_template()
+#13 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(48): locate_template()
+#14 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/themes/ekommart/404.php(2): get_header()
+#15 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template-loader.php(106): include('/home/897092.cl...')
+#16 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-blog-header.php(19): require_once('/home/897092.cl...')
+#17 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/index.php(17): require('/home/897092.cl...')
+#18 {main}
+  thrown in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php on line 392
+
+2023-12-05T10:05:41+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php:392
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(392): method_exists()
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(121): Essential_Addons_Elementor\Classes\Asset_Builder->load_commnon_asset()
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): Essential_Addons_Elementor\Classes\Asset_Builder->frontend_asset_load()
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#4 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#5 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/script-loader.php(2115): do_action()
+#6 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): wp_enqueue_scripts()
+#7 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#8 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#9 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(3042): do_action()
+#10 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/themes/ekommart/header.php(8): wp_head()
+#11 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(770): require_once('/home/897092.cl...')
+#12 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(716): load_template()
+#13 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(48): locate_template()
+#14 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/themes/ekommart/page.php(3): get_header()
+#15 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template-loader.php(106): include('/home/897092.cl...')
+#16 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-blog-header.php(19): require_once('/home/897092.cl...')
+#17 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/index.php(17): require('/home/897092.cl...')
+#18 {main}
+  thrown in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php on line 392
+
+2023-12-05T10:09:21+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php:392
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(392): method_exists()
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(121): Essential_Addons_Elementor\Classes\Asset_Builder->load_commnon_asset()
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): Essential_Addons_Elementor\Classes\Asset_Builder->frontend_asset_load()
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#4 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#5 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/script-loader.php(2115): do_action()
+#6 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): wp_enqueue_scripts()
+#7 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#8 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#9 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(3042): do_action()
+#10 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/themes/ekommart/header.php(8): wp_head()
+#11 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(770): require_once('/home/897092.cl...')
+#12 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(716): load_template()
+#13 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(48): locate_template()
+#14 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/themes/ekommart/404.php(2): get_header()
+#15 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template-loader.php(106): include('/home/897092.cl...')
+#16 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-blog-header.php(19): require_once('/home/897092.cl...')
+#17 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/index.php(17): require('/home/897092.cl...')
+#18 {main}
+  thrown in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php on line 392
+
+2023-12-05T10:12:38+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php:392
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(392): method_exists()
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(121): Essential_Addons_Elementor\Classes\Asset_Builder->load_commnon_asset()
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): Essential_Addons_Elementor\Classes\Asset_Builder->frontend_asset_load()
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#4 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#5 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/script-loader.php(2115): do_action()
+#6 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): wp_enqueue_scripts()
+#7 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#8 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#9 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(3042): do_action()
+#10 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/themes/ekommart/header.php(8): wp_head()
+#11 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(770): require_once('/home/897092.cl...')
+#12 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(716): load_template()
+#13 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(48): locate_template()
+#14 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/themes/ekommart/page.php(3): get_header()
+#15 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template-loader.php(106): include('/home/897092.cl...')
+#16 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-blog-header.php(19): require_once('/home/897092.cl...')
+#17 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/index.php(17): require('/home/897092.cl...')
+#18 {main}
+  thrown in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php on line 392
+
+2023-12-05T10:15:29+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php:392
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(392): method_exists()
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(121): Essential_Addons_Elementor\Classes\Asset_Builder->load_commnon_asset()
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): Essential_Addons_Elementor\Classes\Asset_Builder->frontend_asset_load()
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#4 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#5 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/script-loader.php(2115): do_action()
+#6 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): wp_enqueue_scripts()
+#7 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#8 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#9 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(3042): do_action()
+#10 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/themes/ekommart/header.php(8): wp_head()
+#11 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(770): require_once('/home/897092.cl...')
+#12 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(716): load_template()
+#13 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(48): locate_template()
+#14 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/elementor/modules/page-templates/templates/header-footer.php(9): get_header()
+#15 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template-loader.php(106): include('/home/897092.cl...')
+#16 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-blog-header.php(19): require_once('/home/897092.cl...')
+#17 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/index.php(17): require('/home/897092.cl...')
+#18 {main}
+  thrown in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php on line 392
+
+2023-12-05T10:19:59+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php:392
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(392): method_exists()
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(121): Essential_Addons_Elementor\Classes\Asset_Builder->load_commnon_asset()
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): Essential_Addons_Elementor\Classes\Asset_Builder->frontend_asset_load()
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#4 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#5 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/script-loader.php(2115): do_action()
+#6 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): wp_enqueue_scripts()
+#7 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#8 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#9 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(3042): do_action()
+#10 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/themes/ekommart/header.php(8): wp_head()
+#11 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(770): require_once('/home/897092.cl...')
+#12 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(716): load_template()
+#13 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(48): locate_template()
+#14 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/elementor/modules/page-templates/templates/header-footer.php(9): get_header()
+#15 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template-loader.php(106): include('/home/897092.cl...')
+#16 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-blog-header.php(19): require_once('/home/897092.cl...')
+#17 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/index.php(17): require('/home/897092.cl...')
+#18 {main}
+  thrown in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php on line 392
+
+2023-12-05T10:28:43+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php:392
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(392): method_exists()
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(121): Essential_Addons_Elementor\Classes\Asset_Builder->load_commnon_asset()
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): Essential_Addons_Elementor\Classes\Asset_Builder->frontend_asset_load()
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#4 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#5 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/script-loader.php(2115): do_action()
+#6 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): wp_enqueue_scripts()
+#7 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#8 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#9 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(3042): do_action()
+#10 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/themes/ekommart/header.php(8): wp_head()
+#11 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(770): require_once('/home/897092.cl...')
+#12 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(716): load_template()
+#13 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(48): locate_template()
+#14 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/themes/ekommart/404.php(2): get_header()
+#15 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template-loader.php(106): include('/home/897092.cl...')
+#16 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-blog-header.php(19): require_once('/home/897092.cl...')
+#17 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/index.php(17): require('/home/897092.cl...')
+#18 {main}
+  thrown in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php on line 392
+
+2023-12-05T10:29:47+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php:392
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(392): method_exists()
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(121): Essential_Addons_Elementor\Classes\Asset_Builder->load_commnon_asset()
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): Essential_Addons_Elementor\Classes\Asset_Builder->frontend_asset_load()
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#4 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#5 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/script-loader.php(2115): do_action()
+#6 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): wp_enqueue_scripts()
+#7 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#8 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#9 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(3042): do_action()
+#10 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/themes/ekommart/header.php(8): wp_head()
+#11 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(770): require_once('/home/897092.cl...')
+#12 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(716): load_template()
+#13 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(48): locate_template()
+#14 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/elementor/modules/page-templates/templates/header-footer.php(9): get_header()
+#15 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template-loader.php(106): include('/home/897092.cl...')
+#16 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-blog-header.php(19): require_once('/home/897092.cl...')
+#17 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/index.php(17): require('/home/897092.cl...')
+#18 {main}
+  thrown in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php on line 392
+
+2023-12-05T10:30:07+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php:392
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(392): method_exists()
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(121): Essential_Addons_Elementor\Classes\Asset_Builder->load_commnon_asset()
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): Essential_Addons_Elementor\Classes\Asset_Builder->frontend_asset_load()
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#4 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#5 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/script-loader.php(2115): do_action()
+#6 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): wp_enqueue_scripts()
+#7 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#8 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#9 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(3042): do_action()
+#10 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/themes/ekommart/header.php(8): wp_head()
+#11 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(770): require_once('/home/897092.cl...')
+#12 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(716): load_template()
+#13 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(48): locate_template()
+#14 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/templates/single-mec-events.php(12): get_header()
+#15 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template-loader.php(106): include('/home/897092.cl...')
+#16 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-blog-header.php(19): require_once('/home/897092.cl...')
+#17 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/index.php(17): require('/home/897092.cl...')
+#18 {main}
+  thrown in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php on line 392
+
+2023-12-05T10:32:42+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php:392
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(392): method_exists()
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(121): Essential_Addons_Elementor\Classes\Asset_Builder->load_commnon_asset()
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): Essential_Addons_Elementor\Classes\Asset_Builder->frontend_asset_load()
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#4 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#5 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/script-loader.php(2115): do_action()
+#6 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): wp_enqueue_scripts()
+#7 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#8 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#9 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(3042): do_action()
+#10 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/themes/ekommart/header.php(8): wp_head()
+#11 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(770): require_once('/home/897092.cl...')
+#12 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(716): load_template()
+#13 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(48): locate_template()
+#14 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/templates/single-mec-events.php(12): get_header()
+#15 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template-loader.php(106): include('/home/897092.cl...')
+#16 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-blog-header.php(19): require_once('/home/897092.cl...')
+#17 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/index.php(17): require('/home/897092.cl...')
+#18 {main}
+  thrown in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php on line 392
+
+2023-12-05T10:35:12+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php:392
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(392): method_exists()
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(121): Essential_Addons_Elementor\Classes\Asset_Builder->load_commnon_asset()
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): Essential_Addons_Elementor\Classes\Asset_Builder->frontend_asset_load()
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#4 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#5 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/script-loader.php(2115): do_action()
+#6 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): wp_enqueue_scripts()
+#7 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#8 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#9 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(3042): do_action()
+#10 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/themes/ekommart/header.php(8): wp_head()
+#11 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(770): require_once('/home/897092.cl...')
+#12 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(716): load_template()
+#13 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(48): locate_template()
+#14 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/themes/ekommart/404.php(2): get_header()
+#15 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template-loader.php(106): include('/home/897092.cl...')
+#16 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-blog-header.php(19): require_once('/home/897092.cl...')
+#17 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/index.php(17): require('/home/897092.cl...')
+#18 {main}
+  thrown in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php on line 392
+
+2023-12-05T10:36:12+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php:392
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(392): method_exists()
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(121): Essential_Addons_Elementor\Classes\Asset_Builder->load_commnon_asset()
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): Essential_Addons_Elementor\Classes\Asset_Builder->frontend_asset_load()
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#4 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#5 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/script-loader.php(2115): do_action()
+#6 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): wp_enqueue_scripts()
+#7 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#8 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#9 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(3042): do_action()
+#10 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/themes/ekommart/header.php(8): wp_head()
+#11 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(770): require_once('/home/897092.cl...')
+#12 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(716): load_template()
+#13 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(48): locate_template()
+#14 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/themes/ekommart/template-homepage.php(6): get_header()
+#15 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template-loader.php(106): include('/home/897092.cl...')
+#16 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-blog-header.php(19): require_once('/home/897092.cl...')
+#17 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/index.php(17): require('/home/897092.cl...')
+#18 {main}
+  thrown in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php on line 392
+
+2023-12-05T10:38:27+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php:392
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(392): method_exists()
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(121): Essential_Addons_Elementor\Classes\Asset_Builder->load_commnon_asset()
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): Essential_Addons_Elementor\Classes\Asset_Builder->frontend_asset_load()
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#4 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#5 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/script-loader.php(2115): do_action()
+#6 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): wp_enqueue_scripts()
+#7 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#8 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#9 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(3042): do_action()
+#10 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/themes/ekommart/header.php(8): wp_head()
+#11 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(770): require_once('/home/897092.cl...')
+#12 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(716): load_template()
+#13 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(48): locate_template()
+#14 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/themes/ekommart/404.php(2): get_header()
+#15 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template-loader.php(106): include('/home/897092.cl...')
+#16 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-blog-header.php(19): require_once('/home/897092.cl...')
+#17 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/index.php(17): require('/home/897092.cl...')
+#18 {main}
+  thrown in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php on line 392
+
+2023-12-05T10:38:45+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php:392
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(392): method_exists()
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(121): Essential_Addons_Elementor\Classes\Asset_Builder->load_commnon_asset()
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): Essential_Addons_Elementor\Classes\Asset_Builder->frontend_asset_load()
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#4 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#5 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/script-loader.php(2115): do_action()
+#6 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): wp_enqueue_scripts()
+#7 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#8 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#9 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(3042): do_action()
+#10 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/themes/ekommart/header.php(8): wp_head()
+#11 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(770): require_once('/home/897092.cl...')
+#12 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(716): load_template()
+#13 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(48): locate_template()
+#14 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/woocommerce/templates/single-product.php(22): get_header()
+#15 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template-loader.php(106): include('/home/897092.cl...')
+#16 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-blog-header.php(19): require_once('/home/897092.cl...')
+#17 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/index.php(17): require('/home/897092.cl...')
+#18 {main}
+  thrown in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php on line 392
+
+2023-12-05T10:40:14+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php:392
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(392): method_exists()
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(121): Essential_Addons_Elementor\Classes\Asset_Builder->load_commnon_asset()
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): Essential_Addons_Elementor\Classes\Asset_Builder->frontend_asset_load()
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#4 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#5 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/script-loader.php(2115): do_action()
+#6 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(307): wp_enqueue_scripts()
+#7 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#8 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#9 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(3042): do_action()
+#10 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/themes/ekommart/header.php(8): wp_head()
+#11 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(770): require_once('/home/897092.cl...')
+#12 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template.php(716): load_template()
+#13 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/general-template.php(48): locate_template()
+#14 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/themes/ekommart/404.php(2): get_header()
+#15 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-includes/template-loader.php(106): include('/home/897092.cl...')
+#16 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-blog-header.php(19): require_once('/home/897092.cl...')
+#17 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/index.php(17): require('/home/897092.cl...')
+#18 {main}
+  thrown in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php on line 392
+
+2023-12-05T15:30:17+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php:392
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(392): method_exists()
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php(121): Essential_Addons_Elementor\Classes\Asset_Builder->load_commnon_asset()
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp/wp-includes/class-wp-hook.php(307): Essential_Addons_Elementor\Classes\Asset_Builder->frontend_asset_load()
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#4 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp/wp-includes/plugin.php(474): WP_Hook->do_action()
+#5 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp/wp-includes/script-loader.php(2115): do_action()
+#6 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp/wp-includes/class-wp-hook.php(307): wp_enqueue_scripts()
+#7 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#8 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp/wp-includes/plugin.php(474): WP_Hook->do_action()
+#9 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp/wp-includes/general-template.php(3042): do_action()
+#10 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp/wp-content/themes/ekommart/header.php(8): wp_head()
+#11 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp/wp-includes/template.php(770): require_once('/home/897092.cl...')
+#12 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp/wp-includes/template.php(716): load_template()
+#13 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp/wp-includes/general-template.php(48): locate_template()
+#14 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp/wp-content/themes/ekommart/404.php(2): get_header()
+#15 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp/wp-includes/template-loader.php(106): include('/home/897092.cl...')
+#16 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp/wp-blog-header.php(19): require_once('/home/897092.cl...')
+#17 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp/index.php(17): require('/home/897092.cl...')
+#18 {main}
+  thrown in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Asset_Builder.php on line 392
+

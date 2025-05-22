@@ -1,0 +1,13 @@
+#elementor-panel-categories {
+    display: flex;
+    flex-direction: column;
+}
+
+#elementor-panel-categories [id^="elementor-panel-category-mec"] {
+    order: -1;
+}
+
+[id^="elementor-panel-category-mec"] .elementor-panel-category-items[style="display: block;"] {
+    display: flex !important;
+    flex-wrap: wrap;
+}

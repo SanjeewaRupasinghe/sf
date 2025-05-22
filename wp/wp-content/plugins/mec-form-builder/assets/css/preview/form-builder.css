@@ -1,0 +1,164 @@
+.mec-single-event .mec-events-meta-group-booking ul.mec-book-tickets-container li.mec-book-ticket-container label {
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    display: block;
+}
+
+.mec-book-ticket-container .mec-reg-mandatory:nth-child(2) label:after,
+.mec-book-ticket-container .mec-reg-mandatory:nth-child(3) label:after,
+.mec-book-ticket-container .wbmec-mandatory {
+    content: "";
+}
+
+.mec-single-event .mec-events-meta-group-booking ul.mec-book-tickets-container li.mec-book-ticket-container input[type="radio"] {
+    width: auto;
+}
+
+.mec-single-event input[type=checkbox],
+.mec-single-event input[type=radio] {
+    border: 1px solid #b4b9be;
+    background: #fff;
+    color: #555;
+    clear: none;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 0;
+    height: 16px;
+    outline: 0;
+    padding: 0px !important;
+    text-align: center;
+    vertical-align: middle;
+    max-width: 20px !important;
+    min-width: 13px !important;
+    -webkit-appearance: none;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+    transition: .05s border-color ease-in-out;
+    margin-right: 5px !important;
+
+}
+
+.mec-single-event input[type=checkbox]:checked:before {
+    content: "\f147";
+    margin: -3px 0 0 -4px;
+    color: #1e8cbe
+}
+
+.mec-single-event input[type=checkbox] {
+    background-color: #fff;
+    border: 1px solid #cacece;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+    padding: 9px;
+    border-radius: 3px;
+    min-width: 24px;
+    min-height: 24px;
+    display: inline-block;
+    transition: all .18s ease;
+    outline: 0;
+    margin: 2px 4px 4px 0;
+}
+
+.mec-single-event input[type=checkbox]:focus {
+    outline: 0
+}
+
+.mec-single-event input[type=checkbox]:hover {
+    border-color: #62b6ff
+}
+
+.mec-single-event input[type=checkbox]:checked {
+    box-shadow: 0 1px 6px -2px #008aff;
+    border-color: #008aff;
+    background: #008aff;
+    border-radius: 2px;
+    position: relative
+}
+
+.mec-single-event.mec-switcher input[type=checkbox] {
+    position: absolute
+}
+
+.mec-single-event input[type=checkbox]:checked:before {
+    content: "";
+    font: normal;
+    position: absolute;
+    top: 12px;
+    left: 8px;
+    border-right: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    transform: rotate(45deg);
+    transform-origin: 0 100%;
+    color: #fff;
+    animation: checkbox-check 130ms 140ms cubic-bezier(.4, 0, .23, 1) forwards
+}
+
+@keyframes checkbox-check {
+    0% {
+        width: 0;
+        height: 0;
+        border-color: #fff;
+        transform: translate3d(0, 0, 0) rotate(45deg)
+    }
+
+    33% {
+        width: 5px;
+        height: 0;
+        transform: translate3d(0, 0, 0) rotate(45deg)
+    }
+
+    100% {
+        width: 5px;
+        height: 11px;
+        border-color: #fff;
+        transform: translate3d(0, -11px, 0) rotate(45deg)
+    }
+}
+
+.mec-single-event label {
+    clear: both !important;
+}
+
+.mec-single-event select {
+    margin: 0 !important;
+}
+
+.mec-single-event input[type=radio] {
+    height: 25px !important;
+    width: 25px !important;
+    max-width: 25px !important;
+    border-radius: 50%;
+    margin-right: 4px;
+    line-height: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.mec-single-event input[type=radio]:checked:before {
+    display: block !important;
+    border: solid 5px #008aff !important;
+    width: 1px !important;
+    height: 4px !important;
+    margin: 7px 6.4px;
+    background: #008aff;
+}
+
+.mec-single-event input[type=radio]:before {
+    display: none !important;
+}
+
+.mec-single-event .mec-events-meta-group-booking input[type=checkbox],
+.mec-single-event .mec-events-meta-group-booking input[type=radio] {
+    min-width: 13px;
+}
+
+.mec-wrap .button,
+.mec-wrap a.button:not(.owl-dot),
+.mec-wrap input[type=button],
+.mec-wrap input[type=reset],
+.mec-wrap input[type=submit] {
+    clear: both;
+}
+
+.mec-single-event .mec-events-meta-group-booking ul.mec-book-tickets-container li .mec-book-reg-field-agreement label,
+.mec-single-event .mec-events-meta-group-booking ul.mec-book-tickets-container li .mec-book-reg-field-checkbox label:not(:first-child),
+.mec-single-event .mec-events-meta-group-booking ul.mec-book-tickets-container li .mec-book-reg-field-radio label:not(:first-child){
+    width: inherit;
+}

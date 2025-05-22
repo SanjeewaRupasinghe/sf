@@ -1,0 +1,30 @@
+10-06-2023 @ 11:30:57 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 454638******8785
+    [card_holder_name] => Dr h y a nasef
+    [payment_link_id] => Quote-03503
+    [signature] => 8c5236765a17563bff3b3cc0233a03bb1e8f19cce559bfa3ad9ce623080a7a3e
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2803
+    [customer_ip] => 31.218.83.37
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991277290252
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03503
+    [authorization_code] => 004161
+    [customer_email] => hnasef@gmail.com
+    [currency] => AED
+    [customer_name] => Hesham Nasef
+    [status] => 14
+)
+

@@ -1,0 +1,30 @@
+11-24-2023 @ 09:47:18 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 35007
+    [response_code] => 14000
+    [card_number] => 433367******8540
+    [card_holder_name] => MIRA SALIM KHALFAN B 
+    [payment_link_id] => 169999991372872980
+    [signature] => 53d1f2bb899890cbdaa32422a21a38048ba52ad3cbdbc14f38a80de66bd230cf
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2603
+    [customer_ip] => 5.193.201.146
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991372876083
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02445
+    [authorization_code] => 461491
+    [customer_email] => mira.binshouqi@gmail.com
+    [currency] => AED
+    [customer_name] => Mira Salem
+    [status] => 14
+)
+

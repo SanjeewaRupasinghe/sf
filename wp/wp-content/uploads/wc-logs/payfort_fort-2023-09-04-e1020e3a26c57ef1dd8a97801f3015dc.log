@@ -1,0 +1,60 @@
+09-04-2023 @ 13:58:43 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 84000
+    [response_code] => 14000
+    [card_number] => 557652******3167
+    [card_holder_name] => Mazen Jardali
+    [payment_link_id] => Quote-03415
+    [signature] => 31a49ff5267ffbfa6348d3e84220d39916cbc3fc53a0d6da9ae8ee3fd68e490d
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA PALS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2705
+    [customer_ip] => 31.218.4.58
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991216690895
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03415
+    [authorization_code] => 864655
+    [customer_email] => Mazen_Jardali@hotmail.com
+    [currency] => AED
+    [customer_name] => Mazen Jardali
+    [status] => 14
+)
+
+09-04-2023 @ 16:47:51 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 26639
+    [response_code] => 14000
+    [card_number] => 433367******3983
+    [card_holder_name] => Alreem Alameri
+    [payment_link_id] => 169999991216935268
+    [signature] => 65c7a37f93b1eae1aac9a590093e5c2d8b1bd5bafa1bba09a3b5213a69a30a21
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2711
+    [customer_ip] => 217.164.151.4
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991216950493
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-2261
+    [authorization_code] => 236418
+    [customer_email] => reemowh99@gmail.com
+    [currency] => AED
+    [customer_name] => Reem Alameri
+    [status] => 14
+)
+

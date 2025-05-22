@@ -1,0 +1,30 @@
+06-28-2023 @ 17:12:22 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 377895
+    [response_code] => 14000
+    [card_number] => 407075******5732
+    [card_holder_name] => smitha vijaayaraghavan
+    [payment_link_id] => 169999991099381875
+    [signature] => 087205ad368d4b22c56c53418a13dd4bc3f70f2ebb9999e00bb02dd053060e58
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => VISA
+    [expiry_date] => 2706
+    [customer_ip] => 86.99.220.116
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991099764914
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03274
+    [authorization_code] => 008614
+    [customer_email] => mvsrag@gmail.com
+    [currency] => AED
+    [customer_name] => Smitharaghavan Vijayaraghavan
+    [status] => 14
+)
+

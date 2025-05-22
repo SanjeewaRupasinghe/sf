@@ -1,0 +1,88 @@
+05-24-2023 @ 08:16:18 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 10119
+    [card_number] => 416211******9134
+    [card_holder_name] => Sharada k chand
+    [signature] => bb5cc94d8ebf329419a6c8f9ead068ae0260c8b044c84badd4bea1272f7142ac
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA-BLS
+    [payment_option] => VISA
+    [expiry_date] => 2308
+    [customer_ip] => 92.96.4.176
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991040397488
+    [command] => PURCHASE
+    [response_message] => Request dropped
+    [merchant_reference] => Quote-03223
+    [customer_email] => sharada09chand@gmail.com
+    [currency] => AED
+    [customer_name] => Sharada Kumari
+    [status] => 10
+)
+
+05-24-2023 @ 12:54:37 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 356895
+    [response_code] => 14000
+    [card_number] => 443913******4404
+    [card_holder_name] => Basem A Khalil
+    [payment_link_id] => 169999991040685714
+    [signature] => 44cac23388892166ff835a99ea435415dfa1b4299e0745e44ea8b5413faf195c
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => VISA
+    [expiry_date] => 2712
+    [customer_ip] => 151.253.120.18
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991040731969
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03229
+    [authorization_code] => 601004
+    [customer_email] => Kba_bas@hotmail.co.uk
+    [currency] => AED
+    [customer_name] => Basem Abdelrahman Amin E Khalil
+    [status] => 14
+)
+
+05-24-2023 @ 12:56:35 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 440895
+    [response_code] => 14000
+    [card_number] => 443913******4404
+    [card_holder_name] => Basem A Khalil
+    [payment_link_id] => 169999991040690646
+    [signature] => bd348d93339d6b9576c95e4fda3021ea2132299c632397946f68a139a5c4059c
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Revalidation
+    [payment_option] => VISA
+    [expiry_date] => 2712
+    [customer_ip] => 151.253.120.18
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991040734307
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03230
+    [authorization_code] => 037124
+    [customer_email] => Kba_bas@hotmail.co.uk
+    [currency] => AED
+    [customer_name] => Basem Abdelrahman Amin E Khalil
+    [status] => 14
+)
+

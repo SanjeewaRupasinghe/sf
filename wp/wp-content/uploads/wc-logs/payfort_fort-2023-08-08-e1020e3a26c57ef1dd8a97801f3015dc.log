@@ -1,0 +1,90 @@
+08-08-2023 @ 08:55:27 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 94500
+    [response_code] => 14000
+    [card_number] => 517722******5189
+    [card_holder_name] => T Clayton
+    [payment_link_id] => Quote-03357
+    [signature] => e70e0e8a5ecb55f54a38f7fd5bbc132862512987d4eec986a1488bf2f02d73f2
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Advanced Cardiac Life Support Course
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2608
+    [customer_ip] => 31.218.10.213
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991168830963
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03357
+    [authorization_code] => T07124
+    [customer_email] => timclayton1123@gmail.com
+    [currency] => AED
+    [customer_name] => Tim Clayton
+    [status] => 14
+)
+
+08-08-2023 @ 10:00:50 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 377895
+    [response_code] => 14000
+    [card_number] => 467745******4721
+    [card_holder_name] => Ajay Kumar Bhargava
+    [payment_link_id] => 169999991167742289
+    [signature] => 5b4c5fe401ead44022a6f43e563e2507f83c51a449e3e775a1ba7780139bd2ed
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => VISA
+    [expiry_date] => 2804
+    [customer_ip] => 217.165.62.190
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991168886794
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03363
+    [authorization_code] => 298882
+    [customer_email] => ajaybhargava319@gmail.com
+    [currency] => AED
+    [customer_name] => Ajay Bhargava
+    [status] => 14
+)
+
+08-08-2023 @ 11:53:41 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 755790
+    [response_code] => 14000
+    [card_number] => 552102******2876
+    [card_holder_name] => Deborah Mukherji 
+    [payment_link_id] => 169999991162398082
+    [signature] => 59fe6dd6bf39c781988875597d35b33b4088a9f9c542442302242989ce9f312d
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2611
+    [customer_ip] => 94.206.99.226
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991169012746
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03355
+    [authorization_code] => T06411
+    [customer_email] => Mukherjideborah@gmail.com
+    [currency] => AED
+    [customer_name] => Deborah Mukherji
+    [status] => 14
+)
+

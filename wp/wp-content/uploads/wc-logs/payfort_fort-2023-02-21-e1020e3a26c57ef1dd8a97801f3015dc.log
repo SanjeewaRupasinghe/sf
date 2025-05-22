@@ -1,0 +1,30 @@
+02-21-2023 @ 12:11:15 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 524200******2017
+    [card_holder_name] => Yogachitra Mohan 
+    [payment_link_id] => Quote-03118
+    [signature] => 1b42701f1935714aa310dc77515088d935a74de21e73728d5667556a19384ef9
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA-BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2508
+    [customer_ip] => 83.110.1.7
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990899484113
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03118
+    [authorization_code] => T58249
+    [customer_email] => chitramdv@gmail.com
+    [currency] => AED
+    [customer_name] => YOGACHITRA MOHAN
+    [status] => 14
+)
+

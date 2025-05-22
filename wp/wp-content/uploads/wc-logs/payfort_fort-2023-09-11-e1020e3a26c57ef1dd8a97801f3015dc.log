@@ -1,0 +1,390 @@
+09-11-2023 @ 11:19:51 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 49240
+    [response_code] => 14000
+    [card_number] => 419649******8813
+    [card_holder_name] => Lesley Ann Cooke
+    [payment_link_id] => 169999991228249181
+    [signature] => cdba7e8c3507b82d81a005a0f97036ce9538e884435fad26fed32cfc4471cbf6
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2806
+    [customer_ip] => 91.72.66.247
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991228283400
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02278
+    [authorization_code] => 001316
+    [customer_email] => lesleycooke@live.co.za
+    [currency] => AED
+    [customer_name] => Lesley Cooke
+    [status] => 14
+)
+
+09-11-2023 @ 13:05:39 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 433367******8704
+    [card_holder_name] => Feda ahmed
+    [payment_link_id] => 03419
+    [signature] => adb1813ca5dbc6ac5b90f992f9d619f9ebc12309fa95d135c7c99b70451138a7
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Basic Life Support Provider Course
+    [payment_option] => VISA
+    [expiry_date] => 2702
+    [customer_ip] => 176.204.54.144
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991228420679
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03419
+    [authorization_code] => 802786
+    [customer_email] => fadahmad@seha.ae
+    [currency] => AED
+    [customer_name] => Fada Ahmad Almatarneh
+    [status] => 14
+)
+
+09-11-2023 @ 13:05:50 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 433367******8704
+    [card_holder_name] => Feda ahmed
+    [payment_link_id] => 03419
+    [signature] => adb1813ca5dbc6ac5b90f992f9d619f9ebc12309fa95d135c7c99b70451138a7
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Basic Life Support Provider Course
+    [payment_option] => VISA
+    [expiry_date] => 2702
+    [customer_ip] => 176.204.54.144
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991228420679
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03419
+    [authorization_code] => 802786
+    [customer_email] => fadahmad@seha.ae
+    [currency] => AED
+    [customer_name] => Fada Ahmad Almatarneh
+    [status] => 14
+)
+
+09-11-2023 @ 13:06:01 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 433367******8704
+    [card_holder_name] => Feda ahmed
+    [payment_link_id] => 03419
+    [signature] => adb1813ca5dbc6ac5b90f992f9d619f9ebc12309fa95d135c7c99b70451138a7
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Basic Life Support Provider Course
+    [payment_option] => VISA
+    [expiry_date] => 2702
+    [customer_ip] => 176.204.54.144
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991228420679
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03419
+    [authorization_code] => 802786
+    [customer_email] => fadahmad@seha.ae
+    [currency] => AED
+    [customer_name] => Fada Ahmad Almatarneh
+    [status] => 14
+)
+
+09-11-2023 @ 13:06:12 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 433367******8704
+    [card_holder_name] => Feda ahmed
+    [payment_link_id] => 03419
+    [signature] => adb1813ca5dbc6ac5b90f992f9d619f9ebc12309fa95d135c7c99b70451138a7
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Basic Life Support Provider Course
+    [payment_option] => VISA
+    [expiry_date] => 2702
+    [customer_ip] => 176.204.54.144
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991228420679
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03419
+    [authorization_code] => 802786
+    [customer_email] => fadahmad@seha.ae
+    [currency] => AED
+    [customer_name] => Fada Ahmad Almatarneh
+    [status] => 14
+)
+
+09-11-2023 @ 13:06:23 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 433367******8704
+    [card_holder_name] => Feda ahmed
+    [payment_link_id] => 03419
+    [signature] => adb1813ca5dbc6ac5b90f992f9d619f9ebc12309fa95d135c7c99b70451138a7
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Basic Life Support Provider Course
+    [payment_option] => VISA
+    [expiry_date] => 2702
+    [customer_ip] => 176.204.54.144
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991228420679
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03419
+    [authorization_code] => 802786
+    [customer_email] => fadahmad@seha.ae
+    [currency] => AED
+    [customer_name] => Fada Ahmad Almatarneh
+    [status] => 14
+)
+
+09-11-2023 @ 13:06:34 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 433367******8704
+    [card_holder_name] => Feda ahmed
+    [payment_link_id] => 03419
+    [signature] => adb1813ca5dbc6ac5b90f992f9d619f9ebc12309fa95d135c7c99b70451138a7
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Basic Life Support Provider Course
+    [payment_option] => VISA
+    [expiry_date] => 2702
+    [customer_ip] => 176.204.54.144
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991228420679
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03419
+    [authorization_code] => 802786
+    [customer_email] => fadahmad@seha.ae
+    [currency] => AED
+    [customer_name] => Fada Ahmad Almatarneh
+    [status] => 14
+)
+
+09-11-2023 @ 13:06:45 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 433367******8704
+    [card_holder_name] => Feda ahmed
+    [payment_link_id] => 03419
+    [signature] => adb1813ca5dbc6ac5b90f992f9d619f9ebc12309fa95d135c7c99b70451138a7
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Basic Life Support Provider Course
+    [payment_option] => VISA
+    [expiry_date] => 2702
+    [customer_ip] => 176.204.54.144
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991228420679
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03419
+    [authorization_code] => 802786
+    [customer_email] => fadahmad@seha.ae
+    [currency] => AED
+    [customer_name] => Fada Ahmad Almatarneh
+    [status] => 14
+)
+
+09-11-2023 @ 13:06:55 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 433367******8704
+    [card_holder_name] => Feda ahmed
+    [payment_link_id] => 03419
+    [signature] => adb1813ca5dbc6ac5b90f992f9d619f9ebc12309fa95d135c7c99b70451138a7
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Basic Life Support Provider Course
+    [payment_option] => VISA
+    [expiry_date] => 2702
+    [customer_ip] => 176.204.54.144
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991228420679
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03419
+    [authorization_code] => 802786
+    [customer_email] => fadahmad@seha.ae
+    [currency] => AED
+    [customer_name] => Fada Ahmad Almatarneh
+    [status] => 14
+)
+
+09-11-2023 @ 13:07:07 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 433367******8704
+    [card_holder_name] => Feda ahmed
+    [payment_link_id] => 03419
+    [signature] => adb1813ca5dbc6ac5b90f992f9d619f9ebc12309fa95d135c7c99b70451138a7
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Basic Life Support Provider Course
+    [payment_option] => VISA
+    [expiry_date] => 2702
+    [customer_ip] => 176.204.54.144
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991228420679
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03419
+    [authorization_code] => 802786
+    [customer_email] => fadahmad@seha.ae
+    [currency] => AED
+    [customer_name] => Fada Ahmad Almatarneh
+    [status] => 14
+)
+
+09-11-2023 @ 13:07:17 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 433367******8704
+    [card_holder_name] => Feda ahmed
+    [payment_link_id] => 03419
+    [signature] => adb1813ca5dbc6ac5b90f992f9d619f9ebc12309fa95d135c7c99b70451138a7
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Basic Life Support Provider Course
+    [payment_option] => VISA
+    [expiry_date] => 2702
+    [customer_ip] => 176.204.54.144
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991228420679
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03419
+    [authorization_code] => 802786
+    [customer_email] => fadahmad@seha.ae
+    [currency] => AED
+    [customer_name] => Fada Ahmad Almatarneh
+    [status] => 14
+)
+
+09-11-2023 @ 13:07:29 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 433367******8704
+    [card_holder_name] => Feda ahmed
+    [payment_link_id] => 03419
+    [signature] => adb1813ca5dbc6ac5b90f992f9d619f9ebc12309fa95d135c7c99b70451138a7
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Basic Life Support Provider Course
+    [payment_option] => VISA
+    [expiry_date] => 2702
+    [customer_ip] => 176.204.54.144
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991228420679
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03419
+    [authorization_code] => 802786
+    [customer_email] => fadahmad@seha.ae
+    [currency] => AED
+    [customer_name] => Fada Ahmad Almatarneh
+    [status] => 14
+)
+
+09-11-2023 @ 13:20:57 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 552191******9782
+    [card_holder_name] => NASIMSABAH
+    [payment_link_id] => Quote-03427
+    [signature] => 742b909c4edf10c29b376ac751d27a07b37add941f9632bf874d732b4dc25613
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2803
+    [customer_ip] => 92.96.38.205
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991228441098
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03427
+    [authorization_code] => 732750
+    [customer_email] => hannashirintk0@gmail.com
+    [currency] => AED
+    [customer_name] => Hanna Shirin Thottekkadan
+    [status] => 14
+)
+

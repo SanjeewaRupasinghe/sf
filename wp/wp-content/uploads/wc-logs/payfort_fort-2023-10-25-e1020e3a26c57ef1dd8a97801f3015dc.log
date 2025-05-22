@@ -1,0 +1,90 @@
+10-25-2023 @ 09:17:30 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 126307
+    [response_code] => 14000
+    [card_number] => 467745******5917
+    [card_holder_name] => Warren barlow
+    [payment_link_id] => 169999991311645640
+    [signature] => d4c7ac25ff34d742ee9d2006aba7dc8b6a5bd419513fce2bed36e6f9ff2e1366
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2609
+    [customer_ip] => 86.98.60.242
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991311649031
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02372
+    [authorization_code] => 533150
+    [customer_email] => warren@fruitionevents.ae
+    [currency] => AED
+    [customer_name] => Aimee
+    [status] => 14
+)
+
+10-25-2023 @ 19:54:58 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 84000
+    [response_code] => 14000
+    [card_number] => 445135******1268
+    [card_holder_name] => JIJO VARGHESE
+    [payment_link_id] => Quote-03540
+    [signature] => 419fd45b82879718e9eedf60c1a7aa166e9131974eb72944033d07805df9c3fa
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA ACLS
+    [payment_option] => VISA
+    [expiry_date] => 2801
+    [customer_ip] => 83.110.148.212
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991312750103
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03540
+    [authorization_code] => 083870
+    [customer_email] => jijonurse@gmail.com
+    [currency] => AED
+    [customer_name] => JIJO VARGHESE
+    [status] => 14
+)
+
+10-25-2023 @ 22:03:06 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 356895
+    [response_code] => 14000
+    [card_number] => 510097******7707
+    [card_holder_name] => moustafa shehab
+    [payment_link_id] => 169999991312278880
+    [signature] => 806416f5d041f62b3cda250c3c3d9c34ea4bd496fbb50f27298643c0a22d61f4
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2503
+    [customer_ip] => 86.99.62.38
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991313017550
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03537A
+    [authorization_code] => T65558
+    [customer_email] => mostafashe@googlemail.com
+    [currency] => AED
+    [customer_name] => Mostafa Shehab
+    [status] => 14
+)
+

@@ -1,0 +1,30 @@
+08-22-2023 @ 10:26:41 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 377895
+    [response_code] => 14000
+    [card_number] => 539830******6219
+    [card_holder_name] => MEHMOOD SADIQ BUTT 
+    [payment_link_id] => 169999991008260577
+    [signature] => 92d9229b2b561edaeab342e2aa2a0f3ba8d5b994f6a8fe712621ea284289723c
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2706
+    [customer_ip] => 37.245.175.103
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991192079361
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03198
+    [authorization_code] => T09860
+    [customer_email] => drmehmoodbutt@hotmail.com
+    [currency] => AED
+    [customer_name] => Mehmood Sadiq Butt
+    [status] => 14
+)
+

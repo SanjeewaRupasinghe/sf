@@ -1,0 +1,195 @@
+02-06-2023 @ 12:44:59 - Payfort Request Params for payment method (payfort) 
+
+Array
+(
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [merchant_reference] => 22791
+    [language] => en
+    [service_command] => TOKENIZATION
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [signature] => cea79e0f0e4fdc963721fd81909afca876a050e8a6bd04784c83168c18cd61d7
+)
+
+02-06-2023 @ 12:45:01 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_merchantPageResponse
+    [response_code] => 18000
+    [card_number] => ****************
+    [card_holder_name] => **********
+    [signature] => 0c9950ac9bbfe93c663b1d20ded2b0daa1471d1982e0efc06cfcccdbcba0cff0
+    [merchant_identifier] => xyKdBdwl
+    [expiry_date] => ****
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [language] => en
+    [response_message] => Success
+    [service_command] => TOKENIZATION
+    [merchant_reference] => 22791
+    [token_name] => 7723111634ee46bb8b8f72d9c079f8ce
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [status] => 18
+    [card_bin] => 444447
+)
+
+02-06-2023 @ 12:45:01 - Merchant Page Notify Api Request Params : Array
+(
+    [merchant_reference] => 22791
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [command] => PURCHASE
+    [merchant_identifier] => xyKdBdwl
+    [customer_ip] => 5.192.136.242
+    [amount] => 419895
+    [currency] => AED
+    [customer_email] => nazalvi@hotmail.com
+    [token_name] => 7723111634ee46bb8b8f72d9c079f8ce
+    [language] => en
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_responseOnline
+    [customer_name] => NAZ FATIMA
+    [signature] => 63ab8a0f6ba18a91721e888153bb6a929035a297b2c04f8e386ae6a6ea7e0bad
+)
+
+02-06-2023 @ 12:45:04 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [amount] => 419895
+    [response_code] => 20064
+    [card_number] => ****************
+    [card_holder_name] => **********
+    [signature] => b425db030866aa09ca060cb5cceb7ecc33597a1cfdd2f7cb6eee493415e0d50f
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => ****
+    [customer_ip] => *************
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990876967656
+    [command] => PURCHASE
+    [3ds_url] => https://checkout.payfort.com/FortAPI/redirectionResponse/threeDs2RedirectURL?token=72255Xym2tSVua17x1xcEqKsXPez1A
+    [response_message] => 3-D Secure check requested
+    [merchant_reference] => 22791
+    [customer_email] => *******************
+    [currency] => AED
+    [customer_name] => **********
+    [status] => 20
+)
+
+02-06-2023 @ 12:45:51 - Fort response parameters (offline) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 419895
+    [response_code] => 14000
+    [card_number] => 444447******7851
+    [card_holder_name] => NAZ FATIMA
+    [signature] => 31864b007e8cd85ed47889023e0609aa690bb8abd0c4b08a7563788f66c84a72
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => 2305
+    [customer_ip] => 5.192.136.242
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990876967656
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 22791
+    [authorization_code] => 665355
+    [customer_email] => nazalvi@hotmail.com
+    [currency] => AED
+    [customer_name] => NAZ FATIMA
+    [status] => 14
+)
+
+02-06-2023 @ 12:45:52 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_responseOnline
+    [amount] => 419895
+    [response_code] => 14000
+    [card_number] => ****************
+    [card_holder_name] => **********
+    [signature] => 3445570d157ab8b09eb176a8c0f43baa9e16d54919e60d5083dc66b03ebf80b0
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => ****
+    [customer_ip] => *************
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990876967656
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 22791
+    [authorization_code] => 665355
+    [customer_email] => *******************
+    [currency] => AED
+    [customer_name] => **********
+    [status] => 14
+)
+
+02-06-2023 @ 13:15:27 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 21500
+    [response_code] => 14000
+    [card_number] => 442178******1121
+    [card_holder_name] => Muhammed Helmi
+    [payment_link_id] => 169999990876816986
+    [signature] => e7103680161ef6b8640fa00521cabf10fc2b72ab2a6a1cc50b1918997b68473e
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2801
+    [customer_ip] => 31.218.84.127
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990877005508
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02016
+    [authorization_code] => 019148
+    [customer_email] => abbas@safetyfirstmed.ae
+    [currency] => AED
+    [customer_name] => Mohamed Helmi
+    [status] => 14
+)
+
+02-06-2023 @ 14:22:22 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 42000
+    [response_code] => 14000
+    [card_number] => 418348******9166
+    [card_holder_name] => Venkata Lakshmi  G
+    [payment_link_id] => Quote-03066
+    [signature] => d0e4474e35bb1b4cd28b3f712e20d8538be3088d7a3e4efdd1836275e767f041
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA- HSFACPRAED
+    [payment_option] => VISA
+    [expiry_date] => 2606
+    [customer_ip] => 92.96.217.150
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990877094098
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03066
+    [authorization_code] => 006264
+    [customer_email] => lakrao2000@yahoo.com
+    [currency] => AED
+    [customer_name] => Venkata  Lakshmi  Guntreddy
+    [status] => 14
+)
+

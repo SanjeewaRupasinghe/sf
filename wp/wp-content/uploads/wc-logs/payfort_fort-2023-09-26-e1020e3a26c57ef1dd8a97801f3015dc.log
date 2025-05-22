@@ -1,0 +1,30 @@
+09-26-2023 @ 15:49:45 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 94500
+    [response_code] => 14000
+    [card_number] => 459042******7220
+    [card_holder_name] => Fadhel salem alateeqi
+    [payment_link_id] => Quote-03484
+    [signature] => 95a0db588f2e879d61b8b6e07734c06dda416cd45a1deb7e39f88dda434f31f0
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA PALS
+    [payment_option] => VISA
+    [expiry_date] => 2809
+    [customer_ip] => 83.110.18.144
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991255835276
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03484
+    [authorization_code] => 135832
+    [customer_email] => Falateeqi@yahoo.com
+    [currency] => AED
+    [customer_name] => Fadhel Salem Naser Alateeqi
+    [status] => 14
+)
+

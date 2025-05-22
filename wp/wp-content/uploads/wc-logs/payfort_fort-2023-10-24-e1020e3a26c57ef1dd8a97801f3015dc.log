@@ -1,0 +1,90 @@
+10-24-2023 @ 09:08:23 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 498778******5786
+    [card_holder_name] => ALSIDDIG AHMED OMER
+    [payment_link_id] => Quote-03534
+    [signature] => 2be591ef314a2f80ec26faf478ed7a44688ad3d2997d1a2e4a0ba556f6fea774
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2806
+    [customer_ip] => 86.97.209.131
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991309635711
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03534
+    [authorization_code] => 049094
+    [customer_email] => Godaly124@gmail.com
+    [currency] => AED
+    [customer_name] => Alsiddig Ahmed Omer Albasheir
+    [status] => 14
+)
+
+10-24-2023 @ 13:38:09 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 36750
+    [response_code] => 14000
+    [card_number] => 433367******4941
+    [card_holder_name] => MEERA ALTENEIJI
+    [payment_link_id] => Quote-03536
+    [signature] => 81e7d0d9163f3898534292ff7786626651e787f9c3dfb5a1fa70d92f2e84b40c
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA HS FA CPR AED
+    [payment_option] => VISA
+    [expiry_date] => 2601
+    [customer_ip] => 94.57.129.22
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991310019057
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03536
+    [authorization_code] => 759192
+    [customer_email] => Meeraalteneiji1@gmail.com
+    [currency] => AED
+    [customer_name] => Meera Abdulla Alteneiji
+    [status] => 14
+)
+
+10-24-2023 @ 20:05:41 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 409395
+    [response_code] => 14000
+    [card_number] => 467745******1529
+    [card_holder_name] => Ali Ibrahim
+    [payment_link_id] => 169999991310051558
+    [signature] => 199f4226f705ffea817aba427dfcad395757a48bf866bdf89d0ba28f9038373b
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Revalidation
+    [payment_option] => VISA
+    [expiry_date] => 2408
+    [customer_ip] => 92.98.29.87
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991310703049
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03539
+    [authorization_code] => 107806
+    [customer_email] => alirasmi@hotmail.com
+    [currency] => AED
+    [customer_name] => Ali Rasmi Ibrahim
+    [status] => 14
+)
+

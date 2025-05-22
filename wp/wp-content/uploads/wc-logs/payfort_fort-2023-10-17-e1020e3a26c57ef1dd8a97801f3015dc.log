@@ -1,0 +1,389 @@
+10-17-2023 @ 10:10:07 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 29400
+    [response_code] => 13666
+    [card_number] => 557661******6902
+    [card_holder_name] => Jince joy
+    [payment_link_id] => 03522
+    [signature] => f5e4047a7764ee8b1057c638a1bc3fc80796e984000da839618a0d6c8abe97a0
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2310
+    [customer_ip] => 31.215.57.22
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991297293107
+    [command] => PURCHASE
+    [response_message] => Transaction declined
+    [merchant_reference] => 03522
+    [customer_email] => anjalypothamalayil@gmail.com
+    [currency] => AED
+    [customer_name] => Anjaly P.S
+    [status] => 13
+)
+
+10-17-2023 @ 10:15:25 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 29400
+    [response_code] => 14000
+    [card_number] => 557661******6902
+    [card_holder_name] => Jince joy
+    [payment_link_id] => 03522
+    [signature] => 04282aa009745dcb177987c00afc1e04f07ba6b91724a348a8eb695e1f946d5a
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2509
+    [customer_ip] => 31.215.57.22
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991297293107
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03522
+    [authorization_code] => 500715
+    [customer_email] => anjalypothamalayil@gmail.com
+    [currency] => AED
+    [customer_name] => Anjaly P.S
+    [status] => 14
+)
+
+10-17-2023 @ 10:15:36 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 29400
+    [response_code] => 14000
+    [card_number] => 557661******6902
+    [card_holder_name] => Jince joy
+    [payment_link_id] => 03522
+    [signature] => 04282aa009745dcb177987c00afc1e04f07ba6b91724a348a8eb695e1f946d5a
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2509
+    [customer_ip] => 31.215.57.22
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991297293107
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03522
+    [authorization_code] => 500715
+    [customer_email] => anjalypothamalayil@gmail.com
+    [currency] => AED
+    [customer_name] => Anjaly P.S
+    [status] => 14
+)
+
+10-17-2023 @ 10:15:47 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 29400
+    [response_code] => 14000
+    [card_number] => 557661******6902
+    [card_holder_name] => Jince joy
+    [payment_link_id] => 03522
+    [signature] => 04282aa009745dcb177987c00afc1e04f07ba6b91724a348a8eb695e1f946d5a
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2509
+    [customer_ip] => 31.215.57.22
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991297293107
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03522
+    [authorization_code] => 500715
+    [customer_email] => anjalypothamalayil@gmail.com
+    [currency] => AED
+    [customer_name] => Anjaly P.S
+    [status] => 14
+)
+
+10-17-2023 @ 10:15:57 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 29400
+    [response_code] => 14000
+    [card_number] => 557661******6902
+    [card_holder_name] => Jince joy
+    [payment_link_id] => 03522
+    [signature] => 04282aa009745dcb177987c00afc1e04f07ba6b91724a348a8eb695e1f946d5a
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2509
+    [customer_ip] => 31.215.57.22
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991297293107
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03522
+    [authorization_code] => 500715
+    [customer_email] => anjalypothamalayil@gmail.com
+    [currency] => AED
+    [customer_name] => Anjaly P.S
+    [status] => 14
+)
+
+10-17-2023 @ 10:16:08 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 29400
+    [response_code] => 14000
+    [card_number] => 557661******6902
+    [card_holder_name] => Jince joy
+    [payment_link_id] => 03522
+    [signature] => 04282aa009745dcb177987c00afc1e04f07ba6b91724a348a8eb695e1f946d5a
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2509
+    [customer_ip] => 31.215.57.22
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991297293107
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03522
+    [authorization_code] => 500715
+    [customer_email] => anjalypothamalayil@gmail.com
+    [currency] => AED
+    [customer_name] => Anjaly P.S
+    [status] => 14
+)
+
+10-17-2023 @ 10:16:19 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 29400
+    [response_code] => 14000
+    [card_number] => 557661******6902
+    [card_holder_name] => Jince joy
+    [payment_link_id] => 03522
+    [signature] => 04282aa009745dcb177987c00afc1e04f07ba6b91724a348a8eb695e1f946d5a
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2509
+    [customer_ip] => 31.215.57.22
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991297293107
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03522
+    [authorization_code] => 500715
+    [customer_email] => anjalypothamalayil@gmail.com
+    [currency] => AED
+    [customer_name] => Anjaly P.S
+    [status] => 14
+)
+
+10-17-2023 @ 10:16:30 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 29400
+    [response_code] => 14000
+    [card_number] => 557661******6902
+    [card_holder_name] => Jince joy
+    [payment_link_id] => 03522
+    [signature] => 04282aa009745dcb177987c00afc1e04f07ba6b91724a348a8eb695e1f946d5a
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2509
+    [customer_ip] => 31.215.57.22
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991297293107
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03522
+    [authorization_code] => 500715
+    [customer_email] => anjalypothamalayil@gmail.com
+    [currency] => AED
+    [customer_name] => Anjaly P.S
+    [status] => 14
+)
+
+10-17-2023 @ 10:16:41 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 29400
+    [response_code] => 14000
+    [card_number] => 557661******6902
+    [card_holder_name] => Jince joy
+    [payment_link_id] => 03522
+    [signature] => 04282aa009745dcb177987c00afc1e04f07ba6b91724a348a8eb695e1f946d5a
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2509
+    [customer_ip] => 31.215.57.22
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991297293107
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03522
+    [authorization_code] => 500715
+    [customer_email] => anjalypothamalayil@gmail.com
+    [currency] => AED
+    [customer_name] => Anjaly P.S
+    [status] => 14
+)
+
+10-17-2023 @ 10:16:52 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 29400
+    [response_code] => 14000
+    [card_number] => 557661******6902
+    [card_holder_name] => Jince joy
+    [payment_link_id] => 03522
+    [signature] => 04282aa009745dcb177987c00afc1e04f07ba6b91724a348a8eb695e1f946d5a
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2509
+    [customer_ip] => 31.215.57.22
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991297293107
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03522
+    [authorization_code] => 500715
+    [customer_email] => anjalypothamalayil@gmail.com
+    [currency] => AED
+    [customer_name] => Anjaly P.S
+    [status] => 14
+)
+
+10-17-2023 @ 10:17:03 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 29400
+    [response_code] => 14000
+    [card_number] => 557661******6902
+    [card_holder_name] => Jince joy
+    [payment_link_id] => 03522
+    [signature] => 04282aa009745dcb177987c00afc1e04f07ba6b91724a348a8eb695e1f946d5a
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2509
+    [customer_ip] => 31.215.57.22
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991297293107
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03522
+    [authorization_code] => 500715
+    [customer_email] => anjalypothamalayil@gmail.com
+    [currency] => AED
+    [customer_name] => Anjaly P.S
+    [status] => 14
+)
+
+10-17-2023 @ 10:17:14 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 29400
+    [response_code] => 14000
+    [card_number] => 557661******6902
+    [card_holder_name] => Jince joy
+    [payment_link_id] => 03522
+    [signature] => 04282aa009745dcb177987c00afc1e04f07ba6b91724a348a8eb695e1f946d5a
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2509
+    [customer_ip] => 31.215.57.22
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991297293107
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03522
+    [authorization_code] => 500715
+    [customer_email] => anjalypothamalayil@gmail.com
+    [currency] => AED
+    [customer_name] => Anjaly P.S
+    [status] => 14
+)
+
+10-17-2023 @ 10:38:14 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 532719******4161
+    [card_holder_name] => Mohammed musa
+    [payment_link_id] => Quote-03521
+    [signature] => 80ac12ec39c07b9df86c0e413d014565ee27f27a4d0a345e54f1733cbbb57289
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2808
+    [customer_ip] => 83.110.4.100
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991297326036
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03521
+    [authorization_code] => 948589
+    [customer_email] => dialakarajeh2@gmail.com
+    [currency] => AED
+    [customer_name] => Diala Daoud Mohammad alkarjeh
+    [status] => 14
+)
+

@@ -1,0 +1,82 @@
+10-09-2023 @ 12:46:43 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 56499
+    [response_code] => 14000
+    [card_number] => 458100******8009
+    [card_holder_name] => Lina Al Masri
+    [payment_link_id] => SO02337
+    [signature] => 841745f23b1fcf52cef5f77f5310151369af8b97dcca818f0886805bf0e4be4c
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Healthy
+    [payment_option] => VISA
+    [expiry_date] => 2312
+    [customer_ip] => 5.193.91.8
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991282979113
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Lina
+    [authorization_code] => 029347
+    [customer_email] => linatawakol@yahoo.com
+    [currency] => AED
+    [customer_name] => Lina Almasri
+    [status] => 14
+)
+
+10-09-2023 @ 15:54:32 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_merchantPageResponse
+    [response_code] => 18000
+    [card_number] => *****
+    [card_holder_name] => **************
+    [signature] => c6edd89a17effc42648b4105600dc5a66ddd543d64ced9783f061ac030259e7d
+    [merchant_identifier] => xyKdBdwl
+    [expiry_date] => ****
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [language] => en
+    [response_message] => Success
+    [service_command] => TOKENIZATION
+    [merchant_reference] => 23890
+    [token_name] => 2d66b3ca2bb14d69b2fecfb126bde69f
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [status] => 18
+    [card_bin] => 442109
+)
+
+10-09-2023 @ 15:54:32 - Invalid Signature. Calculated Signature: c6edd89a17effc42648b4105600dc5a66ddd543d64ced9783f061ac030259e7d, Response Signature: 8778bbc20eb51b52d191cff7f146e7344d57aad106991264defa34040a43eb29
+10-09-2023 @ 18:03:53 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_responseOnline
+    [amount] => 209895
+    [response_code] => 14000
+    [card_number] => *****
+    [card_holder_name] => **************
+    [signature] => bf44c8d9e1285ebf1323f153a569732e96c24b2990a21f78e2fc9370be85910d
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => ****
+    [customer_ip] => *************
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991281198845
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 23890
+    [authorization_code] => 894252
+    [customer_email] => **********************
+    [currency] => AED
+    [customer_name] => **************
+    [status] => 14
+)
+
+10-09-2023 @ 18:03:53 - Invalid Signature. Calculated Signature: bf44c8d9e1285ebf1323f153a569732e96c24b2990a21f78e2fc9370be85910d, Response Signature: 8a4d109c2e4f3e53af1bcf1f2788ff6e6dc2cee15e8b2d05eab6cbf9f43921ee

@@ -1,0 +1,30 @@
+01-29-2023 @ 10:31:26 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 377895
+    [response_code] => 14000
+    [card_number] => 433367******6933
+    [card_holder_name] => mai Haffar
+    [payment_link_id] => 169999990854652337
+    [signature] => e49f44713b16c1e046810be093d15bd383d22c881defb2b5ac87a0a35da21513
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => VISA
+    [expiry_date] => 2612
+    [customer_ip] => 94.59.106.171
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990863030164
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03044
+    [authorization_code] => 266002
+    [customer_email] => maihaffar@doctors.net.uk
+    [currency] => AED
+    [customer_name] => Mai Haffar
+    [status] => 14
+)
+

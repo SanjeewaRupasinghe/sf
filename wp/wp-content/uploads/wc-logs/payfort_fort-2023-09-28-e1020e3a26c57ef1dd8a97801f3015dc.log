@@ -1,0 +1,30 @@
+09-28-2023 @ 11:23:49 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 517554******7508
+    [card_holder_name] => RATHNAMALAH P
+    [payment_link_id] => Quote-03488
+    [signature] => 725e6078c98a666a9c155021ca224b501873fd00f45cf764d47f708e5328d665
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Basic Life Support Provider Course
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2703
+    [customer_ip] => 83.110.18.144
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991260740993
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03488
+    [authorization_code] => 542649
+    [customer_email] => Rathnamalah.paramasivam@danatalemarat.ae
+    [currency] => AED
+    [customer_name] => Rathnamalah P Paramasivam
+    [status] => 14
+)
+

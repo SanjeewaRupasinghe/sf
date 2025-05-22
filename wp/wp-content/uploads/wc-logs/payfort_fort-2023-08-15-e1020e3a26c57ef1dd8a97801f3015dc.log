@@ -1,0 +1,346 @@
+08-15-2023 @ 08:07:33 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 29400
+    [response_code] => 14000
+    [card_number] => 424160******8425
+    [card_holder_name] => simone Battibugli
+    [payment_link_id] => Quote-03377
+    [signature] => 6e9c107d904c9b246b3bf1e4f11ec77d7b5a55c90a698bd91690c468598cbcd1
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2310
+    [customer_ip] => 83.110.18.144
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991180481754
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03377
+    [authorization_code] => 062650
+    [customer_email] => sbattibugli@yahoo.com
+    [currency] => AED
+    [customer_name] => Simone Battibugli
+    [status] => 14
+)
+
+08-15-2023 @ 09:34:58 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 126000
+    [response_code] => 14000
+    [card_number] => 534159******0023
+    [card_holder_name] => LIGI SIJO
+    [payment_link_id] => Quote-03374
+    [signature] => d678080935f4fbb96e882a8389f59522c486ddadc78e4d0029303644621c4cc8
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS - PALS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2806
+    [customer_ip] => 217.165.92.17
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991180544730
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03374
+    [authorization_code] => 471573
+    [customer_email] => sijoligi@gmail.com
+    [currency] => AED
+    [customer_name] => Ligi Sijo
+    [status] => 14
+)
+
+08-15-2023 @ 09:35:37 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 126000
+    [response_code] => 14000
+    [card_number] => 479746******6630
+    [card_holder_name] => HIMA JOHNSON
+    [payment_link_id] => Quote-03375
+    [signature] => 9d1ca5d976ce1ecfad521ba720a8ff1713fb94a7621887efffecc461dc10563c
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS - PALS
+    [payment_option] => VISA
+    [expiry_date] => 2701
+    [customer_ip] => 217.165.92.17
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991180545341
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03375
+    [authorization_code] => 384476
+    [customer_email] => Himarejo88@gmail.com
+    [currency] => AED
+    [customer_name] => HIMA PORATHUR JOHNSON
+    [status] => 14
+)
+
+08-15-2023 @ 09:36:59 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 126000
+    [response_code] => 14000
+    [card_number] => 534159******0023
+    [card_holder_name] => LIGI SIJO
+    [payment_link_id] => Quote-03376
+    [signature] => b902b17e4bd21c4996896d1675d98e0cb3c39bd599a037c50c77ba7324bef673
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS - PALS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2806
+    [customer_ip] => 217.165.92.17
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991180546796
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03376
+    [authorization_code] => 471574
+    [customer_email] => rmasry@isckhalifa.sabis.net
+    [currency] => AED
+    [customer_name] => RITA MASRY
+    [status] => 14
+)
+
+08-15-2023 @ 09:46:29 - Payfort Request Params for payment method (payfort) 
+
+Array
+(
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [merchant_reference] => 23701
+    [language] => en
+    [service_command] => TOKENIZATION
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [signature] => da9f972b23ca954903e8aeecbd56bf4af71a448d5f4bde73061dd1684c329c0c
+)
+
+08-15-2023 @ 09:46:31 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_merchantPageResponse
+    [response_code] => 18000
+    [card_number] => ****************
+    [card_holder_name] => *********
+    [signature] => c1f14c327b19a74e0cc0c3b763f9fdd62a6f4c591172b055592d5564027e8e31
+    [merchant_identifier] => xyKdBdwl
+    [expiry_date] => ****
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [language] => en
+    [response_message] => Success
+    [service_command] => TOKENIZATION
+    [merchant_reference] => 23701
+    [token_name] => 5b098ea1276d418a8f04ed4e986a4bc6
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [status] => 18
+    [card_bin] => 471387
+)
+
+08-15-2023 @ 09:46:31 - Merchant Page Notify Api Request Params : Array
+(
+    [merchant_reference] => 23701
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [command] => PURCHASE
+    [merchant_identifier] => xyKdBdwl
+    [customer_ip] => 5.38.16.52
+    [amount] => 419895
+    [currency] => AED
+    [customer_email] => chiefanyi@yahoo.com
+    [token_name] => 5b098ea1276d418a8f04ed4e986a4bc6
+    [language] => en
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_responseOnline
+    [customer_name] => Ifeanyichukwu Uchendu
+    [signature] => d02ec9b41afda1499408308e0aff19a84faad893864945988ed5be2c4493017a
+)
+
+08-15-2023 @ 09:46:34 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [amount] => 419895
+    [response_code] => 20064
+    [card_number] => ****************
+    [card_holder_name] => *********
+    [signature] => f8724d1dc453d81205a6512f33a573af8d67279cc7ad94d72cb01dba38792c65
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => ****
+    [customer_ip] => **********
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991180556122
+    [command] => PURCHASE
+    [3ds_url] => https://checkout.payfort.com/FortAPI/redirectionResponse/threeDs2RedirectURL?token=138109jXnyJiEDXLToxYVVAEofZQA8
+    [response_message] => 3-D Secure check requested
+    [merchant_reference] => 23701
+    [customer_email] => *******************
+    [currency] => AED
+    [customer_name] => *********************
+    [status] => 20
+)
+
+08-15-2023 @ 11:19:32 - Fort response parameters (offline) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 419895
+    [response_code] => 10119
+    [card_number] => 471387******1377
+    [card_holder_name] => I Uchendu
+    [signature] => 0036ee025d081c8cbc24e0f6510c5cba02a8b08db8d3b0a63e048a5a4b30f699
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => 2804
+    [customer_ip] => 167.172.55.163
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991180556122
+    [command] => PURCHASE
+    [response_message] => Request dropped
+    [merchant_reference] => 23701
+    [customer_email] => chiefanyi@yahoo.com
+    [currency] => AED
+    [customer_name] => Ifeanyichukwu Uchendu
+    [status] => 10
+)
+
+08-15-2023 @ 13:18:13 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 161854
+    [response_code] => 14000
+    [card_number] => 443913******2866
+    [card_holder_name] => MARIE MICHELLE
+    [payment_link_id] => 169999991180543992
+    [signature] => 990c01b57a1b2656744ae4f5d21e3ee241439e7a20f13bcfff85f0be90580ebd
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2712
+    [customer_ip] => 185.104.71.36
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991180794127
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02244
+    [authorization_code] => 993536
+    [customer_email] => Marie.m.96@live.com
+    [currency] => AED
+    [customer_name] => Marie Michelle
+    [status] => 14
+)
+
+08-15-2023 @ 13:54:39 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 54933
+    [response_code] => 14000
+    [card_number] => 445135******8508
+    [card_holder_name] => Salwa Abdulla
+    [payment_link_id] => 169999991180843982
+    [signature] => 8a107f5507e51ca546b57908f47627007a1f1a21b4e9f5115d7b39740b5af82a
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2312
+    [customer_ip] => 86.99.177.132
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991180849965
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02246
+    [authorization_code] => 594975
+    [customer_email] => salwa.elsayed@gmail.com
+    [currency] => AED
+    [customer_name] => Salwa Elsayed
+    [status] => 14
+)
+
+08-15-2023 @ 16:20:14 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 92109
+    [response_code] => 14000
+    [card_number] => 467745******5114
+    [card_holder_name] => Timothy Hillman
+    [payment_link_id] => 169999991181057873
+    [signature] => 1e807ee819080ae72990d284fa54e6eedefbd1543185e5c9fff1ad663a9d66db
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2803
+    [customer_ip] => 92.98.82.83
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991181059170
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02248
+    [authorization_code] => 413954
+    [customer_email] => Tim@hillmam.net
+    [currency] => AED
+    [customer_name] => Tim Hillman
+    [status] => 14
+)
+
+08-15-2023 @ 16:55:10 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 94500
+    [response_code] => 14000
+    [card_number] => 549284******4222
+    [card_holder_name] => PAULA BIANCA VELARDE
+    [payment_link_id] => Quote-03373
+    [signature] => 0196defb48bdf8b1cc735efcc0bdb33fea6cffbf06ea3b9e9af07a5a27bd0db3
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA PALS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2503
+    [customer_ip] => 94.206.153.22
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991181107639
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03373
+    [authorization_code] => T00235
+    [customer_email] => pbvelarde7@gmail.com
+    [currency] => AED
+    [customer_name] => Paula Bianca Santos Velarde
+    [status] => 14
+)
+

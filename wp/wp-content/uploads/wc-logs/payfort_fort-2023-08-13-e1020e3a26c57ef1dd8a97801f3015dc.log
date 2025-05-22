@@ -1,0 +1,30 @@
+08-13-2023 @ 12:19:30 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 60461
+    [response_code] => 14000
+    [card_number] => 433367******5986
+    [card_holder_name] => Hind humaid salim
+    [payment_link_id] => 169999991177334173
+    [signature] => d560eb7c01b2fafe7171e25824e45f98203db2fc5c0cce1535552d9054722f46
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2308
+    [customer_ip] => 92.96.238.80
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991177455745
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02242
+    [authorization_code] => 810401
+    [customer_email] => hinda.50@hotmail.com
+    [currency] => AED
+    [customer_name] => Hind
+    [status] => 14
+)
+

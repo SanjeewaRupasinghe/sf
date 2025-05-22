@@ -1,0 +1,506 @@
+09-19-2023 @ 08:29:23 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 356895
+    [response_code] => 14000
+    [card_number] => 467745******7119
+    [card_holder_name] => syed a a shah
+    [payment_link_id] => 169999991234959888
+    [signature] => b43e9706325d1312712088df555247d5bd0f1ba0579c77ed7cbaffe48b5c62c1
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => VISA
+    [expiry_date] => 2406
+    [customer_ip] => 115.186.141.48
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991241883352
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03455
+    [authorization_code] => 333051
+    [customer_email] => lasersmooth2004@yahoo.co.uk
+    [currency] => AED
+    [customer_name] => Syed Amjad Ali Shah
+    [status] => 14
+)
+
+09-19-2023 @ 11:07:43 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 26250
+    [response_code] => 13666
+    [card_number] => 467745******8977
+    [card_holder_name] => Cassio Azanha
+    [payment_link_id] => INV-005139
+    [signature] => b82686ccea3e442ef032952c54d9aeea44b2df52efd58aa3c7a9deade8a1b09e
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Basic Life Support Provider Course
+    [payment_option] => VISA
+    [expiry_date] => 2801
+    [customer_ip] => 94.204.181.1
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991240874135
+    [command] => PURCHASE
+    [response_message] => Transaction declined
+    [merchant_reference] => INV-005139
+    [customer_email] => mari.7mello@gmail.com
+    [currency] => AED
+    [customer_name] => Mariana Mello
+    [status] => 13
+)
+
+09-19-2023 @ 11:09:25 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 26250
+    [response_code] => 13666
+    [card_number] => 443913******1757
+    [card_holder_name] => Cassio Azanha
+    [payment_link_id] => INV-005139
+    [signature] => d89036bf8bb88971219ecf477be6f27173419d1c51c5528d43b5b5e38fa35d75
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Basic Life Support Provider Course
+    [payment_option] => VISA
+    [expiry_date] => 2410
+    [customer_ip] => 94.204.181.1
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991240874135
+    [command] => PURCHASE
+    [response_message] => Transaction declined
+    [merchant_reference] => INV-005139
+    [customer_email] => mari.7mello@gmail.com
+    [currency] => AED
+    [customer_name] => Mariana Mello
+    [status] => 13
+)
+
+09-19-2023 @ 13:25:55 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 526113******4865
+    [card_holder_name] => GHADA S H ALKAHLOUT
+    [payment_link_id] => Quote-03463
+    [signature] => f8b06c77c92707142639c5c95a2835426f55ce6008b5429a8f78b7803f789f28
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2701
+    [customer_ip] => 5.195.170.90
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991242235139
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03463
+    [authorization_code] => 309480
+    [customer_email] => galkahlout@ssmc.ae
+    [currency] => AED
+    [customer_name] => GHADA S H  ALKAHLOUT
+    [status] => 14
+)
+
+09-19-2023 @ 14:49:15 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 409319******7261
+    [card_holder_name] => aleja pangilinan
+    [payment_link_id] => 03465
+    [signature] => 5191e78ea5d3b049342b961be0e8f153b737c213c85e2259049c627ccb68db3f
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2804
+    [customer_ip] => 83.110.18.144
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991242364792
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03465
+    [authorization_code] => 572230
+    [customer_email] => Leisleeptech@gmail.com
+    [currency] => AED
+    [customer_name] => Aleja Pangilinan
+    [status] => 14
+)
+
+09-19-2023 @ 14:49:26 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 409319******7261
+    [card_holder_name] => aleja pangilinan
+    [payment_link_id] => 03465
+    [signature] => 5191e78ea5d3b049342b961be0e8f153b737c213c85e2259049c627ccb68db3f
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2804
+    [customer_ip] => 83.110.18.144
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991242364792
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03465
+    [authorization_code] => 572230
+    [customer_email] => Leisleeptech@gmail.com
+    [currency] => AED
+    [customer_name] => Aleja Pangilinan
+    [status] => 14
+)
+
+09-19-2023 @ 14:49:36 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 409319******7261
+    [card_holder_name] => aleja pangilinan
+    [payment_link_id] => 03465
+    [signature] => 5191e78ea5d3b049342b961be0e8f153b737c213c85e2259049c627ccb68db3f
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2804
+    [customer_ip] => 83.110.18.144
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991242364792
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03465
+    [authorization_code] => 572230
+    [customer_email] => Leisleeptech@gmail.com
+    [currency] => AED
+    [customer_name] => Aleja Pangilinan
+    [status] => 14
+)
+
+09-19-2023 @ 14:49:47 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 409319******7261
+    [card_holder_name] => aleja pangilinan
+    [payment_link_id] => 03465
+    [signature] => 5191e78ea5d3b049342b961be0e8f153b737c213c85e2259049c627ccb68db3f
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2804
+    [customer_ip] => 83.110.18.144
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991242364792
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03465
+    [authorization_code] => 572230
+    [customer_email] => Leisleeptech@gmail.com
+    [currency] => AED
+    [customer_name] => Aleja Pangilinan
+    [status] => 14
+)
+
+09-19-2023 @ 14:49:58 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 409319******7261
+    [card_holder_name] => aleja pangilinan
+    [payment_link_id] => 03465
+    [signature] => 5191e78ea5d3b049342b961be0e8f153b737c213c85e2259049c627ccb68db3f
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2804
+    [customer_ip] => 83.110.18.144
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991242364792
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03465
+    [authorization_code] => 572230
+    [customer_email] => Leisleeptech@gmail.com
+    [currency] => AED
+    [customer_name] => Aleja Pangilinan
+    [status] => 14
+)
+
+09-19-2023 @ 14:50:09 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 409319******7261
+    [card_holder_name] => aleja pangilinan
+    [payment_link_id] => 03465
+    [signature] => 5191e78ea5d3b049342b961be0e8f153b737c213c85e2259049c627ccb68db3f
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2804
+    [customer_ip] => 83.110.18.144
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991242364792
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03465
+    [authorization_code] => 572230
+    [customer_email] => Leisleeptech@gmail.com
+    [currency] => AED
+    [customer_name] => Aleja Pangilinan
+    [status] => 14
+)
+
+09-19-2023 @ 14:50:20 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 409319******7261
+    [card_holder_name] => aleja pangilinan
+    [payment_link_id] => 03465
+    [signature] => 5191e78ea5d3b049342b961be0e8f153b737c213c85e2259049c627ccb68db3f
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2804
+    [customer_ip] => 83.110.18.144
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991242364792
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03465
+    [authorization_code] => 572230
+    [customer_email] => Leisleeptech@gmail.com
+    [currency] => AED
+    [customer_name] => Aleja Pangilinan
+    [status] => 14
+)
+
+09-19-2023 @ 14:50:31 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 409319******7261
+    [card_holder_name] => aleja pangilinan
+    [payment_link_id] => 03465
+    [signature] => 5191e78ea5d3b049342b961be0e8f153b737c213c85e2259049c627ccb68db3f
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2804
+    [customer_ip] => 83.110.18.144
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991242364792
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03465
+    [authorization_code] => 572230
+    [customer_email] => Leisleeptech@gmail.com
+    [currency] => AED
+    [customer_name] => Aleja Pangilinan
+    [status] => 14
+)
+
+09-19-2023 @ 14:50:42 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 409319******7261
+    [card_holder_name] => aleja pangilinan
+    [payment_link_id] => 03465
+    [signature] => 5191e78ea5d3b049342b961be0e8f153b737c213c85e2259049c627ccb68db3f
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2804
+    [customer_ip] => 83.110.18.144
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991242364792
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03465
+    [authorization_code] => 572230
+    [customer_email] => Leisleeptech@gmail.com
+    [currency] => AED
+    [customer_name] => Aleja Pangilinan
+    [status] => 14
+)
+
+09-19-2023 @ 14:50:52 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 409319******7261
+    [card_holder_name] => aleja pangilinan
+    [payment_link_id] => 03465
+    [signature] => 5191e78ea5d3b049342b961be0e8f153b737c213c85e2259049c627ccb68db3f
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2804
+    [customer_ip] => 83.110.18.144
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991242364792
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03465
+    [authorization_code] => 572230
+    [customer_email] => Leisleeptech@gmail.com
+    [currency] => AED
+    [customer_name] => Aleja Pangilinan
+    [status] => 14
+)
+
+09-19-2023 @ 14:51:03 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 409319******7261
+    [card_holder_name] => aleja pangilinan
+    [payment_link_id] => 03465
+    [signature] => 5191e78ea5d3b049342b961be0e8f153b737c213c85e2259049c627ccb68db3f
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2804
+    [customer_ip] => 83.110.18.144
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991242364792
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 03465
+    [authorization_code] => 572230
+    [customer_email] => Leisleeptech@gmail.com
+    [currency] => AED
+    [customer_name] => Aleja Pangilinan
+    [status] => 14
+)
+
+09-19-2023 @ 16:16:59 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 10119
+    [card_number] => 409319******7261
+    [card_holder_name] => Aleja Pangilinan
+    [signature] => 2ee61acd3454a4aa85d9b2dd7bbf4fa88f05aa45ed48554d2f94bbf2d8effcbc
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2804
+    [customer_ip] => 83.110.18.144
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991242322882
+    [command] => PURCHASE
+    [response_message] => Request dropped
+    [merchant_reference] => Quote-03465
+    [customer_email] => Leisleeptech@gmail.com
+    [currency] => AED
+    [customer_name] => Aleja Pangilinan
+    [status] => 10
+)
+
+09-19-2023 @ 23:31:26 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 356895
+    [response_code] => 14000
+    [card_number] => 522873******3266
+    [card_holder_name] => christos tzivinikos
+    [payment_link_id] => 169999991242211815
+    [signature] => f38ff8f3820ea9cdf603ab8d619a8b6d96162249d7f828e620e2be331381cafb
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal Renewal
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2602
+    [customer_ip] => 193.160.245.143
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991243241034
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03464
+    [authorization_code] => 966076
+    [customer_email] => xritzivis@gmail.com
+    [currency] => AED
+    [customer_name] => Christos Tzivinikos
+    [status] => 14
+)
+

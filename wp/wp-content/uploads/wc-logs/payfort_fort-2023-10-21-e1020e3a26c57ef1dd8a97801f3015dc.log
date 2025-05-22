@@ -1,0 +1,59 @@
+10-21-2023 @ 22:10:18 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 356895
+    [response_code] => 13666
+    [card_number] => 552191******3088
+    [card_holder_name] => ZIA DANESH JUMMANI
+    [payment_link_id] => 169999991269219312
+    [signature] => 020630dca32e4db801a514ca5407c1cbc752d8f9101ff0309c39c1bbe558af85
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal Renewal
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2806
+    [customer_ip] => 83.110.63.182
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991305513608
+    [command] => PURCHASE
+    [response_message] => Transaction declined
+    [merchant_reference] => Quote-03489
+    [customer_email] => ziadanesh@gmail.com
+    [currency] => AED
+    [customer_name] => Zia Danesh Jummani
+    [status] => 13
+)
+
+10-21-2023 @ 22:14:48 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 356895
+    [response_code] => 14000
+    [card_number] => 401891******0008
+    [card_holder_name] => ZIA DANESH JUMMANI
+    [payment_link_id] => 169999991269219312
+    [signature] => 66ce370a1d0f81cb5c8594a12d9e46ba0af5bce45a4bd5ec8988ee70ad5404ce
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal Renewal
+    [payment_option] => VISA
+    [expiry_date] => 2507
+    [customer_ip] => 83.110.63.182
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991305513608
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03489
+    [authorization_code] => 491458
+    [customer_email] => ziadanesh@gmail.com
+    [currency] => AED
+    [customer_name] => Zia Danesh Jummani
+    [status] => 14
+)
+

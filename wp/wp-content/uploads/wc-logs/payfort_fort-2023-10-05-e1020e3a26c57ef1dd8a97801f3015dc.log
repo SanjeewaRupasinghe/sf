@@ -1,0 +1,150 @@
+10-05-2023 @ 04:57:28 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 36750
+    [response_code] => 14000
+    [card_number] => 425893******8597
+    [card_holder_name] => Saleh Abdelhadi
+    [payment_link_id] => Quote-03493
+    [signature] => 552ecf7110eec488c3222874a6ecc5ed1930cfb2121aaf759230d6d20fa63687
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA HS FA CPR AED
+    [payment_option] => VISA
+    [expiry_date] => 2808
+    [customer_ip] => 2.50.132.195
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991275065029
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03493
+    [authorization_code] => 234108
+    [customer_email] => alnajjar.r2000@gmail.com
+    [currency] => AED
+    [customer_name] => Razan hisham alnajjar
+    [status] => 14
+)
+
+10-05-2023 @ 09:30:40 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 126000
+    [response_code] => 14000
+    [card_number] => 552191******6781
+    [card_holder_name] => Thatiana Moreno Hort
+    [payment_link_id] => Quote-03496
+    [signature] => 1f576eea7f99eb91196279147d51ae82e10d18149fce547f17c7e25144404337
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS and AHA ACLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2712
+    [customer_ip] => 92.96.111.50
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991275234140
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03496
+    [authorization_code] => 707780
+    [customer_email] => Horta.thatiana@gmail.com
+    [currency] => AED
+    [customer_name] => Thatiana Moreno Horta Chesney
+    [status] => 14
+)
+
+10-05-2023 @ 09:34:30 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 94500
+    [response_code] => 14000
+    [card_number] => 427277******8786
+    [card_holder_name] => Waleed Soliman
+    [payment_link_id] => Quote-03497
+    [signature] => 7003c74d6e7b93d5cd500117fa9867c8d8783588b311cb8c75300eae6dd6e154
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA ACLS
+    [payment_option] => VISA
+    [expiry_date] => 2609
+    [customer_ip] => 217.165.86.219
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991275238237
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03497
+    [authorization_code] => 530557
+    [customer_email] => waleed.riad@gmail.com
+    [currency] => AED
+    [customer_name] => Waleed Riad Soliman
+    [status] => 14
+)
+
+10-05-2023 @ 09:53:37 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 419649******7848
+    [card_holder_name] => ayesha khalid
+    [payment_link_id] => Quote-03472
+    [signature] => b6d25433e6cd237c37d0be497476be6c8cbef6414c9a6ad93c63bcb2cc35a310
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2807
+    [customer_ip] => 217.165.13.77
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991275260557
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03472
+    [authorization_code] => 002030
+    [customer_email] => Ayesha.khalid@hplus.ae
+    [currency] => AED
+    [customer_name] => Dr Ayesha Khalid
+    [status] => 14
+)
+
+10-05-2023 @ 14:55:24 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 433367******6766
+    [card_holder_name] => KHALID ALMERAIKHI
+    [payment_link_id] => Quote-03500
+    [signature] => 1a8a8f0b77ea8b2e0c4c155b49a30035c9799ea41dcadb905d6b387a0748d150
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2604
+    [customer_ip] => 94.203.203.214
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991275719459
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03500
+    [authorization_code] => 683049
+    [customer_email] => Mozabintk@gmail.com
+    [currency] => AED
+    [customer_name] => Moza khalid almeraikhi
+    [status] => 14
+)
+

@@ -1,0 +1,118 @@
+10-03-2023 @ 12:15:17 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 10119
+    [card_number] => 557661******7306
+    [card_holder_name] => Ameera ajail
+    [signature] => 21c0d53735e63607ffec9b9f8b45cd6f3c279d9f2e7645960662eace932b280f
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2408
+    [customer_ip] => 213.7.177.202
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991271333639
+    [command] => PURCHASE
+    [response_message] => Request dropped
+    [merchant_reference] => Quote-03486
+    [customer_email] => Ameeraxox@hotmail.com
+    [currency] => AED
+    [customer_name] => Ameera abdulrahman
+    [status] => 10
+)
+
+10-03-2023 @ 13:34:48 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 115500
+    [response_code] => 14000
+    [card_number] => 471365******7961
+    [card_holder_name] => HOUD ALSHANQITI
+    [payment_link_id] => Quote-03494
+    [signature] => 5cd2e9b163f18847976277e15a1eab733d9a31aabd2f7c70f77fd82db3147c98
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS and AHA PALS
+    [payment_option] => VISA
+    [expiry_date] => 2704
+    [customer_ip] => 92.99.93.150
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991271634784
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03494
+    [authorization_code] => 352276
+    [customer_email] => Houdalshanqiti@gmail.com
+    [currency] => AED
+    [customer_name] => Houd mahmoud Alshanqiti
+    [status] => 14
+)
+
+10-03-2023 @ 15:18:35 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 414720******9368
+    [card_holder_name] => Nathalie El Ters
+    [payment_link_id] => Quote-03495
+    [signature] => 10b42dca526fc4fe5f0561b01a370ba60d8ee91848a572d53f47fbb173f116a1
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2707
+    [customer_ip] => 2.50.183.51
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991271820189
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03495
+    [authorization_code] => 05011C
+    [customer_email] => nathalie.elters@gmail.com
+    [currency] => AED
+    [customer_name] => Nathalie El Ters
+    [status] => 14
+)
+
+10-03-2023 @ 17:42:56 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 557661******7306
+    [card_holder_name] => Ameera ajail
+    [payment_link_id] => Quote-03486
+    [signature] => 6d924db7a4f43c66a48f4d57ebfc4d8e8edf62a55707661aa4df4f32e9b48dff
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2408
+    [customer_ip] => 31.218.49.192
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991271333639
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03486
+    [authorization_code] => 524607
+    [customer_email] => Ameeraxox@hotmail.com
+    [currency] => AED
+    [customer_name] => Ameera abdulrahman
+    [status] => 14
+)
+

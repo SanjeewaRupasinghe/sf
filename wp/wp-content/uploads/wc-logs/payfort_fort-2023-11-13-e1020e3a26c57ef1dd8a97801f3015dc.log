@@ -1,0 +1,150 @@
+11-13-2023 @ 09:46:57 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 50127
+    [response_code] => 14000
+    [card_number] => 552102******2589
+    [card_holder_name] => Lesley Ann Cooke 
+    [payment_link_id] => 169999991351801474
+    [signature] => 8e7b07dc24a1c10ff0fd2870c9494e5565489bf5d1c73afdc3dd4514f8bf8b45
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2810
+    [customer_ip] => 80.227.85.26
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991351804807
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02423
+    [authorization_code] => T07697
+    [customer_email] => lesleyacooke@live.co.za
+    [currency] => AED
+    [customer_name] => Lesley Cooke
+    [status] => 14
+)
+
+11-13-2023 @ 11:11:26 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 29400
+    [response_code] => 14000
+    [card_number] => 479746******5474
+    [card_holder_name] => Hala saleh
+    [payment_link_id] => Quote-03582
+    [signature] => 1bb2344eca829776631624c5f3158b98af49790c9251045c7ef97fc6ca3b1529
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2411
+    [customer_ip] => 2.50.158.88
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991351914244
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03582
+    [authorization_code] => 825750
+    [customer_email] => halamahmoudsaleh@gmail.com
+    [currency] => AED
+    [customer_name] => Hala Mahmoud Saleh
+    [status] => 14
+)
+
+11-13-2023 @ 11:24:05 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 29400
+    [response_code] => 14000
+    [card_number] => 443913******9317
+    [card_holder_name] => Joalda de Kock
+    [payment_link_id] => Quote-03584
+    [signature] => a8efdf1f9caf14cf5c23a4b10499259e60ad3e8d7ff59a0d46cdb1ea506a1d0c
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2607
+    [customer_ip] => 94.203.91.214
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991351932589
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03584
+    [authorization_code] => 886456
+    [customer_email] => joalda.dekock@gmail.com
+    [currency] => AED
+    [customer_name] => Joalda Marthine de Koc
+    [status] => 14
+)
+
+11-13-2023 @ 12:03:32 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 433367******5391
+    [card_holder_name] => Ishtiaq Ahmed 
+    [payment_link_id] => Quote-03579
+    [signature] => 020a0e901d907d06e9ceb2d8b19b33be87c780e5d9b70c889385e941834b14d0
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2607
+    [customer_ip] => 83.110.18.112
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991351989269
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03579
+    [authorization_code] => 219180
+    [customer_email] => mirfcps@gmail.com
+    [currency] => AED
+    [customer_name] => Mir Rooh Ullah Jan
+    [status] => 14
+)
+
+11-13-2023 @ 13:25:41 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 56499
+    [response_code] => 14000
+    [card_number] => 443913******5390
+    [card_holder_name] => AAIRAH MOHAMMED
+    [payment_link_id] => 169999991351803202
+    [signature] => 0571f58dfcb2a1d83e8f73d8f3a631e552aee5e038d592bdc4a7eb9fcbb7395f
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2701
+    [customer_ip] => 92.96.193.50
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991352112284
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02421
+    [authorization_code] => 265622
+    [customer_email] => aairah.uae92@gmail.com
+    [currency] => AED
+    [customer_name] => Aairah
+    [status] => 14
+)
+

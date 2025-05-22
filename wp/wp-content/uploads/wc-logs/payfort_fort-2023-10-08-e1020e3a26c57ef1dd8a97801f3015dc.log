@@ -1,0 +1,135 @@
+10-08-2023 @ 12:59:57 - Payfort Request Params for payment method (payfort) 
+
+Array
+(
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [merchant_reference] => 23890
+    [language] => en
+    [service_command] => TOKENIZATION
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [signature] => 861e65aee3d6000d8e7ad544bcbd0c2e3c31e4ecfd2bcfbce8fdc3267cb824c3
+)
+
+10-08-2023 @ 12:59:58 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_merchantPageResponse
+    [response_code] => 18000
+    [card_number] => ****************
+    [card_holder_name] => **************
+    [signature] => c6edd89a17effc42648b4105600dc5a66ddd543d64ced9783f061ac030259e7d
+    [merchant_identifier] => xyKdBdwl
+    [expiry_date] => ****
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [language] => en
+    [response_message] => Success
+    [service_command] => TOKENIZATION
+    [merchant_reference] => 23890
+    [token_name] => 2d66b3ca2bb14d69b2fecfb126bde69f
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [status] => 18
+    [card_bin] => 442109
+)
+
+10-08-2023 @ 12:59:58 - Merchant Page Notify Api Request Params : Array
+(
+    [merchant_reference] => 23890
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [command] => PURCHASE
+    [merchant_identifier] => xyKdBdwl
+    [customer_ip] => 91.74.151.190
+    [amount] => 209895
+    [currency] => AED
+    [customer_email] => alhelfi@doctors.net.uk
+    [token_name] => 2d66b3ca2bb14d69b2fecfb126bde69f
+    [language] => en
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_responseOnline
+    [customer_name] => Moayed Alhelfi
+    [signature] => 99fd638922e645bc50d7f22e1fb1c024ed11720f90747344e84173ae94737695
+)
+
+10-08-2023 @ 13:00:02 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [amount] => 209895
+    [response_code] => 20064
+    [card_number] => ****************
+    [card_holder_name] => **************
+    [signature] => 119ecc6cd06f154f51ebd581efe5a1cd802013d65015b9e66d170c0b79d91e47
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => ****
+    [customer_ip] => *************
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991281198845
+    [command] => PURCHASE
+    [3ds_url] => https://checkout.payfort.com/FortAPI/redirectionResponse/threeDs2RedirectURL?token=73214EmysXmGBqeQC2EqQTu6srTF1z
+    [response_message] => 3-D Secure check requested
+    [merchant_reference] => 23890
+    [customer_email] => **********************
+    [currency] => AED
+    [customer_name] => **************
+    [status] => 20
+)
+
+10-08-2023 @ 13:00:41 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_responseOnline
+    [amount] => 209895
+    [response_code] => 14000
+    [card_number] => ****************
+    [card_holder_name] => **************
+    [signature] => bf44c8d9e1285ebf1323f153a569732e96c24b2990a21f78e2fc9370be85910d
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => ****
+    [customer_ip] => *************
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991281198845
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 23890
+    [authorization_code] => 894252
+    [customer_email] => **********************
+    [currency] => AED
+    [customer_name] => **************
+    [status] => 14
+)
+
+10-08-2023 @ 13:00:41 - Fort response parameters (offline) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 209895
+    [response_code] => 14000
+    [card_number] => 442109******0007
+    [card_holder_name] => Moayed Alhelfi
+    [signature] => e876d6b8fbe06f7fa6a60dac85152a09efaa8eb4f54208a76fbdd51c2d73e7b9
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => 2511
+    [customer_ip] => 91.74.151.190
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991281198845
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 23890
+    [authorization_code] => 894252
+    [customer_email] => alhelfi@doctors.net.uk
+    [currency] => AED
+    [customer_name] => Moayed Alhelfi
+    [status] => 14
+)
+

@@ -1,0 +1,148 @@
+12-03-2023 @ 01:23:20 - Payfort Request Params for payment method (payfort) 
+
+Array
+(
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [merchant_reference] => 23938
+    [language] => en
+    [service_command] => TOKENIZATION
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [signature] => 640521bbc5d5bcad7911d82366a94145f47575237be4809a9d84884facce15f7
+)
+
+12-03-2023 @ 01:31:26 - Payfort Request Params for payment method (payfort) 
+
+Array
+(
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [merchant_reference] => 23938
+    [language] => en
+    [service_command] => TOKENIZATION
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [signature] => 640521bbc5d5bcad7911d82366a94145f47575237be4809a9d84884facce15f7
+)
+
+12-03-2023 @ 01:31:29 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_merchantPageResponse
+    [response_code] => 18000
+    [card_number] => ****************
+    [card_holder_name] => ***********
+    [signature] => f74133266120e2058d6ac66a88735b1d9b0a0d6d4807427c8cb47ac90ccde113
+    [merchant_identifier] => xyKdBdwl
+    [expiry_date] => ****
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [language] => en
+    [response_message] => Success
+    [service_command] => TOKENIZATION
+    [merchant_reference] => 23938
+    [token_name] => aa58d089f1a34256979138e1dcd73b4f
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [status] => 18
+    [card_bin] => 464159
+)
+
+12-03-2023 @ 01:31:29 - Merchant Page Notify Api Request Params : Array
+(
+    [merchant_reference] => 23938
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [command] => PURCHASE
+    [merchant_identifier] => xyKdBdwl
+    [customer_ip] => 81.17.123.46
+    [amount] => 209895
+    [currency] => AED
+    [customer_email] => ihsan.rafie@doctors.org.uk
+    [token_name] => aa58d089f1a34256979138e1dcd73b4f
+    [language] => en
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_responseOnline
+    [customer_name] => Ihsan Rafie
+    [signature] => 863d04cd1b350fd3e3279bd7b5dd7a4d784a063e072f1e00b401ad31fef1f2ee
+)
+
+12-03-2023 @ 01:31:32 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [amount] => 209895
+    [response_code] => 20064
+    [card_number] => ****************
+    [card_holder_name] => ***********
+    [signature] => a68c9b168838c2a9b83ec4357a2b8175fee1d63b61fab44579da3a7e6b746ef8
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => ****
+    [customer_ip] => ************
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991393696233
+    [command] => PURCHASE
+    [3ds_url] => https://checkout.payfort.com/FortAPI/redirectionResponse/threeDs2RedirectURL?token=57213mPs0xXoUM6vIlMTpURdYdKSYP
+    [response_message] => 3-D Secure check requested
+    [merchant_reference] => 23938
+    [customer_email] => **************************
+    [currency] => AED
+    [customer_name] => ***********
+    [status] => 20
+)
+
+12-03-2023 @ 01:32:13 - Fort response parameters (offline) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 209895
+    [response_code] => 14000
+    [card_number] => 464159******3525
+    [card_holder_name] => Ihsan Rafie
+    [signature] => c6900e5fcfedc90e368be80e7b173d0f8b7aee40a92bd570e819fb8de1e1f0e3
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => 2710
+    [customer_ip] => 81.17.123.46
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991393696233
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 23938
+    [authorization_code] => 093998
+    [customer_email] => ihsan.rafie@doctors.org.uk
+    [currency] => AED
+    [customer_name] => Ihsan Rafie
+    [status] => 14
+)
+
+12-03-2023 @ 01:32:14 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_responseOnline
+    [amount] => 209895
+    [response_code] => 14000
+    [card_number] => ****************
+    [card_holder_name] => ***********
+    [signature] => f3e9ecb4af02a90b5206cc9f8d9874bfd811767c36936670e6f6e28d98093891
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => ****
+    [customer_ip] => ************
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991393696233
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 23938
+    [authorization_code] => 093998
+    [customer_email] => **************************
+    [currency] => AED
+    [customer_name] => ***********
+    [status] => 14
+)
+

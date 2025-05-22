@@ -1,0 +1,30 @@
+08-31-2023 @ 13:20:31 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 557652******1965
+    [card_holder_name] => MOHAMED NASSR SALEH
+    [payment_link_id] => Quote-03409
+    [signature] => eb1527c93499e3600239e1a9b4e723723258765c0178cc3c0f09ab5c0df1fae3
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Basic Life Support Provider Course
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2706
+    [customer_ip] => 91.75.130.1
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991209107584
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03409
+    [authorization_code] => 311275
+    [customer_email] => mnshma.mh@gmail.com
+    [currency] => AED
+    [customer_name] => Mohamed Nassr Saleh Nassr Ali
+    [status] => 14
+)
+

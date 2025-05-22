@@ -1,0 +1,483 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: MEC Form Builder\n"
+"POT-Creation-Date: 2020-05-17 11:59+0430\n"
+"PO-Revision-Date: 2019-03-25 14:44+0430\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: mec-form-builder.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/base.php:173
+msgid "In order to use the plugin, please Active Modern Events Calendar Pro."
+msgstr ""
+
+#: inc/base.php:174 inc/base.php:208
+msgid "Activate Modern Events Calendar Now"
+msgstr ""
+
+#: inc/base.php:180
+msgid ""
+"In order to use the plugin, please purchase Modern Events Calendar Pro."
+msgstr ""
+
+#: inc/base.php:181
+msgid "Purchase Modern Events Calendar Now"
+msgstr ""
+
+#: inc/base.php:207
+msgid ""
+"Elementor Form Builder is not working because you need to activate the "
+"Modern Events Calendar plugin."
+msgstr ""
+
+#: inc/base.php:214
+msgid ""
+"Elementor Form Builder is not working because you need to install the "
+"Modern Events Calendar plugin"
+msgstr ""
+
+#: inc/base.php:215
+msgid "Install Modern Events Calendar Now"
+msgstr ""
+
+#: inc/base.php:244
+msgid ""
+"Elementor Form Builder is not working because you need to install latest "
+"version of Modern Events Calendar plugin"
+msgstr ""
+
+#: inc/base.php:245
+msgid "Minimum version required"
+msgstr ""
+
+#: inc/base.php:246
+msgid "Update Modern Events Calendar Now"
+msgstr ""
+
+#: inc/base.php:272
+msgid ""
+"Elementor Form Builder is not working because you need to activate the "
+"Elementor plugin."
+msgstr ""
+
+#: inc/base.php:273
+msgid "Activate Elementor Now"
+msgstr ""
+
+#: inc/base.php:279
+msgid ""
+"Elementor Form Builder is not working because you need to install the "
+"Elemenor plugin"
+msgstr ""
+
+#: inc/base.php:280
+msgid "Install Elementor Now"
+msgstr ""
+
+#: inc/bootstrap.php:117
+msgid "Modern Events Calendar"
+msgstr ""
+
+#: inc/elementor/form-builder.php:37
+msgid "MEC Form Builder"
+msgstr ""
+
+#: inc/elementor/form-builder.php:88
+msgid "Display Options"
+msgstr ""
+
+#: inc/elementor/form-builder.php:131
+msgid "Form Title"
+msgstr ""
+
+#: inc/elementor/form-builder.php:133
+msgid "Attendees Form"
+msgstr ""
+
+#: inc/elementor/form-builder.php:142
+msgid "Field Type"
+msgstr ""
+
+#: inc/elementor/form-builder.php:145
+msgid "Date"
+msgstr ""
+
+#: inc/elementor/form-builder.php:146
+msgid "MEC Name"
+msgstr ""
+
+#: inc/elementor/form-builder.php:147
+msgid "MEC Email"
+msgstr ""
+
+#: inc/elementor/form-builder.php:148
+msgid "Text"
+msgstr ""
+
+#: inc/elementor/form-builder.php:149
+msgid "File"
+msgstr ""
+
+#: inc/elementor/form-builder.php:150
+msgid "Email"
+msgstr ""
+
+#: inc/elementor/form-builder.php:151
+msgid "Tel"
+msgstr ""
+
+#: inc/elementor/form-builder.php:152
+msgid "Textarea"
+msgstr ""
+
+#: inc/elementor/form-builder.php:153
+msgid "CheckBox"
+msgstr ""
+
+#: inc/elementor/form-builder.php:154
+msgid "Radio Buttons"
+msgstr ""
+
+#: inc/elementor/form-builder.php:155
+msgid "DropDown"
+msgstr ""
+
+#: inc/elementor/form-builder.php:156 inc/elementor/form-builder.php:806
+msgid "Agreement"
+msgstr ""
+
+#: inc/elementor/form-builder.php:157 inc/elementor/form-builder.php:820
+msgid "Paragraph"
+msgstr ""
+
+#: inc/elementor/form-builder.php:159
+msgid "text"
+msgstr ""
+
+#: inc/elementor/form-builder.php:167
+msgid "Required Field"
+msgstr ""
+
+#: inc/elementor/form-builder.php:169
+msgid "Show"
+msgstr ""
+
+#: inc/elementor/form-builder.php:170
+msgid "Hide"
+msgstr ""
+
+#: inc/elementor/form-builder.php:185 inc/elementor/form-builder.php:194
+msgid "Insert a label for this field"
+msgstr ""
+
+#: inc/elementor/form-builder.php:186
+msgid "Label"
+msgstr ""
+
+#: inc/elementor/form-builder.php:195
+msgid "Descriptions..."
+msgstr ""
+
+#: inc/elementor/form-builder.php:208
+msgid "Insert a placeholder for this field"
+msgstr ""
+
+#: inc/elementor/form-builder.php:226
+#, php-format
+msgid "Instead of %s, the page title with a link will be show."
+msgstr ""
+
+#: inc/elementor/form-builder.php:239
+msgid "Options"
+msgstr ""
+
+#: inc/elementor/form-builder.php:240
+msgid "first item,second item, third item"
+msgstr ""
+
+#: inc/elementor/form-builder.php:241
+msgid ""
+"Please separate with \",\" for example:<br> first item,second item,third "
+"item"
+msgstr ""
+
+#: inc/elementor/form-builder.php:263
+msgid "Agreement Page"
+msgstr ""
+
+#: inc/elementor/form-builder.php:277
+msgid "Status"
+msgstr ""
+
+#: inc/elementor/form-builder.php:281
+msgid "Checked by default"
+msgstr ""
+
+#: inc/elementor/form-builder.php:282
+msgid "Unchecked by default"
+msgstr ""
+
+#: inc/elementor/form-builder.php:296 inc/elementor/form-builder.php:332
+msgid "Half-Width"
+msgstr ""
+
+#: inc/elementor/form-builder.php:298 inc/elementor/form-builder.php:334
+msgid "Enable"
+msgstr ""
+
+#: inc/elementor/form-builder.php:299 inc/elementor/form-builder.php:335
+msgid "Disable"
+msgstr ""
+
+#: inc/elementor/form-builder.php:302 inc/elementor/form-builder.php:338
+msgid ""
+"This option enables your form to have 2 columns and the fields will be "
+"placed in pairs next to one another."
+msgstr ""
+
+#: inc/elementor/form-builder.php:310
+msgid "Elements List"
+msgstr ""
+
+#: inc/elementor/form-builder.php:312
+msgid ""
+"MEC Name and MEC Email are necessary and your form must contain both of "
+"them."
+msgstr ""
+
+#: inc/elementor/form-builder.php:324
+msgid "Form"
+msgstr ""
+
+#: inc/elementor/form-builder.php:348
+msgid "Container"
+msgstr ""
+
+#: inc/elementor/form-builder.php:357 inc/elementor/form-builder.php:475
+#: inc/elementor/form-builder.php:605 inc/elementor/form-builder.php:724
+#: inc/elementor/form-builder.php:848
+msgid "Typography"
+msgstr ""
+
+#: inc/elementor/form-builder.php:364 inc/elementor/form-builder.php:482
+#: inc/elementor/form-builder.php:612 inc/elementor/form-builder.php:731
+#: inc/elementor/form-builder.php:855
+msgid "Color"
+msgstr ""
+
+#: inc/elementor/form-builder.php:375 inc/elementor/form-builder.php:504
+#: inc/elementor/form-builder.php:624 inc/elementor/form-builder.php:742
+#: inc/elementor/form-builder.php:866
+msgid "Background Color"
+msgstr ""
+
+#: inc/elementor/form-builder.php:385 inc/elementor/form-builder.php:514
+#: inc/elementor/form-builder.php:634 inc/elementor/form-builder.php:752
+#: inc/elementor/form-builder.php:876
+msgid "Padding"
+msgstr ""
+
+#: inc/elementor/form-builder.php:396 inc/elementor/form-builder.php:525
+#: inc/elementor/form-builder.php:645 inc/elementor/form-builder.php:763
+#: inc/elementor/form-builder.php:887
+msgid "Margin"
+msgstr ""
+
+#: inc/elementor/form-builder.php:408 inc/elementor/form-builder.php:537
+#: inc/elementor/form-builder.php:657 inc/elementor/form-builder.php:899
+msgid "Border"
+msgstr ""
+
+#: inc/elementor/form-builder.php:415 inc/elementor/form-builder.php:544
+#: inc/elementor/form-builder.php:664 inc/elementor/form-builder.php:906
+msgid "Width"
+msgstr ""
+
+#: inc/elementor/form-builder.php:441 inc/elementor/form-builder.php:570
+#: inc/elementor/form-builder.php:690 inc/elementor/form-builder.php:954
+msgid "Border Radius"
+msgstr ""
+
+#: inc/elementor/form-builder.php:453 inc/elementor/form-builder.php:582
+#: inc/elementor/form-builder.php:702 inc/elementor/form-builder.php:966
+msgid "Box Shadow"
+msgstr ""
+
+#: inc/elementor/form-builder.php:466
+msgid "Title"
+msgstr ""
+
+#: inc/elementor/form-builder.php:493
+msgid "Underline Color"
+msgstr ""
+
+#: inc/elementor/form-builder.php:596
+msgid "Ticket Name"
+msgstr ""
+
+#: inc/elementor/form-builder.php:716
+msgid "Labels"
+msgstr ""
+
+#: inc/elementor/form-builder.php:781
+msgid "Checkbox & Radio Button Typography"
+msgstr ""
+
+#: inc/elementor/form-builder.php:788
+msgid "Checkbox & Radio Button Color"
+msgstr ""
+
+#: inc/elementor/form-builder.php:827
+msgid "Paragraph Color"
+msgstr ""
+
+#: inc/elementor/form-builder.php:840
+msgid "Fields"
+msgstr ""
+
+#: inc/elementor/form-builder.php:932
+msgid "Maximum height for input"
+msgstr ""
+
+#: inc/elementor/form-builder.php:1218
+msgid "Please add MEC Email field in your form."
+msgstr ""
+
+#: inc/elementor/form-builder.php:1222
+msgid "Please add MEC Name field in your form."
+msgstr ""
+
+#: inc/elementor/form-builder.php:1226
+msgid "Duplicate Error! Please add just one MEC Email field in your form."
+msgstr ""
+
+#: inc/elementor/form-builder.php:1230
+msgid "Duplicate Error! Please add just one MEC Name field in your form."
+msgstr ""
+
+#: inc/features/regform.php:138 inc/features/regform.php:305
+#: inc/features/regform.php:429
+msgid "Elementor Form Builder"
+msgstr ""
+
+#: inc/features/regform.php:212
+msgid ""
+"Activation faild. Please check your purchase code or license type."
+"<br><b>Note: Your purchase code should match your licesne type.</b>"
+msgstr ""
+
+#: inc/features/regform.php:212
+msgid "Troubleshooting"
+msgstr ""
+
+#: inc/features/regform.php:304 inc/features/regform.php:428
+msgid "Classic Form Builder"
+msgstr ""
+
+#: inc/features/regform.php:307
+msgid "Select Form"
+msgstr ""
+
+#: inc/features/regform.php:431
+msgid "Select Default Form"
+msgstr ""
+
+#: inc/forms/forms.php:81
+msgid "Form Name"
+msgstr ""
+
+#: inc/forms/forms.php:111
+msgctxt "post type general name"
+msgid "Form Builder"
+msgstr ""
+
+#: inc/forms/forms.php:112
+msgctxt "post type singular name"
+msgid "Form"
+msgstr ""
+
+#: inc/forms/forms.php:113
+msgctxt "admin menu"
+msgid "Form Builder"
+msgstr ""
+
+#: inc/forms/forms.php:114
+msgctxt "add new on admin bar"
+msgid "Form"
+msgstr ""
+
+#: inc/forms/forms.php:115
+msgctxt "Form"
+msgid "Add New With Elementor"
+msgstr ""
+
+#: inc/forms/forms.php:116
+msgid "Add New Form"
+msgstr ""
+
+#: inc/forms/forms.php:117
+msgid "New Form"
+msgstr ""
+
+#: inc/forms/forms.php:118
+msgid "Edit Form"
+msgstr ""
+
+#: inc/forms/forms.php:119
+msgid "View Form"
+msgstr ""
+
+#: inc/forms/forms.php:120 inc/forms/forms.php:146
+msgid "Form Builder"
+msgstr ""
+
+#: inc/forms/forms.php:121
+msgid "Search MEC Forms"
+msgstr ""
+
+#: inc/forms/forms.php:122
+msgid "Parent MEC Forms:"
+msgstr ""
+
+#: inc/forms/forms.php:123
+msgid "No MEC Forms found."
+msgstr ""
+
+#: inc/forms/forms.php:124
+msgid "No MEC Forms found in Trash."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Elementor Form Builder for MEC"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://webnus.net/modern-events-calendar/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin makes it possible to visually create MEC forms in Elementor."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Webnus"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://webnus.net"
+msgstr ""

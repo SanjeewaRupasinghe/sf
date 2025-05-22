@@ -1,0 +1,30 @@
+04-12-2023 @ 10:15:10 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 55000
+    [response_code] => 14000
+    [card_number] => 521070******1010
+    [card_holder_name] => Julie Pearl Merlin
+    [payment_link_id] => 169999990977447976
+    [signature] => 8530b3562b406494de4a571c130509b195b723604d35b1b8efd3c72ebad8d01f
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2801
+    [customer_ip] => 94.203.30.194
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990977449280
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => So-02082
+    [authorization_code] => 089085
+    [customer_email] => jpearlmerlin@gmail.com
+    [currency] => AED
+    [customer_name] => Julie Pearl Merlin
+    [status] => 14
+)
+

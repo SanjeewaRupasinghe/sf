@@ -1,0 +1,304 @@
+12-27-2022 @ 10:09:47 - Payfort Request Params for payment method (payfort) 
+
+Array
+(
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [merchant_reference] => 22674
+    [language] => en
+    [service_command] => TOKENIZATION
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [signature] => 5e4c93aa4c996160583f9c272eb5318c1eebe6c69f0a95ed482bfaffba3e12f7
+)
+
+12-27-2022 @ 10:09:49 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_merchantPageResponse
+    [response_code] => 18000
+    [card_number] => ****************
+    [card_holder_name] => ***************
+    [signature] => 582953428ab6407c2a7fcfb657a9f18e386ff7f031fbe1ab4e2a4439efc89eae
+    [merchant_identifier] => xyKdBdwl
+    [expiry_date] => ****
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [language] => en
+    [response_message] => Success
+    [service_command] => TOKENIZATION
+    [merchant_reference] => 22674
+    [token_name] => 8092cc356dde413ba1f447814b3afa0d
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [status] => 18
+    [card_bin] => 457269
+)
+
+12-27-2022 @ 10:09:49 - Merchant Page Notify Api Request Params : Array
+(
+    [merchant_reference] => 22674
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [command] => PURCHASE
+    [merchant_identifier] => xyKdBdwl
+    [customer_ip] => 37.245.70.200
+    [amount] => 2625
+    [currency] => AED
+    [customer_email] => dennis@safetyfirstmed.ae
+    [token_name] => 8092cc356dde413ba1f447814b3afa0d
+    [language] => en
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_responseOnline
+    [customer_name] => Dennis Sta Teresa
+    [signature] => 5f07eb1339671b8ae962d78d812246b9a1b6bde7c70848bb87cfd7d8544e8ff7
+)
+
+12-27-2022 @ 10:09:52 - Payfort Request Params for payment method (payfort) 
+
+Array
+(
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [merchant_reference] => 22674
+    [language] => en
+    [service_command] => TOKENIZATION
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [signature] => 5e4c93aa4c996160583f9c272eb5318c1eebe6c69f0a95ed482bfaffba3e12f7
+)
+
+12-27-2022 @ 10:09:52 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [amount] => 2625
+    [response_code] => 20064
+    [card_number] => ****************
+    [card_holder_name] => ***************
+    [signature] => 9da186e8e0b5a90c00b0de0cba7cb5481d2a8d4f29a33e594c306227760685a9
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => ****
+    [customer_ip] => *************
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990811612355
+    [command] => PURCHASE
+    [3ds_url] => https://checkout.payfort.com/FortAPI/redirectionResponse/threeDs2RedirectURL?token=162184ChTRln3wiWn2C302HxJxx1kH
+    [response_message] => 3-D Secure check requested
+    [merchant_reference] => 22674
+    [customer_email] => ************************
+    [currency] => AED
+    [customer_name] => *****************
+    [status] => 20
+)
+
+12-27-2022 @ 10:09:53 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_merchantPageResponse
+    [response_code] => 00066
+    [card_number] => ****************
+    [card_holder_name] => ***************
+    [signature] => a8b05f3ed721b7ca72157bc6cd4ba2cd792cf9cb17aaae59f3b9a436522f1761
+    [merchant_identifier] => xyKdBdwl
+    [expiry_date] => ****
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [language] => en
+    [response_message] => Merchant reference already exists
+    [service_command] => TOKENIZATION
+    [merchant_reference] => 22674
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [status] => 00
+)
+
+12-27-2022 @ 10:15:23 - Payfort Request Params for payment method (payfort) 
+
+Array
+(
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [merchant_reference] => 22675
+    [language] => en
+    [service_command] => TOKENIZATION
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [signature] => c5563108ff7da33b9c3dd84959afcb8082198120abae26cb792d508cced92efc
+)
+
+12-27-2022 @ 10:15:24 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_merchantPageResponse
+    [response_code] => 18000
+    [card_number] => ****************
+    [card_holder_name] => *****************
+    [signature] => fa8925ac046d7a1c725ae74d72f6b7726cd2fbfcedaf0a494ba9fde84df6cc19
+    [merchant_identifier] => xyKdBdwl
+    [expiry_date] => ****
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [language] => en
+    [response_message] => Success
+    [service_command] => TOKENIZATION
+    [merchant_reference] => 22675
+    [token_name] => 12d2209f873e42ebb295911d21cecc4b
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [status] => 18
+    [card_bin] => 457269
+)
+
+12-27-2022 @ 10:15:24 - Merchant Page Notify Api Request Params : Array
+(
+    [merchant_reference] => 22675
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [command] => PURCHASE
+    [merchant_identifier] => xyKdBdwl
+    [customer_ip] => 37.245.70.200
+    [amount] => 2625
+    [currency] => AED
+    [customer_email] => dennis@safetyfirstmed.ae
+    [token_name] => 12d2209f873e42ebb295911d21cecc4b
+    [language] => en
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_responseOnline
+    [customer_name] => Dennis Sta Teresa
+    [signature] => 2bed740cd4fc8449a12bf7ce6684a4fad2f0edc5ad924e1aefc39aa937f10a70
+)
+
+12-27-2022 @ 10:15:27 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [amount] => 2625
+    [response_code] => 20064
+    [card_number] => ****************
+    [card_holder_name] => *****************
+    [signature] => 7988d398e2f58309d34574037954bcaf1886f4d8e614f96dfd126a33a736fdc1
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => ****
+    [customer_ip] => *************
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990811619814
+    [command] => PURCHASE
+    [3ds_url] => https://checkout.payfort.com/FortAPI/redirectionResponse/threeDs2RedirectURL?token=112227ps58M1VN4GYp9PzFuAjVvlbk
+    [response_message] => 3-D Secure check requested
+    [merchant_reference] => 22675
+    [customer_email] => ************************
+    [currency] => AED
+    [customer_name] => *****************
+    [status] => 20
+)
+
+12-27-2022 @ 10:17:17 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_responseOnline
+    [amount] => 2625
+    [response_code] => 14000
+    [card_number] => ****************
+    [card_holder_name] => *****************
+    [signature] => ec2b38bc71d31f543093aec27697a2737d3952ddf90a0fa08ac9149b497d24f2
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => ****
+    [customer_ip] => *************
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990811619814
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 22675
+    [authorization_code] => 228887
+    [customer_email] => ************************
+    [currency] => AED
+    [customer_name] => *****************
+    [status] => 14
+)
+
+12-27-2022 @ 10:17:17 - Fort response parameters (offline) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 2625
+    [response_code] => 14000
+    [card_number] => 457269******4298
+    [card_holder_name] => Malik Ashif G Ali
+    [signature] => 86efa73544fefcfeb1047490ae685a24a240f2158c7366d3f0144097ab9b3ed9
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => 2602
+    [customer_ip] => 37.245.70.200
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990811619814
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 22675
+    [authorization_code] => 228887
+    [customer_email] => dennis@safetyfirstmed.ae
+    [currency] => AED
+    [customer_name] => Dennis Sta Teresa
+    [status] => 14
+)
+
+12-27-2022 @ 11:19:20 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 398895
+    [response_code] => 14000
+    [card_number] => 537707******9938
+    [card_holder_name] => khulood alawadi
+    [payment_link_id] => 169999990751550354
+    [signature] => 5fc35630136350223c3db17ff8be7d43c60202f66d47234c6df245866bbfcc35
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2610
+    [customer_ip] => 5.38.66.112
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990811177928
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-02907
+    [authorization_code] => 393039
+    [customer_email] => drkhuloodabdulla@gmail.com
+    [currency] => AED
+    [customer_name] => Khulood Abdulla Mohammed Alawadi
+    [status] => 14
+)
+
+12-27-2022 @ 11:31:40 - Fort response parameters (offline) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 2625
+    [response_code] => 10119
+    [card_number] => 457269******4298
+    [card_holder_name] => Malik Ashif Ali
+    [signature] => f5b38eade7a72cf79e2294c92595c978f7676a601397a007c5c7a583a5cef2d2
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => 2602
+    [customer_ip] => 167.172.55.163
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990811612355
+    [command] => PURCHASE
+    [response_message] => Request dropped
+    [merchant_reference] => 22674
+    [customer_email] => dennis@safetyfirstmed.ae
+    [currency] => AED
+    [customer_name] => Dennis Sta Teresa
+    [status] => 10
+)
+

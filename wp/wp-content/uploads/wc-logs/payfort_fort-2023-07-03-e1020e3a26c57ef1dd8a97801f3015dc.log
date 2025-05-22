@@ -1,0 +1,90 @@
+07-03-2023 @ 09:47:27 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 22878
+    [response_code] => 14000
+    [card_number] => 516171******5384
+    [card_holder_name] => MAHRA ALMARRI 
+    [payment_link_id] => 169999991106861774
+    [signature] => 080b4aab1b088b9fed562bb9311c6ac6e4c5e745619d1100067cddf90f47450d
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2801
+    [customer_ip] => 2.49.136.73
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991106866133
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02186
+    [authorization_code] => 736387
+    [customer_email] => mahra.almarri85@gmail.com
+    [currency] => AED
+    [customer_name] => Mahra Almarri
+    [status] => 14
+)
+
+07-03-2023 @ 09:56:42 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 554576******9750
+    [card_holder_name] => GIRISH KUMAR
+    [payment_link_id] => Quote-03265
+    [signature] => 22129dce88dc695e598bd2367c98ed5d0cc7059ab312ceed472bd501e474eab1
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Basic Life Support Provider Course In Person
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2603
+    [customer_ip] => 147.161.160.98
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991090752568
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03265
+    [authorization_code] => 472239
+    [customer_email] => athira.remakanthan@gmail.com
+    [currency] => AED
+    [customer_name] => Athira Girish
+    [status] => 14
+)
+
+07-03-2023 @ 16:29:41 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 470330******6846
+    [card_holder_name] => Erna Macrohon
+    [payment_link_id] => Quote-03280
+    [signature] => efc453981b4f7c404204fc745ba6cc8690799eec0ef2f053db3d9b95e65b18ad
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2707
+    [customer_ip] => 2.50.231.112
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991107354297
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03280
+    [authorization_code] => 564235
+    [customer_email] => divine39sum@gmail.com
+    [currency] => AED
+    [customer_name] => Divina Jatico Sumalpong
+    [status] => 14
+)
+

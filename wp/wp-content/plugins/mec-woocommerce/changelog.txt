@@ -1,0 +1,86 @@
+﻿v 1.2.6 - 20 July 2020
+- Removed: Debug codes
+
+v 1.2.5 - 16 July 2020
+- Refactored: Sync option (MEC Status and WooCommerce order status)
+- compatibility: WooCommerce 
+- Added: WooCommerce taxes on MEC booking items
+- Fixed: Booking items regarding removing MEC taxes/fees
+- Fixed: Translation issues
+- Fixed: Tickets counting issue
+- Fixed: Quantity for tickets
+- Fixed: Some PHP notices
+- Fixed: Some minor issues
+
+v 1.2.1 - 11 June 2020
+- compatibility: With Modern Events Calendar Version 5.6.0
+
+v 1.2.0 - 14 May 2020
+- Fixed: Formula for booking price calculation
+- Fixed: Sync option and the order status
+- Fixed: Email warning
+- Fixed: Remove fee from cart (Amount Per Booking)
+- Fixed: Date format
+- Fixed: Some minor issues
+
+v 1.1.8 - 7 April 2020
+- Fixed: Payment Status
+- Fixed: Fix Email Details
+
+v 1.1.7 - 16 February 2020
+- Fixed: License notice
+- Fixed: PHP warnings in WooCommerce email
+- Fixed: Some minor issues
+
+v 1.1.6 - 16 February 2020
+- Added: An option to manage sync booking status with WooCommerce
+- Fixed: Per booking taxes in cart
+- Fixed: Duplicated bookings
+
+v 1.1.5 - 31 January 2020
+- Added: "Adding tax to tickets added to cart" option
+- Fixed: Quantity for tickets
+- Fixed: Confirmation and verification emails
+- Fixed: Attendees information in WooCommerce email
+- Fixed: Activation
+- Fixed: Some minor issues
+
+v 1.1.2 - 2 November 2019
+- Compatibility with WordPress 5.2.4
+- Added: Cart view link
+- Improved: Coupons
+- Fixed: WooCommerce Order in Excel
+- Fixed: Translation of "add to cart" notification
+
+v 1.1.1 - 21 October 2019
+- Fixed: Addon deletes the products when acitve
+- Fixed: Fee with percent calculate on cart
+- Fixed: waiting for add to cart
+- Fixed: Seciurty nonce
+
+v 1.1.0 - 26 September 2019
+- Compatibility: WooCommerce 3.7.0
+- Added: Name of buyer of the ticket
+- Added: Order label on Woo Order
+- Added: Access to booking menu (MEC Booking Menu) from Woo Order
+- Added: The billing information after the checkout process
+- Added: Apply MEC coupon in WooCommerce Cart
+- Added: "Successfully Add to Cart" Message
+- Integrated: WooCommerce Order and Bookings in MEC
+- improved: UX for adding to cart
+- Fixed: Fee pricing calculations in cart
+- Fixed: Redirecting to cart
+- Fixed: Ticket variations
+- Fixed: Date on ticket item (ticket date not order date)
+- Fixed: When removing one ticket (on before, delete all tickets when you delete one ticket)
+- fixed: Quantity on all tickets
+- fixed: Send email to admin and end users
+- Fixed: Billing information in WooCommerce Order records and MEC Bookings Records
+- Fixed: Some minor issues
+
+v 1.0.6
+- Fixed: Payments selection
+- Fixed: Some minor issues
+
+v 1.0.0
+- Initial Release

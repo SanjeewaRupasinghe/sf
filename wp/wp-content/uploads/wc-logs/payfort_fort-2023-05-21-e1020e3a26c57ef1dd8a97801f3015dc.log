@@ -1,0 +1,30 @@
+05-21-2023 @ 12:25:39 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 54933
+    [response_code] => 14000
+    [card_number] => 433367******3783
+    [card_holder_name] => Reem Almifti 
+    [payment_link_id] => 169999991036105103
+    [signature] => e62dd067bf57ebf1a11556bc4613fee6c7f1b5c2f7ab775522b1e09ed3fe3a4f
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2702
+    [customer_ip] => 94.203.150.144
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991036122997
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO02134
+    [authorization_code] => 379365
+    [customer_email] => rimftm@gmail.com
+    [currency] => AED
+    [customer_name] => Reem Mohammed Almifti
+    [status] => 14
+)
+

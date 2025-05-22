@@ -1,0 +1,58 @@
+07-23-2023 @ 12:38:06 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 35204
+    [response_code] => 14000
+    [card_number] => 443913******2866
+    [card_holder_name] => MARIE MICHELLE
+    [payment_link_id] => 169999991139819341
+    [signature] => 4a0fd415c21b9ecae4c6161caa8377f4375587d9a8247e4f14d1eb101ff14d18
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2712
+    [customer_ip] => 92.97.80.8
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991139873559
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02212
+    [authorization_code] => 750373
+    [customer_email] => marie.m96@live.com
+    [currency] => AED
+    [customer_name] => Marie Michelle
+    [status] => 14
+)
+
+07-23-2023 @ 17:23:29 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 54933
+    [response_code] => 10119
+    [card_number] => 419869******0876
+    [card_holder_name] => MOHAMAD Alsheikh
+    [signature] => 41d9a34d23e8ce116a035f76a3336816138f8ded5731eda03b07bf910053f2fe
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2709
+    [customer_ip] => 92.98.228.231
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991140133852
+    [command] => PURCHASE
+    [response_message] => Request dropped
+    [merchant_reference] => SO-02213
+    [customer_email] => loujainalbaba@gmail.com
+    [currency] => AED
+    [customer_name] => Loujain Albaba
+    [status] => 10
+)
+

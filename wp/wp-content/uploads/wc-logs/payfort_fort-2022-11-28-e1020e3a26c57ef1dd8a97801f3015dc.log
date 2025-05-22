@@ -1,0 +1,30 @@
+11-28-2022 @ 16:33:36 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 517554******0851
+    [card_holder_name] => vAL HAROLD CABIAS
+    [payment_link_id] => Quote-02927
+    [signature] => 764ea0e88a7f1ccbe0329bcfeb1cf3f48f5ba5f50fd9d2d05c4667e44d8f2df7
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA-BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2611
+    [customer_ip] => 217.165.24.38
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990767404467
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-02927
+    [authorization_code] => 531664
+    [customer_email] => vhcabias@yahoo.com
+    [currency] => AED
+    [customer_name] => Val Harold Cabias
+    [status] => 14
+)
+

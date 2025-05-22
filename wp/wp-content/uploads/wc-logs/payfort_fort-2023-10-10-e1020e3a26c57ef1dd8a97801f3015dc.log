@@ -1,0 +1,119 @@
+10-10-2023 @ 05:51:58 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_responseOnline
+    [amount] => 209895
+    [response_code] => 14000
+    [card_number] => *****
+    [card_holder_name] => **************
+    [signature] => bf44c8d9e1285ebf1323f153a569732e96c24b2990a21f78e2fc9370be85910d
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => ****
+    [customer_ip] => *************
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991281198845
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 23890
+    [authorization_code] => 894252
+    [customer_email] => ---private---*********
+    [currency] => AED
+    [customer_name] => **************
+    [status] => 14
+)
+
+10-10-2023 @ 05:51:58 - Invalid Signature. Calculated Signature: bf44c8d9e1285ebf1323f153a569732e96c24b2990a21f78e2fc9370be85910d, Response Signature: 920fa6e53d38a8099fa7f6f1d4a14cd8d20e6208197d5b4a132b3a9b1522788f
+10-10-2023 @ 12:33:59 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 91986
+    [response_code] => 14000
+    [card_number] => 433367******7661
+    [card_holder_name] => SAMAR ALNANSOORI
+    [payment_link_id] => 169999991282994160
+    [signature] => 345a098c34012e92d7ce179d30a65eb8db5da1e7f2b3e02d2f24fb9320960805
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2609
+    [customer_ip] => 104.28.194.96
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991284852741
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02340
+    [authorization_code] => 298497
+    [customer_email] => nonoa337@gmail.com
+    [currency] => AED
+    [customer_name] => Sammar Almansuri
+    [status] => 14
+)
+
+10-10-2023 @ 16:17:20 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 549284******6890
+    [card_holder_name] => Aminur Rahman
+    [payment_link_id] => Quote-03510
+    [signature] => 948c749c2e1eb9780c6ac3aa3264f1a825e79407b1a8e652f2e0d3a46b756ee3
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2702
+    [customer_ip] => 31.215.78.116
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991285301671
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03510
+    [authorization_code] => T13134
+    [customer_email] => nilabegum@hotmail.co.uk
+    [currency] => AED
+    [customer_name] => Nila Begum
+    [status] => 14
+)
+
+10-10-2023 @ 23:02:58 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 529192******4423
+    [card_holder_name] => SALAMA ALBLOOSHI
+    [payment_link_id] => Quote-03502
+    [signature] => e3a5ca47ebd660a7ea6939b8628e778360bf3c68e3372427c2e42d3b12fb477e
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2712
+    [customer_ip] => 92.96.118.101
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991286029724
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03502
+    [authorization_code] => 559523
+    [customer_email] => Maryamxallb@gmail.com
+    [currency] => AED
+    [customer_name] => Mariam Mohamed alblooshi
+    [status] => 14
+)
+

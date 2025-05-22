@@ -1,0 +1,60 @@
+11-09-2023 @ 11:14:04 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 89250
+    [response_code] => 14000
+    [card_number] => 552191******6781
+    [card_holder_name] => thatiana Moreno Hort
+    [payment_link_id] => Quote-03562
+    [signature] => f5007515f5de51a636665dea101aca25c78cbb9268aac772a6371fae9916ce4b
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA PALS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2712
+    [customer_ip] => 92.96.111.50
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991343251053
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03562
+    [authorization_code] => 707809
+    [customer_email] => Horta.thatiana@gmail.com
+    [currency] => AED
+    [customer_name] => Thatiana Moreno Horta Chesney
+    [status] => 14
+)
+
+11-09-2023 @ 17:15:24 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 29400
+    [response_code] => 14000
+    [card_number] => 542933******7468
+    [card_holder_name] => Ahlam Abu Hammad
+    [payment_link_id] => Quote-03576
+    [signature] => d143208b5dac099c8819a8ce7497abf1102a9dde5c56aab6da1409e182cef9b6
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2502
+    [customer_ip] => 91.75.87.1
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991343937232
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03576
+    [authorization_code] => 734350
+    [customer_email] => AbuHamA@ClevelandClinicAbuDhabi.ae
+    [currency] => AED
+    [customer_name] => Ahlam Abu Hammad
+    [status] => 14
+)
+

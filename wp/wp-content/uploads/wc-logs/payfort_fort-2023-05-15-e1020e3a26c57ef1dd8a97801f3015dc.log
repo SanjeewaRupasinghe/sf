@@ -1,0 +1,90 @@
+05-15-2023 @ 10:19:31 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 54933
+    [response_code] => 14000
+    [card_number] => 529192******6035
+    [card_holder_name] => Nada Alshamali
+    [payment_link_id] => 169999991027078385
+    [signature] => 947637ac28c21a212e500b8d068871eab5b2d2effc630717a574dcfe6ff0cb93
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2706
+    [customer_ip] => 2.48.47.91
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991027121158
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-2128
+    [authorization_code] => 663993
+    [customer_email] => nada.alshamal@gmail.com
+    [currency] => AED
+    [customer_name] => Nada Alshamal
+    [status] => 14
+)
+
+05-15-2023 @ 11:35:26 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 116373
+    [response_code] => 14000
+    [card_number] => 467744******8590
+    [card_holder_name] => Alejandro Fischer
+    [payment_link_id] => 169999991027085960
+    [signature] => 6f70623fbc83c93a4944770875467cf9c22408e38071fb8e4a7bb60897c1a986
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2707
+    [customer_ip] => 80.227.106.38
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991027204116
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-2126
+    [authorization_code] => 328088
+    [customer_email] => Alejandro.Fischer@havasme.com
+    [currency] => AED
+    [customer_name] => Alejandro Fischer
+    [status] => 14
+)
+
+05-15-2023 @ 13:16:42 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 63000
+    [response_code] => 14000
+    [card_number] => 443913******9499
+    [card_holder_name] => Carla Bulan
+    [payment_link_id] => Quote-03196
+    [signature] => bcfe90a5cda89c0aded0a17a76c3399f9a9f88fcff9f0b7ce2ce8b4c148ca638
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => HABC First Aid CPR AED
+    [payment_option] => VISA
+    [expiry_date] => 2602
+    [customer_ip] => 91.74.10.206
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991027318952
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03196
+    [authorization_code] => 723438
+    [customer_email] => CBulan@bw-engineering.com
+    [currency] => AED
+    [customer_name] => Carla Bulan
+    [status] => 14
+)
+

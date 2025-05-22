@@ -1,0 +1,60 @@
+07-14-2023 @ 08:53:31 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 35204
+    [response_code] => 14000
+    [card_number] => 433367******4932
+    [card_holder_name] => SHAMMA ALABDULLA
+    [payment_link_id] => 169999991124154080
+    [signature] => 1c0c8604209a420cad19be1c7e5104795a2cb33c1193510899335050c7c41166
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2708
+    [customer_ip] => 2.50.35.206
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991125474643
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02196
+    [authorization_code] => 518079
+    [customer_email] => shamma_a@hotmail.com
+    [currency] => AED
+    [customer_name] => Shama Abdulrehman
+    [status] => 14
+)
+
+07-14-2023 @ 14:14:50 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 521314******5028
+    [card_holder_name] => Nuditha Dilnayana
+    [payment_link_id] => Quote-03306
+    [signature] => bba242495b337d78b8c790bc027c8ce2d6e48dd1c075747072a83c431d28b785
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2507
+    [customer_ip] => 175.157.47.19
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991125725352
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03306
+    [authorization_code] => T47362
+    [customer_email] => lakna.amalie@gmail.com
+    [currency] => AED
+    [customer_name] => Thirimadura Lakna Amalie Mendis
+    [status] => 14
+)
+

@@ -1,0 +1,30 @@
+09-03-2023 @ 17:12:36 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 471365******3342
+    [card_holder_name] => AHMED H ALMESSABI 
+    [payment_link_id] => Quote-03411
+    [signature] => 5def2cdef05687fa4d87e523002f35de68d9bf0b091b1f4e45fec89e0220ae2b
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2701
+    [customer_ip] => 94.57.114.25
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991215214323
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03411
+    [authorization_code] => 388154
+    [customer_email] => Dr.ahmed.88@live.com
+    [currency] => AED
+    [customer_name] => Ahmed Almessabi
+    [status] => 14
+)
+

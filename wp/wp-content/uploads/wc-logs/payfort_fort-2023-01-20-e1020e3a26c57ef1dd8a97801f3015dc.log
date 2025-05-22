@@ -1,0 +1,283 @@
+01-20-2023 @ 09:56:22 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 126000
+    [response_code] => 14000
+    [card_number] => 534159******4158
+    [card_holder_name] => Ahmed Chehal
+    [payment_link_id] => 169999990848886696
+    [signature] => 6e5d9ffad169433538344faf40c5a18b607867776c86296411981e7d8e19eec5
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA-ACLS BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2508
+    [customer_ip] => 37.245.70.200
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990848887945
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03031A
+    [authorization_code] => 508417
+    [customer_email] => chehalahmed@gmail.com
+    [currency] => AED
+    [customer_name] => Ahmed Chehal
+    [status] => 14
+)
+
+01-20-2023 @ 10:14:20 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 126000
+    [response_code] => 14000
+    [card_number] => 419869******1358
+    [card_holder_name] => Talaat Abdul Karim
+    [payment_link_id] => 169999990848897845
+    [signature] => 456b6e51e36d8a229024171c172f4559e7ef642e1c3271899a1e998ce1bea713
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA-BLS ACLS
+    [payment_option] => VISA
+    [expiry_date] => 2702
+    [customer_ip] => 31.215.6.241
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990848899105
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03032A
+    [authorization_code] => 014209
+    [customer_email] => abdulmoen.abdulkarim@gmail.com
+    [currency] => AED
+    [customer_name] => Abdul Moen Abdul Karim
+    [status] => 14
+)
+
+01-20-2023 @ 10:30:31 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 377895
+    [response_code] => 14000
+    [card_number] => 471387******7705
+    [card_holder_name] => Faheem Obaidullah
+    [payment_link_id] => 169999990848890445
+    [signature] => 67ea22973f735e9312bf7acec19f105a3b2ba1f3017082e94c4dccf0c97c6b08
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Appraisal
+    [payment_option] => VISA
+    [expiry_date] => 2611
+    [customer_ip] => 31.215.25.85
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990848909022
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-02972A
+    [authorization_code] => 365669
+    [customer_email] => Drfobaidullah@gmail.com
+    [currency] => AED
+    [customer_name] => Faheem Obaidullah
+    [status] => 14
+)
+
+01-20-2023 @ 11:18:13 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 126000
+    [response_code] => 10119
+    [card_number] => 419869******1358
+    [card_holder_name] => Talaat Abdul Karim
+    [signature] => 531cc2224306e0e7c074bc4e68cb65bf874803b8687be66e0d758c01a5a28d3a
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA-BLS ACLS
+    [payment_option] => VISA
+    [expiry_date] => 2702
+    [customer_ip] => 31.215.6.241
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990848893948
+    [command] => PURCHASE
+    [response_message] => Request dropped
+    [merchant_reference] => Quote-03032
+    [customer_email] => abdulmoen.abdulkarim@gmail.com
+    [currency] => AED
+    [customer_name] => Abdul Moen Abdul Karim
+    [status] => 10
+)
+
+01-20-2023 @ 11:42:44 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 400536******3126
+    [card_holder_name] => Jency 
+    [payment_link_id] => Quote-03033
+    [signature] => 7ed6008d5919b7b493c9b77cda27632f34794b8ee3e922af64ac46310b99a8b4
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA-BLS
+    [payment_option] => VISA
+    [expiry_date] => 2705
+    [customer_ip] => 217.164.8.12
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990848959005
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03033
+    [authorization_code] => 988883
+    [customer_email] => jency.sajit@gmail.com
+    [currency] => AED
+    [customer_name] => Jency Sajit Keekkaden
+    [status] => 14
+)
+
+01-20-2023 @ 16:00:42 - Payfort Request Params for payment method (payfort) 
+
+Array
+(
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [merchant_reference] => 22698
+    [language] => en
+    [service_command] => TOKENIZATION
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [signature] => 4674c5ca5a7862c303787d739f0f2f8b5e02640b49a0df46a30056ee10d2c197
+)
+
+01-20-2023 @ 16:00:43 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_merchantPageResponse
+    [response_code] => 18000
+    [card_number] => ****************
+    [card_holder_name] => *********************
+    [signature] => a5bf55ddae389ef78619ab15288890e43180ca026944c91205d838e89d981fc3
+    [merchant_identifier] => xyKdBdwl
+    [expiry_date] => ****
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [language] => en
+    [response_message] => Success
+    [service_command] => TOKENIZATION
+    [merchant_reference] => 22698
+    [token_name] => 6bb9ea2ef2964d11bf3baf5325561b9e
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [status] => 18
+    [card_bin] => 409770
+)
+
+01-20-2023 @ 16:00:43 - Merchant Page Notify Api Request Params : Array
+(
+    [merchant_reference] => 22698
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [command] => PURCHASE
+    [merchant_identifier] => xyKdBdwl
+    [customer_ip] => 213.86.120.198
+    [amount] => 63000
+    [currency] => AED
+    [customer_email] => dbertrand@trowers.com
+    [token_name] => 6bb9ea2ef2964d11bf3baf5325561b9e
+    [language] => en
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_responseOnline
+    [customer_name] => Debbie Bertrand
+    [signature] => fc5bdfbb790aaf8695ce1143431d047a9bbb6e63b04ac45f3b3cf2c5d3df119a
+)
+
+01-20-2023 @ 16:00:47 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [amount] => 63000
+    [response_code] => 20064
+    [card_number] => ****************
+    [card_holder_name] => *********************
+    [signature] => ee87d0c55de4df4aa625c08913f78589c5194078154866d633cbe8161cfd6da6
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => ****
+    [customer_ip] => **************
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990849209044
+    [command] => PURCHASE
+    [3ds_url] => https://checkout.payfort.com/FortAPI/redirectionResponse/threeDs2RedirectURL?token=72239xfo9OFBNysk783wqwoKwmDJFU
+    [response_message] => 3-D Secure check requested
+    [merchant_reference] => 22698
+    [customer_email] => *********************
+    [currency] => AED
+    [customer_name] => ***************
+    [status] => 20
+)
+
+01-20-2023 @ 16:01:26 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_responseOnline
+    [amount] => 63000
+    [response_code] => 14000
+    [card_number] => ****************
+    [card_holder_name] => *********************
+    [signature] => 32b026a4987dd1a464ae12e0d3c9ca76c527091dab86e4dea0a207e41bd89360
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => ****
+    [customer_ip] => **************
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990849209044
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 22698
+    [authorization_code] => 735587
+    [customer_email] => *********************
+    [currency] => AED
+    [customer_name] => ***************
+    [status] => 14
+)
+
+01-20-2023 @ 16:01:26 - Fort response parameters (offline) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 63000
+    [response_code] => 14000
+    [card_number] => 409770******7578
+    [card_holder_name] => DEBBIE MARIE BERTRAND
+    [signature] => c9522b2cf93febf79a8356183f75e97455418d1742b1977805baef51fdf046d1
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => 2506
+    [customer_ip] => 213.86.120.198
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990849209044
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 22698
+    [authorization_code] => 735587
+    [customer_email] => dbertrand@trowers.com
+    [currency] => AED
+    [customer_name] => Debbie Bertrand
+    [status] => 14
+)
+

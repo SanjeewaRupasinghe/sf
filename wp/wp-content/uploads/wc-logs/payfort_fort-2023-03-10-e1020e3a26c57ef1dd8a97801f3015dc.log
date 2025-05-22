@@ -1,0 +1,30 @@
+03-10-2023 @ 18:25:53 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 63000
+    [response_code] => 14000
+    [card_number] => 557661******2690
+    [card_holder_name] => YASMEEN MAARRAOUI 
+    [payment_link_id] => Quote-03144
+    [signature] => a13f3c99de026fe56caacba5b30e0b0a85a2478d754e7f791bc5f05995d7c8cf
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Basic Life Support Provider Course
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2407
+    [customer_ip] => 2.50.244.20
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990928682136
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03144
+    [authorization_code] => 528509
+    [customer_email] => ymu28@hotmail.com
+    [currency] => AED
+    [customer_name] => YASMEEN MAARRAOUI
+    [status] => 14
+)
+

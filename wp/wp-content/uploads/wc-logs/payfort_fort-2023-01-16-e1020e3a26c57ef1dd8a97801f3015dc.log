@@ -1,0 +1,30 @@
+01-16-2023 @ 18:43:30 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 451395
+    [response_code] => 14000
+    [card_number] => 442109******0004
+    [card_holder_name] => Sattar Al-Qaseer
+    [payment_link_id] => 169999990843594312
+    [signature] => 6bfcf9d590ff03d57bde100aacd36e034f0794d78ff8112d9f629580b3d82d6e
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => Revalidation
+    [payment_option] => VISA
+    [expiry_date] => 2511
+    [customer_ip] => 5.38.64.227
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990843670190
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03018
+    [authorization_code] => 922724
+    [customer_email] => sattar26@doctors.org.uk
+    [currency] => AED
+    [customer_name] => Sattar Alshryda
+    [status] => 14
+)
+

@@ -1,0 +1,135 @@
+03-19-2023 @ 19:58:28 - Payfort Request Params for payment method (payfort) 
+
+Array
+(
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [merchant_reference] => 22877
+    [language] => en
+    [service_command] => TOKENIZATION
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [signature] => 2106da607820b907a4fc0c60b8e2c2eb7eb4cd2d1da4a2d2aa4c9dfe2dd5bebe
+)
+
+03-19-2023 @ 19:58:30 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_merchantPageResponse
+    [response_code] => 18000
+    [card_number] => ****************
+    [card_holder_name] => ******************
+    [signature] => 40171b42888d2be8824db58583db2094162a01f71e983ed872025455c36dfdb5
+    [merchant_identifier] => xyKdBdwl
+    [expiry_date] => ****
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [language] => en
+    [response_message] => Success
+    [service_command] => TOKENIZATION
+    [merchant_reference] => 22877
+    [token_name] => bc35c0fdcf5e4d58a4f1d988049676d2
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_merchantPageResponse
+    [status] => 18
+    [card_bin] => 434143
+)
+
+03-19-2023 @ 19:58:30 - Merchant Page Notify Api Request Params : Array
+(
+    [merchant_reference] => 22877
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [command] => PURCHASE
+    [merchant_identifier] => xyKdBdwl
+    [customer_ip] => 31.215.199.136
+    [amount] => 31500
+    [currency] => AED
+    [customer_email] => ahmed.satti1@outlook.com
+    [token_name] => bc35c0fdcf5e4d58a4f1d988049676d2
+    [language] => en
+    [return_url] => https://safetyfirstmed.ae?wc-api=wc_gateway_payfort_fort_responseOnline
+    [customer_name] => Ahmed Satti
+    [signature] => 31db801d7f44c59d7a621820f3ca39169112604efa3bef9d993290e49f87fff7
+)
+
+03-19-2023 @ 19:58:33 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [amount] => 31500
+    [response_code] => 20064
+    [card_number] => ****************
+    [card_holder_name] => ******************
+    [signature] => 37e88e76f1be8dd193f98c82e25154b20901082864ba39b7695316e0554b1478
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => ****
+    [customer_ip] => **************
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990942997708
+    [command] => PURCHASE
+    [3ds_url] => https://checkout.payfort.com/FortAPI/redirectionResponse/threeDs2RedirectURL?token=1501825HbbjzwrhtNKuDdqGamyYBWm
+    [response_message] => 3-D Secure check requested
+    [merchant_reference] => 22877
+    [customer_email] => ************************
+    [currency] => AED
+    [customer_name] => ***********
+    [status] => 20
+)
+
+03-19-2023 @ 19:59:18 - Fort response parameters (offline) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 434143******5057
+    [card_holder_name] => Satti Shaikh Satti
+    [signature] => 36dc801f25a34b5531e5edb29464f9a45b4457f0080d5ef7007900fc4cb77113
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => 2402
+    [customer_ip] => 31.215.199.136
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990942997708
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 22877
+    [authorization_code] => 679796
+    [customer_email] => ahmed.satti1@outlook.com
+    [currency] => AED
+    [customer_name] => Ahmed Satti
+    [status] => 14
+)
+
+03-19-2023 @ 19:59:18 - Fort response parameters (online) for payment method (payfort) 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_fort_responseOnline
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => ****************
+    [card_holder_name] => ******************
+    [signature] => eeb4e55ea1ccaf5d617581eeebc09ff2ce8c659755900c3489da50a0aab67a2a
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [payment_option] => VISA
+    [expiry_date] => ****
+    [customer_ip] => **************
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990942997708
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => 22877
+    [authorization_code] => 679796
+    [customer_email] => ************************
+    [currency] => AED
+    [customer_name] => ***********
+    [status] => 14
+)
+

@@ -1,0 +1,60 @@
+02-10-2023 @ 11:06:06 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 87500
+    [response_code] => 14000
+    [card_number] => 557661******8402
+    [card_holder_name] => Doha hamid
+    [payment_link_id] => Quote-03089
+    [signature] => cf5170bd51b2f30a6f1c021b18e1ae6c93f07ea90f76b2d13a04eadfe9a73902
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA-ACLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2611
+    [customer_ip] => 2.50.17.63
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990883159292
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03089
+    [authorization_code] => 599807
+    [customer_email] => doha.antr95@gmail.com
+    [currency] => AED
+    [customer_name] => Doha Hamid Anter
+    [status] => 14
+)
+
+02-10-2023 @ 13:57:35 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 126000
+    [response_code] => 14000
+    [card_number] => 428688******5546
+    [card_holder_name] => Sara Almarzooqi
+    [payment_link_id] => Quote-03091
+    [signature] => 9528387bf2b46f6c63061ec3325d211f24d13856f2384ff8b4c14b1a1cf31ea8
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA- HSFACPRAED
+    [payment_option] => VISA
+    [expiry_date] => 2508
+    [customer_ip] => 91.230.41.206
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990883290543
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03091
+    [authorization_code] => 004504
+    [customer_email] => sara.ak.almarzooqi@gmail.com
+    [currency] => AED
+    [customer_name] => Sara Almarzooqi
+    [status] => 14
+)
+

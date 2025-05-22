@@ -1,0 +1,60 @@
+07-17-2023 @ 14:26:13 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 55129
+    [response_code] => 14000
+    [card_number] => 480666******1333
+    [card_holder_name] => SHAMSA MOHAMMED
+    [payment_link_id] => 169999991130479659
+    [signature] => 3f1a38b2c6dc18d840c9795c489c788952034ea09ca35a63021df70e024c5ece
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => VISA
+    [expiry_date] => 2510
+    [customer_ip] => 92.98.112.197
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991130481488
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02204
+    [authorization_code] => 940793
+    [customer_email] => Sghalaita@hotmail.com
+    [currency] => AED
+    [customer_name] => Shamsa bin ghalaita
+    [status] => 14
+)
+
+07-17-2023 @ 14:53:35 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 8820
+    [response_code] => 14000
+    [card_number] => 557661******3551
+    [card_holder_name] => ALI SAEED MOHAMED
+    [payment_link_id] => 169999991130477886
+    [signature] => a4490f9c3348d4204347b8539a6272d33616676611c9ed93e6190bbc817afbdf
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => BN Products
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2412
+    [customer_ip] => 176.204.216.118
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991130520977
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => SO-02201
+    [authorization_code] => 536228
+    [customer_email] => ali_alhamoudi121@icloud.com
+    [currency] => AED
+    [customer_name] => Ali Hamoudi
+    [status] => 14
+)
+

@@ -1,0 +1,217 @@
+2023-07-20T17:14:46+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-07-01/) at position 10 (/): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-07-01/', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/class-esb-date.php(319): MEC\Si in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-07-20T17:15:08+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-07-02/) at position 10 (/): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-07-02/', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/class-esb-date.php(319): MEC\Si in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-07-20T17:15:32+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-07-03/) at position 10 (/): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-07-03/', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/class-esb-date.php(319): MEC\Si in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-07-20T17:15:56+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-07-04/) at position 10 (/): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-07-04/', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/class-esb-date.php(319): MEC\Si in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-07-20T17:16:20+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-07-05/) at position 10 (/): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-07-05/', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/class-esb-date.php(319): MEC\Si in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-07-20T17:16:44+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-07-06/) at position 10 (/): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-07-06/', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/class-esb-date.php(319): MEC\Si in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-07-20T17:17:06+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-07-07/) at position 10 (/): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-07-07/', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/class-esb-date.php(319): MEC\Si in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-07-20T17:17:27+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-07-08/) at position 10 (/): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-07-08/', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/class-esb-date.php(319): MEC\Si in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-07-20T17:17:49+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-07-09/) at position 10 (/): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-07-09/', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/class-esb-date.php(319): MEC\Si in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-07-20T17:18:13+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-07-10/) at position 10 (/): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-07-10/', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/class-esb-date.php(319): MEC\Si in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-07-20T17:18:37+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-07-11/) at position 10 (/): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-07-11/', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/class-esb-date.php(319): MEC\Si in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-07-20T17:19:02+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-07-12/) at position 10 (/): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-07-12/', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/class-esb-date.php(319): MEC\Si in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-07-20T17:19:26+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-07-13/) at position 10 (/): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-07-13/', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/class-esb-date.php(319): MEC\Si in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-07-20T17:19:49+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-07-14/) at position 10 (/): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-07-14/', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/class-esb-date.php(319): MEC\Si in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-07-20T17:20:11+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-07-15/) at position 10 (/): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-07-15/', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/class-esb-date.php(319): MEC\Si in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-07-20T17:20:34+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-07-16/) at position 10 (/): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-07-16/', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/class-esb-date.php(319): MEC\Si in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-07-20T17:20:56+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-07-17/) at position 10 (/): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-07-17/', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/class-esb-date.php(319): MEC\Si in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-07-20T17:21:19+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-07-18/) at position 10 (/): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-07-18/', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/class-esb-date.php(319): MEC\Si in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-07-20T17:21:42+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-07-19/) at position 10 (/): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-07-19/', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/class-esb-date.php(319): MEC\Si in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-07-20T17:22:05+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-07-20/) at position 10 (/): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-07-20/', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/class-esb-date.php(319): MEC\Si in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-07-20T17:22:33+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-07-21/) at position 10 (/): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-07-21/', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/class-esb-date.php(319): MEC\Si in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-07-20T17:23:00+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-07-22/) at position 10 (/): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-07-22/', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/class-esb-date.php(319): MEC\Si in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-07-20T17:23:28+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-07-23/) at position 10 (/): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-07-23/', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/class-esb-date.php(319): MEC\Si in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-07-20T17:23:56+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-07-24/) at position 10 (/): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-07-24/', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/class-esb-date.php(319): MEC\Si in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-07-20T17:24:25+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-07-25/) at position 10 (/): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-07-25/', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/class-esb-date.php(319): MEC\Si in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-07-20T17:24:53+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-07-26/) at position 10 (/): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-07-26/', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/class-esb-date.php(319): MEC\Si in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-07-20T17:25:20+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-07-27/) at position 10 (/): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-07-27/', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/class-esb-date.php(319): MEC\Si in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-07-20T17:25:47+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-07-28/) at position 10 (/): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-07-28/', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/class-esb-date.php(319): MEC\Si in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-07-20T17:26:43+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-07-29/) at position 10 (/): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-07-29/', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/class-esb-date.php(319): MEC\Si in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-07-20T17:27:09+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-07-30/) at position 10 (/): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-07-30/', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/class-esb-date.php(319): MEC\Si in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+
+2023-07-20T17:27:36+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (2023-07-31/) at position 10 (/): Unexpected character in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php:5521
+Stack trace:
+#0 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php(5521): DateTime->__construct('2023-07-31/', Object(DateTimeZone))
+#1 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/Widgets/EventDate/EventDate.php(38): MEC_main->date_label(Array, Array, 'd M Y')
+#2 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/core/src/SingleBuilder/SingleBuilder.php(100): MEC\SingleBuilder\Widgets\EventDate\EventDate->output(8629, Array)
+#3 /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/mec-single-builder/inc/admin/widgets/class-esb-date.php(319): MEC\Si in /home/897092.cloudwaysapps.com/qnjpvbnhcv/public_html/wp-content/plugins/modern-events-calendar/app/libraries/main.php on line 5521
+

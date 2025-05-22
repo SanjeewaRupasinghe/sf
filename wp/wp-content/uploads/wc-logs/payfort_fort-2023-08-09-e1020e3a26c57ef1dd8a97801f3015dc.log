@@ -1,0 +1,30 @@
+08-09-2023 @ 09:57:33 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 512717******9994
+    [card_holder_name] => Silas Wilson
+    [payment_link_id] => Quote-03333
+    [signature] => 6a2c345f4983ffed253bacbfb2b40bb6ea6c619b1c1c56a5a2c690f3f6c024cd
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2410
+    [customer_ip] => 86.98.66.171
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991170524036
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03333
+    [authorization_code] => 506443
+    [customer_email] => beenasilasabd82@gmail.com
+    [currency] => AED
+    [customer_name] => Beena Silas
+    [status] => 14
+)
+

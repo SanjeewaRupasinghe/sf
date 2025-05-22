@@ -1,0 +1,88 @@
+04-25-2023 @ 10:27:12 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 532660******6923
+    [card_holder_name] => Rekha Ahluwalia 
+    [payment_link_id] => Quote-03189
+    [signature] => 1b00a0c37e2020d4d1e2c40a33455e59e27540b28d6055e2b342c4a89d273279
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => MASTERCARD
+    [expiry_date] => 2405
+    [customer_ip] => 2.50.173.233
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990995095818
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03189
+    [authorization_code] => 219876
+    [customer_email] => rekha.ahluwalia@yahoo.com
+    [currency] => AED
+    [customer_name] => Dr Rekha Ahluwalia
+    [status] => 14
+)
+
+04-25-2023 @ 12:19:27 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 428688******6240
+    [card_holder_name] => Sherin Mathew
+    [payment_link_id] => Quote-03191A
+    [signature] => 81f033524b04662ac381438cca5d30dc3ebca54d8fc936323ede8b245d06f97f
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2707
+    [customer_ip] => 92.99.23.146
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990995192220
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03191A
+    [authorization_code] => 006470
+    [customer_email] => Sherinmadathunkal@gmail.com
+    [currency] => AED
+    [customer_name] => Sherin Mathew
+    [status] => 14
+)
+
+04-25-2023 @ 13:22:32 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 10119
+    [card_number] => 428688******6240
+    [card_holder_name] => Sherin Mathew 
+    [signature] => baefb53e1c802670ba19423f9cb709f12ac7507941f4e0a3ecc9929136c6ea61
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA BLS
+    [payment_option] => VISA
+    [expiry_date] => 2707
+    [customer_ip] => 92.99.23.146
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999990995181015
+    [command] => PURCHASE
+    [response_message] => Request dropped
+    [merchant_reference] => Quote-03191
+    [customer_email] => Sherinmadathunkal@gmail.com
+    [currency] => AED
+    [customer_name] => Sherin Mathew
+    [status] => 10
+)
+

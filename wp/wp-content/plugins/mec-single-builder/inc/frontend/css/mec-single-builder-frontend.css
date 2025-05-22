@@ -1,0 +1,174 @@
+/**
+ * All of the CSS for your public-facing functionality should be included in this file.
+ *
+ * The file is enqueued from inc/frontend/class-frontend.php.
+ */
+.single-mec_esb .content-area {
+    float: none;
+    width: 100%;
+    padding: 0;
+}
+
+.mec-wrap .elementor-text-editor p {
+    all: unset;
+}
+
+body .featherlight .featherlight-content {
+    overflow-y: scroll !important;
+    overflow-x: hidden;
+    background: #fff;
+}
+
+/* Next / Previous Events */
+.mec-next-previous-events {
+    height: 100%;
+    display: flex;
+}
+
+/* Virtual event styles as default style */
+.mec-single-virtual-badge {
+    background: #f7f7f7;
+    padding: 20px 15px;
+    margin-bottom: 12px;
+    vertical-align: baseline;
+    position: relative;
+}
+
+.mec-single-virtual-badge i {
+    vertical-align: middle;
+}
+
+.mec-single-virtual-badge h3 {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 5px;
+    display: inline;
+    color: #000;
+    padding-left: 10px;
+}
+.mec-single-virtual-badge i:before {
+    font-size: 20px;
+    vertical-align: middle;
+    color: #40d9f1;
+}
+
+span.mec-shortcode-virtual-badge {
+    background: #3aad14;
+    position: relative;
+    top: -3px;
+    font-size: 11px;
+    font-weight: 300;
+    margin-left: 1px;
+    line-height: 1.9;
+    letter-spacing: 1px;
+    color: #fff;
+    padding: 2px 7px;
+    border-radius: 2px;
+    white-space: nowrap;
+}
+span.mec-shortcode-virtual-badge i:before {
+    margin-right: 5px;
+}
+
+.mec-event-virtual-embed iframe {
+    width: 100%;
+}
+
+.mec-event-virtual-embed,
+.mec-event-virtual-link,.mec-virtual-password {
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #e3e3e3;
+    padding-bottom: 7px;
+    display: block;
+}
+
+.mec-event-virtual-embed:last-child,
+.mec-event-virtual-link:last-child,
+.mec-virtual-password:last-child {
+    border: unset;
+}
+
+
+/* Zoom event styles as default style */
+.mec-single-zoom-badge {
+    background: #f7f7f7;
+    padding: 20px 15px;
+    margin-bottom: 12px;
+    vertical-align: baseline;
+    position: relative;
+}
+
+.mec-single-zoom-badge i {
+    vertical-align: middle;
+}
+
+.mec-single-zoom-badge h3 {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 5px;
+    display: inline;
+    color: #000;
+    padding-left: 10px;
+}
+.mec-single-zoom-badge i:before {
+    font-size: 20px;
+    vertical-align: middle;
+    color: #40d9f1;
+}
+
+span.mec-shortcode-zoom-badge {
+    background: #3aad14;
+    position: relative;
+    top: -3px;
+    font-size: 11px;
+    font-weight: 300;
+    margin-left: 1px;
+    line-height: 1.9;
+    letter-spacing: 1px;
+    color: #fff;
+    padding: 2px 7px;
+    border-radius: 2px;
+    white-space: nowrap;
+}
+span.mec-shortcode-zoom-badge i:before {
+    margin-right: 5px;
+}
+
+.mec-event-zoom-embed iframe {
+    width: 100%;
+}
+
+.mec-event-zoom-embed,
+.mec-event-zoom-link,.mec-zoom-password {
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #e3e3e3;
+    padding-bottom: 7px;
+    display: block;
+}
+
+.mec-event-zoom-embed:last-child,
+.mec-event-zoom-link:last-child,
+.mec-zoom-password:last-child {
+    border: unset;
+}
+
+/* RSVP Responsive size for mobile and tablet */
+@media(max-width:768px) {
+    .mec-rsvp-answers,
+    .mec-rsvp-answer .mec-rsvp-answers-details-links,
+    .mec_rsvp_form input[type="date"],
+    .mec_rsvp_form input[type="email"],
+    .mec_rsvp_form input[type="number"],
+    .mec_rsvp_form input[type="password"],
+    .mec_rsvp_form input[type="tel"],
+    .mec_rsvp_form input[type="text"],
+    .mec_rsvp_form select,
+    .mec_rsvp_form textarea {
+        width: 100%;
+    }
+}
+

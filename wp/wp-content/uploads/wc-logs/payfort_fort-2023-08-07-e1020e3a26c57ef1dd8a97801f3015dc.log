@@ -1,0 +1,90 @@
+08-07-2023 @ 13:03:02 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 433367******8469
+    [card_holder_name] => Shamma Mohammed
+    [payment_link_id] => Quote-03358
+    [signature] => 80b57f1ebf42d8e277fd6e941f4ce32a6b5e6670bdbf065e5583325e9c29e292
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Basic Life Support Provider Course
+    [payment_option] => VISA
+    [expiry_date] => 2712
+    [customer_ip] => 121.129.113.18
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991167420872
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03358
+    [authorization_code] => 477140
+    [customer_email] => Alkaabishamma0@gmail.com
+    [currency] => AED
+    [customer_name] => Shamma Alkaabi
+    [status] => 14
+)
+
+08-07-2023 @ 13:33:52 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 425893******9546
+    [card_holder_name] => Rouda hamad saeed
+    [payment_link_id] => Quote-03360
+    [signature] => d3d0c3ccb66164c7709054cefe7b8dc2d65d49c544dcff29339ed5c6dd408140
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Basic Life Support Provider Course
+    [payment_option] => VISA
+    [expiry_date] => 2607
+    [customer_ip] => 176.236.223.29
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991167460322
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03360
+    [authorization_code] => 507157
+    [customer_email] => rouda1507@hotmail.com
+    [currency] => AED
+    [customer_name] => Rouda Alsaedi
+    [status] => 14
+)
+
+08-07-2023 @ 13:45:34 - Fort response parameters (offline) for payment method () 
+
+Array
+(
+    [wc-api] => wc_gateway_payfort_process_response
+    [amount] => 31500
+    [response_code] => 14000
+    [card_number] => 433367******3355
+    [card_holder_name] => WADHA AHMED SA
+    [payment_link_id] => Quote-03359
+    [signature] => 9365ef698445f31c1645d569e2bc590877da1879dd357f8cbc79547b3d693906
+    [merchant_identifier] => xyKdBdwl
+    [access_code] => xbmtPp9Q4KEhfEfJUSUG
+    [order_description] => AHA Basic Life Support Provider Course
+    [payment_option] => VISA
+    [expiry_date] => 2602
+    [customer_ip] => 217.164.235.135
+    [language] => en
+    [eci] => ECOMMERCE
+    [fort_id] => 169999991167475764
+    [command] => PURCHASE
+    [response_message] => Success
+    [merchant_reference] => Quote-03359
+    [authorization_code] => 518295
+    [customer_email] => wadhaahmed9@gmail.com
+    [currency] => AED
+    [customer_name] => Wadha Ahmed Albreiki
+    [status] => 14
+)
+
