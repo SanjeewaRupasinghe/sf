@@ -22,3 +22,5 @@ require __DIR__.'/site.php';
 require __DIR__.'/main.php';
 require __DIR__.'/appraisal.php';
 require __DIR__.'/product.php';
+
+Route::get('logs', [\Rap2hpoutre\LaravelLogViewer\LogViewerController::class, 'index']);

@@ -40,6 +40,10 @@ return [
             'driver' => 'session',
             'provider' => 'users',
         ],
+        'web' => [
+        'driver' => 'session',
+        'provider' => 'appraisaUserAuth',
+    ],
 
         'api' => [
             'driver' => 'token',
@@ -70,6 +74,10 @@ return [
             'driver' => 'eloquent',
             'model' => App\Models\User::class,
         ],
+        'appraisaUserAuth' => [
+        'driver' => 'eloquent',
+        'model' => App\Models\AppraisaUser::class, // Adjust namespace if needed
+    ],
 
         // 'users' => [
         //     'driver' => 'database',

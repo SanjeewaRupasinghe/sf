@@ -99,6 +99,10 @@ return [
         'emergency' => [
             'path' => storage_path('logs/laravel.log'),
         ],
+        'ap-user-auth' => [
+            'driver' => 'daily',
+            'path' => storage_path('logs/ap-user-auth.log'),
+        ],
     ],
 
 ];
