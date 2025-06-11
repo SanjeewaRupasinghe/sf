@@ -61,7 +61,11 @@
                         <span class="btn-text">Verify Email</span>
                     </button>
 
-                    
+                    <div type="button" class="btn btn-secondary-custom">
+                        <a href="<?php echo e(route('appraisal.user.resendOtp')); ?>">
+                            Resend Code
+                        </a>
+                    </div>
                 </form>
 
                 <div class="resend-timer">
@@ -79,6 +83,7 @@
     </section>
 
     <?php echo $__env->make('appraisal.user.auth.auth-js', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+
 <?php $__env->stopSection(); ?>
 
 <?php echo $__env->make('appraisal.template', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\xampp\htdocs\Projects\sf_live\safety\resources\views/appraisal/user/auth/email-confirmation.blade.php ENDPATH**/ ?>

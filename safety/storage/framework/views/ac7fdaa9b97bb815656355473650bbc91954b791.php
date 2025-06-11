@@ -12,7 +12,14 @@
     </section>
 
     <section id="" class="about-page-section" style="padding-top: 10px;">
+        
         <div class="container">
+            <?php echo $__env->make('common.alert', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+        </div>
+
+        <div class="container">
+
+            
             <!-- Forgot Password Page -->
             <div id="forgotPasswordPage" class="auth-container">
                 <h2 class="form-title">
@@ -21,27 +28,32 @@
                 </h2>
 
                 <p class="form-subtitle">
-                    Enter your email address and we'll send you a link to reset your password.
+                    Enter your email address and we'll your new password.
                 </p>
 
-                <form id="forgotPasswordForm" novalidate>
+                <form id="forgotPasswordForm" action="<?php echo e(route('appraisal.user.passwordReset.submit')); ?>" method="POST" novalidate>
+                    <?php echo csrf_field(); ?>
                     <div class="form-group">
                         <label for="forgotEmail" class="form-label">
                             <i class="fas fa-envelope me-2"></i>Email Address
                         </label>
-                        <input type="email" class="form-control" id="forgotEmail" placeholder="Enter your email" required>
+                        <input type="email" class="form-control" id="forgotEmail" name="email" placeholder="Enter your email" required>
                         <div class="invalid-feedback"></div>
                     </div>
 
                     <button type="submit" class="btn btn-primary">
-                        <span class="btn-text">Send Reset Link</span>
+                        <span class="btn-text">Reset Password</span>
                     </button>
                 </form>
 
                 <div class="auth-links">
-                    <p style="color: rgba(255, 255, 255, 0.8); margin: 0;">
-                        Remember your password?
-                        <button type="button" onclick="showPage('loginPage')">Sign In</button>
+                    <p style="color:#4585EE; margin: 0;">
+                        Don't have an account?
+                        <a type="button" href="<?php echo e(route('appraisal.user.register')); ?>">Sign In</a>
+                    </p>
+                    <p style="color:#4585EE; margin: 10px 0;">
+                        Want to confirm email ID ?
+                        <a type="button" href="<?php echo e(route('appraisal.user.emailConfirmation')); ?>">Comfirm Email</a>
                     </p>
                 </div>
             </div>

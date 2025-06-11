@@ -15,7 +15,7 @@
         <td style="width: 25%; vertical-align: top;">
             <strong>Appraiser's name:</strong><br>
             <br>
-            <strong>Form status:</strong> Generated PDF
+            <strong>Form status:</strong> 
         </td>
         <td style="width: 25%; text-align: right; vertical-align: top;">
             <strong>Page {PAGENO} of {nbpg}</strong>

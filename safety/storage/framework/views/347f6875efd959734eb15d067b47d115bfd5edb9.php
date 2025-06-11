@@ -51,7 +51,7 @@
                 $fb_roles = $content->feedback->roles;
             }
         } catch (\Throwable $th) {
-        }        
+        }
         try {
             if ($content->complaints) {
                 $com_roles = $content->complaints->roles;
@@ -118,13 +118,13 @@
                                     </td>
                                     <td>
                                         <a class="btn btn-sm btn-primary"
-                                            href="<?php echo e(route('appraisal.user.file.download', ['fileName' => $an_new_filename])); ?>">View</a>
+                                            href="<?php echo e(route('appraisal.user.download.file', ['file' => $an_new_filename])); ?>">View</a>
                                     </td>
                                 </tr>
                             <?php endif; ?>
                             <?php if($cpd_roles > 0): ?>
                                 <?php $__currentLoopData = $cpd_roles; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $item): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-                                    <?php if($item->supportingInfo == 'Attached'): ?>
+                                    <?php if($item->supportingInfo == 'Attached' && $item->new_filename): ?>
                                         <tr>
                                             <td>
                                                 <?php echo e($item->roles); ?>
@@ -139,15 +139,15 @@
                                             </td>
                                             <td>
                                                 <a class="btn btn-sm btn-primary"
-                                                    href="<?php echo e(route('appraisal.user.file.download', ['fileName' => $item->new_filename])); ?>">View</a>
+                                                    href="<?php echo e(route('appraisal.user.download.file', ['file' => $item->new_filename])); ?>">View</a>
                                             </td>
                                         </tr>
                                     <?php endif; ?>
                                 <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                             <?php endif; ?>
-                            <?php if($qi_roles > 0): ?>
+                             <?php if($qi_roles > 0): ?>
                                 <?php $__currentLoopData = $qi_roles; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $item): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-                                    <?php if($item->supportingInfo == 'Attached'): ?>
+                                    <?php if($item->supportingInfo == 'Attached' && $item->new_filename): ?>
                                         <tr>
                                             <td>
                                                 <?php echo e($item->roles); ?>
@@ -161,7 +161,7 @@
                                             </td>
                                             <td>
                                                 <a class="btn btn-sm btn-primary"
-                                                    href="<?php echo e(route('appraisal.user.file.download', ['fileName' => $item->new_filename])); ?>">View</a>
+                                                    href="<?php echo e(route('appraisal.user.download.file', ['file' => $item->new_filename])); ?>">View</a>
                                             </td>
                                         </tr>
                                     <?php endif; ?>
@@ -169,7 +169,7 @@
                             <?php endif; ?>
                             <?php if($si_roles > 0): ?>
                                 <?php $__currentLoopData = $si_roles; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $item): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-                                    <?php if($item->supportingInfo == 'Attached'): ?>
+                                    <?php if($item->supportingInfo == 'Attached' && $item->new_filename): ?>
                                         <tr>
                                             <td>
                                                 <?php echo e($item->roles); ?>
@@ -183,7 +183,7 @@
                                             </td>
                                             <td>
                                                 <a class="btn btn-sm btn-primary"
-                                                    href="<?php echo e(route('appraisal.user.file.download', ['fileName' => $item->new_filename])); ?>">View</a>
+                                                    href="<?php echo e(route('appraisal.user.download.file', ['file' => $item->new_filename])); ?>">View</a>
                                             </td>
                                         </tr>
                                     <?php endif; ?>
@@ -191,7 +191,7 @@
                             <?php endif; ?>
                             <?php if($fb_roles > 0): ?>
                                 <?php $__currentLoopData = $fb_roles; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $item): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-                                    <?php if($item->supportingInfo == 'Attached'): ?>
+                                    <?php if($item->supportingInfo == 'Attached' && $item->new_filename): ?>
                                         <tr>
                                             <td>
                                                 <?php echo e($item->roles); ?>
@@ -205,7 +205,7 @@
                                             </td>
                                             <td>
                                                 <a class="btn btn-sm btn-primary"
-                                                    href="<?php echo e(route('appraisal.user.file.download', ['fileName' => $item->new_filename])); ?>">View</a>
+                                                    href="<?php echo e(route('appraisal.user.download.file', ['file' => $item->new_filename])); ?>">View</a>
                                             </td>
                                         </tr>
                                     <?php endif; ?>
@@ -213,7 +213,7 @@
                             <?php endif; ?>
                             <?php if($com_roles > 0): ?>
                                 <?php $__currentLoopData = $com_roles; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $item): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-                                    <?php if($item->supportingInfo == 'Attached'): ?>
+                                    <?php if($item->supportingInfo == 'Attached' && $item->new_filename): ?>
                                         <tr>
                                             <td>
                                                 <?php echo e($item->roles); ?>
@@ -227,7 +227,8 @@
                                             </td>
                                             <td>
                                                 <a class="btn btn-sm btn-primary"
-                                                    href="<?php echo e(route('appraisal.user.file.download', ['fileName' => $item->new_filename])); ?>">View</a>
+                                                    href="<?php echo e(route('appraisal.user.download.file', ['file' => $item->new_filename])); ?>"
+                                                    target="_blank">View</a>
                                             </td>
                                         </tr>
                                     <?php endif; ?>
@@ -235,7 +236,7 @@
                             <?php endif; ?>
                             <?php if($ad_roles > 0): ?>
                                 <?php $__currentLoopData = $ad_roles; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $item): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-                                    <?php if($item->supportingInfo == 'Attached'): ?>
+                                    <?php if($item->supportingInfo == 'Attached' && $item->new_filename): ?>
                                         <tr>
                                             <td>
                                                 <?php echo e($item->roles); ?>
@@ -249,7 +250,8 @@
                                             </td>
                                             <td>
                                                 <a class="btn btn-sm btn-primary"
-                                                    href="<?php echo e(route('appraisal.user.file.download', ['fileName' => $item->new_filename])); ?>">View</a>
+                                                    href="<?php echo e(route('appraisal.user.download.file', ['file' => $item->new_filename])); ?>"
+                                                    target="_blank">View</a>
                                             </td>
                                         </tr>
                                     <?php endif; ?>

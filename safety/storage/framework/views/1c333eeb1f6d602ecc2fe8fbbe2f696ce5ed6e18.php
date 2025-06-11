@@ -11,13 +11,11 @@
     <div class="content-body">
         <p>This form is intended as an example of a repository that holds the information required for a medical appraisal.
             It has been designed with the appraisal meeting in mind, in a logical manner that mirrors how the appraisal
-            conversation may flow. It is also intended as a practical demonstration of the information in the <a
-                href="https://www.england.nhs.uk/professional-standards/medical-revalidation/appraisers/med-app-guide/"
-                class="content-link">Medical Appraisal Guide: a guide to medical appraisal for revalidation in
-                England, version 4 (NHS Revalidation Support Team, 2013 [reissued with updated hyperlinks September
-                2014])</a>.</p>
+            conversation may flow. It is also intended as a practical demonstration of the information in this form which is in compliance to the <a
+                href="https://www.gmc-uk.org/professional-standards/good-medical-practice-2024"
+                class="content-link">GMC GMP guidelines 2024</a>.</p>
 
-        <p><a href="https://www.england.nhs.uk/professional-standards/medical-revalidation/appraisers/mag-mod/"
+        <p><a href="https://www.gmc-uk.org/professional-standards/good-medical-practice-2024"
                 class="content-link">The MAG Model Appraisal Form User Guide (NHS England 2016)</a> expands on
             the instructions below about how to use this form. This version of the form was updated in 2016 with an aim to
             improve its usability and enhance the appraisal outputs. It is now an annual form only.</p>

@@ -187,6 +187,8 @@
 		<li><a href="/appraisal/refund"><i class="fa fa-angle-right"></i>	<?php echo e(__('appraisal/template.Refund')); ?></a></li>
 		<!--<li><a href=""><i class="fa fa-angle-right"></i>	Careers</a></li>-->
 		<li><a href="/appraisal/contact"><i class="fa fa-angle-right"></i>  <?php echo e(__('appraisal/template.ContactUs')); ?></a></li>
+		<li><a href="<?php echo e(route('appraisal.user.login')); ?>"><i class="fa fa-angle-right"></i> Login </a></li>
+		<li><a href="<?php echo e(route('appraisal.user.register')); ?>"><i class="fa fa-angle-right"></i> Register</a></li>
 								
 </ul>
 	</div>

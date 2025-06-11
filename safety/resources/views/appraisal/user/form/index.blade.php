@@ -23,8 +23,8 @@
     <div class="content-body">
         <div class="row">
             <div class="col-md-8">
-                <ul>
-                    <li><a href="{{ route('appraisal.user.index') }}">Instructions for using this form</a></li>
+                <ol>
+                    <li>Contents</li>
                     <li><a href="{{ route('appraisal.user.instructions') }}">Instructions for using this form</a></li>
                     <li><a href="{{ route('appraisal.user.personal-details') }}">Personal details</a></li>
                     <li><a href="{{ route('appraisal.user.scope-of-work') }}">Scope of work</a></li>
@@ -49,7 +49,7 @@
                     <li><a href="{{ route('appraisal.user.summary') }}">Summary of the appraisal discussion</a></li>
                     <li><a href="{{ route('appraisal.user.outputs') }}">Appraisal outputs</a></li>
                     <li><a href="{{ route('appraisal.user.completion') }}">Completion - save, lockdown and print</a></li>
-                </ul>
+                </ol>
             </div>
             <div class="col-md-4 text-center">
                 <div>
@@ -58,13 +58,13 @@
                     how to enter the information required for your
                     appraisal into this form.
                 </div>
-                <div style="height: 60%;width: 100%; display: flex; align-items: center; justify-content: center;background: #4585EE;"
+                <div style="height: 60%;width: 100%; display: flex; align-items: center; justify-content: center;background: #47983e;"
                     class="text-white">
                     <h2>
                         Preparation <br> for <br> Appraisal
                     </h2>
                 </div>
-                <div style="background: #CB282B;" class="text-white pb-5">
+                <div style="background: #4585EE;" class="text-white pb-5">
                     <h2>
                         Appraisal
                     </h2>

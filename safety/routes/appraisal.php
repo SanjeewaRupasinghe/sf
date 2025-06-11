@@ -31,15 +31,15 @@ Route::prefix('appraisal')->group(function () {
     // USERS ============
     Route::get('/register', [AppraisaUserController::class, 'register'])->name('appraisal.user.register');
     Route::post('/register', [AppraisaUserController::class, 'registerSubmit'])->name('appraisal.user.register.submit');
-    Route::post('/resend-otp', [AppraisaUserController::class, 'resendOtp'])->name('appraisal.user.resendOtp');
+    Route::get('/resend-otp', [AppraisaUserController::class, 'resendOtp'])->name('appraisal.user.resendOtp');
+    Route::post('/resend-otp-submit', [AppraisaUserController::class, 'resendOtpSubmit'])->name('appraisal.user.resendOtp.submit');
     Route::get('/email-confirmation', [AppraisaUserController::class, 'emailConfirmation'])->name('appraisal.user.emailConfirmation');
     Route::post('/email-confirmation-submit', [AppraisaUserController::class, 'emailConfirmationSubmit'])->name('appraisal.user.emailConfirmationSubmit');
     Route::get('/password-reset', [AppraisaUserController::class, 'passwordReset'])->name('appraisal.user.passwordReset');
+    Route::post('/password-reset-submit', [AppraisaUserController::class, 'passwordResetSubmit'])->name('appraisal.user.passwordReset.submit');
     Route::get('/login', [AppraisaUserController::class, 'login'])->name('appraisal.user.login');
     Route::post('/login-submit', [AppraisaUserController::class, 'loginSubmit'])->name('appraisal.user.loginSubmit');
 
-
-    // Route::prefix('user')->group(function () {
     Route::middleware('appraisalUserAuth')->prefix('user')->group(function () {
         Route::get('/', [AppraisaUserController::class, 'index'])->name('appraisal.user.index');        
         Route::get('/instructions', [AppraisaUserController::class, 'instructions'])->name('appraisal.user.instructions');
@@ -68,7 +68,6 @@ Route::prefix('appraisal')->group(function () {
         Route::get('/additional-info', [AppraisaUserController::class, 'additionalInfo'])->name('appraisal.user.additional-info');
         Route::post('/additional-info-submit', [AppraisaUserController::class, 'additionalInfoSubmit'])->name('appraisal.user.additional-info.submit');
         Route::get('/supporting-info', [AppraisaUserController::class, 'supportingInfo'])->name('appraisal.user.supporting-info');
-        // Route::post('/supporting-info-submit', [AppraisaUserController::class, 'supportingInfoSubmit'])->name('appraisal.user.supporting-info.submit');
         Route::get('/gmc-domains', [AppraisaUserController::class, 'gmcDomains'])->name('appraisal.user.gmc-domains');
         Route::post('/gmc-domains-submit', [AppraisaUserController::class, 'gmcDomainsSubmit'])->name('appraisal.user.gmc-domains.submit');
         Route::get('/checklist', [AppraisaUserController::class, 'checklist'])->name('appraisal.user.checklist');
@@ -80,12 +79,14 @@ Route::prefix('appraisal')->group(function () {
         Route::get('/outputs', [AppraisaUserController::class, 'outputs'])->name('appraisal.user.outputs');
         Route::post('/outputs-submit', [AppraisaUserController::class, 'outputsSubmit'])->name('appraisal.user.outputs.submit');
         Route::get('/completion', [AppraisaUserController::class, 'completion'])->name('appraisal.user.completion');
-        Route::get('/file-download/{fileName}', [AppraisaUserController::class, 'fileDownload'])->name('appraisal.user.file.download');
-
+        // Route::get('/file-download/{fileName}', [AppraisaUserController::class, 'fileDownload'])->name('appraisal.user.file.download');
+        
+        // LOGOUT
+        Route::get('/logout', [AppraisaUserController::class, 'logout'])->name('appraisal.user.logout');
     });
     // PDF ----------------
     Route::get('/pdf}', [AppraisaUserController::class, 'generatePDF'])->name('appraisal.user.completion.pdf');
-    Route::get('/pdf-download/{filename}', [AppraisaUserController::class, 'downloadPdf'])->name('appraisal.user.completion.download.pdf');
+    Route::get('/download/{file}', [AppraisaUserController::class, 'downloadFIle'])->name('appraisal.user.download.file');
     // END USERS ============
 
 });

@@ -53,7 +53,7 @@
                 $fb_roles = $content->feedback->roles;
             }
         } catch (\Throwable $th) {
-        }        
+        }
         try {
             if ($content->complaints) {
                 $com_roles = $content->complaints->roles;
@@ -119,13 +119,13 @@
                                     </td>
                                     <td>
                                         <a class="btn btn-sm btn-primary"
-                                            href="{{ route('appraisal.user.file.download', ['fileName' => $an_new_filename]) }}">View</a>
+                                            href="{{ route('appraisal.user.download.file', ['file' => $an_new_filename]) }}">View</a>
                                     </td>
                                 </tr>
                             @endif
                             @if ($cpd_roles > 0)
                                 @foreach ($cpd_roles as $item)
-                                    @if ($item->supportingInfo == 'Attached')
+                                    @if ($item->supportingInfo == 'Attached' && $item->new_filename)
                                         <tr>
                                             <td>
                                                 {{ $item->roles }}
@@ -138,7 +138,7 @@
                                             </td>
                                             <td>
                                                 <a class="btn btn-sm btn-primary"
-                                                    href="{{ route('appraisal.user.file.download', ['fileName' => $item->new_filename]) }}">View</a>
+                                                    href="{{ route('appraisal.user.download.file', ['file' => $item->new_filename]) }}">View</a>
                                             </td>
                                         </tr>
                                     @endif
@@ -146,7 +146,7 @@
                             @endif
                             @if ($qi_roles > 0)
                                 @foreach ($qi_roles as $item)
-                                    @if ($item->supportingInfo == 'Attached')
+                                    @if ($item->supportingInfo == 'Attached' && $item->new_filename)
                                         <tr>
                                             <td>
                                                 {{ $item->roles }}
@@ -158,7 +158,7 @@
                                             </td>
                                             <td>
                                                 <a class="btn btn-sm btn-primary"
-                                                    href="{{ route('appraisal.user.file.download', ['fileName' => $item->new_filename]) }}">View</a>
+                                                    href="{{ route('appraisal.user.download.file', ['file' => $item->new_filename]) }}">View</a>
                                             </td>
                                         </tr>
                                     @endif
@@ -166,7 +166,7 @@
                             @endif
                             @if ($si_roles > 0)
                                 @foreach ($si_roles as $item)
-                                    @if ($item->supportingInfo == 'Attached')
+                                    @if ($item->supportingInfo == 'Attached' && $item->new_filename)
                                         <tr>
                                             <td>
                                                 {{ $item->roles }}
@@ -178,7 +178,7 @@
                                             </td>
                                             <td>
                                                 <a class="btn btn-sm btn-primary"
-                                                    href="{{ route('appraisal.user.file.download', ['fileName' => $item->new_filename]) }}">View</a>
+                                                    href="{{ route('appraisal.user.download.file', ['file' => $item->new_filename]) }}">View</a>
                                             </td>
                                         </tr>
                                     @endif
@@ -186,7 +186,7 @@
                             @endif
                             @if ($fb_roles > 0)
                                 @foreach ($fb_roles as $item)
-                                    @if ($item->supportingInfo == 'Attached')
+                                    @if ($item->supportingInfo == 'Attached' && $item->new_filename)
                                         <tr>
                                             <td>
                                                 {{ $item->roles }}
@@ -198,7 +198,7 @@
                                             </td>
                                             <td>
                                                 <a class="btn btn-sm btn-primary"
-                                                    href="{{ route('appraisal.user.file.download', ['fileName' => $item->new_filename]) }}">View</a>
+                                                    href="{{ route('appraisal.user.download.file', ['file' => $item->new_filename]) }}">View</a>
                                             </td>
                                         </tr>
                                     @endif
@@ -206,7 +206,7 @@
                             @endif
                             @if ($com_roles > 0)
                                 @foreach ($com_roles as $item)
-                                    @if ($item->supportingInfo == 'Attached')
+                                    @if ($item->supportingInfo == 'Attached' && $item->new_filename)
                                         <tr>
                                             <td>
                                                 {{ $item->roles }}
@@ -218,7 +218,8 @@
                                             </td>
                                             <td>
                                                 <a class="btn btn-sm btn-primary"
-                                                    href="{{ route('appraisal.user.file.download', ['fileName' => $item->new_filename]) }}">View</a>
+                                                    href="{{ route('appraisal.user.download.file', ['file' => $item->new_filename]) }}"
+                                                    target="_blank">View</a>
                                             </td>
                                         </tr>
                                     @endif
@@ -226,7 +227,7 @@
                             @endif
                             @if ($ad_roles > 0)
                                 @foreach ($ad_roles as $item)
-                                    @if ($item->supportingInfo == 'Attached')
+                                    @if ($item->supportingInfo == 'Attached' && $item->new_filename)
                                         <tr>
                                             <td>
                                                 {{ $item->roles }}
@@ -238,7 +239,8 @@
                                             </td>
                                             <td>
                                                 <a class="btn btn-sm btn-primary"
-                                                    href="{{ route('appraisal.user.file.download', ['fileName' => $item->new_filename]) }}">View</a>
+                                                    href="{{ route('appraisal.user.download.file', ['file' => $item->new_filename]) }}"
+                                                    target="_blank">View</a>
                                             </td>
                                         </tr>
                                     @endif
@@ -259,9 +261,9 @@
         </div>
 
         <div class="d-flex justify-content-between px-3 pb-5">
-            <a class="btn btn-sm btn-primary" href="{{route('appraisal.user.additional-info')}}">
+            <a class="btn btn-sm btn-primary" href="{{ route('appraisal.user.additional-info') }}">
                 < Previous section</a>
-                    <a class="btn btn-sm btn-primary" href="{{route('appraisal.user.gmc-domains')}}">Next section ></a>
+                    <a class="btn btn-sm btn-primary" href="{{ route('appraisal.user.gmc-domains') }}">Next section ></a>
         </div>
 
     </div>

@@ -837,6 +837,26 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
+      '/superadmin/appraisalUser' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'admin.appraisal.user',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
       '/course' => 
       array (
         0 => 
@@ -1454,6 +1474,26 @@ app('router')->setCompiledRoutes(
           1 => NULL,
           2 => 
           array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/appraisal/resend-otp-submit' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'appraisal.user.resendOtp.submit',
+          ),
+          1 => NULL,
+          2 => 
+          array (
             'POST' => 0,
           ),
           3 => NULL,
@@ -1514,6 +1554,25 @@ app('router')->setCompiledRoutes(
           array (
             'GET' => 0,
             'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/appraisal/password-reset-submit' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'appraisal.user.passwordReset.submit',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
           ),
           3 => NULL,
           4 => false,
@@ -2303,6 +2362,26 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
+      '/appraisal/user/logout' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'appraisal.user.logout',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
       '/appraisal/pdf}' => 
       array (
         0 => 
@@ -2565,7 +2644,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::u1Bp8GOGw3CwN9pT',
+            '_route' => 'generated::hxRNJaQTvUgj2l9u',
           ),
           1 => NULL,
           2 => 
@@ -2585,7 +2664,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::aJwnsU4aHa33BM0P',
+            '_route' => 'generated::VDsF9x5NJWKxGJkE',
           ),
           1 => NULL,
           2 => 
@@ -2602,7 +2681,7 @@ app('router')->setCompiledRoutes(
     ),
     2 => 
     array (
-      0 => '{^(?|/superadmin/(?|update/([^/]++)(*:37)|blog(?|Category/([^/]++)(?|(*:71)|/edit(*:83)|(*:90))|Post/([^/]++)(?|(*:114)|/edit(*:127)|(*:135)))|c(?|ategory/([^/]++)(?|(*:168)|/edit(*:181)|(*:189))|ourse(?|/([^/]++)(?|(*:218)|/edit(*:231)|(*:239))|Calendar/([^/]++)(?|(*:268)|/edit(*:281)|(*:289))))|image/([^/]++)(?|(*:317)|/edit(*:330)|(*:338))|ap(?|Blog(?|Category/([^/]++)(?|(*:379)|/edit(*:392)|(*:400))|Post/([^/]++)(?|(*:425)|/edit(*:438)|(*:446)))|C(?|ategory/([^/]++)(?|(*:479)|/edit(*:492)|(*:500))|ourse/([^/]++)(?|(*:526)|/edit(*:539)|(*:547)))))|/course/(?|switchlocale/([^/]++)(*:591)|c(?|alendar(?:/([^/]++)(?:/([^/]++))?)?(*:638)|ourse(?|s(?:/([^/]++))?(*:669)|/([^/]++)(*:686)))|blog/([^/]++)(*:709))|/appraisal/(?|blog/([^/]++)(*:745)|service(?|s(?:/([^/]++))?(*:778)|/([^/]++)(*:795))|user/file\\-download/([^/]++)(*:832)|pdf\\-download/([^/]++)(*:862)))/?$}sDu',
+      0 => '{^(?|/superadmin/(?|update/([^/]++)(*:37)|blog(?|Category/([^/]++)(?|(*:71)|/edit(*:83)|(*:90))|Post/([^/]++)(?|(*:114)|/edit(*:127)|(*:135)))|c(?|ategory/([^/]++)(?|(*:168)|/edit(*:181)|(*:189))|ourse(?|/([^/]++)(?|(*:218)|/edit(*:231)|(*:239))|Calendar/([^/]++)(?|(*:268)|/edit(*:281)|(*:289))))|image/([^/]++)(?|(*:317)|/edit(*:330)|(*:338))|ap(?|Blog(?|Category/([^/]++)(?|(*:379)|/edit(*:392)|(*:400))|Post/([^/]++)(?|(*:425)|/edit(*:438)|(*:446)))|C(?|ategory/([^/]++)(?|(*:479)|/edit(*:492)|(*:500))|ourse/([^/]++)(?|(*:526)|/edit(*:539)|(*:547)))))|/course/(?|switchlocale/([^/]++)(*:591)|c(?|alendar(?:/([^/]++)(?:/([^/]++))?)?(*:638)|ourse(?|s(?:/([^/]++))?(*:669)|/([^/]++)(*:686)))|blog/([^/]++)(*:709))|/appraisal/(?|blog/([^/]++)(*:745)|service(?|s(?:/([^/]++))?(*:778)|/([^/]++)(*:795))|download/([^/]++)(*:821)))/?$}sDu',
     ),
     3 => 
     array (
@@ -3697,40 +3776,17 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      832 => 
+      821 => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'appraisal.user.file.download',
+            '_route' => 'appraisal.user.download.file',
           ),
           1 => 
           array (
-            0 => 'fileName',
-          ),
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => true,
-          6 => NULL,
-        ),
-      ),
-      862 => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'appraisal.user.completion.download.pdf',
-          ),
-          1 => 
-          array (
-            0 => 'filename',
+            0 => 'file',
           ),
           2 => 
           array (
@@ -6926,6 +6982,44 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
+    'admin.appraisal.user' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'superadmin/appraisalUser',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'adminauth',
+        ),
+        'uses' => 'App\\Http\\Controllers\\AppraisaUserController@adminIndex',
+        'controller' => 'App\\Http\\Controllers\\AppraisaUserController@adminIndex',
+        'namespace' => NULL,
+        'prefix' => '/superadmin',
+        'where' => 
+        array (
+        ),
+        'as' => 'admin.appraisal.user',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
     'home.index' => 
     array (
       'methods' => 
@@ -8368,7 +8462,8 @@ app('router')->setCompiledRoutes(
     array (
       'methods' => 
       array (
-        0 => 'POST',
+        0 => 'GET',
+        1 => 'HEAD',
       ),
       'uri' => 'appraisal/resend-otp',
       'action' => 
@@ -8385,6 +8480,42 @@ app('router')->setCompiledRoutes(
         array (
         ),
         'as' => 'appraisal.user.resendOtp',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'appraisal.user.resendOtp.submit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'appraisal/resend-otp-submit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+        ),
+        'uses' => 'App\\Http\\Controllers\\AppraisaUserController@resendOtpSubmit',
+        'controller' => 'App\\Http\\Controllers\\AppraisaUserController@resendOtpSubmit',
+        'namespace' => NULL,
+        'prefix' => '/appraisal',
+        'where' => 
+        array (
+        ),
+        'as' => 'appraisal.user.resendOtp.submit',
       ),
       'fallback' => false,
       'defaults' => 
@@ -8510,6 +8641,42 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
+    'appraisal.user.passwordReset.submit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'appraisal/password-reset-submit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+        ),
+        'uses' => 'App\\Http\\Controllers\\AppraisaUserController@passwordResetSubmit',
+        'controller' => 'App\\Http\\Controllers\\AppraisaUserController@passwordResetSubmit',
+        'namespace' => NULL,
+        'prefix' => '/appraisal',
+        'where' => 
+        array (
+        ),
+        'as' => 'appraisal.user.passwordReset.submit',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
     'appraisal.user.login' => 
     array (
       'methods' => 
@@ -8596,6 +8763,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'appraisalUserAuth',
         ),
         'uses' => 'App\\Http\\Controllers\\AppraisaUserController@index',
         'controller' => 'App\\Http\\Controllers\\AppraisaUserController@index',
@@ -8633,6 +8801,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'appraisalUserAuth',
         ),
         'uses' => 'App\\Http\\Controllers\\AppraisaUserController@instructions',
         'controller' => 'App\\Http\\Controllers\\AppraisaUserController@instructions',
@@ -8670,6 +8839,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'appraisalUserAuth',
         ),
         'uses' => 'App\\Http\\Controllers\\AppraisaUserController@personalDetails',
         'controller' => 'App\\Http\\Controllers\\AppraisaUserController@personalDetails',
@@ -8706,6 +8876,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'appraisalUserAuth',
         ),
         'uses' => 'App\\Http\\Controllers\\AppraisaUserController@personalDetailsSubmit',
         'controller' => 'App\\Http\\Controllers\\AppraisaUserController@personalDetailsSubmit',
@@ -8743,6 +8914,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'appraisalUserAuth',
         ),
         'uses' => 'App\\Http\\Controllers\\AppraisaUserController@scopeOfWork',
         'controller' => 'App\\Http\\Controllers\\AppraisaUserController@scopeOfWork',
@@ -8779,6 +8951,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'appraisalUserAuth',
         ),
         'uses' => 'App\\Http\\Controllers\\AppraisaUserController@scopeOfWorkSubmit',
         'controller' => 'App\\Http\\Controllers\\AppraisaUserController@scopeOfWorkSubmit',
@@ -8816,6 +8989,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'appraisalUserAuth',
         ),
         'uses' => 'App\\Http\\Controllers\\AppraisaUserController@annualAppraisals',
         'controller' => 'App\\Http\\Controllers\\AppraisaUserController@annualAppraisals',
@@ -8852,6 +9026,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'appraisalUserAuth',
         ),
         'uses' => 'App\\Http\\Controllers\\AppraisaUserController@annualAppraisalsSubmit',
         'controller' => 'App\\Http\\Controllers\\AppraisaUserController@annualAppraisalsSubmit',
@@ -8889,6 +9064,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'appraisalUserAuth',
         ),
         'uses' => 'App\\Http\\Controllers\\AppraisaUserController@developmentPlans',
         'controller' => 'App\\Http\\Controllers\\AppraisaUserController@developmentPlans',
@@ -8925,6 +9101,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'appraisalUserAuth',
         ),
         'uses' => 'App\\Http\\Controllers\\AppraisaUserController@developmentPlansSubmit',
         'controller' => 'App\\Http\\Controllers\\AppraisaUserController@developmentPlansSubmit',
@@ -8962,6 +9139,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'appraisalUserAuth',
         ),
         'uses' => 'App\\Http\\Controllers\\AppraisaUserController@cpd',
         'controller' => 'App\\Http\\Controllers\\AppraisaUserController@cpd',
@@ -8998,6 +9176,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'appraisalUserAuth',
         ),
         'uses' => 'App\\Http\\Controllers\\AppraisaUserController@cpdSubmit',
         'controller' => 'App\\Http\\Controllers\\AppraisaUserController@cpdSubmit',
@@ -9035,6 +9214,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'appraisalUserAuth',
         ),
         'uses' => 'App\\Http\\Controllers\\AppraisaUserController@qualityImprovement',
         'controller' => 'App\\Http\\Controllers\\AppraisaUserController@qualityImprovement',
@@ -9071,6 +9251,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'appraisalUserAuth',
         ),
         'uses' => 'App\\Http\\Controllers\\AppraisaUserController@qualityImprovementSubmit',
         'controller' => 'App\\Http\\Controllers\\AppraisaUserController@qualityImprovementSubmit',
@@ -9108,6 +9289,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'appraisalUserAuth',
         ),
         'uses' => 'App\\Http\\Controllers\\AppraisaUserController@significantEvents',
         'controller' => 'App\\Http\\Controllers\\AppraisaUserController@significantEvents',
@@ -9144,6 +9326,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'appraisalUserAuth',
         ),
         'uses' => 'App\\Http\\Controllers\\AppraisaUserController@significantEventsSubmit',
         'controller' => 'App\\Http\\Controllers\\AppraisaUserController@significantEventsSubmit',
@@ -9181,6 +9364,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'appraisalUserAuth',
         ),
         'uses' => 'App\\Http\\Controllers\\AppraisaUserController@feedback',
         'controller' => 'App\\Http\\Controllers\\AppraisaUserController@feedback',
@@ -9217,6 +9401,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'appraisalUserAuth',
         ),
         'uses' => 'App\\Http\\Controllers\\AppraisaUserController@feedbackSubmit',
         'controller' => 'App\\Http\\Controllers\\AppraisaUserController@feedbackSubmit',
@@ -9254,6 +9439,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'appraisalUserAuth',
         ),
         'uses' => 'App\\Http\\Controllers\\AppraisaUserController@complaints',
         'controller' => 'App\\Http\\Controllers\\AppraisaUserController@complaints',
@@ -9290,6 +9476,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'appraisalUserAuth',
         ),
         'uses' => 'App\\Http\\Controllers\\AppraisaUserController@complaintsSubmit',
         'controller' => 'App\\Http\\Controllers\\AppraisaUserController@complaintsSubmit',
@@ -9327,6 +9514,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'appraisalUserAuth',
         ),
         'uses' => 'App\\Http\\Controllers\\AppraisaUserController@achievements',
         'controller' => 'App\\Http\\Controllers\\AppraisaUserController@achievements',
@@ -9363,6 +9551,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'appraisalUserAuth',
         ),
         'uses' => 'App\\Http\\Controllers\\AppraisaUserController@achievementsSubmit',
         'controller' => 'App\\Http\\Controllers\\AppraisaUserController@achievementsSubmit',
@@ -9400,6 +9589,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'appraisalUserAuth',
         ),
         'uses' => 'App\\Http\\Controllers\\AppraisaUserController@probity',
         'controller' => 'App\\Http\\Controllers\\AppraisaUserController@probity',
@@ -9436,6 +9626,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'appraisalUserAuth',
         ),
         'uses' => 'App\\Http\\Controllers\\AppraisaUserController@probitySubmit',
         'controller' => 'App\\Http\\Controllers\\AppraisaUserController@probitySubmit',
@@ -9473,6 +9664,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'appraisalUserAuth',
         ),
         'uses' => 'App\\Http\\Controllers\\AppraisaUserController@additionalInfo',
         'controller' => 'App\\Http\\Controllers\\AppraisaUserController@additionalInfo',
@@ -9509,6 +9701,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'appraisalUserAuth',
         ),
         'uses' => 'App\\Http\\Controllers\\AppraisaUserController@additionalInfoSubmit',
         'controller' => 'App\\Http\\Controllers\\AppraisaUserController@additionalInfoSubmit',
@@ -9546,6 +9739,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'appraisalUserAuth',
         ),
         'uses' => 'App\\Http\\Controllers\\AppraisaUserController@supportingInfo',
         'controller' => 'App\\Http\\Controllers\\AppraisaUserController@supportingInfo',
@@ -9583,6 +9777,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'appraisalUserAuth',
         ),
         'uses' => 'App\\Http\\Controllers\\AppraisaUserController@gmcDomains',
         'controller' => 'App\\Http\\Controllers\\AppraisaUserController@gmcDomains',
@@ -9619,6 +9814,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'appraisalUserAuth',
         ),
         'uses' => 'App\\Http\\Controllers\\AppraisaUserController@gmcDomainsSubmit',
         'controller' => 'App\\Http\\Controllers\\AppraisaUserController@gmcDomainsSubmit',
@@ -9656,6 +9852,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'appraisalUserAuth',
         ),
         'uses' => 'App\\Http\\Controllers\\AppraisaUserController@checklist',
         'controller' => 'App\\Http\\Controllers\\AppraisaUserController@checklist',
@@ -9692,6 +9889,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'appraisalUserAuth',
         ),
         'uses' => 'App\\Http\\Controllers\\AppraisaUserController@checklistSubmit',
         'controller' => 'App\\Http\\Controllers\\AppraisaUserController@checklistSubmit',
@@ -9729,6 +9927,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'appraisalUserAuth',
         ),
         'uses' => 'App\\Http\\Controllers\\AppraisaUserController@personalDevelopmentPlan',
         'controller' => 'App\\Http\\Controllers\\AppraisaUserController@personalDevelopmentPlan',
@@ -9765,6 +9964,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'appraisalUserAuth',
         ),
         'uses' => 'App\\Http\\Controllers\\AppraisaUserController@personalDevelopmentPlanSubmit',
         'controller' => 'App\\Http\\Controllers\\AppraisaUserController@personalDevelopmentPlanSubmit',
@@ -9802,6 +10002,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'appraisalUserAuth',
         ),
         'uses' => 'App\\Http\\Controllers\\AppraisaUserController@summary',
         'controller' => 'App\\Http\\Controllers\\AppraisaUserController@summary',
@@ -9838,6 +10039,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'appraisalUserAuth',
         ),
         'uses' => 'App\\Http\\Controllers\\AppraisaUserController@summarySubmit',
         'controller' => 'App\\Http\\Controllers\\AppraisaUserController@summarySubmit',
@@ -9875,6 +10077,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'appraisalUserAuth',
         ),
         'uses' => 'App\\Http\\Controllers\\AppraisaUserController@outputs',
         'controller' => 'App\\Http\\Controllers\\AppraisaUserController@outputs',
@@ -9911,6 +10114,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'appraisalUserAuth',
         ),
         'uses' => 'App\\Http\\Controllers\\AppraisaUserController@outputsSubmit',
         'controller' => 'App\\Http\\Controllers\\AppraisaUserController@outputsSubmit',
@@ -9948,6 +10152,7 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'appraisalUserAuth',
         ),
         'uses' => 'App\\Http\\Controllers\\AppraisaUserController@completion',
         'controller' => 'App\\Http\\Controllers\\AppraisaUserController@completion',
@@ -9972,28 +10177,29 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'appraisal.user.file.download' => 
+    'appraisal.user.logout' => 
     array (
       'methods' => 
       array (
         0 => 'GET',
         1 => 'HEAD',
       ),
-      'uri' => 'appraisal/user/file-download/{fileName}',
+      'uri' => 'appraisal/user/logout',
       'action' => 
       array (
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'appraisalUserAuth',
         ),
-        'uses' => 'App\\Http\\Controllers\\AppraisaUserController@fileDownload',
-        'controller' => 'App\\Http\\Controllers\\AppraisaUserController@fileDownload',
+        'uses' => 'App\\Http\\Controllers\\AppraisaUserController@logout',
+        'controller' => 'App\\Http\\Controllers\\AppraisaUserController@logout',
         'namespace' => NULL,
         'prefix' => 'appraisal/user',
         'where' => 
         array (
         ),
-        'as' => 'appraisal.user.file.download',
+        'as' => 'appraisal.user.logout',
       ),
       'fallback' => false,
       'defaults' => 
@@ -10046,28 +10252,28 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'appraisal.user.completion.download.pdf' => 
+    'appraisal.user.download.file' => 
     array (
       'methods' => 
       array (
         0 => 'GET',
         1 => 'HEAD',
       ),
-      'uri' => 'appraisal/pdf-download/{filename}',
+      'uri' => 'appraisal/download/{file}',
       'action' => 
       array (
         'middleware' => 
         array (
           0 => 'web',
         ),
-        'uses' => 'App\\Http\\Controllers\\AppraisaUserController@downloadPdf',
-        'controller' => 'App\\Http\\Controllers\\AppraisaUserController@downloadPdf',
+        'uses' => 'App\\Http\\Controllers\\AppraisaUserController@downloadFIle',
+        'controller' => 'App\\Http\\Controllers\\AppraisaUserController@downloadFIle',
         'namespace' => NULL,
         'prefix' => '/appraisal',
         'where' => 
         array (
         ),
-        'as' => 'appraisal.user.completion.download.pdf',
+        'as' => 'appraisal.user.download.file',
       ),
       'fallback' => false,
       'defaults' => 
@@ -10526,7 +10732,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::u1Bp8GOGw3CwN9pT' => 
+    'generated::hxRNJaQTvUgj2l9u' => 
     array (
       'methods' => 
       array (
@@ -10547,7 +10753,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::u1Bp8GOGw3CwN9pT',
+        'as' => 'generated::hxRNJaQTvUgj2l9u',
       ),
       'fallback' => false,
       'defaults' => 
@@ -10563,7 +10769,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::aJwnsU4aHa33BM0P' => 
+    'generated::VDsF9x5NJWKxGJkE' => 
     array (
       'methods' => 
       array (
@@ -10580,13 +10786,13 @@ app('router')->setCompiledRoutes(
         ),
         'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:295:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:77:"function (\\Illuminate\\Http\\Request $request) {
     return $request->user();
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"0000000000000a030000000000000000";}";s:4:"hash";s:44:"tXyH4V/gv3IBjZFPgdYDPmcWeQ8If9GYQgfJjqaPG7w=";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"0000000000000a060000000000000000";}";s:4:"hash";s:44:"Q04r/WUoq/VltJ1bS0hG+1jM65I0bjfN7rURCjTOTXQ=";}}',
         'namespace' => NULL,
         'prefix' => 'api',
         'where' => 
         array (
         ),
-        'as' => 'generated::aJwnsU4aHa33BM0P',
+        'as' => 'generated::VDsF9x5NJWKxGJkE',
       ),
       'fallback' => false,
       'defaults' => 

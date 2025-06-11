@@ -12,6 +12,7 @@ use App\Http\Controllers\Admin\ApCategoryController;
 use App\Http\Controllers\Admin\BlogCategoryController;
 use App\Http\Controllers\Admin\ApBlogCategoryController;
 use App\Http\Controllers\Admin\CourseCalendarController;
+use App\Http\Controllers\AppraisaUserController;
 
 Route::prefix('superadmin')->group(function(){
 
@@ -50,7 +51,9 @@ Route::prefix('superadmin')->group(function(){
 
         Route::resource('apCourse', ApCourseController::class);
         Route::get('/checkSlug8',[ApCourseController::class,'checkSlug8'])->name('apCourse.checkSlug8');
-
+        
+        // APRAISAL USER
+        Route::get('/appraisalUser',[AppraisaUserController::class,'adminIndex'])->name('admin.appraisal.user');
     });
 
 });

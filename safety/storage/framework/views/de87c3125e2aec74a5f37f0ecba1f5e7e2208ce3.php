@@ -71,7 +71,7 @@
             <p>
                 Please click here to perform lockdown of this completed form
             </p>
-             <button type="button" class="btn btn-success mb-3">
+            <button type="button" class="btn btn-success mb-3">
                 Save form - LOCKDOWN
             </button>
             <p>
@@ -100,12 +100,19 @@
         <section>
             <p>Print whole form</p>
             <a href="<?php echo e(route('appraisal.user.completion.pdf')); ?>" class="btn btn-primary mb-3" target="_blank">
-                Print
+                Print - whole form
             </a>
+
             <p>Print Sections 3 Personal details &amp; 4 Scope of work:</p>
-            <button type="button" class="btn btn-primary mb-3">Print</button>
+
+            <a href="<?php echo e(route('appraisal.user.completion.pdf', ['s' => 3, 'e' => 4])); ?>" type="button" target="_blank"
+                class="btn btn-primary mb-3">Print - Section 3,4</a>
+
             <p>Print Section 18 The agreed personal development plan:</p>
-            <button type="button" class="btn btn-primary mb-3">Print</button>
+
+            <a href="<?php echo e(route('appraisal.user.completion.pdf', ['s' => 18, 'e' => 18])); ?>" type="button" target="_blank"
+                class="btn btn-primary mb-3">Print - Section 18</a>
+
             <p>Print Appraisal Outputs Report – Sections:</p>
             <ul>
                 <li>3 Personal details</li>
@@ -115,7 +122,9 @@
                     19 Summary of the appraisal discussion; and 20 Appraisal outputs
                 </li>
             </ul>
-            <button type="button" class="btn btn-primary">Print</button>
+            <a href="<?php echo e(route('appraisal.user.completion.pdf', ['s' => 3, 'e' => 4, 's1' => 18, 'e1' => 20])); ?>" type="button" target="_blank"
+                class="btn btn-primary mb-3">Print - Section 3,4,18,19,20</a>
+
         </section>
 
         <div class="d-flex justify-content-between mt-3">

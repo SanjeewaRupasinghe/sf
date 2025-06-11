@@ -9,7 +9,7 @@
     const patterns = {
         name: /^[a-zA-Z\s]{2,50}$/,
         email: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
-        contact: /^[\+]?[1-9][\d]{0,15}$/,
+        contact: /^[\+]?[0-9][\d]{0,15}$/,
         password: /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/
     };
 
@@ -451,34 +451,36 @@
         }, 1000);
     }
 
-    // Resend OTP (UI feedback only, actual request handled by Laravel)
-    function resendOTP() {
-        const btn = document.getElementById('resendOtpBtn');
-        const btnText = btn.querySelector('.btn-text');
+    // // Resend OTP (UI feedback only, actual request handled by Laravel)
+    // function resendOTP() {
+    //     console.log('resend otp');
+        
+    //     const btn = document.getElementById('resendOtpBtn');
+    //     const btnText = btn.querySelector('.btn-text');
 
-        // Show loading state
-        btn.classList.add('loading');
-        btnText.textContent = 'Sending...';
+    //     // Show loading state
+    //     btn.classList.add('loading');
+    //     btnText.textContent = 'Sending...';
 
-        // Create a temporary form to submit resend request
-        const form = document.createElement('form');
-        form.method = 'POST';
-        form.action = '/resend-otp'; // Your Laravel route
-        form.style.display = 'none';
+    //     // Create a temporary form to submit resend request
+    //     const form = document.createElement('form');
+    //     form.method = 'POST';
+    //     form.action = '/resend-otp'; // Your Laravel route
+    //     form.style.display = 'none';
 
-        // Add CSRF token
-        const csrfToken = document.querySelector('meta[name="csrf-token"]');
-        if (csrfToken) {
-            const csrfInput = document.createElement('input');
-            csrfInput.type = 'hidden';
-            csrfInput.name = '_token';
-            csrfInput.value = csrfToken.getAttribute('content');
-            form.appendChild(csrfInput);
-        }
+    //     // Add CSRF token
+    //     const csrfToken = document.querySelector('meta[name="csrf-token"]');
+    //     if (csrfToken) {
+    //         const csrfInput = document.createElement('input');
+    //         csrfInput.type = 'hidden';
+    //         csrfInput.name = '_token';
+    //         csrfInput.value = csrfToken.getAttribute('content');
+    //         form.appendChild(csrfInput);
+    //     }
 
-        document.body.appendChild(form);
-        form.submit();
-    }
+    //     document.body.appendChild(form);
+    //     form.submit();
+    // }
 
     // Initialize form validation and interactions
     function initializeAuth() {

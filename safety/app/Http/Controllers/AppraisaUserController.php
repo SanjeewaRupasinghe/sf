@@ -12,6 +12,7 @@ use App\Http\Requests\StoreAppraisaUserRequest;
 use App\Http\Requests\UpdateAppraisaUserRequest;
 use ElementorPro\Core\App\App;
 use Exception;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Log;
@@ -112,7 +113,7 @@ class AppraisaUserController extends Controller
             return back()->with('success', 'Saving successful');
         } catch (Exception $exception) {
             Log::channel("laravel")->info("personalDetailsSubmit Exception occurs ==> " . $exception->getMessage() . ' - line - ' . $exception->getLine());
-            
+
             return back()->withErrors('Something went wrong!!')->withInput();
         }
     }
@@ -176,7 +177,7 @@ class AppraisaUserController extends Controller
             return back()->with('success', 'Saving successful');
         } catch (Exception $exception) {
             Log::channel("laravel")->info("scopeOfWorkSubmit Exception occurs ==> " . $exception->getMessage() . ' - line - ' . $exception->getLine());
-            
+
             return back()->withErrors('Something went wrong!!')->withInput();
         }
     }
@@ -239,7 +240,7 @@ class AppraisaUserController extends Controller
             return back()->with('success', 'Saving successful');
         } catch (Exception $exception) {
             Log::channel("laravel")->info("annualAppraisalsSubmit Exception occurs ==> " . $exception->getMessage() . ' - line - ' . $exception->getLine());
-            
+
             return back()->withErrors('Something went wrong!!')->withInput();
         }
     }
@@ -298,7 +299,7 @@ class AppraisaUserController extends Controller
 
             if (!$new_filename) {
                 try {
-                    $new_filename = $content->annualAppraisals->new_filename;
+                    $new_filename = $content->developmentPlans->new_filename;
                 } catch (\Throwable $th) {
                 }
             }
@@ -318,7 +319,7 @@ class AppraisaUserController extends Controller
             return back()->with('success', 'Saving successful');
         } catch (Exception $exception) {
             Log::channel("laravel")->info("personalDetailsSubmit Exception occurs ==> " . $exception->getMessage() . ' - line - ' . $exception->getLine());
-            
+
             return back()->withErrors('Something went wrong!!')->withInput();
         }
     }
@@ -387,7 +388,7 @@ class AppraisaUserController extends Controller
 
                             if (!$new_filename) {
                                 try {
-                                    $new_filename = $content->annualAppraisals->new_filename;
+                                    $new_filename = $content->cpd->new_filename;
                                 } catch (\Throwable $th) {
                                 }
                             }
@@ -428,7 +429,7 @@ class AppraisaUserController extends Controller
             return back()->with('success', 'Saving successful');
         } catch (Exception $exception) {
             Log::channel("laravel")->info("cpdSubmit Exception occurs ==> " . $exception->getMessage() . ' - line - ' . $exception->getLine());
-            
+
             return back()->withErrors('Something went wrong!!')->withInput();
         }
     }
@@ -489,7 +490,7 @@ class AppraisaUserController extends Controller
 
                             if (!$new_filename) {
                                 try {
-                                    $new_filename = $content->annualAppraisals->new_filename;
+                                    $new_filename = $content->qualityImprovement->new_filename;
                                 } catch (\Throwable $th) {
                                 }
                             }
@@ -515,10 +516,7 @@ class AppraisaUserController extends Controller
                 "roles" => $roles,
             ];
 
-            // dd($qualityImprovement);
-
             $content->qualityImprovement = $qualityImprovement;
-
 
             $appraisaUser->content = json_encode($content);
             $appraisaUser->save();
@@ -526,7 +524,7 @@ class AppraisaUserController extends Controller
             return back()->with('success', 'Saving successful');
         } catch (Exception $exception) {
             Log::channel("laravel")->info("qualityImprovementSubmit Exception occurs ==> " . $exception->getMessage() . ' - line - ' . $exception->getLine());
-            
+
             return back()->withErrors('Something went wrong!!')->withInput();
         }
     }
@@ -587,7 +585,7 @@ class AppraisaUserController extends Controller
 
                             if (!$new_filename) {
                                 try {
-                                    $new_filename = $content->annualAppraisals->new_filename;
+                                    $new_filename = $content->significantEvents->new_filename;
                                 } catch (\Throwable $th) {
                                 }
                             }
@@ -622,7 +620,7 @@ class AppraisaUserController extends Controller
             return back()->with('success', 'Saving successful');
         } catch (Exception $exception) {
             Log::channel("laravel")->info("significantEventsSubmit Exception occurs ==> " . $exception->getMessage() . ' - line - ' . $exception->getLine());
-            
+
             return back()->withErrors('Something went wrong!!')->withInput();
         }
     }
@@ -689,7 +687,7 @@ class AppraisaUserController extends Controller
 
                             if (!$new_filename) {
                                 try {
-                                    $new_filename = $content->annualAppraisals->new_filename;
+                                    $new_filename = $content->feedback->new_filename;
                                 } catch (\Throwable $th) {
                                 }
                             }
@@ -707,7 +705,6 @@ class AppraisaUserController extends Controller
                     }
                 }
             } catch (Exception $e) {
-                dd($e->getMessage() . ' - line - ' . $e->getLine());
             }
 
             $feedback = [
@@ -731,7 +728,7 @@ class AppraisaUserController extends Controller
             return back()->with('success', 'Saving successful');
         } catch (Exception $exception) {
             Log::channel("laravel")->info("cpdSubmit Exception occurs ==> " . $exception->getMessage() . ' - line - ' . $exception->getLine());
-            
+
             return back()->withErrors('Something went wrong!!')->withInput();
         }
     }
@@ -794,7 +791,7 @@ class AppraisaUserController extends Controller
 
                             if (!$new_filename) {
                                 try {
-                                    $new_filename = $content->annualAppraisals->new_filename;
+                                    $new_filename = $content->complaints->new_filename;
                                 } catch (\Throwable $th) {
                                 }
                             }
@@ -813,8 +810,6 @@ class AppraisaUserController extends Controller
                 }
             } catch (Exception $e) {
             }
-            dd($roles, $request->all());
-
 
             $complaints = [
                 "complaintsStatus" => $complaintsStatus,
@@ -833,7 +828,7 @@ class AppraisaUserController extends Controller
             return back()->with('success', 'Saving successful');
         } catch (Exception $exception) {
             Log::channel("laravel")->info("complaintsSubmit Exception occurs ==> " . $exception->getMessage() . ' - line - ' . $exception->getLine());
-            
+
             return back()->withErrors('Something went wrong!!')->withInput();
         }
     }
@@ -875,7 +870,7 @@ class AppraisaUserController extends Controller
             return back()->with('success', 'Saving successful');
         } catch (Exception $exception) {
             Log::channel("laravel")->info("achievementsSubmit Exception occurs ==> " . $exception->getMessage() . ' - line - ' . $exception->getLine());
-            
+
             return back()->withErrors('Something went wrong!!')->withInput();
         }
     }
@@ -916,7 +911,7 @@ class AppraisaUserController extends Controller
             return back()->with('success', 'Saving successful');
         } catch (Exception $exception) {
             Log::channel("laravel")->info("probitySubmit Exception occurs ==> " . $exception->getMessage() . ' - line - ' . $exception->getLine());
-            
+
             return back()->withErrors('Something went wrong!!')->withInput();
         }
     }
@@ -977,7 +972,7 @@ class AppraisaUserController extends Controller
 
                             if (!$new_filename) {
                                 try {
-                                    $new_filename = $content->annualAppraisals->new_filename;
+                                    $new_filename = $content->additionalInfo->new_filename;
                                 } catch (\Throwable $th) {
                                 }
                             }
@@ -1012,7 +1007,7 @@ class AppraisaUserController extends Controller
             return back()->with('success', 'Saving successful');
         } catch (Exception $exception) {
             Log::channel("laravel")->info("additionalInfoSubmit Exception occurs ==> " . $exception->getMessage() . ' - line - ' . $exception->getLine());
-            
+
             return back()->withErrors('Something went wrong!!')->withInput();
         }
     }
@@ -1020,43 +1015,7 @@ class AppraisaUserController extends Controller
     {
         return view('appraisal.user.form.supporting-info');
     }
-    // public function supportingInfoSubmit(Request $request)
-    // {
-    //     try {
 
-    //         // dd($request->all());
-
-    //         $knowledge = $request->knowledge;
-    //         $safety = $request->safety;
-    //         $communication = $request->communication;
-    //         $trust = $request->trust;
-    //         $comments = $request->comments;
-
-    //         $supportingInfo = [
-    //             "knowledge" => $knowledge,
-    //             "safety" => $safety,
-    //             "communication" => $communication,
-    //             "trust" => $trust,
-    //             "comments" => $comments
-    //         ];
-
-    //         $appraisaUser = AppraisaUser::where('email', Auth::user()->email)->first();
-
-    //         $content = json_decode($appraisaUser->content);
-
-    //         $content->supportingInfo = $supportingInfo;
-    //         // dd($supportingInfo,$content->supportingInfo);
-
-    //         $appraisaUser->content = json_encode($content);
-    //         $appraisaUser->save();
-
-    //         return back()->with('success', 'Saving successful');
-    //     } catch (Exception $exception) {
-    //         Log::channel("laravel")->info("supportingInfoSubmit Exception occurs ==> " . $exception->getMessage() . ' - line - ' . $exception->getLine());
-    //         
-    //         return back()->withErrors('Something went wrong!!')->withInput();
-    //     }
-    // }
     public function gmcDomains()
     {
         return view('appraisal.user.form.gmc-domains');
@@ -1094,7 +1053,7 @@ class AppraisaUserController extends Controller
             return back()->with('success', 'Saving successful');
         } catch (Exception $exception) {
             Log::channel("laravel")->info("gmcDomainsSubmit Exception occurs ==> " . $exception->getMessage() . ' - line - ' . $exception->getLine());
-            
+
             return back()->withErrors('Something went wrong!!')->withInput();
         }
     }
@@ -1167,7 +1126,7 @@ class AppraisaUserController extends Controller
             return back()->with('success', 'Saving successful');
         } catch (Exception $exception) {
             Log::channel("laravel")->info("checklistSubmit Exception occurs ==> " . $exception->getMessage() . ' - line - ' . $exception->getLine());
-            
+
             return back()->withErrors('Something went wrong!!')->withInput();
         }
     }
@@ -1219,7 +1178,7 @@ class AppraisaUserController extends Controller
             return back()->with('success', 'Saving successful');
         } catch (Exception $exception) {
             Log::channel("laravel")->info("personalDevelopmentPlanSubmit Exception occurs ==> " . $exception->getMessage() . ' - line - ' . $exception->getLine());
-            
+
             return back()->withErrors('Something went wrong!!')->withInput();
         }
     }
@@ -1278,7 +1237,7 @@ class AppraisaUserController extends Controller
             return back()->with('success', 'Saving successful');
         } catch (Exception $exception) {
             Log::channel("laravel")->info("summarySubmit Exception occurs ==> " . $exception->getMessage() . ' - line - ' . $exception->getLine());
-            
+
             return back()->withErrors('Something went wrong!!')->withInput();
         }
     }
@@ -1341,7 +1300,7 @@ class AppraisaUserController extends Controller
             return back()->with('success', 'Saving successful');
         } catch (Exception $exception) {
             Log::channel("laravel")->info("outputsSubmit Exception occurs ==> " . $exception->getMessage() . ' - line - ' . $exception->getLine());
-            
+
             return back()->withErrors('Something went wrong!!')->withInput();
         }
     }
@@ -1382,10 +1341,29 @@ class AppraisaUserController extends Controller
     {
 
         try {
-            $appraisal = AppraisaUser::where('email', Auth::user()->email)->first();
+
+            $s = $request->s ?? 1;
+            $e = $request->e ?? 21;
+            $s1 = $request->s1;
+            $e1 = $request->e1;
+            $u = $request->u;
+
+            $appraisal = null;
+
+            if (Auth::user()) {
+                $appraisal = AppraisaUser::where('email', Auth::user()->email)->first();
+            } elseif ($u) {
+                $appraisal = AppraisaUser::where('id', $u)->first();
+            }
+
+            if (!$appraisal) {
+                return back()->with('fail', 'Something went wrong!!');
+            }
 
             $content = json_decode($appraisal->content);
             $appraisalData = $this->getAppraisalData($content);
+
+            // dd($appraisalData);
 
             // Configure mPDF for A4 landscape
             $mpdf = new Mpdf([
@@ -1417,24 +1395,48 @@ class AppraisaUserController extends Controller
             $sections = $this->getSections();
             $htmlContent = '';
 
-            foreach ($sections as $index => $section) {
-                $sectionNumber = $index + 1;
+            for ($i = $s - 1; $i < $e; $i++) {
+
+                $sectionNumber = $i + 1;
                 $sectionData = $appraisalData['sections'][$sectionNumber] ?? [];
 
                 // Add page break before each section (except first)
-                if ($index > 0) {
+                if ($i > $s) {
                     $htmlContent .= '<pagebreak />';
                 }
 
                 $sectionHtml = View::make("pdf.appraisal.sections.section-{$sectionNumber}", [
                     'sectionNumber' => $sectionNumber,
-                    'sectionTitle' => $section['title'],
+                    'sectionTitle' => $sections[$i]['title'],
                     'sectionData' => $sectionData,
                     'appraisalData' => $appraisalData,
                     'totalSections' => count($sections)
                 ])->render();
 
                 $htmlContent .= $sectionHtml;
+            }
+
+            if ($s1 and $e1) {
+                for ($i = $s1 - 1; $i < $e1; $i++) {
+
+                    $sectionNumber = $i + 1;
+                    $sectionData = $appraisalData['sections'][$sectionNumber] ?? [];
+
+                    // Add page break before each section (except first)
+                    if ($i > $s1) {
+                        $htmlContent .= '<pagebreak />';
+                    }
+
+                    $sectionHtml = View::make("pdf.appraisal.sections.section-{$sectionNumber}", [
+                        'sectionNumber' => $sectionNumber,
+                        'sectionTitle' => $sections[$i]['title'],
+                        'sectionData' => $sectionData,
+                        'appraisalData' => $appraisalData,
+                        'totalSections' => count($sections)
+                    ])->render();
+
+                    $htmlContent .= $sectionHtml;
+                }
             }
 
             // Add CSS styles
@@ -1471,23 +1473,32 @@ class AppraisaUserController extends Controller
                 'path' => $directory . '/' . $filename,
                 'download_url' => route('appraisal.user.completion.download.pdf', ['filename' => $filename])
             ]);
-
         } catch (\Exception $e) {
             return response()->json([
                 'success' => false,
                 'message' => 'Error generating PDF: ' . $e->getMessage()
             ], 500);
         }
-
     }
 
+    public function downloadFIle($file)
+    {
+        $filepath = storage_path('app/public/apr/file/' . $file);
+
+        if (!file_exists($filepath)) {
+            abort(404, 'file not found');
+        }
+
+        return response()->download($filepath);
+    }
 
     public function downloadPdf($filename)
     {
+
         $filepath = storage_path('app/public/apr/pdf/' . $filename);
 
         if (!file_exists($filepath)) {
-            abort(404, 'PDF file not found');
+            abort(404, 'file not found');
         }
 
         return response()->download($filepath);
@@ -2054,21 +2065,21 @@ class AppraisaUserController extends Controller
             "out_appraiser_gmc_number" => $out_appraiser_gmc_number,
             "out_appraisal_date" => $out_appraisal_date,
 
-            'doctor_name' => 'Dr. John Smith',
-            'gmc_number' => '1234567',
-            'contact_address' => '123 Medical Street, Healthcare City, HC1 2AB',
-            'contact_telephone' => '+44 123 456 7890',
-            'contact_email' => 'dr.smith@example.com',
-            'designated_body' => 'NHS Trust Example',
-            'appraiser_name' => 'Dr. Jane Doe',
-            'year_of_appraisal' => '2024',
-            'appraisal_date' => '2024-05-27',
-            'due_date_next_revalidation' => '2025-05-27',
-            'sections' => [
-                1 => ['data' => 'Section 1 data'],
-                2 => ['data' => 'Section 2 data'],
-                // Add data for all 21 sections
-            ]
+            'doctor_name' => '',
+            // 'gmc_number' => '1234567',
+            // 'contact_address' => '123 Medical Street, Healthcare City, HC1 2AB',
+            // 'contact_telephone' => '+44 123 456 7890',
+            // 'contact_email' => 'dr.smith@example.com',
+            // 'designated_body' => 'NHS Trust Example',
+            // 'appraiser_name' => 'Dr. Jane Doe',
+            // 'year_of_appraisal' => '2024',
+            // 'appraisal_date' => '2024-05-27',
+            // 'due_date_next_revalidation' => '2025-05-27',
+            // 'sections' => [
+            //     1 => ['data' => 'Section 1 data'],
+            //     2 => ['data' => 'Section 2 data'],
+            //     // Add data for all 21 sections
+            // ]
         ];
     }
 
@@ -2108,9 +2119,18 @@ class AppraisaUserController extends Controller
 
 
 
-    public function create()
+    public function adminIndex()
     {
-        //
+        try {
+
+            $users = AppraisaUser::latest()
+                ->get();
+
+            return view('admin.ap.appraisal-user', compact('users'));
+        } catch (Exception $exception) {
+            Log::channel("laravel")->info("adminIndex Exception occurs ==> " . $exception->getMessage() . ' - line - ' . $exception->getLine());
+            return back()->withErrors('Something went wrong!!')->withInput();
+        }
     }
 
     public function store(StoreAppraisaUserRequest $request)
@@ -2186,15 +2206,48 @@ class AppraisaUserController extends Controller
             return redirect()->route('appraisal.user.emailConfirmation', ['e' => $appraisaUser->email])->with('success', 'Registered successfully. Please confirm your email.');
         } catch (Exception $exception) {
             Log::channel("laravel")->info("registerSubmit Exception occurs ==> " . $exception->getMessage() . ' - line - ' . $exception->getLine());
-            
+            // return $exception->getMessage() . ' - line - ' . $exception->getLine();
+            // dd($exception->getMessage() . ' - line - ' . $exception->getLine());
             return back()->withErrors('Something went wrong!!')->withInput();
         }
     }
 
-
-    public function resendOtp(ResendOtpRequest $request)
+    public function resendOtp()
     {
-        return view("appraisal.user.auth.email-confirmation");
+        return view("appraisal.user.auth.resend-otp");
+    }
+     public function resendOtpSubmit(Request $request)
+    {
+        try {
+
+            $email = $request->email;
+
+            $appraisaUser = AppraisaUser::where("email", $email)->first();
+
+            if ($appraisaUser) {
+
+                $appraisaUser->otp = rand(100000, 999999);
+                $appraisaUser->save();
+
+                // MAIL TO USER
+                $data["email"] = $email;
+                $data["title"] = "New OTP - Safety First Medical Service";
+
+                Mail::send('mail.auth.user.new-otp', ['content' => $appraisaUser], function ($message) use ($data) {
+                    $message->to($data["email"], "");
+                    $message->subject($data["title"]);
+                });
+            } else {
+                return back()->with("fail", "Email is not found!!")->withInput();
+            }
+
+            return redirect()->route('appraisal.user.login', ['e' => $appraisaUser->email])->with('success', 'New OTP sending is success. Please confirm your email.');
+        } catch (Exception $exception) {
+            Log::channel("laravel")->info("resendOtpSubmit Exception occurs ==> " . $exception->getMessage() . ' - line - ' . $exception->getLine());
+            // return $exception->getMessage() . ' - line - ' . $exception->getLine();
+            // dd($exception->getMessage() . ' - line - ' . $exception->getLine());
+            return back()->withErrors('Something went wrong!!')->withInput();
+        }
     }
     public function emailConfirmation()
     {
@@ -2226,13 +2279,49 @@ class AppraisaUserController extends Controller
             return back()->withErrors('Invalid Email ID')->withInput();
         } catch (Exception $exception) {
             Log::channel("laravel")->info("emailConfirmationSubmit Exception occurs ==> " . $exception->getMessage() . ' - line - ' . $exception->getLine());
-            
+
             return back()->withErrors('Something went wrong!!')->withInput();
         }
     }
     public function passwordReset()
     {
         return view("appraisal.user.auth.password-reset");
+    }
+    public function passwordResetSubmit(Request $request)
+    {
+        try {
+
+            // dd($request->all());
+
+            $email = $request->email;
+
+            $appraisaUser = AppraisaUser::where("email", $email)->first();
+
+            if ($appraisaUser) {
+
+                $password = rand(10000, 99999)."@sF";
+                $appraisaUser->password = Hash::make($password);
+                $appraisaUser->save();
+
+                // MAIL TO USER
+                $data["email"] = $email;
+                $data["title"] = "Password Reset - Safety First Medical Service";
+
+                Mail::send('mail.auth.user.password-reset', ['content' => $appraisaUser,'pw'=>$password], function ($message) use ($data) {
+                    $message->to($data["email"], "");
+                    $message->subject($data["title"]);
+                });
+            } else {
+                return back()->with("fail", "Email is not found!!")->withInput();
+            }
+
+            return redirect()->route('appraisal.user.login', ['e' => $appraisaUser->email])->with('success', 'Registered successfully. Please confirm your email.');
+        } catch (Exception $exception) {
+            Log::channel("laravel")->info("passwordResetSubmit Exception occurs ==> " . $exception->getMessage() . ' - line - ' . $exception->getLine());
+            return $exception->getMessage() . ' - line - ' . $exception->getLine();
+            dd($exception->getMessage() . ' - line - ' . $exception->getLine());
+            return back()->withErrors('Something went wrong!!')->withInput();
+        }
     }
     public function login()
     {
@@ -2266,9 +2355,17 @@ class AppraisaUserController extends Controller
             return redirect()->route('appraisal.user.index')->with('success', 'You have successfully logged in!');
         } catch (Exception $exception) {
             Log::channel("laravel")->info("emailConfirmationSubmit Exception occurs ==> " . $exception->getMessage() . ' - line - ' . $exception->getLine());
-            
+
             return back()->withErrors('Something went wrong!!')->withInput();
         }
+    }
+    public function logout(Request $request): RedirectResponse
+    {
+        Auth::logout();                          // Log out the user
+        $request->session()->invalidate();      // Invalidate the session
+        $request->session()->regenerateToken(); // Regenerate CSRF token for security
+
+        return redirect('/appraisal');                    // Redirect to homepage or login page
     }
     // END AUTH ============
 

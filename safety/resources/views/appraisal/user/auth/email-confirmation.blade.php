@@ -61,10 +61,11 @@
                         <span class="btn-text">Verify Email</span>
                     </button>
 
-                    {{-- <button type="button" class="btn btn-secondary-custom" id="resendOtpBtn" onclick="resendOTP()">
-                        <a href="{{route('')}}"></a>
-                        <span class="btn-text">Resend Code</span>
-                    </button> --}}
+                    <div type="button" class="btn btn-secondary-custom">
+                        <a href="{{route('appraisal.user.resendOtp')}}">
+                            Resend Code
+                        </a>
+                    </div>
                 </form>
 
                 <div class="resend-timer">
@@ -82,4 +83,5 @@
     </section>
 
     @include('appraisal.user.auth.auth-js')
+
 @endsection

@@ -142,15 +142,15 @@
                     </p>
 
                     <h5>Context and general summary
-                         <i class="fas fa-question-circle text-info ms-2" onclick="toggleHelp('summaryGeneralHelp')"
-                        style="cursor: pointer;"></i>
+                        <i class="fas fa-question-circle text-info ms-2" onclick="toggleHelp('summaryGeneralHelp')"
+                            style="cursor: pointer;"></i>
                     </h5>
 
-                     <div id="summaryGeneralHelp" class="help-text" style="display: none;">
-                   The general summary should cover key elements of the wider appraisal discussion, particularly those
-                arising from the information shared in Section
-                12 regarding achievements, challenges and aspirations.
-                </div>
+                    <div id="summaryGeneralHelp" class="help-text" style="display: none;">
+                        The general summary should cover key elements of the wider appraisal discussion, particularly those
+                        arising from the information shared in Section
+                        12 regarding achievements, challenges and aspirations.
+                    </div>
 
                     <!-- Context and general summary -->
                     <div class="mb-3">
@@ -159,7 +159,19 @@
 
                     <!-- Domain 1: Knowledge, skills and performance -->
                     <div class="mb-3">
-                        <label for="domain1_knowledge_skills">Domain 1: Knowledge, skills and performance</label>
+                        <h6 class="d-flex align-items-center mb-2">
+                            <strong>Domain 1: Knowledge, skills and development</strong>
+                            <i class="fas fa-question-circle text-info ms-2" onclick="toggleHelp('domain1Help')"
+                                style="cursor: pointer;"></i>
+                        </h6>
+                        <div id="domain1Help" class="help-text" style="display: none;">
+                            <p class="mb-1">1 Being competent</p>
+                            <p class="mb-1">2 Providing good clinical care</p>
+                            <p class="mb-1">3 Offering remote consultations</p>
+                            <p class="mb-1">4 Considering research opportunities</p>
+                            <p class="mb-1">5 Maintaining, developing and improving your performance</p>
+                            <p class="mb-1">6 Managing resources effectively and sustainably</p>
+                        </div>
                         <div style="position: relative;">
                             <textarea class="form-control" name="domain1_knowledge_skills" id="domain1_knowledge_skills" rows="6"><?php echo e($_domain1_knowledge_skills); ?></textarea>
                         </div>
@@ -167,19 +179,67 @@
 
                     <!-- Domain 2: Safety and quality -->
                     <div class="mb-3">
-                        <label for="domain2_safety_quality">Domain 2: Safety and quality</label>
+                        <h6 class="d-flex align-items-center mb-2">
+                    <strong>Domain 2: Patients, partnership and communication</strong>
+                    <i class="fas fa-question-circle text-info ms-2" onclick="toggleHelp('domain2Help')"
+                        style="cursor: pointer;"></i>
+                </h6>
+                <div id="domain2Help" class="help-text" style="display: none;">
+                    <p class="mb-1">1	Treating patients fairly and respecting their rights</p>
+                    <p class="mb-1">2	Treating patients with kindness, courtesy and respect</p>
+                    <p class="mb-1">3	Supporting patients to make decisions about treatment and care</p>
+                    <p class="mb-1">4	Sharing information with patients</p>
+                    <p class="mb-1">5	Communicating with those close to a patient</p>
+                    <p class="mb-1">6	Caring for the whole patient</p>
+                    <p class="mb-1">7	Safeguarding children and adults who are at risk of harm</p>
+                    <p class="mb-1">8	Helping in emergencies</p>
+                    <p class="mb-1">9	Making sure patients who pose a risk of harm to others can access appropriate care</p>
+                    <p class="mb-1">10 Being open if things go wrong</p>
+                </div>
+
                         <textarea class="form-control" name="domain2_safety_quality" id="domain2_safety_quality" rows="6"><?php echo e($_domain2_safety_quality); ?></textarea>
                     </div>
 
                     <!-- Domain 3: Communication, partnership and teamwork -->
                     <div class="mb-3">
-                        <label for="domain3_communication">Domain 3: Communication, partnership and teamwork</label>
+                        <h6 class="d-flex align-items-center mb-2">
+                    <strong>Domain 3: Colleagues, culture and safety</strong>
+                    <i class="fas fa-question-circle text-info ms-2" onclick="toggleHelp('domain3Help')"
+                        style="cursor: pointer;"></i>
+                </h6>
+                <div id="domain3Help" class="help-text" style="display: none;">
+                    <p class="mb-1">1	Treating colleagues with kindness, courtesy and respect</p>
+                    <p class="mb-1">2	Contributing to a positive working and training environment</p>
+                    <p class="mb-1">3	Demonstrating leadership behaviours</p>
+                    <p class="mb-1">4	Contributing to continuity of care</p>
+                    <p class="mb-1">5	Delegating safely and appropriately</p>
+                    <p class="mb-1">6	Recording your work clearly, accurately, and legibly</p>
+                    <p class="mb-1">7	Keeping patients safe</p>
+                    <p class="mb-1">8	Responding to safety risks</p>
+                    <p class="mb-1">9	Managing risks posed by your health</p>
+                </div>
                         <textarea class="form-control" name="domain3_communication" id="domain3_communication" rows="6"><?php echo e($_domain3_communication); ?></textarea>
                     </div>
 
                     <!-- Domain 4: Maintaining trust -->
                     <div class="mb-3">
-                        <label for="domain4_maintaining_trust">Domain 4: Maintaining trust</label>
+                        <h6 class="d-flex align-items-center mb-2">
+                    <strong>Domain 4: Trust and professionalism</strong>
+                    <i class="fas fa-question-circle text-info ms-2" onclick="toggleHelp('domain4Help')"
+                        style="cursor: pointer;"></i>
+                </h6>
+                <div id="domain4Help" class="help-text" style="display: none;">
+                    <p class="mb-1">1	Acting with honesty and integrity</p>
+                    <p class="mb-1">2	Acting with honesty and integrity in research</p>
+                    <p class="mb-1">3	Maintaining professional boundaries</p>
+                    <p class="mb-1">4	Communicating as a medical professional</p>
+                    <p class="mb-1">5	All professional communication</p>
+                    <p class="mb-1">6	Public professional communication, including using social media, advertising, promotion, and endorsement</p>
+                    <p class="mb-1">7	Giving evidence and acting as a witness</p>
+                    <p class="mb-1">8	Private communication</p>
+                    <p class="mb-1">9	Managing conflicts of interest</p>
+                    <p class="mb-1">10 Cooperating with legal and regulatory requirements</p>
+                </div>
                         <textarea class="form-control" name="domain4_maintaining_trust" id="domain4_maintaining_trust" rows="6"><?php echo e($_domain4_maintaining_trust); ?></textarea>
                     </div>
 

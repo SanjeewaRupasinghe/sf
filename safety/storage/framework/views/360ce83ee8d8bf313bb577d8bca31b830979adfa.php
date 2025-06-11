@@ -20,14 +20,10 @@
         <!-- Header -->
         <header class="header">
             <div class="header-left">
-                <h1>Medical Appraisal Guide (MAG)</h1>
+                <h1>GMC Appraisal Form</h1>
                 <h2>Model Appraisal Form</h2>
-                <p class="version">Version 4.2 (updated 2016)</p>
             </div>
-            <div class="header-right">
-                <div class="nhs-logo">NHS</div>
-                <div class="england-text">England</div>
-                <h3 class="welcome">Welcome!</h3>
+            <div class="header-right">                
             </div>
         </header>
 
@@ -131,6 +127,10 @@
                     <span class="nav-number">21</span>
                     <a href="<?php echo e(route('appraisal.user.completion')); ?>" class="nav-link">Completion - save, lockdown
                         and print</a>
+                </div>
+                <div class="nav-item">
+                    <span class="nav-number">-</span>
+                    <a href="<?php echo e(route('appraisal.user.logout')); ?>" class="nav-link">Logout</a>
                 </div>
             </nav>
 

@@ -63,9 +63,6 @@
             Safety First Medical Service
         </div>
         <div class="email-body">
-            @php
-            Log::channel("laravel")->info("blade ".json_encode($content));                
-            @endphp
             <h1>Hello {{ $content->name }}!</h1>
 
             <p>Congratulations! Your Safety First Medical Service account has been successfully created. Please confirm your email address by clicking the button below. You will also need to enter the OTP below to verify your account.</p>
@@ -81,7 +78,7 @@
                 <a href="mailto:appraisals@safetyfirstmed.ae">appraisals@safetyfirstmed.ae</a>
             </p>
 
-        </div>
+        </div>  
         <div class="email-footer">
             © Safety First Medical Service All rights reserved.
         </div>

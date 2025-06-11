@@ -93,7 +93,11 @@
                 <div class="auth-links">
                     <p style="color: #4585EE; margin: 0;">
                         Already have an account?
-                        <button type="button" onclick="showPage('loginPage')">Sign In</button>
+                        <a type="button" href="{{route('appraisal.user.login')}}">Sign In</a>
+                    </p>
+                     <p style="color:#4585EE; margin: 10px 0;">
+                        Want to confirm email ID ?
+                        <a type="button" href="{{ route('appraisal.user.emailConfirmation') }}">Comfirm Email</a>
                     </p>
                 </div>
             </div>

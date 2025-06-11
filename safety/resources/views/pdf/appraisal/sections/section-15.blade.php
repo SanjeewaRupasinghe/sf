@@ -48,7 +48,7 @@
                                 <td></td>
                                 <td>]
                                     <a class="primary-button"
-                                        href="{{ route('appraisal.user.file.download', ['fileName' => $appraisalData['an_new_filename']]) }}">View</a>
+                                        href="{{ route('appraisal.user.download.file', ['file' => $appraisalData['an_new_filename']]) }}">View</a>
                                 </td>
                             </tr>
                         @endif
@@ -69,7 +69,7 @@
                                             @endphp
                                             @if ($att)
                                                 <a class="primary-button"
-                                                    href="{{ route('appraisal.user.file.download', ['fileName' => $r->new_filename]) }}">View</a>
+                                                    href="{{ route('appraisal.user.download.file', ['file' => $r->new_filename]) }}">View</a>
                                             @endif
                                         </td>
                                     </tr>
@@ -93,7 +93,7 @@
                                             @endphp
                                             @if ($att)
                                                 <a class="primary-button"
-                                                    href="{{ route('appraisal.user.file.download', ['fileName' => $r->new_filename]) }}">View</a>
+                                                    href="{{ route('appraisal.user.download.file', ['file' => $r->new_filename]) }}">View</a>
                                             @endif
                                         </td>
                                     </tr>
@@ -117,7 +117,7 @@
                                             @endphp
                                             @if ($att)
                                                 <a class="primary-button"
-                                                    href="{{ route('appraisal.user.file.download', ['fileName' => $r->new_filename]) }}">View</a>
+                                                    href="{{ route('appraisal.user.download.file', ['file' => $r->new_filename]) }}">View</a>
                                             @endif
                                         </td>
                                     </tr>
@@ -141,7 +141,7 @@
                                             @endphp
                                             @if ($att)
                                                 <a class="primary-button"
-                                                    href="{{ route('appraisal.user.file.download', ['fileName' => $r->new_filename]) }}">View</a>
+                                                    href="{{ route('appraisal.user.download.file', ['file' => $r->new_filename]) }}">View</a>
                                             @endif
                                         </td>
                                     </tr>
@@ -165,7 +165,7 @@
                                             @endphp
                                             @if ($att)
                                                 <a class="primary-button"
-                                                    href="{{ route('appraisal.user.file.download', ['fileName' => $r->new_filename]) }}">View</a>
+                                                    href="{{ route('appraisal.user.download.file', ['file' => $r->new_filename]) }}">View</a>
                                             @endif
                                         </td>
                                     </tr>
@@ -189,7 +189,7 @@
                                             @endphp
                                             @if ($att)
                                                 <a class="primary-button"
-                                                    href="{{ route('appraisal.user.file.download', ['fileName' => $r->new_filename]) }}">View</a>
+                                                    href="{{ route('appraisal.user.download.file', ['file' => $r->new_filename]) }}">View</a>
                                             @endif
                                         </td>
                                     </tr>

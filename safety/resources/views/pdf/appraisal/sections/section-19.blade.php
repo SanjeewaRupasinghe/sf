@@ -98,54 +98,74 @@
                 {{ $appraisalData['sm_context_general_summary'] ?? '' }}
             </div>
 
-            <label class="form-label">
-                Domain 1: Knowledge, skills and performance
+           <label class="form-label">
+                Domain 1: Knowledge, skills and development
             </label>
             <div class="instruction-text">
-                Domain 1. Knowledge, skills and performance - has three attributes <br>
-                1.1 Maintain your professional performance<br>
-                1.2 Apply knowledge and experience to practice<br>
-                1.3 Ensure that all documentation (including clinical records) formally recording your work is clear,
-                accurate and legible<br>
+                <p class="mb-1">1 Being competent</p>
+                <p class="mb-1">2 Providing good clinical care</p>
+                <p class="mb-1">3 Offering remote consultations</p>
+                <p class="mb-1">4 Considering research opportunities</p>
+                <p class="mb-1">5 Maintaining, developing and improving your performance</p>
+                <p class="mb-1">6 Managing resources effectively and sustainably</p>
             </div>
             <div class="form-input form-input-large">
                 {{ $appraisalData['sm_domain1_knowledge_skills'] ?? '' }}
             </div>
 
             <label class="form-label">
-                Domain 2: Safety and quality
+                Domain 2: Patients, partnership and communication
             </label>
             <div class="instruction-text">
-                Domain 2. Safety and quality - has three attributes<br>
-                2.1 Contribute to and comply with systems to protect patients<br>
-                2.2 Respond to risks to safety<br>
-                2.3 Protect patients and colleagues from any risk posed by your health
+                <p class="mb-1">1 Treating patients fairly and respecting their rights</p>
+                <p class="mb-1">2 Treating patients with kindness, courtesy and respect</p>
+                <p class="mb-1">3 Supporting patients to make decisions about treatment and care</p>
+                <p class="mb-1">4 Sharing information with patients</p>
+                <p class="mb-1">5 Communicating with those close to a patient</p>
+                <p class="mb-1">6 Caring for the whole patient</p>
+                <p class="mb-1">7 Safeguarding children and adults who are at risk of harm</p>
+                <p class="mb-1">8 Helping in emergencies</p>
+                <p class="mb-1">9 Making sure patients who pose a risk of harm to others can access appropriate care
+                </p>
+                <p class="mb-1">2.10 Being open if things go wrong</p>
             </div>
             <div class="form-input form-input-large">
                 {{ $appraisalData['sm_domain2_safety_quality'] ?? '' }}
             </div>
 
-            <label class="form-label">
-                Domain 3: Communication, partnership and teamwork
+           <label class="form-label">
+                Domain 3: Colleagues, culture and safety
             </label>
             <div class="instruction-text">
-                Domain 3. Communication, partnership and teamwork - has three attributes<br>
-                3.1 Communicate effectively<br>
-                3.2 Work constructively with colleagues and delegate effectively<br>
-                3.3 Establish and maintain partnerships with patients
+                <p class="mb-1">1 Treating colleagues with kindness, courtesy and respect</p>
+                <p class="mb-1">2 Contributing to a positive working and training environment</p>
+                <p class="mb-1">3 Demonstrating leadership behaviours</p>
+                <p class="mb-1">4 Contributing to continuity of care</p>
+                <p class="mb-1">5 Delegating safely and appropriately</p>
+                <p class="mb-1">6 Recording your work clearly, accurately, and legibly</p>
+                <p class="mb-1">7 Keeping patients safe</p>
+                <p class="mb-1">8 Responding to safety risks</p>
+                <p class="mb-1">9 Managing risks posed by your health</p>
             </div>
             <div class="form-input form-input-large">
                 {{ $appraisalData['sm_domain3_communication'] ?? '' }}
             </div>
 
             <label class="form-label">
-                Domain 4: Maintaining trust
+                Domain 4: Trust and professionalism
             </label>
             <div class="instruction-text">
-                Domain 4. Maintaining trust - has three attributes<br>
-                4.1 Show respect for patients<br>
-                4.2 Treat patients and colleagues fairly and without discrimination<br>
-                4.3 Act with honesty and integrity
+                <p class="mb-1">1 Acting with honesty and integrity</p>
+                <p class="mb-1">2 Acting with honesty and integrity in research</p>
+                <p class="mb-1">3 Maintaining professional boundaries</p>
+                <p class="mb-1">4 Communicating as a medical professional</p>
+                <p class="mb-1">5 All professional communication</p>
+                <p class="mb-1">6 Public professional communication, including using social media, advertising,
+                    promotion, and endorsement</p>
+                <p class="mb-1">7 Giving evidence and acting as a witness</p>
+                <p class="mb-1">8 Private communication</p>
+                <p class="mb-1">9 Managing conflicts of interest</p>
+                <p class="mb-1">10 Cooperating with legal and regulatory requirements</p>
             </div>
             <div class="form-input form-input-large">
                 {{ $appraisalData['sm_domain4_maintaining_trust'] ?? '' }}
