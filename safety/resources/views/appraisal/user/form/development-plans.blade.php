@@ -31,10 +31,23 @@
             }
         } catch (\Throwable $th) {
         }
+        $LOCKDOWN_STATUS = Auth::user()->status == 0 ? false : true;
 
     @endphp
 
-    <form action="{{ route('appraisal.user.development-plans.submit') }}" method="POST" enctype="multipart/form-data">
+    @if (!$LOCKDOWN_STATUS)
+        <div class="alert alert-danger" role="alert">
+            This profile is locked. You can't change anything.
+        </div>
+    @else
+        <div class="alert alert-warning" role="alert">
+            If you made any changes, please click the "Save Form" button to save your details. Otherwise, your changes will
+            not be saved.
+        </div>
+    @endif
+
+    <form @if ($LOCKDOWN_STATUS) action="{{ route('appraisal.user.development-plans.submit') }}" @endif
+        method="POST" enctype="multipart/form-data">
         @csrf
         <div class="content-body">
 
@@ -46,8 +59,10 @@
             </p>
             <input type="file" class="form-control d-inline-block w-auto ms-2" id="attachmentFile1" name="attachmentFile"
                 accept=".pdf,.doc,.docx">
-            <button type="button" class="btn btn-primary btn-sm ms-2"
-                onclick="handleAttachment('attachmentFile1', 'attachmentStatus1')">Attach</button>
+            @if ($LOCKDOWN_STATUS)
+                <button type="button" class="btn btn-primary btn-sm ms-2"
+                    onclick="handleAttachment('attachmentFile1', 'attachmentStatus1')">Attach</button>
+            @endif
             <div id="attachmentStatus1" class="mt-2"></div>
 
             <div class="mt-3">
@@ -102,43 +117,48 @@
                                     <td>
                                         <select class="form-select" name="jobTitle[]">
                                             <option value="Please select...">Please select...</option>
-                                            <option value="Cross Role" @if($_jobRoles[$i]->jobTitle == 'Cross Role') selected @endif>Cross Role</option>
+                                            <option value="Cross Role" @if ($_jobRoles[$i]->jobTitle == 'Cross Role') selected @endif>
+                                                Cross Role</option>
                                         </select>
                                     </td>
                                     <td>
-                                        <textarea class="form-control" rows="3" name="lastAppraisal[]">{{$_jobRoles[$i]->lastAppraisal}}</textarea>
+                                        <textarea class="form-control" rows="3" name="lastAppraisal[]">{{ $_jobRoles[$i]->lastAppraisal }}</textarea>
                                     </td>
                                     <td>
-                                        <textarea class="form-control" rows="3" name="progress[]">{{$_jobRoles[$i]->progress}}</textarea>
+                                        <textarea class="form-control" rows="3" name="progress[]">{{ $_jobRoles[$i]->progress }}</textarea>
                                     </td>
                                     <td class="text-center">
-                                        <button type="button" class="btn btn-danger btn-sm mb-1"
-                                            onclick="removeRow(this)">-</button><br>
-                                        <button type="button" class="btn btn-success btn-sm" onclick="addRow()">+</button>
+                                        @if ($LOCKDOWN_STATUS)
+                                            <button type="button" class="btn btn-danger btn-sm mb-1"
+                                                onclick="removeRow(this)">-</button><br>
+                                            <button type="button" class="btn btn-success btn-sm"
+                                                onclick="addRow()">+</button>
+                                        @endif
                                     </td>
                                 </tr>
                             @endfor
                         @endif
-
-                        <tr>
-                            <td>
-                                <select class="form-select" name="jobTitle[]">
-                                    <option value="Please select...">Please select...</option>
-                                    <option value="Cross Role">Cross Role</option>
-                                </select>
-                            </td>
-                            <td>
-                                <textarea class="form-control" rows="3" name="lastAppraisal[]"></textarea>
-                            </td>
-                            <td>
-                                <textarea class="form-control" rows="3" name="progress[]"></textarea>
-                            </td>
-                            <td class="text-center">
-                                <button type="button" class="btn btn-danger btn-sm mb-1"
-                                    onclick="removeRow(this)">-</button><br>
-                                <button type="button" class="btn btn-success btn-sm" onclick="addRow()">+</button>
-                            </td>
-                        </tr>
+                        @if ($LOCKDOWN_STATUS)
+                            <tr>
+                                <td>
+                                    <select class="form-select" name="jobTitle[]">
+                                        <option value="Please select...">Please select...</option>
+                                        <option value="Cross Role">Cross Role</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <textarea class="form-control" rows="3" name="lastAppraisal[]"></textarea>
+                                </td>
+                                <td>
+                                    <textarea class="form-control" rows="3" name="progress[]"></textarea>
+                                </td>
+                                <td class="text-center">
+                                    <button type="button" class="btn btn-danger btn-sm mb-1"
+                                        onclick="removeRow(this)">-</button><br>
+                                    <button type="button" class="btn btn-success btn-sm" onclick="addRow()">+</button>
+                                </td>
+                            </tr>
+                        @endif
                     </tbody>
                 </table>
             </div>
@@ -184,10 +204,12 @@
             </div>
 
             <div class="d-flex justify-content-between">
-                <a class="btn btn-sm btn-primary" href="{{route('appraisal.user.annual-appraisals')}}">
+                <a class="btn btn-sm btn-primary" href="{{ route('appraisal.user.annual-appraisals') }}">
                     < Previous section</a>
-                        <button type="submit" class="btn btn-sm btn-success">Save Form</button>
-                        <a class="btn btn-sm btn-primary" href="{{route('appraisal.user.cpd')}}">Next section ></a>
+                        @if ($LOCKDOWN_STATUS)
+                            <button type="submit" class="btn btn-sm btn-success">Save Form</button>
+                        @endif
+                        <a class="btn btn-sm btn-primary" href="{{ route('appraisal.user.cpd') }}">Next section ></a>
             </div>
 
         </div>

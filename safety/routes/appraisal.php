@@ -81,6 +81,9 @@ Route::prefix('appraisal')->group(function () {
         Route::get('/completion', [AppraisaUserController::class, 'completion'])->name('appraisal.user.completion');
         // Route::get('/file-download/{fileName}', [AppraisaUserController::class, 'fileDownload'])->name('appraisal.user.file.download');
         
+        // LOCKDOWN
+        Route::get('/lockdown', [AppraisaUserController::class, 'lockdown'])->name('appraisal.user.lockdown');
+
         // LOGOUT
         Route::get('/logout', [AppraisaUserController::class, 'logout'])->name('appraisal.user.logout');
     });

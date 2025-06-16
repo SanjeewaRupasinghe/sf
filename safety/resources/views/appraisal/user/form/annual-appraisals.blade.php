@@ -29,12 +29,24 @@
             }
         } catch (\Throwable $th) {
         }
+        $LOCKDOWN_STATUS = Auth::user()->status == 0 ? false : true;
 
     @endphp
 
     @include('common.alert')
 
-    <form action="{{ route('appraisal.user.annual-appraisals.submit') }}" method="POST" enctype="multipart/form-data">
+     @if (!$LOCKDOWN_STATUS)
+        <div class="alert alert-danger" role="alert">
+            This profile is locked. You can't change anything.
+        </div>
+    @else
+        <div class="alert alert-warning" role="alert">
+            If you made any changes, please click the "Save Form" button to save your details. Otherwise, your changes will not be saved.
+        </div>
+    @endif
+
+    <form @if ($LOCKDOWN_STATUS) action="{{ route('appraisal.user.annual-appraisals.submit') }}" @endif
+        method="POST" enctype="multipart/form-data">
         @csrf
         <div class="content-body">
 
@@ -45,9 +57,8 @@
 
                     <!-- First appraisal checkbox -->
                     <div class="mb-3 form-check">
-                        <input class="form-check-input" type="checkbox" id="firstAppraisal" name="firstAppraisal" 
-                        @if($_firstAppraisal=="on")checked @endif
-                        >
+                        <input class="form-check-input" type="checkbox" id="firstAppraisal" name="firstAppraisal"
+                            @if ($_firstAppraisal == 'on') checked @endif>
                         <label class="form-check-label" for="firstAppraisal">
                             This is my first appraisal
                         </label>
@@ -59,7 +70,8 @@
                             <i class="fas fa-question-circle help-icon" onclick="toggleHelp('dateHelp')"></i>
                         </label>
                         <div class="col-sm-4">
-                            <input type="date" class="form-control" id="lastAppraisalDate" name="lastAppraisalDate" value="{{ $_lastAppraisalDate }}">
+                            <input type="date" class="form-control" id="lastAppraisalDate" name="lastAppraisalDate"
+                                value="{{ $_lastAppraisalDate }}">
                         </div>
                         <div id="dateHelp" class="help-text">
                             Enter name of responsible officer at last appraisal, if different
@@ -71,13 +83,15 @@
                         <label class="form-label">Has the name of your appraiser / responsible officer / designated body
                             changed since last year's appraisal?</label>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="hasChanged" id="changedYes" value="yes" @if($_hasChanged=="yes") checked @endif>
+                            <input class="form-check-input" type="radio" name="hasChanged" id="changedYes" value="yes"
+                                @if ($_hasChanged == 'yes') checked @endif>
                             <label class="form-check-label" for="changedYes">
                                 Yes
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="hasChanged" id="changedNo" value="no" @if($_hasChanged=="no") checked @endif>
+                            <input class="form-check-input" type="radio" name="hasChanged" id="changedNo" value="no"
+                                @if ($_hasChanged == 'no') checked @endif>
                             <label class="form-check-label" for="changedNo">
                                 No
                             </label>
@@ -85,13 +99,15 @@
                     </div>
 
                     <!-- Conditional fields that appear when "Yes" is selected -->
-                    <div id="conditionalFields" @if($_hasChanged=="yes") style="display: block;" @else style="display: none;"@endif>
+                    <div id="conditionalFields"
+                        @if ($_hasChanged == 'yes') style="display: block;" @else style="display: none;" @endif>
                         <!-- Name of appraiser at last appraisal -->
                         <div class="mb-3 row">
                             <label for="appraiserName" class="col-sm-4 col-form-label">Name of appraiser at last appraisal,
                                 if different:</label>
                             <div class="col-sm-8">
-                                <input type="text" class="form-control" id="appraiserName" name="appraiserName" value="{{ $_appraiserName }}">
+                                <input type="text" class="form-control" id="appraiserName" name="appraiserName"
+                                    value="{{ $_appraiserName }}">
                             </div>
                         </div>
 
@@ -100,8 +116,8 @@
                             <label for="responsibleOfficer" class="col-sm-4 col-form-label">Name of responsible officer at
                                 last appraisal, if different:</label>
                             <div class="col-sm-8">
-                                <input type="text" class="form-control" id="responsibleOfficer"
-                                    name="responsibleOfficer" value="{{$_responsibleOfficer}}">
+                                <input type="text" class="form-control" id="responsibleOfficer" name="responsibleOfficer"
+                                    value="{{ $_responsibleOfficer }}">
                             </div>
                         </div>
 
@@ -110,7 +126,8 @@
                             <label for="designatedBody" class="col-sm-4 col-form-label">Name of designated body at last
                                 appraisal, if different:</label>
                             <div class="col-sm-8">
-                                <input type="text" class="form-control" id="designatedBody" name="designatedBody" value="{{ $_designatedBody }}">
+                                <input type="text" class="form-control" id="designatedBody" name="designatedBody"
+                                    value="{{ $_designatedBody }}">
                             </div>
                         </div>
                     </div>
@@ -134,8 +151,10 @@
                     <div class="mb-3">
                         <input type="file" class="form-control" id="attachmentFile" name="attachmentFile"
                             accept=".pdf,.doc,.docx,.jpg,.jpeg,.png">
-                        <button type="button" class="btn btn-success btn-sm mt-2"
-                            onclick="handleAttachment()">Attach</button>
+                        @if ($LOCKDOWN_STATUS)
+                            <button type="button" class="btn btn-success btn-sm mt-2"
+                                onclick="handleAttachment()">Attach</button>
+                        @endif
                     </div>
 
                     <div id="attachmentStatus" class="mt-2"></div>
@@ -144,10 +163,13 @@
 
 
                 <div class="d-flex justify-content-between">
-                    <a class="btn btn-sm btn-primary" href="{{route('appraisal.user.scope-of-work')}}">
+                    <a class="btn btn-sm btn-primary" href="{{ route('appraisal.user.scope-of-work') }}">
                         < Previous section</a>
-                            <button type="submit" class="btn btn-sm btn-success">Save Form</button>
-                            <a class="btn btn-sm btn-primary" href="{{route('appraisal.user.development-plans')}}">Next section ></a>
+                            @if ($LOCKDOWN_STATUS)
+                                <button type="submit" class="btn btn-sm btn-success">Save Form</button>
+                            @endif
+                            <a class="btn btn-sm btn-primary" href="{{ route('appraisal.user.development-plans') }}">Next
+                                section ></a>
                 </div>
 
             </div>

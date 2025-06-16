@@ -29,10 +29,22 @@
             }
         } catch (\Throwable $th) {
         }
+        $LOCKDOWN_STATUS = Auth::user()->status == 0 ? false : true;
 
     ?>
 
-    <form action="<?php echo e(route('appraisal.user.development-plans.submit')); ?>" method="POST" enctype="multipart/form-data">
+    <?php if(!$LOCKDOWN_STATUS): ?>
+        <div class="alert alert-danger" role="alert">
+            This profile is locked. You can't change anything.
+        </div>
+    <?php else: ?>
+        <div class="alert alert-warning" role="alert">
+            If you made any changes, please click the "Save Form" button to save your details. Otherwise, your changes will not be saved.
+        </div>
+    <?php endif; ?>
+
+    <form <?php if($LOCKDOWN_STATUS): ?> action="<?php echo e(route('appraisal.user.development-plans.submit')); ?>" <?php endif; ?>
+        method="POST" enctype="multipart/form-data">
         <?php echo csrf_field(); ?>
         <div class="content-body">
 
@@ -100,7 +112,8 @@
                                     <td>
                                         <select class="form-select" name="jobTitle[]">
                                             <option value="Please select...">Please select...</option>
-                                            <option value="Cross Role" <?php if($_jobRoles[$i]->jobTitle == 'Cross Role'): ?> selected <?php endif; ?>>Cross Role</option>
+                                            <option value="Cross Role" <?php if($_jobRoles[$i]->jobTitle == 'Cross Role'): ?> selected <?php endif; ?>>
+                                                Cross Role</option>
                                         </select>
                                     </td>
                                     <td>
@@ -110,33 +123,37 @@
                                         <textarea class="form-control" rows="3" name="progress[]"><?php echo e($_jobRoles[$i]->progress); ?></textarea>
                                     </td>
                                     <td class="text-center">
-                                        <button type="button" class="btn btn-danger btn-sm mb-1"
-                                            onclick="removeRow(this)">-</button><br>
-                                        <button type="button" class="btn btn-success btn-sm" onclick="addRow()">+</button>
+                                        <?php if($LOCKDOWN_STATUS): ?>
+                                            <button type="button" class="btn btn-danger btn-sm mb-1"
+                                                onclick="removeRow(this)">-</button><br>
+                                            <button type="button" class="btn btn-success btn-sm"
+                                                onclick="addRow()">+</button>
+                                        <?php endif; ?>
                                     </td>
                                 </tr>
                             <?php endfor; ?>
                         <?php endif; ?>
-
-                        <tr>
-                            <td>
-                                <select class="form-select" name="jobTitle[]">
-                                    <option value="Please select...">Please select...</option>
-                                    <option value="Cross Role">Cross Role</option>
-                                </select>
-                            </td>
-                            <td>
-                                <textarea class="form-control" rows="3" name="lastAppraisal[]"></textarea>
-                            </td>
-                            <td>
-                                <textarea class="form-control" rows="3" name="progress[]"></textarea>
-                            </td>
-                            <td class="text-center">
-                                <button type="button" class="btn btn-danger btn-sm mb-1"
-                                    onclick="removeRow(this)">-</button><br>
-                                <button type="button" class="btn btn-success btn-sm" onclick="addRow()">+</button>
-                            </td>
-                        </tr>
+                        <?php if($LOCKDOWN_STATUS): ?>
+                            <tr>
+                                <td>
+                                    <select class="form-select" name="jobTitle[]">
+                                        <option value="Please select...">Please select...</option>
+                                        <option value="Cross Role">Cross Role</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <textarea class="form-control" rows="3" name="lastAppraisal[]"></textarea>
+                                </td>
+                                <td>
+                                    <textarea class="form-control" rows="3" name="progress[]"></textarea>
+                                </td>
+                                <td class="text-center">
+                                    <button type="button" class="btn btn-danger btn-sm mb-1"
+                                        onclick="removeRow(this)">-</button><br>
+                                    <button type="button" class="btn btn-success btn-sm" onclick="addRow()">+</button>
+                                </td>
+                            </tr>
+                        <?php endif; ?>
                     </tbody>
                 </table>
             </div>
@@ -184,7 +201,9 @@
             <div class="d-flex justify-content-between">
                 <a class="btn btn-sm btn-primary" href="<?php echo e(route('appraisal.user.annual-appraisals')); ?>">
                     < Previous section</a>
-                        <button type="submit" class="btn btn-sm btn-success">Save Form</button>
+                        <?php if($LOCKDOWN_STATUS): ?>
+                            <button type="submit" class="btn btn-sm btn-success">Save Form</button>
+                        <?php endif; ?>
                         <a class="btn btn-sm btn-primary" href="<?php echo e(route('appraisal.user.cpd')); ?>">Next section ></a>
             </div>
 

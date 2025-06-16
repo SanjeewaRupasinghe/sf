@@ -48,12 +48,23 @@
             }
         } catch (\Throwable $th) {
         }
-
+        $LOCKDOWN_STATUS = Auth::user()->status == 0 ? false : true;
     @endphp
 
     @include('common.alert')
 
-    <form action="{{ route('appraisal.user.outputs.submit') }}" method="POST">
+    @if (!$LOCKDOWN_STATUS)
+        <div class="alert alert-danger" role="alert">
+            This profile is locked. You can't change anything.
+        </div>
+    @else
+        <div class="alert alert-warning" role="alert">
+            If you made any changes, please click the "Save Form" button to save your details. Otherwise, your changes will
+            not be saved.
+        </div>
+    @endif
+
+    <form @if ($LOCKDOWN_STATUS) action="{{ route('appraisal.user.outputs.submit') }}" @endif method="POST">
         @csrf
 
         <div class="content-body">
@@ -184,8 +195,7 @@
                         <p class="fw-bold">The <span class="text-primary">appraiser</span> should record any comments that
                             will assist the responsible officer to understand the reasons for the statements that have been
                             made.</p>
-                        <textarea class="form-control" name="appraiser_comments" id="appraiser_comments" rows="6"
-                            >{{ $_appraiser_comments }}</textarea>
+                        <textarea class="form-control" name="appraiser_comments" id="appraiser_comments" rows="6">{{ $_appraiser_comments }}</textarea>
                     </div>
 
                     <!-- Additional Issues Section -->
@@ -193,8 +203,7 @@
                         <p class="fw-bold">The <span class="text-primary">appraiser</span> should record any other issues
                             that the responsible officer should be aware of that may be relevant to the revalidation
                             recommendation.</p>
-                        <textarea class="form-control" name="additional_issues" id="additional_issues" rows="6"
-                            >{{ $_additional_issues }}</textarea>
+                        <textarea class="form-control" name="additional_issues" id="additional_issues" rows="6">{{ $_additional_issues }}</textarea>
                     </div>
 
                     <!-- Doctor Response Section -->
@@ -202,8 +211,7 @@
                         <p class="fw-bold">The <span class="text-primary">doctor</span> may use this space to respond to
                             the above comments made by the appraiser. The responsible officer will review comments made in
                             this space.</p>
-                        <textarea class="form-control" name="doctor_response" id="doctor_response" rows="6"
-                            >{{ $_doctor_response }}</textarea>
+                        <textarea class="form-control" name="doctor_response" id="doctor_response" rows="6">{{ $_doctor_response }}</textarea>
                     </div>
 
                     <!-- Confirmation Section -->
@@ -227,7 +235,8 @@
                             <div class="col-12">
                                 <div class="form-check">
                                     <input type="checkbox" class="form-check-input" name="doctor_confirmation"
-                                        id="doctor_confirmation" @if ($_doctor_confirmation == 'on') checked @endif required>
+                                        id="doctor_confirmation" @if ($_doctor_confirmation == 'on') checked @endif
+                                        required>
                                     <label class="form-check-label fw-bold" for="doctor_confirmation">
                                         * Doctor - please tick here to confirm this.
                                     </label>
@@ -244,8 +253,8 @@
                             </div>
                             <div class="col-6">
                                 <label for="doctor_gmc_number" class="form-label">* Doctor GMC number:</label>
-                                <input type="text" class="form-control border-danger" name="doctor_gmc_number" required
-                                    id="doctor_gmc_number" value="{{ $_doctor_gmc_number }}">
+                                <input type="text" class="form-control border-danger" name="doctor_gmc_number"
+                                    required id="doctor_gmc_number" value="{{ $_doctor_gmc_number }}">
                             </div>
                         </div>
 
@@ -254,7 +263,8 @@
                             <div class="col-12 p-3">
                                 <div class="form-check">
                                     <input type="checkbox" class="form-check-input" name="appraiser_confirmation"
-                                        id="appraiser_confirmation" @if ($_appraiser_confirmation == 'on') checked @endif required>
+                                        id="appraiser_confirmation" @if ($_appraiser_confirmation == 'on') checked @endif
+                                        required>
                                     <label class="form-check-label fw-bold" for="appraiser_confirmation">
                                         * Appraiser - please tick here to confirm this.
                                     </label>
@@ -290,12 +300,15 @@
             </div>
 
             <div class="d-flex justify-content-between">
-                
-                     <a class="btn btn-sm btn-primary" href="{{route('appraisal.user.summary')}}">
+
+                <a class="btn btn-sm btn-primary" href="{{ route('appraisal.user.summary') }}">
                     < Previous section</a>
-                    <button type="submit" class="btn btn-sm btn-success">Save Form</button>
-                        <a class="btn btn-sm btn-primary" href="{{route('appraisal.user.completion')}}">Next section ></a>
-                
+                        @if ($LOCKDOWN_STATUS)
+                            <button type="submit" class="btn btn-sm btn-success">Save Form</button>
+                        @endif
+                        <a class="btn btn-sm btn-primary" href="{{ route('appraisal.user.completion') }}">Next section
+                            ></a>
+
             </div>
 
         </div>

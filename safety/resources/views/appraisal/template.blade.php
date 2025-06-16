@@ -108,6 +108,12 @@
 
 								</li>
 
+								<li class="nav-item">
+
+									<a class="nav-link" href="{{route('appraisal.user.login')}}">Login</a>
+
+								</li>
+
 							<!--	<li class="nav-item">
 
 									<a class="nav-link" href="{{ asset('/appraisal/paynow')}}">@lang('appraisal/template.PayNow')</a>

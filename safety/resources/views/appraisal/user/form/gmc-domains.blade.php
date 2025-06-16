@@ -28,12 +28,23 @@
             }
         } catch (\Throwable $th) {
         }
-
+        $LOCKDOWN_STATUS = Auth::user()->status == 0 ? false : true;
     @endphp
 
     @include('common.alert')
 
-    <form action="{{ route('appraisal.user.gmc-domains.submit') }}" method="POST">
+    @if (!$LOCKDOWN_STATUS)
+        <div class="alert alert-danger" role="alert">
+            This profile is locked. You can't change anything.
+        </div>
+    @else
+        <div class="alert alert-warning" role="alert">
+            If you made any changes, please click the "Save Form" button to save your details. Otherwise, your changes will
+            not be saved.
+        </div>
+    @endif
+
+    <form @if ($LOCKDOWN_STATUS) action="{{ route('appraisal.user.gmc-domains.submit') }}" @endif method="POST">
         @csrf
 
         <div class="content-body">
@@ -59,7 +70,7 @@
                     <p class="mb-1">6 Managing resources effectively and sustainably</p>
                 </div>
 
-                <textarea class="form-control" rows="6" name="knowledge">{{$_knowledge}}</textarea>
+                <textarea class="form-control" rows="6" name="knowledge">{{ $_knowledge }}</textarea>
             </div>
 
             <!-- Domain 2: Patients, partnership and communication -->
@@ -70,20 +81,21 @@
                         style="cursor: pointer;"></i>
                 </h6>
                 <div id="domain2Help" class="help-text" style="display: none;">
-                    <p class="mb-1">1	Treating patients fairly and respecting their rights</p>
-                    <p class="mb-1">2	Treating patients with kindness, courtesy and respect</p>
-                    <p class="mb-1">3	Supporting patients to make decisions about treatment and care</p>
-                    <p class="mb-1">4	Sharing information with patients</p>
-                    <p class="mb-1">5	Communicating with those close to a patient</p>
-                    <p class="mb-1">6	Caring for the whole patient</p>
-                    <p class="mb-1">7	Safeguarding children and adults who are at risk of harm</p>
-                    <p class="mb-1">8	Helping in emergencies</p>
-                    <p class="mb-1">9	Making sure patients who pose a risk of harm to others can access appropriate care</p>
+                    <p class="mb-1">1 Treating patients fairly and respecting their rights</p>
+                    <p class="mb-1">2 Treating patients with kindness, courtesy and respect</p>
+                    <p class="mb-1">3 Supporting patients to make decisions about treatment and care</p>
+                    <p class="mb-1">4 Sharing information with patients</p>
+                    <p class="mb-1">5 Communicating with those close to a patient</p>
+                    <p class="mb-1">6 Caring for the whole patient</p>
+                    <p class="mb-1">7 Safeguarding children and adults who are at risk of harm</p>
+                    <p class="mb-1">8 Helping in emergencies</p>
+                    <p class="mb-1">9 Making sure patients who pose a risk of harm to others can access appropriate care
+                    </p>
                     <p class="mb-1">10 Being open if things go wrong</p>
                 </div>
 
 
-                <textarea class="form-control" rows="6" name="safety">{{$_safety}}</textarea>
+                <textarea class="form-control" rows="6" name="safety">{{ $_safety }}</textarea>
             </div>
 
             <!-- Domain 3: Colleagues, culture and safety -->
@@ -94,21 +106,21 @@
                         style="cursor: pointer;"></i>
                 </h6>
                 <div id="domain3Help" class="help-text" style="display: none;">
-                    <p class="mb-1">1	Treating colleagues with kindness, courtesy and respect</p>
-                    <p class="mb-1">2	Contributing to a positive working and training environment</p>
-                    <p class="mb-1">3	Demonstrating leadership behaviours</p>
-                    <p class="mb-1">4	Contributing to continuity of care</p>
-                    <p class="mb-1">5	Delegating safely and appropriately</p>
-                    <p class="mb-1">6	Recording your work clearly, accurately, and legibly</p>
-                    <p class="mb-1">7	Keeping patients safe</p>
-                    <p class="mb-1">8	Responding to safety risks</p>
-                    <p class="mb-1">9	Managing risks posed by your health</p>
+                    <p class="mb-1">1 Treating colleagues with kindness, courtesy and respect</p>
+                    <p class="mb-1">2 Contributing to a positive working and training environment</p>
+                    <p class="mb-1">3 Demonstrating leadership behaviours</p>
+                    <p class="mb-1">4 Contributing to continuity of care</p>
+                    <p class="mb-1">5 Delegating safely and appropriately</p>
+                    <p class="mb-1">6 Recording your work clearly, accurately, and legibly</p>
+                    <p class="mb-1">7 Keeping patients safe</p>
+                    <p class="mb-1">8 Responding to safety risks</p>
+                    <p class="mb-1">9 Managing risks posed by your health</p>
                 </div>
-            </div>            
+            </div>
 
             <!-- Domain 3 continued -->
-            <div class="mb-4">                
-                <textarea class="form-control mb-4" rows="6" name="communication">{{$_communication}}</textarea>
+            <div class="mb-4">
+                <textarea class="form-control mb-4" rows="6" name="communication">{{ $_communication }}</textarea>
             </div>
 
             <!-- Domain 4: Trust and professionalism -->
@@ -119,19 +131,20 @@
                         style="cursor: pointer;"></i>
                 </h6>
                 <div id="domain4Help" class="help-text" style="display: none;">
-                    <p class="mb-1">1	Acting with honesty and integrity</p>
-                    <p class="mb-1">2	Acting with honesty and integrity in research</p>
-                    <p class="mb-1">3	Maintaining professional boundaries</p>
-                    <p class="mb-1">4	Communicating as a medical professional</p>
-                    <p class="mb-1">5	All professional communication</p>
-                    <p class="mb-1">6	Public professional communication, including using social media, advertising, promotion, and endorsement</p>
-                    <p class="mb-1">7	Giving evidence and acting as a witness</p>
-                    <p class="mb-1">8	Private communication</p>
-                    <p class="mb-1">9	Managing conflicts of interest</p>
+                    <p class="mb-1">1 Acting with honesty and integrity</p>
+                    <p class="mb-1">2 Acting with honesty and integrity in research</p>
+                    <p class="mb-1">3 Maintaining professional boundaries</p>
+                    <p class="mb-1">4 Communicating as a medical professional</p>
+                    <p class="mb-1">5 All professional communication</p>
+                    <p class="mb-1">6 Public professional communication, including using social media, advertising,
+                        promotion, and endorsement</p>
+                    <p class="mb-1">7 Giving evidence and acting as a witness</p>
+                    <p class="mb-1">8 Private communication</p>
+                    <p class="mb-1">9 Managing conflicts of interest</p>
                     <p class="mb-1">10 Cooperating with legal and regulatory requirements</p>
                 </div>
 
-                <textarea class="form-control mb-4" rows="6" name="trust">{{$_trust}}</textarea>
+                <textarea class="form-control mb-4" rows="6" name="trust">{{ $_trust }}</textarea>
             </div>
 
             <!-- General comment section -->
@@ -143,17 +156,20 @@
                         appraiser when you meet.</p>
                 </div>
 
-                <textarea class="form-control" rows="6" name="comments">{{$_comments}}</textarea>
+                <textarea class="form-control" rows="6" name="comments">{{ $_comments }}</textarea>
             </div>
 
             <div class="d-flex justify-content-between">
-            
-                     <a class="btn btn-sm btn-primary" href="{{route('appraisal.user.supporting-info')}}">
+
+                <a class="btn btn-sm btn-primary" href="{{ route('appraisal.user.supporting-info') }}">
                     < Previous section</a>
-                    <button type="submit" class="btn btn-sm btn-success">Save Form</button>
-                        <a class="btn btn-sm btn-primary" href="{{route('appraisal.user.checklist')}}">Next section ></a>
-                
-        </div>
+                        @if ($LOCKDOWN_STATUS)
+                            <button type="submit" class="btn btn-sm btn-success">Save Form</button>
+                        @endif
+                        <a class="btn btn-sm btn-primary" href="{{ route('appraisal.user.checklist') }}">Next section
+                            ></a>
+
+            </div>
 
 
         </div>

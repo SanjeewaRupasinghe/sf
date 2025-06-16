@@ -108,6 +108,12 @@
 
 								</li>
 
+								<li class="nav-item">
+
+									<a class="nav-link" href="<?php echo e(route('appraisal.user.login')); ?>">Login</a>
+
+								</li>
+
 							<!--	<li class="nav-item">
 
 									<a class="nav-link" href="<?php echo e(asset('/appraisal/paynow')); ?>"><?php echo app('translator')->get('appraisal/template.PayNow'); ?></a>

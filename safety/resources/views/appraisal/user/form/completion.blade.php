@@ -9,6 +9,10 @@
         </h2>
     </div>
 
+    @php
+$LOCKDOWN_STATUS = Auth::user()->status == 0 ? false : true;
+    @endphp
+
     @include('common.alert')
 
     <div class="content-body">
@@ -73,9 +77,38 @@
             <p>
                 Please click here to perform lockdown of this completed form
             </p>
-            <button type="button" class="btn btn-success mb-3">
+
+            @if ($LOCKDOWN_STATUS)
+            <!-- Modal -->
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#lockdownModal">
                 Save form - LOCKDOWN
             </button>
+
+            <div class="modal fade" id="lockdownModal" tabindex="-1" aria-labelledby="lockdownModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="lockdownModalLabel">Confirm before LOCKDOWN</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Please confirm you are sure to lock this form. Once locked you will not be able to make any
+                            further changes.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No, Cancel</button>
+                            <a href="{{ route('appraisal.user.lockdown') }}" class="btn btn-primary" href="">Yes,
+                                LOCKDOWN</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END Modal -->
+            @else
+            <button type="button" class="btn btn-success" disabled>LOCKED</button>
+            @endif
+
             <p>
                 Once the form has been locked down, you may use the following options
                 to print the respective information for your own use or to provide to
@@ -124,8 +157,8 @@
                     19 Summary of the appraisal discussion; and 20 Appraisal outputs
                 </li>
             </ul>
-            <a href="{{ route('appraisal.user.completion.pdf', ['s' => 3, 'e' => 4, 's1' => 18, 'e1' => 20]) }}" type="button" target="_blank"
-                class="btn btn-primary mb-3">Print - Section 3,4,18,19,20</a>
+            <a href="{{ route('appraisal.user.completion.pdf', ['s' => 3, 'e' => 4, 's1' => 18, 'e1' => 20]) }}"
+                type="button" target="_blank" class="btn btn-primary mb-3">Print - Section 3,4,18,19,20</a>
 
         </section>
 

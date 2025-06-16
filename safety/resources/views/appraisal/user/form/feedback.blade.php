@@ -43,9 +43,22 @@
         } catch (\Throwable $th) {
         }
 
+        $LOCKDOWN_STATUS = Auth::user()->status == 0 ? false : true;
     @endphp
 
-    <form action="{{ route('appraisal.user.feedback.submit') }}" method="POST" enctype="multipart/form-data">
+    @if (!$LOCKDOWN_STATUS)
+        <div class="alert alert-danger" role="alert">
+            This profile is locked. You can't change anything.
+        </div>
+    @else
+        <div class="alert alert-warning" role="alert">
+            If you made any changes, please click the "Save Form" button to save your details. Otherwise, your changes will
+            not be saved.
+        </div>
+    @endif
+
+    <form @if ($LOCKDOWN_STATUS) action="{{ route('appraisal.user.feedback.submit') }}" @endif method="POST"
+        enctype="multipart/form-data">
         @csrf
         <div class="content-body">
             <p>
@@ -125,27 +138,27 @@
                         <i class="fas fa-question-circle help-icon" onclick="toggleHelp('lastAppHelp2')"></i>
                     </div>
                     <div id="lastAppHelp2" class="help-text">
-                    Please ensure any personal identifiable information is removed or
-                    redacted.
-                    GMC guidance is for a minimum of one colleague survey, compliant
-                    with GMC requirements, about the individual doctor to be
-                    completed during each five-year revalidation cycle.
-                    <a href="https://www.england.nhs.uk/professional-standards/medical-revalidation/appraisers/mag-mod/further-info/"
-                        target="_blank">
-                        Further
-                        guidance on feedback from colleagues and patients can be found
-                        here.
-                    </a>
-                    You are expected to reflect on the results of these surveys
-                    individually and with your appraiser and to identify lessons learned
-                    and changes to be made as a result.
-                    If you have several different positions and roles in your scope of
-                    work, it may be appropriate for you to undertake separate colleague
-                    feedback exercises in more than one of these roles. This is partly
-                    because the design of one survey is typically structured towards a
-                    particular type of role, for example questionnaires designed for
-                    clinical and management settings may differ.
-                </div>
+                        Please ensure any personal identifiable information is removed or
+                        redacted.
+                        GMC guidance is for a minimum of one colleague survey, compliant
+                        with GMC requirements, about the individual doctor to be
+                        completed during each five-year revalidation cycle.
+                        <a href="https://www.england.nhs.uk/professional-standards/medical-revalidation/appraisers/mag-mod/further-info/"
+                            target="_blank">
+                            Further
+                            guidance on feedback from colleagues and patients can be found
+                            here.
+                        </a>
+                        You are expected to reflect on the results of these surveys
+                        individually and with your appraiser and to identify lessons learned
+                        and changes to be made as a result.
+                        If you have several different positions and roles in your scope of
+                        work, it may be appropriate for you to undertake separate colleague
+                        feedback exercises in more than one of these roles. This is partly
+                        because the design of one survey is typically structured towards a
+                        particular type of role, for example questionnaires designed for
+                        clinical and management settings may differ.
+                    </div>
                     <div class="col-md-6">
                         <input type="date" class="form-control" id="colleagueFeedbackDate" name="colleagueFeedbackDate"
                             value="{{ $_colleagueFeedbackDate }}">
@@ -190,59 +203,6 @@
                             </tr>
                         </thead>
                         <tbody id="cpdTableBody">
-                            {{-- @if ($_jobRolesCount > 0)
-                                @for ($i = 0; $i < $_jobRolesCount; $i++)
-                                    <tr>
-                                        <td>
-                                            <select class="form-select form-select-sm" name="roles[]">
-                                                <option>Please select...</option>
-                                                <option value="Cross Role"
-                                                    @if ($_jobRoles[$i]->roles == 'Cross Role') selected @endif>Cross Role</option>
-                                            </select>
-                                        </td>
-                                        <td>
-                                            <textarea class="form-control form-control-sm" rows="2" name="dateAndBrief[]">{{ $_jobRoles[$i]->dateAndBrief }}</textarea>
-                                        </td>
-                                        <td>
-                                            <textarea class="form-control form-control-sm" rows="2" name="outcomes[]">{{ $_jobRoles[$i]->outcomes }}</textarea>
-                                        </td>
-                                        <td><input type="number" class="form-control form-control-sm credit-input"
-                                                name="credit[]" step="0.1" value="{{ $_jobRoles[$i]->credit }}"></td>
-                                        <td>
-                                            <select class="form-select form-select-sm location-select"
-                                                name="supportingInfo[]">
-                                                <option>Please select...</option>
-                                                <option @if ($_jobRoles[$i]->supportingInfo == 'Attached') selected @endif value="Attached">
-                                                    Attached</option>
-                                                <option @if ($_jobRoles[$i]->supportingInfo == 'Email to appraiser') selected @endif
-                                                    value="Email to appraiser">Email to appraiser</option>
-                                                <option @if ($_jobRoles[$i]->supportingInfo == 'Provided separately') selected @endif
-                                                    value="Provided separately">Provided separately</option>
-                                                <option @if ($_jobRoles[$i]->supportingInfo == 'Not available') selected @endif
-                                                    value="Not available">Not available</option>
-                                            </select>
-                                        </td>
-                                        <td class="attachment-cell">
-                                            <div class="checkbox-log">
-                                                @if ($_jobRoles[$i]->supportingInfo == 'Attached')
-                                                    <input type="file" class="form-control form-control-sm"
-                                                        name="supportingInfoAttachment_{{ $i }}"
-                                                        accept=".pdf,.doc,.docx,.jpg,.png">
-                                                @else
-                                                    <input type="checkbox" class="form-check-input me-1"
-                                                        name="supportingInfoLog_{{ $i }}"
-                                                        @if ($_jobRoles[$i]->log) checked @endif value="on">
-                                                    <span class="badge bg-secondary">Log</span>
-                                                @endif
-
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <button type="button" class="btn btn-danger btn-sm remove-row-btn">-</button>
-                                        </td>
-                                    </tr>
-                                @endfor
-                            @endif --}}
                             <tr>
                                 <td>
                                     <select class="form-select form-select-sm" name="roles[]">
@@ -273,7 +233,9 @@
                                     </div>
                                 </td>
                                 <td>
-                                    <button type="button" class="btn btn-success btn-sm add-row-btn">+</button>
+                                    @if ($LOCKDOWN_STATUS)
+                                        <button type="button" class="btn btn-success btn-sm add-row-btn">+</button>
+                                    @endif
                                 </td>
                             </tr>
                         </tbody>
@@ -371,12 +333,14 @@
         </div>
 
         <div class="d-flex justify-content-between">
-            
-                     <a class="btn btn-sm btn-primary" href="{{route('appraisal.user.significant-events')}}">
-                    < Previous section</a>
-                    <button type="submit" class="btn btn-sm btn-success">Save Form</button>
-                        <a class="btn btn-sm btn-primary" href="{{route('appraisal.user.complaints')}}">Next section ></a>
-                
+
+            <a class="btn btn-sm btn-primary" href="{{ route('appraisal.user.significant-events') }}">
+                < Previous section</a>
+                    @if ($LOCKDOWN_STATUS)
+                        <button type="submit" class="btn btn-sm btn-success">Save Form</button>
+                    @endif
+                    <a class="btn btn-sm btn-primary" href="{{ route('appraisal.user.complaints') }}">Next section ></a>
+
         </div>
 
     </form>

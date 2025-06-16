@@ -28,10 +28,21 @@
             }
         } catch (\Throwable $th) {
         }
-
+        $LOCKDOWN_STATUS = Auth::user()->status == 0 ? false : true;
     @endphp
 
     @include('common.alert')
+
+    @if (!$LOCKDOWN_STATUS)
+        <div class="alert alert-danger" role="alert">
+            This profile is locked. You can't change anything.
+        </div>
+    @else
+        <div class="alert alert-warning" role="alert">
+            If you made any changes, please click the "Save Form" button to save your details. Otherwise, your changes will
+            not be saved.
+        </div>
+    @endif
 
     <form action="{{ route('appraisal.user.probity.submit') }}" method="POST">
         @csrf
@@ -83,16 +94,16 @@
 
 
                 <div class="form-check mb-2">
-                    <input class="form-check-input" type="radio" name="probityDeclaration" id="probityNothing" @if ($_probityDeclaration == 'nothing') checked @endif
-                        value="nothing">
-                    <label class="form-check-label" for="probityNothing" >
+                    <input class="form-check-input" type="radio" name="probityDeclaration" id="probityNothing"
+                        @if ($_probityDeclaration == 'nothing') checked @endif value="nothing">
+                    <label class="form-check-label" for="probityNothing">
                         I have nothing to declare."
                     </label>
                 </div>
 
                 <div class="form-check mb-3">
-                    <input class="form-check-input" type="radio" name="probityDeclaration" id="probitySomething"  @if ($_probityDeclaration == 'something') checked @endif
-                        value="something">
+                    <input class="form-check-input" type="radio" name="probityDeclaration" id="probitySomething"
+                        @if ($_probityDeclaration == 'something') checked @endif value="something">
                     <label class="form-check-label" for="probitySomething">
                         I have something to declare."
                     </label>
@@ -155,10 +166,13 @@
             </div>
 
             <div class="d-flex justify-content-between">
-                <a class="btn btn-sm btn-primary" href="{{route("appraisal.user.achievements")}}">
+                <a class="btn btn-sm btn-primary" href="{{ route('appraisal.user.achievements') }}">
                     < Previous section</a>
-                        <button type="submit" class="btn btn-sm btn-success">Save Form</button>
-                        <a class="btn btn-sm btn-primary" href="{{route("appraisal.user.additional-info")}}">Next section ></a>
+                        @if ($LOCKDOWN_STATUS)
+                            <button type="submit" class="btn btn-sm btn-success">Save Form</button>
+                        @endif
+                        <a class="btn btn-sm btn-primary" href="{{ route('appraisal.user.additional-info') }}">Next section
+                            ></a>
             </div>
 
 

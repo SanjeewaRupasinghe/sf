@@ -33,10 +33,20 @@
             }
         } catch (\Throwable $th) {
         }
-
+$LOCKDOWN_STATUS = Auth::user()->status == 0 ? false : true;
     @endphp
 
-    <form action="{{ route('appraisal.user.additional-info.submit') }}" method="POST" enctype="multipart/form-data">
+ @if (!$LOCKDOWN_STATUS)
+        <div class="alert alert-danger" role="alert">
+            This profile is locked. You can't change anything.
+        </div>
+    @else
+        <div class="alert alert-warning" role="alert">
+            If you made any changes, please click the "Save Form" button to save your details. Otherwise, your changes will not be saved.
+        </div>
+    @endif
+
+    <form @if ($LOCKDOWN_STATUS) action="{{ route('appraisal.user.additional-info.submit') }}" @endif method="POST" enctype="multipart/form-data">
         @csrf
         <div class="content-body">
 
@@ -199,11 +209,14 @@
                                         </div>
                                     </td>
                                     <td>
+                                        @if ($LOCKDOWN_STATUS)
                                         <button type="button" class="btn btn-danger btn-sm remove-row-btn">-</button>
+                                        @endif
                                     </td>
                                 </tr>
                             @endfor
                         @endif
+                        @if ($LOCKDOWN_STATUS)
                         <tr>
                             <td>
                                 <select class="form-select form-select-sm" name="roles[]">
@@ -237,6 +250,7 @@
                                 <button type="button" class="btn btn-success btn-sm add-row-btn">+</button>
                             </td>
                         </tr>
+                        @endif
                     </tbody>
                 </table>
             </div>
@@ -260,7 +274,9 @@
 
         <a class="btn btn-sm btn-primary" href="{{ route('appraisal.user.probity') }}">
             < Previous section</a>
+            @if ($LOCKDOWN_STATUS)
                         <button type="submit" class="btn btn-sm btn-success">Save Form</button>
+                        @endif
                 <a class="btn btn-sm btn-primary" href="{{ route('appraisal.user.supporting-info') }}">Next section ></a>
                 </div>
 

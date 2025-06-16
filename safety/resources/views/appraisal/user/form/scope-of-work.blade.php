@@ -32,12 +32,25 @@
             }
         } catch (\Throwable $th) {
         }
+        $LOCKDOWN_STATUS = Auth::user()->status == 0 ? false : true;
 
     @endphp
 
     @include('common.alert')
 
-    <form action="{{ route('appraisal.user.scope-of-work.submit') }}" method="POST">
+    @if (!$LOCKDOWN_STATUS)
+        <div class="alert alert-danger" role="alert">
+            This profile is locked. You can't change anything.
+        </div>
+    @else
+        <div class="alert alert-warning" role="alert">
+            If you made any changes, please click the "Save Form" button to save your details. Otherwise, your changes will
+            not be saved.
+        </div>
+    @endif
+
+    <form @if ($LOCKDOWN_STATUS) action="{{ route('appraisal.user.scope-of-work.submit') }}" @endif
+        method="POST">
         @csrf
         <div class="content-body">
 
@@ -115,47 +128,53 @@
                                                 value="{{ $_roles[$i]->organization }}">
                                         </div>
                                         <div class="col-md-2 mb-3 d-flex align-items-end">
-                                            <button type="button" class="btn btn-remove-row btn-sm text-white"
-                                                onclick="removeRow(this)">
-                                                <i class="fas fa-trash"></i> Remove
-                                            </button>
+                                            @if ($LOCKDOWN_STATUS)
+                                                <button type="button" class="btn btn-remove-row btn-sm text-white"
+                                                    onclick="removeRow(this)">
+                                                    <i class="fas fa-trash"></i> Remove
+                                                </button>
+                                            @endif
                                         </div>
                                     </div>
                                 @endfor
                             @endif
 
-                            <div class="row">
-                                <div class="col-md-3 mb-3">
-                                    <label class="form-label">Job or role title Detail of work</label>
-                                    <input type="text" class="form-control" name="role[]">
+                            @if ($LOCKDOWN_STATUS)
+                                <div class="row">
+                                    <div class="col-md-3 mb-3">
+                                        <label class="form-label">Job or role title Detail of work</label>
+                                        <input type="text" class="form-control" name="role[]">
+                                    </div>
+                                    <div class="col-md-3 mb-3">
+                                        <label class="form-label">Detail of work<br>(Including any changes since your last
+                                            appraisal)</label>
+                                        <input type="text" class="form-control" name="work[]">
+                                    </div>
+                                    <div class="col-md-2 mb-3">
+                                        <label class="form-label">Year commenced</label>
+                                        <input type="text" class="form-control" name="yearCommenced[]">
+                                    </div>
+                                    <div class="col-md-2 mb-3">
+                                        <label class="form-label">Organisation and contact details</label>
+                                        <input type="text" class="form-control" name="organization[]">
+                                    </div>
+                                    <div class="col-md-2 mb-3 d-flex align-items-end">
+                                        <button type="button" class="btn btn-remove-row btn-sm text-white"
+                                            onclick="removeRow(this)">
+                                            <i class="fas fa-trash"></i> Remove
+                                        </button>
+                                    </div>
                                 </div>
-                                <div class="col-md-3 mb-3">
-                                    <label class="form-label">Detail of work<br>(Including any changes since your last
-                                        appraisal)</label>
-                                    <input type="text" class="form-control" name="work[]">
-                                </div>
-                                <div class="col-md-2 mb-3">
-                                    <label class="form-label">Year commenced</label>
-                                    <input type="text" class="form-control" name="yearCommenced[]">
-                                </div>
-                                <div class="col-md-2 mb-3">
-                                    <label class="form-label">Organisation and contact details</label>
-                                    <input type="text" class="form-control" name="organization[]">
-                                </div>
-                                <div class="col-md-2 mb-3 d-flex align-items-end">
-                                    <button type="button" class="btn btn-remove-row btn-sm text-white"
-                                        onclick="removeRow(this)">
-                                        <i class="fas fa-trash"></i> Remove
-                                    </button>
-                                </div>
-                            </div>
+                            @endif
                         </div>
                     </div>
                 </div>
 
-                <button type="button" class="btn btn-add-row btn-sm text-white" onclick="addTableRow()">
-                    <i class="fas fa-plus"></i> Add
-                </button>
+                @if ($LOCKDOWN_STATUS)
+                    <button type="button" class="btn btn-add-row btn-sm text-white" onclick="addTableRow()">
+                        <i class="fas fa-plus"></i> Add
+                    </button>
+                @endif
 
                 <div class="form-section" id="personal-details">
 
@@ -219,10 +238,13 @@
                 </div>
 
                 <div class="d-flex justify-content-between">
-                     <a class="btn btn-sm btn-primary" href="{{route('appraisal.user.personal-details')}}">
-                    < Previous section</a>
-                    <button type="submit" class="btn btn-sm btn-success">Save Form</button>
-                        <a class="btn btn-sm btn-primary" href="{{route('appraisal.user.annual-appraisals')}}">Next section ></a>
+                    <a class="btn btn-sm btn-primary" href="{{ route('appraisal.user.personal-details') }}">
+                        < Previous section</a>
+                            @if ($LOCKDOWN_STATUS)
+                                <button type="submit" class="btn btn-sm btn-success">Save Form</button>
+                            @endif
+                            <a class="btn btn-sm btn-primary" href="{{ route('appraisal.user.annual-appraisals') }}">Next
+                                section ></a>
                 </div>
 
             </div>

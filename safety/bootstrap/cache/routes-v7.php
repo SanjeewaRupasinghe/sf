@@ -2362,6 +2362,26 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
+      '/appraisal/user/lockdown' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'appraisal.user.lockdown',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
       '/appraisal/user/logout' => 
       array (
         0 => 
@@ -2644,7 +2664,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::hxRNJaQTvUgj2l9u',
+            '_route' => 'generated::5LORVyF2emttLRBS',
           ),
           1 => NULL,
           2 => 
@@ -2664,7 +2684,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::VDsF9x5NJWKxGJkE',
+            '_route' => 'generated::WHPLPwvLhcVmVAHs',
           ),
           1 => NULL,
           2 => 
@@ -2681,7 +2701,7 @@ app('router')->setCompiledRoutes(
     ),
     2 => 
     array (
-      0 => '{^(?|/superadmin/(?|update/([^/]++)(*:37)|blog(?|Category/([^/]++)(?|(*:71)|/edit(*:83)|(*:90))|Post/([^/]++)(?|(*:114)|/edit(*:127)|(*:135)))|c(?|ategory/([^/]++)(?|(*:168)|/edit(*:181)|(*:189))|ourse(?|/([^/]++)(?|(*:218)|/edit(*:231)|(*:239))|Calendar/([^/]++)(?|(*:268)|/edit(*:281)|(*:289))))|image/([^/]++)(?|(*:317)|/edit(*:330)|(*:338))|ap(?|Blog(?|Category/([^/]++)(?|(*:379)|/edit(*:392)|(*:400))|Post/([^/]++)(?|(*:425)|/edit(*:438)|(*:446)))|C(?|ategory/([^/]++)(?|(*:479)|/edit(*:492)|(*:500))|ourse/([^/]++)(?|(*:526)|/edit(*:539)|(*:547)))))|/course/(?|switchlocale/([^/]++)(*:591)|c(?|alendar(?:/([^/]++)(?:/([^/]++))?)?(*:638)|ourse(?|s(?:/([^/]++))?(*:669)|/([^/]++)(*:686)))|blog/([^/]++)(*:709))|/appraisal/(?|blog/([^/]++)(*:745)|service(?|s(?:/([^/]++))?(*:778)|/([^/]++)(*:795))|download/([^/]++)(*:821)))/?$}sDu',
+      0 => '{^(?|/superadmin/(?|update/([^/]++)(*:37)|blog(?|Category/([^/]++)(?|(*:71)|/edit(*:83)|(*:90))|Post/([^/]++)(?|(*:114)|/edit(*:127)|(*:135)))|c(?|ategory/([^/]++)(?|(*:168)|/edit(*:181)|(*:189))|ourse(?|/([^/]++)(?|(*:218)|/edit(*:231)|(*:239))|Calendar/([^/]++)(?|(*:268)|/edit(*:281)|(*:289))))|image/([^/]++)(?|(*:317)|/edit(*:330)|(*:338))|ap(?|Blog(?|Category/([^/]++)(?|(*:379)|/edit(*:392)|(*:400))|Post/([^/]++)(?|(*:425)|/edit(*:438)|(*:446)))|C(?|ategory/([^/]++)(?|(*:479)|/edit(*:492)|(*:500))|ourse/([^/]++)(?|(*:526)|/edit(*:539)|(*:547)))|praisalUser/unlock/([^/]++)(*:584)))|/course/(?|switchlocale/([^/]++)(*:626)|c(?|alendar(?:/([^/]++)(?:/([^/]++))?)?(*:673)|ourse(?|s(?:/([^/]++))?(*:704)|/([^/]++)(*:721)))|blog/([^/]++)(*:744))|/appraisal/(?|blog/([^/]++)(*:780)|service(?|s(?:/([^/]++))?(*:813)|/([^/]++)(*:830))|download/([^/]++)(*:856)))/?$}sDu',
     ),
     3 => 
     array (
@@ -3587,7 +3607,30 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      591 => 
+      584 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'admin.appraisal.user.unlock',
+          ),
+          1 => 
+          array (
+            0 => 'userId',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      626 => 
       array (
         0 => 
         array (
@@ -3610,7 +3653,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      638 => 
+      673 => 
       array (
         0 => 
         array (
@@ -3636,7 +3679,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      669 => 
+      704 => 
       array (
         0 => 
         array (
@@ -3660,7 +3703,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      686 => 
+      721 => 
       array (
         0 => 
         array (
@@ -3683,7 +3726,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      709 => 
+      744 => 
       array (
         0 => 
         array (
@@ -3706,7 +3749,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      745 => 
+      780 => 
       array (
         0 => 
         array (
@@ -3729,7 +3772,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      778 => 
+      813 => 
       array (
         0 => 
         array (
@@ -3753,7 +3796,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      795 => 
+      830 => 
       array (
         0 => 
         array (
@@ -3776,7 +3819,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      821 => 
+      856 => 
       array (
         0 => 
         array (
@@ -7020,6 +7063,44 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
+    'admin.appraisal.user.unlock' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'superadmin/appraisalUser/unlock/{userId}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'adminauth',
+        ),
+        'uses' => 'App\\Http\\Controllers\\AppraisaUserController@unlock',
+        'controller' => 'App\\Http\\Controllers\\AppraisaUserController@unlock',
+        'namespace' => NULL,
+        'prefix' => '/superadmin',
+        'where' => 
+        array (
+        ),
+        'as' => 'admin.appraisal.user.unlock',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
     'home.index' => 
     array (
       'methods' => 
@@ -10177,6 +10258,44 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
+    'appraisal.user.lockdown' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'appraisal/user/lockdown',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'appraisalUserAuth',
+        ),
+        'uses' => 'App\\Http\\Controllers\\AppraisaUserController@lockdown',
+        'controller' => 'App\\Http\\Controllers\\AppraisaUserController@lockdown',
+        'namespace' => NULL,
+        'prefix' => 'appraisal/user',
+        'where' => 
+        array (
+        ),
+        'as' => 'appraisal.user.lockdown',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
     'appraisal.user.logout' => 
     array (
       'methods' => 
@@ -10732,7 +10851,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::hxRNJaQTvUgj2l9u' => 
+    'generated::5LORVyF2emttLRBS' => 
     array (
       'methods' => 
       array (
@@ -10753,7 +10872,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::hxRNJaQTvUgj2l9u',
+        'as' => 'generated::5LORVyF2emttLRBS',
       ),
       'fallback' => false,
       'defaults' => 
@@ -10769,7 +10888,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::VDsF9x5NJWKxGJkE' => 
+    'generated::WHPLPwvLhcVmVAHs' => 
     array (
       'methods' => 
       array (
@@ -10786,13 +10905,13 @@ app('router')->setCompiledRoutes(
         ),
         'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:295:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:77:"function (\\Illuminate\\Http\\Request $request) {
     return $request->user();
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"0000000000000a060000000000000000";}";s:4:"hash";s:44:"Q04r/WUoq/VltJ1bS0hG+1jM65I0bjfN7rURCjTOTXQ=";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"0000000000000a080000000000000000";}";s:4:"hash";s:44:"QRj2f6Ocw6LEboUui4k2o0xIE5NBs7To/gG+83Ex8Iw=";}}',
         'namespace' => NULL,
         'prefix' => 'api',
         'where' => 
         array (
         ),
-        'as' => 'generated::VDsF9x5NJWKxGJkE',
+        'as' => 'generated::WHPLPwvLhcVmVAHs',
       ),
       'fallback' => false,
       'defaults' => 

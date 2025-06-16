@@ -30,10 +30,22 @@
             }
         } catch (\Throwable $th) {
         }
-
+        $LOCKDOWN_STATUS = Auth::user()->status == 0 ? false : true;
     ?>
 
-    <form action="<?php echo e(route('appraisal.user.quality-improvement.submit')); ?>" method="POST" enctype="multipart/form-data">
+    <?php if(!$LOCKDOWN_STATUS): ?>
+        <div class="alert alert-danger" role="alert">
+            This profile is locked. You can't change anything.
+        </div>
+    <?php else: ?>
+        <div class="alert alert-warning" role="alert">
+            If you made any changes, please click the "Save Form" button to save your details. Otherwise, your changes will
+            not be saved.
+        </div>
+    <?php endif; ?>
+
+    <form <?php if($LOCKDOWN_STATUS): ?> action="<?php echo e(route('appraisal.user.quality-improvement.submit')); ?>"n <?php endif; ?>
+        method="POST" enctype="multipart/form-data">
         <?php echo csrf_field(); ?>
         <div class="content-body">
 
@@ -161,44 +173,49 @@
                                             </div>
                                         </td>
                                         <td>
-                                            <button type="button" class="btn btn-danger btn-sm remove-row-btn">-</button>
+                                            <?php if($LOCKDOWN_STATUS): ?>
+                                                <button type="button"
+                                                    class="btn btn-danger btn-sm remove-row-btn">-</button>
+                                            <?php endif; ?>
                                         </td>
                                     </tr>
                                 <?php endfor; ?>
                             <?php endif; ?>
-                            <tr>
-                                <td>
-                                    <select class="form-select form-select-sm" name="roles[]">
-                                        <option value="Please select...">Please select...</option>
-                                        <option value="Cross Role">Cross Role</option>
-                                    </select>
-                                </td>
-                                <td>
-                                    <textarea class="form-control form-control-sm" rows="2" name="dateAndBrief[]"></textarea>
-                                </td>
-                                <td>
-                                    <textarea class="form-control form-control-sm" rows="2" name="outcomes[]"></textarea>
-                                </td>
-                                <td>
-                                    <select class="form-select form-select-sm location-select" name="supportingInfo[]">
-                                        <option value="Please select...">Please select...</option>
-                                        <option value="Attached">Attached</option>
-                                        <option value="Email to appraiser">Email to appraiser</option>
-                                        <option value="Provided separately">Provided separately</option>
-                                        <option value="Not available">Not available</option>
-                                    </select>
-                                </td>
-                                <td class="attachment-cell">
-                                    <div class="checkbox-log">
-                                        <input type="checkbox" class="form-check-input me-1" name="supportingInfoLog_0[]"
-                                            value="on">
-                                        <span class="badge bg-secondary">Log</span>
-                                    </div>
-                                </td>
-                                <td>
-                                    <button type="button" class="btn btn-success btn-sm add-row-btn">+</button>
-                                </td>
-                            </tr>
+                            <?php if($LOCKDOWN_STATUS): ?>
+                                <tr>
+                                    <td>
+                                        <select class="form-select form-select-sm" name="roles[]">
+                                            <option value="Please select...">Please select...</option>
+                                            <option value="Cross Role">Cross Role</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <textarea class="form-control form-control-sm" rows="2" name="dateAndBrief[]"></textarea>
+                                    </td>
+                                    <td>
+                                        <textarea class="form-control form-control-sm" rows="2" name="outcomes[]"></textarea>
+                                    </td>
+                                    <td>
+                                        <select class="form-select form-select-sm location-select" name="supportingInfo[]">
+                                            <option value="Please select...">Please select...</option>
+                                            <option value="Attached">Attached</option>
+                                            <option value="Email to appraiser">Email to appraiser</option>
+                                            <option value="Provided separately">Provided separately</option>
+                                            <option value="Not available">Not available</option>
+                                        </select>
+                                    </td>
+                                    <td class="attachment-cell">
+                                        <div class="checkbox-log">
+                                            <input type="checkbox" class="form-check-input me-1"
+                                                name="supportingInfoLog_0[]" value="on">
+                                            <span class="badge bg-secondary">Log</span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="btn btn-success btn-sm add-row-btn">+</button>
+                                    </td>
+                                </tr>
+                            <?php endif; ?>
                         </tbody>
                     </table>
                 </div>
@@ -239,12 +256,15 @@
         </div>
 
         <div class="d-flex justify-content-between">
-            
-                     <a class="btn btn-sm btn-primary" href="<?php echo e(route('appraisal.user.cpd')); ?>">
-                    < Previous section</a>
-                    <button type="submit" class="btn btn-sm btn-success">Save Form</button>
-                        <a class="btn btn-sm btn-primary" href="<?php echo e(route('appraisal.user.significant-events')); ?>">Next section ></a>
-                
+
+            <a class="btn btn-sm btn-primary" href="<?php echo e(route('appraisal.user.cpd')); ?>">
+                < Previous section</a>
+                    <?php if($LOCKDOWN_STATUS): ?>
+                        <button type="submit" class="btn btn-sm btn-success">Save Form</button>
+                    <?php endif; ?>
+                    <a class="btn btn-sm btn-primary" href="<?php echo e(route('appraisal.user.significant-events')); ?>">Next section
+                        ></a>
+
         </div>
 
     </form>

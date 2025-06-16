@@ -26,10 +26,20 @@
             }
         } catch (\Throwable $th) {
         }
-
+$LOCKDOWN_STATUS = Auth::user()->status == 0 ? false : true;
     ?>
 
     <?php echo $__env->make('common.alert', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+
+     <?php if(!$LOCKDOWN_STATUS): ?>
+        <div class="alert alert-danger" role="alert">
+            This profile is locked. You can't change anything.
+        </div>
+    <?php else: ?>
+        <div class="alert alert-warning" role="alert">
+            If you made any changes, please click the "Save Form" button to save your details. Otherwise, your changes will not be saved.
+        </div>
+    <?php endif; ?>
 
     <form action="<?php echo e(route('appraisal.user.probity.submit')); ?>" method="POST">
         <?php echo csrf_field(); ?>
@@ -155,7 +165,9 @@
             <div class="d-flex justify-content-between">
                 <a class="btn btn-sm btn-primary" href="<?php echo e(route("appraisal.user.achievements")); ?>">
                     < Previous section</a>
+                    <?php if($LOCKDOWN_STATUS): ?>
                         <button type="submit" class="btn btn-sm btn-success">Save Form</button>
+                        <?php endif; ?>
                         <a class="btn btn-sm btn-primary" href="<?php echo e(route("appraisal.user.additional-info")); ?>">Next section ></a>
             </div>
 

@@ -41,9 +41,22 @@
         } catch (\Throwable $th) {
         }
 
+        $LOCKDOWN_STATUS = Auth::user()->status == 0 ? false : true;
     ?>
 
-    <form action="<?php echo e(route('appraisal.user.feedback.submit')); ?>" method="POST" enctype="multipart/form-data">
+    <?php if(!$LOCKDOWN_STATUS): ?>
+        <div class="alert alert-danger" role="alert">
+            This profile is locked. You can't change anything.
+        </div>
+    <?php else: ?>
+        <div class="alert alert-warning" role="alert">
+            If you made any changes, please click the "Save Form" button to save your details. Otherwise, your changes will
+            not be saved.
+        </div>
+    <?php endif; ?>
+
+    <form <?php if($LOCKDOWN_STATUS): ?> action="<?php echo e(route('appraisal.user.feedback.submit')); ?>" <?php endif; ?> method="POST"
+        enctype="multipart/form-data">
         <?php echo csrf_field(); ?>
         <div class="content-body">
             <p>
@@ -123,27 +136,27 @@
                         <i class="fas fa-question-circle help-icon" onclick="toggleHelp('lastAppHelp2')"></i>
                     </div>
                     <div id="lastAppHelp2" class="help-text">
-                    Please ensure any personal identifiable information is removed or
-                    redacted.
-                    GMC guidance is for a minimum of one colleague survey, compliant
-                    with GMC requirements, about the individual doctor to be
-                    completed during each five-year revalidation cycle.
-                    <a href="https://www.england.nhs.uk/professional-standards/medical-revalidation/appraisers/mag-mod/further-info/"
-                        target="_blank">
-                        Further
-                        guidance on feedback from colleagues and patients can be found
-                        here.
-                    </a>
-                    You are expected to reflect on the results of these surveys
-                    individually and with your appraiser and to identify lessons learned
-                    and changes to be made as a result.
-                    If you have several different positions and roles in your scope of
-                    work, it may be appropriate for you to undertake separate colleague
-                    feedback exercises in more than one of these roles. This is partly
-                    because the design of one survey is typically structured towards a
-                    particular type of role, for example questionnaires designed for
-                    clinical and management settings may differ.
-                </div>
+                        Please ensure any personal identifiable information is removed or
+                        redacted.
+                        GMC guidance is for a minimum of one colleague survey, compliant
+                        with GMC requirements, about the individual doctor to be
+                        completed during each five-year revalidation cycle.
+                        <a href="https://www.england.nhs.uk/professional-standards/medical-revalidation/appraisers/mag-mod/further-info/"
+                            target="_blank">
+                            Further
+                            guidance on feedback from colleagues and patients can be found
+                            here.
+                        </a>
+                        You are expected to reflect on the results of these surveys
+                        individually and with your appraiser and to identify lessons learned
+                        and changes to be made as a result.
+                        If you have several different positions and roles in your scope of
+                        work, it may be appropriate for you to undertake separate colleague
+                        feedback exercises in more than one of these roles. This is partly
+                        because the design of one survey is typically structured towards a
+                        particular type of role, for example questionnaires designed for
+                        clinical and management settings may differ.
+                    </div>
                     <div class="col-md-6">
                         <input type="date" class="form-control" id="colleagueFeedbackDate" name="colleagueFeedbackDate"
                             value="<?php echo e($_colleagueFeedbackDate); ?>">
@@ -188,7 +201,6 @@
                             </tr>
                         </thead>
                         <tbody id="cpdTableBody">
-                            
                             <tr>
                                 <td>
                                     <select class="form-select form-select-sm" name="roles[]">
@@ -219,7 +231,9 @@
                                     </div>
                                 </td>
                                 <td>
-                                    <button type="button" class="btn btn-success btn-sm add-row-btn">+</button>
+                                    <?php if($LOCKDOWN_STATUS): ?>
+                                        <button type="button" class="btn btn-success btn-sm add-row-btn">+</button>
+                                    <?php endif; ?>
                                 </td>
                             </tr>
                         </tbody>
@@ -317,12 +331,14 @@
         </div>
 
         <div class="d-flex justify-content-between">
-            
-                     <a class="btn btn-sm btn-primary" href="<?php echo e(route('appraisal.user.significant-events')); ?>">
-                    < Previous section</a>
-                    <button type="submit" class="btn btn-sm btn-success">Save Form</button>
-                        <a class="btn btn-sm btn-primary" href="<?php echo e(route('appraisal.user.complaints')); ?>">Next section ></a>
-                
+
+            <a class="btn btn-sm btn-primary" href="<?php echo e(route('appraisal.user.significant-events')); ?>">
+                < Previous section</a>
+                    <?php if($LOCKDOWN_STATUS): ?>
+                        <button type="submit" class="btn btn-sm btn-success">Save Form</button>
+                    <?php endif; ?>
+                    <a class="btn btn-sm btn-primary" href="<?php echo e(route('appraisal.user.complaints')); ?>">Next section ></a>
+
         </div>
 
     </form>

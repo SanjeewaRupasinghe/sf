@@ -6,6 +6,7 @@
     <?php endif; ?>
     <h1 class="h3 mb-4 text-gray-800">Appraisal Category
     </h1>
+
     <?php echo $__env->make('common.alert', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
     <div class="card shadow mb-4">
@@ -21,6 +22,7 @@
                                     <th>Email</th>
                                     <th>Contact</th>
                                     <th>Actions</th>
+                                    <th>Status</th>
 
                                 </tr>
                             </thead>
@@ -50,12 +52,67 @@
                                                 class="btn btn-primary mb-3" target="_blank">
                                                 Print - whole form
                                             </a>
-                                            <a href="<?php echo e(route('appraisal.user.completion.pdf', ['u' => $result->id,'s' => 3, 'e' => 4])); ?>" target="_blank"
-                                                type="button" class="btn btn-primary mb-3">Print - Section 3,4</a>
-                                            <a href="<?php echo e(route('appraisal.user.completion.pdf', ['u' => $result->id,'s' => 18, 'e' => 18])); ?>" target="_blank"
-                                                type="button" class="btn btn-primary mb-3">Print - Section 18</a>
-                                            <a href="<?php echo e(route('appraisal.user.completion.pdf', ['u' => $result->id,'s' => 3, 'e' => 4, 's1' => 18, 'e1' => 20])); ?>" target="_blank"
-                                                type="button" class="btn btn-primary mb-3">Print - Section 3,4,18,19,20</a>
+                                            <a href="<?php echo e(route('appraisal.user.completion.pdf', ['u' => $result->id, 's' => 3, 'e' => 4])); ?>"
+                                                target="_blank" type="button" class="btn btn-primary mb-3">Print - Section
+                                                3,4</a>
+                                            <a href="<?php echo e(route('appraisal.user.completion.pdf', ['u' => $result->id, 's' => 18, 'e' => 18])); ?>"
+                                                target="_blank" type="button" class="btn btn-primary mb-3">Print - Section
+                                                18</a>
+                                            <a href="<?php echo e(route('appraisal.user.completion.pdf', ['u' => $result->id, 's' => 3, 'e' => 4, 's1' => 18, 'e1' => 20])); ?>"
+                                                target="_blank" type="button" class="btn btn-primary mb-3">Print - Section
+                                                3,4,18,19,20</a>
+                                        </td>
+                                        <td>
+                                            <?php if($result->status == 1): ?>
+                                                <span class="text-success">
+                                                    UNLOCKED
+                                                </span>
+                                            <?php else: ?>
+                                                <span class="text-danger">
+                                                    LOCKED
+                                                </span>
+
+                                                <!-- MODAL -->
+                                                <button type="button" class="btn btn-success" data-toggle="modal"
+                                                    data-target="#unlockModal<?php echo e($result->id); ?>">
+                                                    Unlock
+                                                </button>
+
+                                                <div class="modal fade" id="unlockModal<?php echo e($result->id); ?>" tabindex="-1"
+                                                    role="dialog" aria-labelledby="unlockModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog" role="document">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h5 class="modal-title" id="unlockModalLabel">
+                                                                    Launch User <?php echo e($result->id); ?>
+
+                                                                </h5>
+                                                                <button type="button" class="close" data-dismiss="modal"
+                                                                    aria-label="Close">
+                                                                    <span aria-hidden="true">&times;</span>
+                                                                </button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <p>Are you sure you want to unlock <?php echo e($result->email); ?>
+
+                                                                    <?php if($_name): ?>
+                                                                        (<?php echo e($_name); ?>)
+                                                                    <?php endif; ?>?
+                                                                </p>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-dismiss="modal">
+                                                                    Close
+                                                                </button>
+                                                                <a href="<?php echo e(route('admin.appraisal.user.unlock', ['userId' => $result->id])); ?>"
+                                                                    class="btn btn-primary">Launch</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- END MODAL -->
+                                            <?php endif; ?>
                                         </td>
                                     </tr>
                                 <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>

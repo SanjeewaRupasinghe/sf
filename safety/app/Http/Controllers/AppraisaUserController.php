@@ -1308,7 +1308,20 @@ class AppraisaUserController extends Controller
     {
         return view('appraisal.user.form.completion');
     }
+    public function lockdown()
+    {
+        try {
 
+            AppraisaUser::where('email', Auth::user()->email)
+                ->update(['status' => 0]);
+
+            return back()->with('success', 'This Profile is LOCKDOWN');
+        } catch (Exception $exception) {
+            Log::channel("laravel")->info("lockdown Exception occurs ==> " . $exception->getMessage() . ' - line - ' . $exception->getLine());
+
+            return back()->withErrors('Something went wrong!!')->withInput();
+        }
+    }
 
 
     // PDF ============
@@ -2133,37 +2146,20 @@ class AppraisaUserController extends Controller
         }
     }
 
-    public function store(StoreAppraisaUserRequest $request)
+     public function unlock($userId)
     {
-        //
-    }
+        try {
 
-    public function show(AppraisaUser $appraisaUser)
-    {
-        //
-    }
+            AppraisaUser::where('id', $userId)
+                ->update(['status' => 1]);
 
+            return back()->with('success', 'This Profile is UNLOCKED');
 
-    public function edit(AppraisaUser $appraisaUser)
-    {
-        //
-    }
+        } catch (Exception $exception) {
+            Log::channel("laravel")->info("unlock Exception occurs ==> " . $exception->getMessage() . ' - line - ' . $exception->getLine());
 
-
-    public function update(UpdateAppraisaUserRequest $request, AppraisaUser $appraisaUser)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Models\AppraisaUser  $appraisaUser
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy(AppraisaUser $appraisaUser)
-    {
-        //
+            return back()->withErrors('Something went wrong!!')->withInput();
+        }
     }
 
     // AUTH ============    
@@ -2216,7 +2212,7 @@ class AppraisaUserController extends Controller
     {
         return view("appraisal.user.auth.resend-otp");
     }
-     public function resendOtpSubmit(Request $request)
+    public function resendOtpSubmit(Request $request)
     {
         try {
 
@@ -2299,7 +2295,7 @@ class AppraisaUserController extends Controller
 
             if ($appraisaUser) {
 
-                $password = rand(10000, 99999)."@sF";
+                $password = rand(10000, 99999) . "@sF";
                 $appraisaUser->password = Hash::make($password);
                 $appraisaUser->save();
 
@@ -2307,7 +2303,7 @@ class AppraisaUserController extends Controller
                 $data["email"] = $email;
                 $data["title"] = "Password Reset - Safety First Medical Service";
 
-                Mail::send('mail.auth.user.password-reset', ['content' => $appraisaUser,'pw'=>$password], function ($message) use ($data) {
+                Mail::send('mail.auth.user.password-reset', ['content' => $appraisaUser, 'pw' => $password], function ($message) use ($data) {
                     $message->to($data["email"], "");
                     $message->subject($data["title"]);
                 });

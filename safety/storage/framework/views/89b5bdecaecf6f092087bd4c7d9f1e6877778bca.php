@@ -25,12 +25,22 @@
             }
         } catch (\Throwable $th) {
         }
-
+$LOCKDOWN_STATUS = Auth::user()->status == 0 ? false : true;
     ?>
 
     <?php echo $__env->make('common.alert', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
-    <form action="<?php echo e(route('appraisal.user.development-plan.submit')); ?>" method="POST">
+     <?php if(!$LOCKDOWN_STATUS): ?>
+        <div class="alert alert-danger" role="alert">
+            This profile is locked. You can't change anything.
+        </div>
+    <?php else: ?>
+        <div class="alert alert-warning" role="alert">
+            If you made any changes, please click the "Save Form" button to save your details. Otherwise, your changes will not be saved.
+        </div>
+    <?php endif; ?>
+
+    <form <?php if($LOCKDOWN_STATUS): ?> action="<?php echo e(route('appraisal.user.development-plan.submit')); ?>" <?php endif; ?> method="POST">
         <?php echo csrf_field(); ?>
 
         <div class="content-body">
@@ -95,12 +105,14 @@
                                 <textarea class="form-control" rows="8" name="detail[]"><?php echo e($_roles[$i]->detail); ?></textarea>
                             </td>
                             <td>
+                                <?php if($LOCKDOWN_STATUS): ?>
                                 <div class="btn btn-success btn-sm" onclick="addRowToFirstTable()">+</div>
+                                <?php endif; ?>
                             </td>
                         </tr>
                         <?php endfor; ?>
                         <?php endif; ?>
-
+<?php if($LOCKDOWN_STATUS): ?>
                         <tr>
                             <th>Relevant job title or role</th>
                             <th>Detail of item (should be short and concise)</th>
@@ -129,6 +141,7 @@
                                 <div class="btn btn-success btn-sm" onclick="addRowToFirstTable()">+</div>
                             </td>
                         </tr>
+                        <?php endif; ?>
                     </tbody>
                 </table>
             </div>
@@ -137,7 +150,9 @@
                 
                      <a class="btn btn-sm btn-primary" href="<?php echo e(route('appraisal.user.checklist')); ?>">
                     < Previous section</a>
+                    <?php if($LOCKDOWN_STATUS): ?>
                     <button type="submit" class="btn btn-sm btn-success">Save Form</button>
+                    <?php endif; ?>
                         <a class="btn btn-sm btn-primary" href="<?php echo e(route('appraisal.user.summary')); ?>">Next section ></a>
                 
             </div>

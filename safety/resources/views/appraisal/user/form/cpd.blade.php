@@ -41,10 +41,22 @@
             }
         } catch (\Throwable $th) {
         }
-
+        $LOCKDOWN_STATUS = Auth::user()->status == 0 ? false : true;
     @endphp
 
-    <form action="{{ route('appraisal.user.cpd.submit') }}" method="POST" enctype="multipart/form-data">
+    @if (!$LOCKDOWN_STATUS)
+        <div class="alert alert-danger" role="alert">
+            This profile is locked. You can't change anything.
+        </div>
+    @else
+        <div class="alert alert-warning" role="alert">
+            If you made any changes, please click the "Save Form" button to save your details. Otherwise, your changes will
+            not be saved.
+        </div>
+    @endif
+
+    <form @if ($LOCKDOWN_STATUS) action="{{ route('appraisal.user.cpd.submit') }}" @endif method="POST"
+        enctype="multipart/form-data">
         @csrf
         <div class="content-body">
             <div id="mainHelp" class="help-text">
@@ -248,46 +260,52 @@
                                             </div>
                                         </td>
                                         <td>
-                                            <button type="button" class="btn btn-danger btn-sm remove-row-btn">-</button>
+                                            @if ($LOCKDOWN_STATUS)
+                                                <button type="button"
+                                                    class="btn btn-danger btn-sm remove-row-btn">-</button>
+                                            @endif
                                         </td>
                                     </tr>
                                 @endfor
                             @endif
-                            <tr>
-                                <td>
-                                    <select class="form-select form-select-sm" name="roles[]">
-                                        <option>Please select...</option>
-                                        <option value="Cross Role">Cross Role</option>
-                                    </select>
-                                </td>
-                                <td>
-                                    <textarea class="form-control form-control-sm" rows="2" name="dateAndBrief[]"></textarea>
-                                </td>
-                                <td>
-                                    <textarea class="form-control form-control-sm" rows="2" name="outcomes[]"></textarea>
-                                </td>
-                                <td><input type="number" class="form-control form-control-sm credit-input"
-                                        name="credit[]" step="0.1"></td>
-                                <td>
-                                    <select class="form-select form-select-sm location-select" name="supportingInfo[]">
-                                        <option>Please select...</option>
-                                        <option value="Attached">Attached</option>
-                                        <option value="Email to appraiser">Email to appraiser</option>
-                                        <option value="Provided separately">Provided separately</option>
-                                        <option value="Not available">Not available</option>
-                                    </select>
-                                </td>
-                                <td class="attachment-cell">
-                                    <div class="checkbox-log">
-                                        <input type="checkbox" class="form-check-input me-1" name="supportingInfoLog_0[]"
-                                            value="on">
-                                        <span class="badge bg-secondary">Log</span>
-                                    </div>
-                                </td>
-                                <td>
-                                    <button type="button" class="btn btn-success btn-sm add-row-btn">+</button>
-                                </td>
-                            </tr>
+                            @if ($LOCKDOWN_STATUS)
+                                <tr>
+                                    <td>
+                                        <select class="form-select form-select-sm" name="roles[]">
+                                            <option>Please select...</option>
+                                            <option value="Cross Role">Cross Role</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <textarea class="form-control form-control-sm" rows="2" name="dateAndBrief[]"></textarea>
+                                    </td>
+                                    <td>
+                                        <textarea class="form-control form-control-sm" rows="2" name="outcomes[]"></textarea>
+                                    </td>
+                                    <td><input type="number" class="form-control form-control-sm credit-input"
+                                            name="credit[]" step="0.1"></td>
+                                    <td>
+                                        <select class="form-select form-select-sm location-select"
+                                            name="supportingInfo[]">
+                                            <option>Please select...</option>
+                                            <option value="Attached">Attached</option>
+                                            <option value="Email to appraiser">Email to appraiser</option>
+                                            <option value="Provided separately">Provided separately</option>
+                                            <option value="Not available">Not available</option>
+                                        </select>
+                                    </td>
+                                    <td class="attachment-cell">
+                                        <div class="checkbox-log">
+                                            <input type="checkbox" class="form-check-input me-1"
+                                                name="supportingInfoLog_0[]" value="on">
+                                            <span class="badge bg-secondary">Log</span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="btn btn-success btn-sm add-row-btn">+</button>
+                                    </td>
+                                </tr>
+                            @endif
                         </tbody>
                         <tfoot>
                             <tr style="background-color: #f8f9fa;">
@@ -335,10 +353,13 @@
         </div>
 
         <div class="d-flex justify-content-between">
-            <a class="btn btn-sm btn-primary" href="{{route('appraisal.user.development-plans')}}">
+            <a class="btn btn-sm btn-primary" href="{{ route('appraisal.user.development-plans') }}">
                 < Previous section</a>
-                    <button type="submit" class="btn btn-sm btn-success">Save Form</button>
-                    <a class="btn btn-sm btn-primary" href="{{route('appraisal.user.quality-improvement')}}">Next section ></a>
+                    @if ($LOCKDOWN_STATUS)
+                        <button type="submit" class="btn btn-sm btn-success">Save Form</button>
+                    @endif
+                    <a class="btn btn-sm btn-primary" href="{{ route('appraisal.user.quality-improvement') }}">Next
+                        section ></a>
         </div>
 
     </form>

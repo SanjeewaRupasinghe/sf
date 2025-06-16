@@ -29,12 +29,23 @@
             }
         } catch (\Throwable $th) {
         }
-
+        $LOCKDOWN_STATUS = Auth::user()->status == 0 ? false : true;
     @endphp
 
     @include('common.alert')
 
-    <form action="{{ route('appraisal.user.achievements.submit') }}" method="POST">
+    @if (!$LOCKDOWN_STATUS)
+        <div class="alert alert-danger" role="alert">
+            This profile is locked. You can't change anything.
+        </div>
+    @else
+        <div class="alert alert-warning" role="alert">
+            If you made any changes, please click the "Save Form" button to save your details. Otherwise, your changes will
+            not be saved.
+        </div>
+    @endif
+
+    <form @if ($LOCKDOWN_STATUS) action="{{ route('appraisal.user.achievements.submit') }}" @endif method="POST">
         @csrf
         <div class="content-body">
             <div id="mainHelp" class="help-text">
@@ -124,7 +135,9 @@
 
                         <a class="btn btn-sm btn-primary" href="{{ route('appraisal.user.complaints') }}">
                             < Previous section</a>
-                                <button type="submit" class="btn btn-sm btn-success">Save Form</button>
+                                @if ($LOCKDOWN_STATUS)
+                                    <button type="submit" class="btn btn-sm btn-success">Save Form</button>
+                                @endif
                                 <a class="btn btn-sm btn-primary" href="{{ route('appraisal.user.probity') }}">Next section
                                     ></a>
 

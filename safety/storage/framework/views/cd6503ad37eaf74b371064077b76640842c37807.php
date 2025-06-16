@@ -1,3 +1,5 @@
+
+
 <?php $__env->startSection('title', 'Instructions for using this form - Medical Appraisal Guide'); ?>
 
 <?php $__env->startSection('content'); ?>
@@ -44,12 +46,24 @@
             }
         } catch (\Throwable $th) {
         }
+        $LOCKDOWN_STATUS = Auth::user()->status == 0 ? false : true;
 
     ?>
 
     <?php echo $__env->make('common.alert', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
-    <form action="<?php echo e(route('appraisal.user.personal-details.submit')); ?>" method="POST">
+    <?php if(!$LOCKDOWN_STATUS): ?>
+        <div class="alert alert-danger" role="alert">
+            This profile is locked. You can't change anything.
+        </div>
+    <?php else: ?>
+        <div class="alert alert-warning" role="alert">
+            If you made any changes, please click the "Save Form" button to save your details. Otherwise, your changes will not be saved.
+        </div>
+    <?php endif; ?>
+
+    <form <?php if($LOCKDOWN_STATUS): ?> action="<?php echo e(route('appraisal.user.personal-details.submit')); ?>" <?php endif; ?>
+        method="POST">
         <?php echo csrf_field(); ?>
         <div class="content-body">
 
@@ -175,153 +189,159 @@
                                                 value="<?php echo e($_medicalQualifications[$i]->year); ?>">
                                         </div>
                                         <div class="col-md-2 mb-3 d-flex align-items-end">
-                                            <button type="button" class="btn btn-remove-row btn-sm text-white"
-                                                onclick="removeRow(this)">
-                                                <i class="fas fa-trash"></i> Remove
-                                            </button>
+                                            <?php if($LOCKDOWN_STATUS): ?>
+                                                <button type="button" class="btn btn-remove-row btn-sm text-white"
+                                                    onclick="removeRow(this)">
+                                                    <i class="fas fa-trash"></i> Remove
+                                                </button>
+                                            <?php endif; ?>
                                         </div>
                                     </div>
                                 <?php endfor; ?>
                             <?php endif; ?>
-
-                            <div class="row">
-                                <div class="col-md-4 mb-3">
-                                    <label class="form-label">Qualification</label>
-                                    <input type="text" class="form-control" name="qualification[]">
-                                </div>
-                                <div class="col-md-3 mb-3">
-                                    <label class="form-label">Awarding body</label>
-                                    <input type="text" class="form-control" name="awardingBody[]">
-                                </div>
-                                <div class="col-md-3 mb-3">
-                                    <label class="form-label">Year</label>
-                                    <input type="number" class="form-control" name="year[]">
-                                </div>
-                                <div class="col-md-2 mb-3 d-flex align-items-end">
-                                    <button type="button" class="btn btn-remove-row btn-sm text-white"
-                                        onclick="removeRow(this)">
-                                        <i class="fas fa-trash"></i> Remove
-                                    </button>
-                                </div>
-                            </div>
+                            <?php if($LOCKDOWN_STATUS): ?>
+                                <div class="row">
+                                    <div class="col-md-4 mb-3">
+                                        <label class="form-label">Qualification</label>
+                                        <input type="text" class="form-control" name="qualification[]">
+                                    </div>
+                                    <div class="col-md-3 mb-3">
+                                        <label class="form-label">Awarding body</label>
+                                        <input type="text" class="form-control" name="awardingBody[]">
+                                    </div>
+                                    <div class="col-md-3 mb-3">
+                                        <label class="form-label">Year</label>
+                                        <input type="number" class="form-control" name="year[]">
+                                    </div>
+                                    <div class="col-md-2 mb-3 d-flex align-items-end">
+                                        <button type="button" class="btn btn-remove-row btn-sm text-white"
+                                            onclick="removeRow(this)">
+                                            <i class="fas fa-trash"></i> Remove
+                                        </button>
+                                    </div>
+                            <?php endif; ?>
                         </div>
                     </div>
-
+                </div>
+                <?php if($LOCKDOWN_STATUS): ?>
                     <button type="button" class="btn btn-add-row btn-sm text-white" onclick="addEmploymentRow()">
                         <i class="fas fa-plus"></i> Add
                     </button>
-                </div>
+                <?php endif; ?>
+            </div>
 
-                <div class="row">
-                    <div class="col-md-6">
-                        <label for="gmcNumber" class="form-label">
-                            Year of this appraisal: <span class="text-danger">*</span>
-                            <i class="fas fa-question-circle help-icon" onclick="toggleHelp('yearOfAppraisalHelp')"></i>
-                        </label>
-                        <select name="yearOfAppraisal" class="form-control">
-                            <option value="2017/18" <?php if($_yearOfAppraisal == '2017/18'): ?> selected <?php endif; ?>>2017/18</option>
-                            <option value="2018/19" <?php if($_yearOfAppraisal == '2018/19'): ?> selected <?php endif; ?>>2018/19</option>
-                            <option value="2019/20" <?php if($_yearOfAppraisal == '2019/20'): ?> selected <?php endif; ?>>2019/20</option>
-                            <option value="2020/21" <?php if($_yearOfAppraisal == '2020/21'): ?> selected <?php endif; ?>>2020/21</option>
-                            <option value="2021/22" <?php if($_yearOfAppraisal == '2021/22'): ?> selected <?php endif; ?>>2021/22</option>
-                            <option value="2022/23" <?php if($_yearOfAppraisal == '2022/23'): ?> selected <?php endif; ?>>2022/23</option>
-                            <option value="2023/24" <?php if($_yearOfAppraisal == '2023/24'): ?> selected <?php endif; ?>>2023/24</option>
-                            <option value="2024/25" <?php if($_yearOfAppraisal == '2024/25'): ?> selected <?php endif; ?>>2024/25</option>
-                            <option value="2025/26" <?php if($_yearOfAppraisal == '2025/26'): ?> selected <?php endif; ?>>2025/26</option>
-                            <option value="2026/27" <?php if($_yearOfAppraisal == '2026/27'): ?> selected <?php endif; ?>>2026/27</option>
-                            <option value="2027/28" <?php if($_yearOfAppraisal == '2027/28'): ?> selected <?php endif; ?>>2027/28</option>
-                            <option value="2028/29" <?php if($_yearOfAppraisal == '2028/29'): ?> selected <?php endif; ?>>2028/29</option>
-                            <option value="2031/30" <?php if($_yearOfAppraisal == '2031/30'): ?> selected <?php endif; ?>>2031/30</option>
-                            <option value="2030/31" <?php if($_yearOfAppraisal == '2030/31'): ?> selected <?php endif; ?>>2030/31</option>
-                            <option value="2032/33" <?php if($_yearOfAppraisal == '2032/33'): ?> selected <?php endif; ?>>2032/33</option>
-                            <option value="2033/34" <?php if($_yearOfAppraisal == '2033/34'): ?> selected <?php endif; ?>>2033/34</option>
-                            <option value="2034/35" <?php if($_yearOfAppraisal == '2034/35'): ?> selected <?php endif; ?>>2034/35</option>
-                            <option value="2035/36" <?php if($_yearOfAppraisal == '2035/36'): ?> selected <?php endif; ?>>2035/36</option>
-                            <option value="2036/37" <?php if($_yearOfAppraisal == '2036/37'): ?> selected <?php endif; ?>>2036/37</option>
-                        </select>
-                        <div id="yearOfAppraisalHelp" class="help-text">
-                            The appraisal year is recorded in financial years. Your appraisal discussion
-                            must take place before 31 March of your appraisal year. However, you may
-                            begin to prepare for your appraisal using this form at any time preceding
-                            your appraisal date.
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                    </div>
-                    <div class="col-md-6">
-                        <label for="gmcNumber" class="form-label">
-                            Due date of next revalidation
-                            recommendation: <span class="text-danger">*</span>
-                            <i class="fas fa-question-circle help-icon"
-                                onclick="toggleHelp('revalidationRecommendationHelp')"></i>
-                        </label>
-                        <input type="date" class="form-control" name="revalidationRecommendation"
-                            value="<?php echo e($_revalidationRecommendation); ?>" required>
-                        <div id="revalidationRecommendationHelp" class="help-text">
-                            If you're not sure of your date, <a
-                                href="https://www.england.nhs.uk/professional-standards/medical-revalidation/appraisers/mag-mod/further-info/"
-                                target="_blank"> further information can be found here.</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
+            <div class="row">
+                <div class="col-md-6">
+                    <label for="gmcNumber" class="form-label">
+                        Year of this appraisal: <span class="text-danger">*</span>
+                        <i class="fas fa-question-circle help-icon" onclick="toggleHelp('yearOfAppraisalHelp')"></i>
+                    </label>
+                    <select name="yearOfAppraisal" class="form-control">
+                        <option value="2017/18" <?php if($_yearOfAppraisal == '2017/18'): ?> selected <?php endif; ?>>2017/18</option>
+                        <option value="2018/19" <?php if($_yearOfAppraisal == '2018/19'): ?> selected <?php endif; ?>>2018/19</option>
+                        <option value="2019/20" <?php if($_yearOfAppraisal == '2019/20'): ?> selected <?php endif; ?>>2019/20</option>
+                        <option value="2020/21" <?php if($_yearOfAppraisal == '2020/21'): ?> selected <?php endif; ?>>2020/21</option>
+                        <option value="2021/22" <?php if($_yearOfAppraisal == '2021/22'): ?> selected <?php endif; ?>>2021/22</option>
+                        <option value="2022/23" <?php if($_yearOfAppraisal == '2022/23'): ?> selected <?php endif; ?>>2022/23</option>
+                        <option value="2023/24" <?php if($_yearOfAppraisal == '2023/24'): ?> selected <?php endif; ?>>2023/24</option>
+                        <option value="2024/25" <?php if($_yearOfAppraisal == '2024/25'): ?> selected <?php endif; ?>>2024/25</option>
+                        <option value="2025/26" <?php if($_yearOfAppraisal == '2025/26'): ?> selected <?php endif; ?>>2025/26</option>
+                        <option value="2026/27" <?php if($_yearOfAppraisal == '2026/27'): ?> selected <?php endif; ?>>2026/27</option>
+                        <option value="2027/28" <?php if($_yearOfAppraisal == '2027/28'): ?> selected <?php endif; ?>>2027/28</option>
+                        <option value="2028/29" <?php if($_yearOfAppraisal == '2028/29'): ?> selected <?php endif; ?>>2028/29</option>
+                        <option value="2031/30" <?php if($_yearOfAppraisal == '2031/30'): ?> selected <?php endif; ?>>2031/30</option>
+                        <option value="2030/31" <?php if($_yearOfAppraisal == '2030/31'): ?> selected <?php endif; ?>>2030/31</option>
+                        <option value="2032/33" <?php if($_yearOfAppraisal == '2032/33'): ?> selected <?php endif; ?>>2032/33</option>
+                        <option value="2033/34" <?php if($_yearOfAppraisal == '2033/34'): ?> selected <?php endif; ?>>2033/34</option>
+                        <option value="2034/35" <?php if($_yearOfAppraisal == '2034/35'): ?> selected <?php endif; ?>>2034/35</option>
+                        <option value="2035/36" <?php if($_yearOfAppraisal == '2035/36'): ?> selected <?php endif; ?>>2035/36</option>
+                        <option value="2036/37" <?php if($_yearOfAppraisal == '2036/37'): ?> selected <?php endif; ?>>2036/37</option>
+                    </select>
+                    <div id="yearOfAppraisalHelp" class="help-text">
+                        The appraisal year is recorded in financial years. Your appraisal discussion
+                        must take place before 31 March of your appraisal year. However, you may
+                        begin to prepare for your appraisal using this form at any time preceding
+                        your appraisal date.
                     </div>
                 </div>
-
-                <div class="row mb-3">
-                    <div class="col-md-12">
-                        <label for="clinicalAcademic" class="form-label">
-                            Are you a clinical academic who requires a second appraiser under the Follett principles?
-                            <i class="fas fa-question-circle help-icon" onclick="toggleHelp('academicHelp')"></i>
-                        </label>
-                        <select class="form-select" id="clinicalAcademic" name="clinicalAcademic"
-                            onchange="toggleSecondAppraiser()">
-                            <option value="">Please select...</option>
-                            <option value="yes" <?php if($_clinicalAcademic == 'yes'): ?> selected <?php endif; ?>>Yes</option>
-                            <option value="no" <?php if($_clinicalAcademic == 'no'): ?> selected <?php endif; ?>>No</option>
-                        </select>
-                        <div id="academicHelp" class="help-text">
-                            The Follett review states that "universities and NHS
-                            bodies should work together to develop a jointly
-                            agreed annual appraisal and performance review
-                            process based on that for NHS consultants, to meet
-                            the needs of both partners". That principle continues
-                            in medical appraisal and clinical academics will
-                            continue to participate in joint appraisal.
-                            <br><br>
-                            If this situation applies to you, please select 'Yes'
-                            which will allow for a second appraiser to participate
-                            in this process. If you require a second appraiser for
-                            any other reason, please do not select this option, but
-                            note this in Section 14.
-                        </div>
+                <div class="col-md-6">
+                </div>
+                <div class="col-md-6">
+                    <label for="gmcNumber" class="form-label">
+                        Due date of next revalidation
+                        recommendation: <span class="text-danger">*</span>
+                        <i class="fas fa-question-circle help-icon"
+                            onclick="toggleHelp('revalidationRecommendationHelp')"></i>
+                    </label>
+                    <input type="date" class="form-control" name="revalidationRecommendation"
+                        value="<?php echo e($_revalidationRecommendation); ?>" required>
+                    <div id="revalidationRecommendationHelp" class="help-text">
+                        If you're not sure of your date, <a
+                            href="https://www.england.nhs.uk/professional-standards/medical-revalidation/appraisers/mag-mod/further-info/"
+                            target="_blank"> further information can be found here.</a>
                     </div>
-                    <div class="row mb-3" id="secondAppraiserDiv" style="display: none;">
-                        <div class="col-md-6">
-                            <label for="secondAppraiser" class="form-label">
-                                Second Appraiser's Name <span class="text-danger">*</span>
-                                <i class="fas fa-question-circle help-icon"
-                                    onclick="toggleHelp('secondAppraiserHelp')"></i>
-                            </label>
-                            <input type="text" class="form-control" id="secondAppraiser" name="secondAppraiser"
-                                value="<?php echo e($_secondAppraiser); ?>">
-                            <div id="secondAppraiserHelp" class="help-text">
-                                Name of your designated second appraiser for academic activities.
-                            </div>
+                </div>
+                <div class="col-md-6">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-12">
+                    <label for="clinicalAcademic" class="form-label">
+                        Are you a clinical academic who requires a second appraiser under the Follett principles?
+                        <i class="fas fa-question-circle help-icon" onclick="toggleHelp('academicHelp')"></i>
+                    </label>
+                    <select class="form-select" id="clinicalAcademic" name="clinicalAcademic"
+                        onchange="toggleSecondAppraiser()">
+                        <option value="">Please select...</option>
+                        <option value="yes" <?php if($_clinicalAcademic == 'yes'): ?> selected <?php endif; ?>>Yes</option>
+                        <option value="no" <?php if($_clinicalAcademic == 'no'): ?> selected <?php endif; ?>>No</option>
+                    </select>
+                    <div id="academicHelp" class="help-text">
+                        The Follett review states that "universities and NHS
+                        bodies should work together to develop a jointly
+                        agreed annual appraisal and performance review
+                        process based on that for NHS consultants, to meet
+                        the needs of both partners". That principle continues
+                        in medical appraisal and clinical academics will
+                        continue to participate in joint appraisal.
+                        <br><br>
+                        If this situation applies to you, please select 'Yes'
+                        which will allow for a second appraiser to participate
+                        in this process. If you require a second appraiser for
+                        any other reason, please do not select this option, but
+                        note this in Section 14.
+                    </div>
+                </div>
+                <div class="row mb-3" id="secondAppraiserDiv" style="display: none;">
+                    <div class="col-md-6">
+                        <label for="secondAppraiser" class="form-label">
+                            Second Appraiser's Name <span class="text-danger">*</span>
+                            <i class="fas fa-question-circle help-icon" onclick="toggleHelp('secondAppraiserHelp')"></i>
+                        </label>
+                        <input type="text" class="form-control" id="secondAppraiser" name="secondAppraiser"
+                            value="<?php echo e($_secondAppraiser); ?>">
+                        <div id="secondAppraiserHelp" class="help-text">
+                            Name of your designated second appraiser for academic activities.
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="d-flex justify-content-between">
-                     <a class="btn btn-sm btn-primary" href="<?php echo e(route('appraisal.user.instructions')); ?>">
+            <div class="d-flex justify-content-between">
+                <a class="btn btn-sm btn-primary" href="<?php echo e(route('appraisal.user.instructions')); ?>">
                     < Previous section</a>
-                    <button type="submit" class="btn btn-sm btn-success">Save Form</button>
-                        <a class="btn btn-sm btn-primary" href="<?php echo e(route('appraisal.user.scope-of-work')); ?>">Next section ></a>
+                        <?php if($LOCKDOWN_STATUS): ?>
+                            <button type="submit" class="btn btn-sm btn-success">Save Form</button>
+                        <?php endif; ?>
+                        <a class="btn btn-sm btn-primary" href="<?php echo e(route('appraisal.user.scope-of-work')); ?>">Next section
+                            ></a>
             </div>
         </div>
     </form>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
-    <script>        
+    <script>
         // Toggle second appraiser field
         function toggleSecondAppraiser() {
             const select = document.getElementById("clinicalAcademic");

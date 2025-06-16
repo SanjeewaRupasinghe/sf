@@ -27,12 +27,24 @@
             }
         } catch (\Throwable $th) {
         }
-
+        $LOCKDOWN_STATUS = Auth::user()->status == 0 ? false : true;
     @endphp
 
     @include('common.alert')
 
-    <form action="{{ route('appraisal.user.development-plan.submit') }}" method="POST">
+    @if (!$LOCKDOWN_STATUS)
+        <div class="alert alert-danger" role="alert">
+            This profile is locked. You can't change anything.
+        </div>
+    @else
+        <div class="alert alert-warning" role="alert">
+            If you made any changes, please click the "Save Form" button to save your details. Otherwise, your changes will
+            not be saved.
+        </div>
+    @endif
+
+    <form @if ($LOCKDOWN_STATUS) action="{{ route('appraisal.user.development-plan.submit') }}" @endif
+        method="POST">
         @csrf
 
         <div class="content-body">
@@ -97,18 +109,20 @@
                                 <textarea class="form-control" rows="8" name="detail[]">{{ $_roles[$i]->detail }}</textarea>
                             </td>
                             <td>
-                                <div class="btn btn-success btn-sm" onclick="addRowToFirstTable()">+</div>
+                                @if ($LOCKDOWN_STATUS)
+                                    <div class="btn btn-success btn-sm" onclick="addRowToFirstTable()">+</div>
+                                @endif
                             </td>
                         </tr>
                         @endfor
                         @endif
-
-                        <tr>
-                            <th>Relevant job title or role</th>
-                            <th>Detail of item (should be short and concise)</th>
-                            <th>Add row</th>
-                        </tr>
-                        </thead>
+                        @if ($LOCKDOWN_STATUS)
+                            <tr>
+                                <th>Relevant job title or role</th>
+                                <th>Detail of item (should be short and concise)</th>
+                                <th>Add row</th>
+                            </tr>
+                            </thead>
                     <tbody>
                         <tr>
                             <td>
@@ -131,17 +145,20 @@
                                 <div class="btn btn-success btn-sm" onclick="addRowToFirstTable()">+</div>
                             </td>
                         </tr>
+                        @endif
                     </tbody>
                 </table>
             </div>
 
             <div class="d-flex justify-content-between">
-                
-                     <a class="btn btn-sm btn-primary" href="{{route('appraisal.user.checklist')}}">
+
+                <a class="btn btn-sm btn-primary" href="{{ route('appraisal.user.checklist') }}">
                     < Previous section</a>
-                    <button type="submit" class="btn btn-sm btn-success">Save Form</button>
-                        <a class="btn btn-sm btn-primary" href="{{route('appraisal.user.summary')}}">Next section ></a>
-                
+                        @if ($LOCKDOWN_STATUS)
+                            <button type="submit" class="btn btn-sm btn-success">Save Form</button>
+                        @endif
+                        <a class="btn btn-sm btn-primary" href="{{ route('appraisal.user.summary') }}">Next section ></a>
+
             </div>
 
 

@@ -31,10 +31,20 @@
             }
         } catch (\Throwable $th) {
         }
-
+$LOCKDOWN_STATUS = Auth::user()->status == 0 ? false : true;
     ?>
 
-    <form action="<?php echo e(route('appraisal.user.additional-info.submit')); ?>" method="POST" enctype="multipart/form-data">
+ <?php if(!$LOCKDOWN_STATUS): ?>
+        <div class="alert alert-danger" role="alert">
+            This profile is locked. You can't change anything.
+        </div>
+    <?php else: ?>
+        <div class="alert alert-warning" role="alert">
+            If you made any changes, please click the "Save Form" button to save your details. Otherwise, your changes will not be saved.
+        </div>
+    <?php endif; ?>
+
+    <form <?php if($LOCKDOWN_STATUS): ?> action="<?php echo e(route('appraisal.user.additional-info.submit')); ?>" <?php endif; ?> method="POST" enctype="multipart/form-data">
         <?php echo csrf_field(); ?>
         <div class="content-body">
 
@@ -197,11 +207,14 @@
                                         </div>
                                     </td>
                                     <td>
+                                        <?php if($LOCKDOWN_STATUS): ?>
                                         <button type="button" class="btn btn-danger btn-sm remove-row-btn">-</button>
+                                        <?php endif; ?>
                                     </td>
                                 </tr>
                             <?php endfor; ?>
                         <?php endif; ?>
+                        <?php if($LOCKDOWN_STATUS): ?>
                         <tr>
                             <td>
                                 <select class="form-select form-select-sm" name="roles[]">
@@ -235,6 +248,7 @@
                                 <button type="button" class="btn btn-success btn-sm add-row-btn">+</button>
                             </td>
                         </tr>
+                        <?php endif; ?>
                     </tbody>
                 </table>
             </div>
@@ -258,7 +272,9 @@
 
         <a class="btn btn-sm btn-primary" href="<?php echo e(route('appraisal.user.probity')); ?>">
             < Previous section</a>
+            <?php if($LOCKDOWN_STATUS): ?>
                         <button type="submit" class="btn btn-sm btn-success">Save Form</button>
+                        <?php endif; ?>
                 <a class="btn btn-sm btn-primary" href="<?php echo e(route('appraisal.user.supporting-info')); ?>">Next section ></a>
                 </div>
 

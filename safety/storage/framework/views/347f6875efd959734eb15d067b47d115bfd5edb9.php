@@ -145,7 +145,7 @@
                                     <?php endif; ?>
                                 <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                             <?php endif; ?>
-                             <?php if($qi_roles > 0): ?>
+                            <?php if($qi_roles > 0): ?>
                                 <?php $__currentLoopData = $qi_roles; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $item): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                                     <?php if($item->supportingInfo == 'Attached' && $item->new_filename): ?>
                                         <tr>

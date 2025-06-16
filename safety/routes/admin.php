@@ -54,6 +54,7 @@ Route::prefix('superadmin')->group(function(){
         
         // APRAISAL USER
         Route::get('/appraisalUser',[AppraisaUserController::class,'adminIndex'])->name('admin.appraisal.user');
+        Route::get('/appraisalUser/unlock/{userId}',[AppraisaUserController::class,'unlock'])->name('admin.appraisal.user.unlock');
     });
 
 });
